@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/EMF2KM3">
+  <nodes name="Sample-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/EMF2KM3/EMF2KM3/Sample-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Sample.ecore" uri="/home/juri/Dropbox/ATLZoo/EMF2KM3/EMF2KM3/Sample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="EMF2KM3.atl" uri="/home/juri/Dropbox/ATLZoo/EMF2KM3/EMF2KM3/EMF2KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

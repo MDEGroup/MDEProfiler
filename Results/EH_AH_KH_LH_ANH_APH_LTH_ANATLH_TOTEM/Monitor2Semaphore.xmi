@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore">
+  <nodes name="Program.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Program.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ReadersAndWriters-Semaphore.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/ReadersAndWriters/ReadersAndWriters-Semaphore.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ReadersAndWriters.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/ReadersAndWriters/ReadersAndWriters.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SingleResource.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/SingleResource/SingleResource.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SingleResource-Semaphore.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/SingleResource/SingleResource-Semaphore.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Monitor2Semaphore.atl" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Monitor2Semaphore.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Program.km3" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Program.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Monitor2Semaphore_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Monitor2Semaphore_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Monitor2Semaphore_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Monitor2Semaphore_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.5" target="//@nodes.7" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.5" target="//@nodes.8" exact="true"/>
+</graph:Graph>

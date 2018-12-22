@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML">
+  <nodes name="SimpleSBVR.ecore" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Syntax.ecore" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleUML.ecore" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleSBVR2SimpleUML.atl" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Syntax2SimpleSBVR.atl" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories">
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="HTML.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/HTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/TmpModels/merge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/merge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="emptyMerge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/emptyMerge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

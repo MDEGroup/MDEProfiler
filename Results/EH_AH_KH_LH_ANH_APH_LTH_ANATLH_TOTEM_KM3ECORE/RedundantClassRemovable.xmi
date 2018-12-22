@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable">
+  <nodes name="RedundantClassRemovable.atl" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/RedundantClassRemovable.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (9).launch" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/CatalogueOfModelTransformations build_example.xml (9).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="${sourceMetaModel}" uri="http://www.eclipse.org/uml2/1.0.0/UML" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/RedundantClassRemovable/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/build_example.xml//CatalogueOfModelTransformations/RedundantClassRemovable/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="RedundantClassRemovable_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/RedundantClassRemovable_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RedundantClassRemovable_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RedundantClassRemovable/without_context/RedundantClassRemovable_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.0" target="//@nodes.3" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RedundantClassRemovable/without_context/RedundantClassRemovable.atl"/>
+  <edges name="CONFORM2" source="//@nodes.4" target="//@nodes.3" exact="true" discoverBy="//@nodes.2"/>
+  <edges name="TARGET" source="//@nodes.0" target="//@nodes.3" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RedundantClassRemovable/without_context/RedundantClassRemovable.atl"/>
+  <edges name="CONFORM2" source="//@nodes.5" exact="true" discoverBy="//@nodes.2"/>
+  <edges name="MODEL_INPUT" source="//@nodes.0" target="//@nodes.4" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RedundantClassRemovable/without_context/RedundantClassRemovable.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.0" target="//@nodes.5" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RedundantClassRemovable/without_context/RedundantClassRemovable.atl"/>
+  <edges name="DRM_IN" source="//@nodes.0" target="//@nodes.6" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.0" target="//@nodes.7" exact="true"/>
+</graph:Graph>

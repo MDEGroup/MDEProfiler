@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/OCL2SWRL">
+  <nodes name="OCL.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="rdm.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="R2ML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RDM2XML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OCL2R2ML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2RDM.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OCL.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="rdm.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="OCL2SWRL.xml.launch" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/OCL2SWRL.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="OCL2SWRL.xml" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/OCL2SWRL.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="R2MLRule.xml" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/models/r2ml-xml/R2MLRule.xml"/>
+  <nodes name="SWRLRule.xml" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/models/swrl-xml/SWRLRule.xml"/>
+  <nodes name="/OCL2SWRL/models/ocl/m1.ocl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/OCL2SWRL.xml//OCL2SWRL/models/ocl/m1.ocl" derivedOrNotExists="true"/>
+  <nodes name="r2mlModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlR2MLModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/xmlR2MLModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="rdmModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/rdmModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlSWRLModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/xmlSWRLModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="R2ML2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="R2ML2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RDM2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RDM2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="OCL2R2ML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="OCL2R2ML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="R2ML2RDM_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.16" discoverBy="//@nodes.13"/>
+  <edges name="SOURCE" source="//@nodes.6" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.6" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.17" target="//@nodes.4" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="CONFORM2" source="//@nodes.17" discoverBy="//@nodes.13"/>
+  <edges name="SOURCE" source="//@nodes.4" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.4" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.18" target="//@nodes.3" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="CONFORM2" source="//@nodes.17" discoverBy="//@nodes.13"/>
+  <edges name="SOURCE" source="//@nodes.7" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="TARGET" source="//@nodes.7" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="CONFORM2" source="//@nodes.19" target="//@nodes.5" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="CONFORM2" source="//@nodes.19" discoverBy="//@nodes.13"/>
+  <edges name="SOURCE" source="//@nodes.5" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.5" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.20" target="//@nodes.3" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.16" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.6" target="//@nodes.17" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.6" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.17" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.18" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.7" target="//@nodes.17" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.7" target="//@nodes.19" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="LIBRARY" source="//@nodes.7" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.19" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.5" target="//@nodes.20" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.21" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.22" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.5" target="//@nodes.23" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.5" target="//@nodes.24" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.6" target="//@nodes.25" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.6" target="//@nodes.26" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.7" target="//@nodes.27" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.8" target="//@nodes.0"/>
+  <edges name="ECORE_KM3" source="//@nodes.9" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.10" target="//@nodes.2"/>
+  <edges name="ECORE_KM3" source="//@nodes.11" target="//@nodes.3"/>
+</graph:Graph>

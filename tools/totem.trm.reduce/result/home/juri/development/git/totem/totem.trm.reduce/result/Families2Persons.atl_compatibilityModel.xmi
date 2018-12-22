@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u225::lastName">
+      <feature href="Families2Persons.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="2" name="u225.lastName" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-lastName">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="u226::lastName">
+      <feature href="Families2Persons.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="11" name="u226.lastName" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="12" name="AttOrReferenceExclusiveChoice-lastName">
+          <attributeChoice uniqueId="13" name="Attribute">
+            <choices uniqueId="14" name="String">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="15" name="Integer">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="16" name="Real">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="17" name="Boolean">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="18" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="19" name="u227::lastName">
+      <feature href="Families2Persons.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="20" name="u227.lastName" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="21" name="AttOrReferenceExclusiveChoice-lastName">
+          <attributeChoice uniqueId="22" name="Attribute">
+            <choices uniqueId="23" name="String">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="24" name="Integer">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="25" name="Real">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="26" name="Boolean">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="27" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="28" name="u228::lastName">
+      <feature href="Families2Persons.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="29" name="u228.lastName" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="30" name="AttOrReferenceExclusiveChoice-lastName">
+          <attributeChoice uniqueId="31" name="Attribute">
+            <choices uniqueId="32" name="String">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="33" name="Integer">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="34" name="Real">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="35" name="Boolean">
+              <datatype_ href="Families2Persons.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="36" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="37" name="Member::firstName">
+      <feature href="Families2Persons.atl_sourceDRM.ecore#//@classes.0/@feats.4"/>
+      <kind uniqueId="38" name="Member.firstName" nodeKind="COMPULSORY"/>
+    </features>
+  </source>
+  <target uniqueId="39" name="Target">
+    <features uniqueId="40" name="Male::fullName">
+      <feature href="Families2Persons.atl_targetDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="41" name="Male.fullName" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="42" name="Female::fullName">
+      <feature href="Families2Persons.atl_targetDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="43" name="Female.fullName" nodeKind="COMPULSORY"/>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

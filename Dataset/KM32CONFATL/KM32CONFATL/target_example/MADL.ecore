@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="Conformance">
+    <eClassifiers xsi:type="ecore:EClass" name="ViewElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="/2/String"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="conformance" ordered="false" unique="false" eType="/2/Conformance"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ViewEntity" abstract="true" eSuperTypes="/0/ViewElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ViewRelation" abstract="true" eSuperTypes="/0/ViewElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="ViewRoot" abstract="true" eSuperTypes="/0/ViewElement"/>
+  </ecore:EPackage>
+  <ecore:EPackage name="MADL">
+    <eClassifiers xsi:type="ecore:EClass" name="Implementation" eSuperTypes="/0/ViewRoot">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" lowerBound="1" eType="/2/String"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="modules" ordered="false" upperBound="-1" eType="/1/Module" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Module" eSuperTypes="/0/ViewEntity">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="classes" ordered="false" upperBound="-1" eType="/1/Class" containment="true" eOpposite="/1/Class/module"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="uses" ordered="false" upperBound="-1" eType="/1/Uses" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Uses" eSuperTypes="/0/ViewRelation">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="uses" ordered="false" lowerBound="1" eType="/1/Module"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Class" eSuperTypes="/0/ViewElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="calls" ordered="false" upperBound="-1" eType="/1/Class"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="module" ordered="false" lowerBound="1" eType="/1/Module" eOpposite="/1/Module/classes"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EPackage name="PrimitiveTypes">
+    <eClassifiers xsi:type="ecore:EDataType" name="String"/>
+    <eClassifiers xsi:type="ecore:EEnum" name="Conformance">
+      <eLiterals name="convergent" value="1"/>
+      <eLiterals name="absent" value="2"/>
+      <eLiterals name="divergent" value="3"/>
+    </eClassifiers>
+  </ecore:EPackage>
+</xmi:XMI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="Cell" mandatoryAllowed="true" subsAllowed="true">
+    <feats name="content">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes name="Table" mandatoryAllowed="true" subsAllowed="true">
+    <feats name="rows">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.2"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u158" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="cells">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.3"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u159" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="content">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

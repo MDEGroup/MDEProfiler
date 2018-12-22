@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Disaggregation">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Disaggregation.atl" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/Disaggregation.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Disaggregation.atl" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/Disaggregation.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/OutputModels/example-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/OutputModels/example-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

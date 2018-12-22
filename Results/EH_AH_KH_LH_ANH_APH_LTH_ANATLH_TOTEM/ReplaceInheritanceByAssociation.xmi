@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Replace.atl" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/Replace.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Replace.atl" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/Replace.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/OutputModels/example-KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (2).launch" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/CatalogueOfModelTransformations build_example.xml (2).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (4).launch" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/CatalogueOfModelTransformations build_example.xml (4).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="${metaModel}" uri="http://www.eclipse.org/gmt/2005/KM3" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/build_example.xml//CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/with_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/build_example.xml//CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/with_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Replace_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/Replace_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Replace_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/Replace_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Replace_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/Replace_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Replace_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/Replace_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.14" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/without_context/Replace.atl"/>
+  <edges name="CONFORM2" source="//@nodes.15" target="//@nodes.14" exact="true" discoverBy="//@nodes.12"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.14" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/without_context/Replace.atl"/>
+  <edges name="CONFORM2" source="//@nodes.16" target="//@nodes.1" exact="true" discoverBy="//@nodes.12"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.15" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/without_context/Replace.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.16" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/without_context/Replace.atl"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.14" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/with_context/Replace.atl"/>
+  <edges name="CONFORM2" source="//@nodes.17" target="//@nodes.14" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="CONFORM2" source="//@nodes.18" target="//@nodes.9" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.17" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/with_context/Replace.atl"/>
+  <edges source="//@nodes.4" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/with_context/Replace.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.18" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplaceInheritanceByAssociation/with_context/Replace.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.19" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.20" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.5" target="//@nodes.21" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.5" target="//@nodes.22" exact="true"/>
+</graph:Graph>

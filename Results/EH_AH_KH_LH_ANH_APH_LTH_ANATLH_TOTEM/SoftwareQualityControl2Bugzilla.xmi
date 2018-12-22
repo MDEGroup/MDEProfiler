@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla">
+  <nodes name="BugzillaExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BugzillaXMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla2XML.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/Bugzilla2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2BugzillaText.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Bugzilla.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BugzillaXMLfileExample.xml" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLfileExample.xml"/>
+  <nodes name="XML2BugzillaText_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2BugzillaText_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.8" target="//@nodes.13" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.7" target="//@nodes.14" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.7" target="//@nodes.15" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.8" target="//@nodes.16" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.7" target="//@nodes.5" discoverBy="//@nodes.14"/>
+  <edges name="SOURCE" source="//@nodes.8" target="//@nodes.4" discoverBy="//@nodes.16"/>
+</graph:Graph>

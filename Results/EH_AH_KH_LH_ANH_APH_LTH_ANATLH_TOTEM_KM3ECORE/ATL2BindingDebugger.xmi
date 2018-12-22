@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger">
+  <nodes name="sample-ATL-0.2(Debug).ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug).ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug).atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug).atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug)_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug)_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug)_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug)_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.5" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.6" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.3" target="//@nodes.7" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.2" target="//@nodes.8" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.9" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.10" exact="true"/>
+</graph:Graph>

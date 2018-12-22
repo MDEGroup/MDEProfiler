@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/test-juri2/src" modelPluginID="test-juri2" modelName="AlgebraicMatrix"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>AlgebraicMatrix.ecore</foreignModel>
+  <genPackages prefix="AlgebraicMatrix" disposableProviderFactory="true" ecorePackage="AlgebraicMatrix.ecore#/">
+    <genClasses ecoreClass="AlgebraicMatrix.ecore#//Matrix">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AlgebraicMatrix.ecore#//Matrix/rows"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AlgebraicMatrix.ecore#//Matrix/horzLength"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AlgebraicMatrix.ecore#//Matrix/vertLength"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute AlgebraicMatrix.ecore#//Matrix/length"/>
+      <genOperations ecoreOperation="AlgebraicMatrix.ecore#//Matrix/sum">
+        <genParameters ecoreParameter="AlgebraicMatrix.ecore#//Matrix/sum/param"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="AlgebraicMatrix.ecore#//Row">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AlgebraicMatrix.ecore#//Row/cells"/>
+    </genClasses>
+    <genClasses ecoreClass="AlgebraicMatrix.ecore#//Cell">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AlgebraicMatrix.ecore#//Cell/value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

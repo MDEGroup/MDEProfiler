@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLSD2STMD">
+  <nodes name="mergeflatSTMD.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/mergeflatSTMD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="applyDomainTheory.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/applyDomainTheory.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="addHierarchy.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/addHierarchy.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SD2flatSTMD.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/SD2flatSTMD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

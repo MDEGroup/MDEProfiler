@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML">
+  <nodes name="SimpleSBVR.ecore" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Syntax.ecore" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleUML.ecore" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleSBVR2SimpleUML.atl" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Syntax2SimpleSBVR.atl" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SimpleSBVR.km3" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Syntax.km3" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SimpleUML.km3" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SimpleSBVR2SimpleUML-1.launch" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML-1.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="Syntax2SimpleSBVR-1.launch" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR-1.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/Syntax-SBVR-UML-usecase/Samples/SimpleUML-1-EachCompanySellsAtLeastOneProduct.xmi" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleUML-1-EachCompanySellsAtLeastOneProduct.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/Syntax-SBVR-UML-usecase/Samples/Syntax-1-EachCompanySellsAtLeastOneProduct.xmi" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/Syntax-1-EachCompanySellsAtLeastOneProduct.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Syntax2SimpleSBVR_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Syntax2SimpleSBVR_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SimpleSBVR2SimpleUML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SimpleSBVR2SimpleUML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.8" pathDiscoveredByHeuristic="/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.10" target="//@nodes.0" discoverBy="//@nodes.8"/>
+  <edges name="MODEL_INPUT" source="//@nodes.10" target="//@nodes.3" discoverBy="//@nodes.8"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.2" exact="true" discoverBy="//@nodes.8" pathDiscoveredByHeuristic="/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.3" discoverBy="//@nodes.8"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.2" discoverBy="//@nodes.8"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.1" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.12" target="//@nodes.1" discoverBy="//@nodes.9"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"/>
+  <edges name="TARGET" source="//@nodes.10" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.10" target="//@nodes.0" discoverBy="//@nodes.9"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.13" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.14" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.15" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.3" target="//@nodes.16" exact="true"/>
+</graph:Graph>

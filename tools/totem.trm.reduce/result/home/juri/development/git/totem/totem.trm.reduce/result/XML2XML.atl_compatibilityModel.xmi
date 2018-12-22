@@ -1,0 +1,2459 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Attribute::startLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="2" name="Attribute.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="13" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="14" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="15" name="Attribute::endLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="16" name="Attribute.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="17" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="18" name="Attribute">
+            <choices uniqueId="19" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="20" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="21" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="22" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="23" name="Reference">
+            <choices uniqueId="24" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="25" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="26" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="27" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="28" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="29" name="Attribute::startColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="30" name="Attribute.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="31" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="32" name="Attribute">
+            <choices uniqueId="33" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="34" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="35" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="36" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="37" name="Reference">
+            <choices uniqueId="38" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="39" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="40" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="41" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="42" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="43" name="Attribute::endColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="44" name="Attribute.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="45" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="46" name="Attribute">
+            <choices uniqueId="47" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="48" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="49" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="50" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="51" name="Reference">
+            <choices uniqueId="52" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="53" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="54" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="55" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="56" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="57" name="Attribute::name">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.4"/>
+      <kind uniqueId="58" name="Attribute.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="59" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="60" name="Attribute">
+            <choices uniqueId="61" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="62" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="63" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="64" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="65" name="Reference">
+            <choices uniqueId="66" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="67" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="68" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="69" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="70" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="71" name="Attribute::value">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.5"/>
+      <kind uniqueId="72" name="Attribute.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="73" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="74" name="Attribute">
+            <choices uniqueId="75" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="76" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="77" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="78" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="79" name="Reference">
+            <choices uniqueId="80" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="81" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="82" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="83" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="84" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="85" name="Attribute::parent">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.0/@feats.6"/>
+      <kind uniqueId="86" name="Attribute.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="87" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="88" name="Attribute">
+            <choices uniqueId="89" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="90" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="91" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="92" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="93" name="Reference">
+            <choices uniqueId="94" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="95" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="96" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="97" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="98" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="99" name="Text::startLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="100" name="Text.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="101" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="102" name="Attribute">
+            <choices uniqueId="103" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="104" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="105" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="106" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="107" name="Reference">
+            <choices uniqueId="108" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="109" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="110" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="111" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="112" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="113" name="Text::endLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.2"/>
+      <kind uniqueId="114" name="Text.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="115" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="116" name="Attribute">
+            <choices uniqueId="117" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="118" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="119" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="120" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="121" name="Reference">
+            <choices uniqueId="122" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="123" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="124" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="125" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="126" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="127" name="Text::startColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.3"/>
+      <kind uniqueId="128" name="Text.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="129" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="130" name="Attribute">
+            <choices uniqueId="131" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="132" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="133" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="134" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="135" name="Reference">
+            <choices uniqueId="136" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="137" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="138" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="139" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="140" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="141" name="Text::endColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.4"/>
+      <kind uniqueId="142" name="Text.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="143" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="144" name="Attribute">
+            <choices uniqueId="145" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="146" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="147" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="148" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="149" name="Reference">
+            <choices uniqueId="150" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="151" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="152" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="153" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="154" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="155" name="Text::name">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.5"/>
+      <kind uniqueId="156" name="Text.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="157" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="158" name="Attribute">
+            <choices uniqueId="159" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="160" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="161" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="162" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="163" name="Reference">
+            <choices uniqueId="164" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="165" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="166" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="167" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="168" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="169" name="Text::value">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="170" name="Text.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="171" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="172" name="Attribute">
+            <choices uniqueId="173" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="174" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="175" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="176" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="177" name="Reference">
+            <choices uniqueId="178" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="179" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="180" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="181" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="182" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="183" name="Text::parent">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.1/@feats.6"/>
+      <kind uniqueId="184" name="Text.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="185" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="186" name="Attribute">
+            <choices uniqueId="187" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="188" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="189" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="190" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="191" name="Reference">
+            <choices uniqueId="192" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="193" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="194" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="195" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="196" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="197" name="Element::startLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="198" name="Element.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="199" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="200" name="Attribute">
+            <choices uniqueId="201" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="202" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="203" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="204" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="205" name="Reference">
+            <choices uniqueId="206" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="207" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="208" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="209" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="210" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="211" name="Element::endLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="212" name="Element.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="213" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="214" name="Attribute">
+            <choices uniqueId="215" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="216" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="217" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="218" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="219" name="Reference">
+            <choices uniqueId="220" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="221" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="222" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="223" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="224" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="225" name="Element::startColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.2"/>
+      <kind uniqueId="226" name="Element.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="227" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="228" name="Attribute">
+            <choices uniqueId="229" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="230" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="231" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="232" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="233" name="Reference">
+            <choices uniqueId="234" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="235" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="236" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="237" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="238" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="239" name="Element::endColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.3"/>
+      <kind uniqueId="240" name="Element.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="241" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="242" name="Attribute">
+            <choices uniqueId="243" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="244" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="245" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="246" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="247" name="Reference">
+            <choices uniqueId="248" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="249" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="250" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="251" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="252" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="253" name="Element::name">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.4"/>
+      <kind uniqueId="254" name="Element.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="255" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="256" name="Attribute">
+            <choices uniqueId="257" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="258" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.18/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="259" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="260" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="261" name="Reference">
+            <choices uniqueId="262" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="263" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="264" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="265" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="266" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="267" name="Element::value">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.5"/>
+      <kind uniqueId="268" name="Element.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="269" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="270" name="Attribute">
+            <choices uniqueId="271" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="272" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.19/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="273" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="274" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="275" name="Reference">
+            <choices uniqueId="276" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="277" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="278" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="279" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="280" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="281" name="Element::parent">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.6"/>
+      <kind uniqueId="282" name="Element.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="283" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="284" name="Attribute">
+            <choices uniqueId="285" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="286" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.20/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="287" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="288" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="289" name="Reference">
+            <choices uniqueId="290" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="291" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="292" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="293" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="294" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="295" name="Element::children">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.2/@feats.7"/>
+      <kind uniqueId="296" name="Element.children" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="297" name="AttOrReferenceExclusiveChoice-children">
+          <attributeChoice uniqueId="298" name="Attribute">
+            <choices uniqueId="299" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="300" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.21/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="301" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="302" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="303" name="Reference">
+            <choices uniqueId="304" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="305" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="306" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="307" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="308" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="309" name="Root::startLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="310" name="Root.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="311" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="312" name="Attribute">
+            <choices uniqueId="313" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="314" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.22/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="315" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="316" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="317" name="Reference">
+            <choices uniqueId="318" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="319" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="320" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="321" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="322" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="323" name="Root::endLine">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="324" name="Root.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="325" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="326" name="Attribute">
+            <choices uniqueId="327" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="328" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.23/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="329" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="330" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="331" name="Reference">
+            <choices uniqueId="332" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="333" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="334" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="335" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="336" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="337" name="Root::startColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.2"/>
+      <kind uniqueId="338" name="Root.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="339" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="340" name="Attribute">
+            <choices uniqueId="341" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="342" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.24/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="343" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="344" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="345" name="Reference">
+            <choices uniqueId="346" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="347" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="348" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="349" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="350" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="351" name="Root::endColumn">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.3"/>
+      <kind uniqueId="352" name="Root.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="353" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="354" name="Attribute">
+            <choices uniqueId="355" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="356" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.25/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="357" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="358" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="359" name="Reference">
+            <choices uniqueId="360" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="361" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="362" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="363" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="364" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="365" name="Root::name">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.4"/>
+      <kind uniqueId="366" name="Root.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="367" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="368" name="Attribute">
+            <choices uniqueId="369" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="370" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.26/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="371" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="372" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="373" name="Reference">
+            <choices uniqueId="374" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="375" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="376" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="377" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="378" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="379" name="Root::value">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.5"/>
+      <kind uniqueId="380" name="Root.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="381" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="382" name="Attribute">
+            <choices uniqueId="383" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="384" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.27/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="385" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="386" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="387" name="Reference">
+            <choices uniqueId="388" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="389" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="390" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="391" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="392" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="393" name="Root::parent">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.6"/>
+      <kind uniqueId="394" name="Root.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="395" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="396" name="Attribute">
+            <choices uniqueId="397" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="398" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.28/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.28/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="399" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.28/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="400" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="401" name="Reference">
+            <choices uniqueId="402" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.28/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="403" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.28/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="404" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.28/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="405" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.28/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="406" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="407" name="Root::children">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.3/@feats.7"/>
+      <kind uniqueId="408" name="Root.children" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="409" name="AttOrReferenceExclusiveChoice-children">
+          <attributeChoice uniqueId="410" name="Attribute">
+            <choices uniqueId="411" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="412" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.29/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.29/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="413" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.29/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="414" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="415" name="Reference">
+            <choices uniqueId="416" name="Attribute">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.29/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="417" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.29/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="418" name="Element">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.29/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="419" name="Root">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.29/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="420" name="Node">
+              <klass href="XML2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="421" name="Node::value">
+      <feature href="XML2XML.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="422" name="Node.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="423" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="424" name="Attribute">
+            <choices uniqueId="425" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="426" name="Integer">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="427" name="Real">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="428" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="429" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="430" name="Target">
+    <features uniqueId="431" name="Attribute::startLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="432" name="Attribute.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="433" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="434" name="Attribute">
+            <choices uniqueId="435" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="436" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="437" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="438" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="439" name="Reference">
+            <choices uniqueId="440" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="441" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="442" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="443" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="444" name="Attribute::endLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="445" name="Attribute.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="446" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="447" name="Attribute">
+            <choices uniqueId="448" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="449" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="450" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="451" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="452" name="Reference">
+            <choices uniqueId="453" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="454" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="455" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="456" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="457" name="Attribute::startColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="458" name="Attribute.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="459" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="460" name="Attribute">
+            <choices uniqueId="461" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="462" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="463" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="464" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="465" name="Reference">
+            <choices uniqueId="466" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="467" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="468" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="469" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="470" name="Attribute::endColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="471" name="Attribute.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="472" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="473" name="Attribute">
+            <choices uniqueId="474" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="475" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="476" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="477" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="478" name="Reference">
+            <choices uniqueId="479" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="480" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="481" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="482" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="483" name="Attribute::name">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.4"/>
+      <kind uniqueId="484" name="Attribute.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="485" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="486" name="Attribute">
+            <choices uniqueId="487" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="488" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="489" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="490" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="491" name="Reference">
+            <choices uniqueId="492" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="493" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="494" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="495" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="496" name="Attribute::value">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.5"/>
+      <kind uniqueId="497" name="Attribute.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="498" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="499" name="Attribute">
+            <choices uniqueId="500" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="501" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="502" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="503" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="504" name="Reference">
+            <choices uniqueId="505" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="506" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="507" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="508" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="509" name="Attribute::parent">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.0/@feats.6"/>
+      <kind uniqueId="510" name="Attribute.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="511" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="512" name="Attribute">
+            <choices uniqueId="513" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="514" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="515" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="516" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="517" name="Reference">
+            <choices uniqueId="518" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="519" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="520" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="521" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="522" name="Text::startLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="523" name="Text.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="524" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="525" name="Attribute">
+            <choices uniqueId="526" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="527" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="528" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="529" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="530" name="Reference">
+            <choices uniqueId="531" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="532" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="533" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="534" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="535" name="Text::endLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.2"/>
+      <kind uniqueId="536" name="Text.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="537" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="538" name="Attribute">
+            <choices uniqueId="539" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="540" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="541" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="542" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="543" name="Reference">
+            <choices uniqueId="544" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="545" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="546" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="547" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="548" name="Text::startColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.3"/>
+      <kind uniqueId="549" name="Text.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="550" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="551" name="Attribute">
+            <choices uniqueId="552" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="553" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="554" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="555" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="556" name="Reference">
+            <choices uniqueId="557" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="558" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="559" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="560" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="561" name="Text::endColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.4"/>
+      <kind uniqueId="562" name="Text.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="563" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="564" name="Attribute">
+            <choices uniqueId="565" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="566" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="567" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="568" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="569" name="Reference">
+            <choices uniqueId="570" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="571" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="572" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="573" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="574" name="Text::name">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.5"/>
+      <kind uniqueId="575" name="Text.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="576" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="577" name="Attribute">
+            <choices uniqueId="578" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="579" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="580" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="581" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="582" name="Reference">
+            <choices uniqueId="583" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="584" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="585" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="586" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="587" name="Text::value">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="588" name="Text.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="589" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="590" name="Attribute">
+            <choices uniqueId="591" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="592" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="593" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="594" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="595" name="Reference">
+            <choices uniqueId="596" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="597" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="598" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="599" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="600" name="Text::parent">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.1/@feats.7"/>
+      <kind uniqueId="601" name="Text.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="602" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="603" name="Attribute">
+            <choices uniqueId="604" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="605" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="606" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="607" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="608" name="Reference">
+            <choices uniqueId="609" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="610" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="611" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="612" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="613" name="Element::startLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="614" name="Element.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="615" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="616" name="Attribute">
+            <choices uniqueId="617" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="618" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="619" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="620" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="621" name="Reference">
+            <choices uniqueId="622" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="623" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="624" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="625" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="626" name="Element::endLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="627" name="Element.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="628" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="629" name="Attribute">
+            <choices uniqueId="630" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="631" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="632" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="633" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="634" name="Reference">
+            <choices uniqueId="635" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="636" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="637" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="638" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="639" name="Element::startColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.2"/>
+      <kind uniqueId="640" name="Element.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="641" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="642" name="Attribute">
+            <choices uniqueId="643" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="644" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="645" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="646" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="647" name="Reference">
+            <choices uniqueId="648" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="649" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="650" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="651" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="652" name="Element::endColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.3"/>
+      <kind uniqueId="653" name="Element.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="654" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="655" name="Attribute">
+            <choices uniqueId="656" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="657" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="658" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="659" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="660" name="Reference">
+            <choices uniqueId="661" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="662" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="663" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="664" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="665" name="Element::name">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.4"/>
+      <kind uniqueId="666" name="Element.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="667" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="668" name="Attribute">
+            <choices uniqueId="669" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="670" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.18/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="671" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.18/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.18/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="672" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="673" name="Reference">
+            <choices uniqueId="674" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="675" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="676" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="677" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="678" name="Element::value">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.5"/>
+      <kind uniqueId="679" name="Element.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="680" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="681" name="Attribute">
+            <choices uniqueId="682" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="683" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.19/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="684" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.19/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.19/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="685" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="686" name="Reference">
+            <choices uniqueId="687" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="688" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="689" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="690" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="691" name="Element::parent">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.6"/>
+      <kind uniqueId="692" name="Element.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="693" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="694" name="Attribute">
+            <choices uniqueId="695" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="696" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.20/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="697" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.20/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.20/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="698" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="699" name="Reference">
+            <choices uniqueId="700" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="701" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="702" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="703" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="704" name="Element::children">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.2/@feats.7"/>
+      <kind uniqueId="705" name="Element.children" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="706" name="AttOrReferenceExclusiveChoice-children">
+          <attributeChoice uniqueId="707" name="Attribute">
+            <choices uniqueId="708" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="709" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.21/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="710" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.21/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.21/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="711" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="712" name="Reference">
+            <choices uniqueId="713" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="714" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="715" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="716" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="717" name="Root::startLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="718" name="Root.startLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="719" name="AttOrReferenceExclusiveChoice-startLine">
+          <attributeChoice uniqueId="720" name="Attribute">
+            <choices uniqueId="721" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="722" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.22/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="723" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.22/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.22/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="724" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="725" name="Reference">
+            <choices uniqueId="726" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="727" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="728" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="729" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="730" name="Root::endLine">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="731" name="Root.endLine" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="732" name="AttOrReferenceExclusiveChoice-endLine">
+          <attributeChoice uniqueId="733" name="Attribute">
+            <choices uniqueId="734" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="735" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.23/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="736" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.23/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.23/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="737" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="738" name="Reference">
+            <choices uniqueId="739" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="740" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="741" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="742" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="743" name="Root::startColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.2"/>
+      <kind uniqueId="744" name="Root.startColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="745" name="AttOrReferenceExclusiveChoice-startColumn">
+          <attributeChoice uniqueId="746" name="Attribute">
+            <choices uniqueId="747" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="748" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.24/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="749" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.24/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.24/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="750" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="751" name="Reference">
+            <choices uniqueId="752" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="753" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="754" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="755" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="756" name="Root::endColumn">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.3"/>
+      <kind uniqueId="757" name="Root.endColumn" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="758" name="AttOrReferenceExclusiveChoice-endColumn">
+          <attributeChoice uniqueId="759" name="Attribute">
+            <choices uniqueId="760" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="761" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.25/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="762" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.25/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.25/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="763" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="764" name="Reference">
+            <choices uniqueId="765" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="766" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="767" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="768" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="769" name="Root::name">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.4"/>
+      <kind uniqueId="770" name="Root.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="771" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="772" name="Attribute">
+            <choices uniqueId="773" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="774" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.26/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="775" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.26/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.26/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="776" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="777" name="Reference">
+            <choices uniqueId="778" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="779" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="780" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="781" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="782" name="Root::value">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.5"/>
+      <kind uniqueId="783" name="Root.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="784" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="785" name="Attribute">
+            <choices uniqueId="786" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="787" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.27/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="788" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.27/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.27/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="789" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="790" name="Reference">
+            <choices uniqueId="791" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="792" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="793" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="794" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="795" name="Root::parent">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.6"/>
+      <kind uniqueId="796" name="Root.parent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="797" name="AttOrReferenceExclusiveChoice-parent">
+          <attributeChoice uniqueId="798" name="Attribute">
+            <choices uniqueId="799" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="800" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.28/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="801" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.28/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.28/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="802" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="803" name="Reference">
+            <choices uniqueId="804" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="805" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="806" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="807" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="808" name="Root::children">
+      <feature href="XML2XML.atl_targetDRM.ecore#//@classes.3/@feats.7"/>
+      <kind uniqueId="809" name="Root.children" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="810" name="AttOrReferenceExclusiveChoice-children">
+          <attributeChoice uniqueId="811" name="Attribute">
+            <choices uniqueId="812" name="String">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="813" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.29/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="814" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.29/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.29/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="815" name="Boolean">
+              <datatype_ href="XML2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="816" name="Reference">
+            <choices uniqueId="817" name="Attribute">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="818" name="Text">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="819" name="Element">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="820" name="Root">
+              <klass href="XML2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

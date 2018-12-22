@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2Java">
+  <nodes name="JAVA2String-query.atl" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/JAVA2String-query.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UML2JAVA.atl" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/UML2JAVA.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="JAVA2String.atl" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/JAVA2String.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="JAVA2String-query_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/JAVA2String-query_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="JAVA2String-query_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/JAVA2String-query_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="JAVA2String_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/JAVA2String_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="UML2JAVA_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/UML2JAVA_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="JAVA2String_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/JAVA2String_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="UML2JAVA_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Java/UML2JAVA/ATLFile/UML2JAVA_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.0" target="//@nodes.3" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.0" target="//@nodes.4" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.5" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.1" target="//@nodes.6" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.2" target="//@nodes.7" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.1" target="//@nodes.8" exact="true"/>
+</graph:Graph>

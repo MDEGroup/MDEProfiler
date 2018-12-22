@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Measure2XHTML">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XHTML.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/XHTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MeasureHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/lib/MeasureHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2XHTML.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/transformations/Measure2XHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XHTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/transformations/XHTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

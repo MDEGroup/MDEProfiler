@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="HSM_StateMachine" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <classes name="HSM_RegularState" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="stateMachine">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="HSM_InitialState" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="compositeState">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.4"/>
+    </feats>
+    <feats name="stateMachine">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="HSM_Transition" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="source">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.4 //@classes.5"/>
+    </feats>
+    <feats name="target">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.5 //@classes.4"/>
+    </feats>
+    <feats name="label">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="stateMachine">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="HSM_CompositeState" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <classes name="HSM_AbstractState" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="compositeState">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.4"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

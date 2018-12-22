@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG">
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CodeClone.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Syntax/org/atl/engine/injectors/ebnf/FileInfo_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="FileInfo_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Syntax/org/atl/engine/injectors/ebnf/FileInfo_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="CloneDr_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Syntax/org/atl/engine/injectors/ebnf/CloneDr_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="CloneDr_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Syntax/org/atl/engine/injectors/ebnf/CloneDr_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="Simian_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Syntax/org/atl/engine/injectors/ebnf/Simian_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="Simian_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Syntax/org/atl/engine/injectors/ebnf/Simian_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="SimScan_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Syntax/org/atl/engine/injectors/ebnf/SimScan_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="SimScan_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Syntax/org/atl/engine/injectors/ebnf/SimScan_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="CodeClone2SVG2.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CloneDr2CodeClone.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Simian2CodeClone.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CodeClone2SVG.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SimScan2CodeClone.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="FileInfo.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CloneDr.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Simian.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CodeClone.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SimScan.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="FileInfo build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/FileInfo build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="Simian build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Simian build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CodeClone Simian2Visual.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone Simian2Visual.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CodeClone CloneDr2Visual.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone CloneDr2Visual.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CodeClone SimScan2Visual.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone SimScan2Visual.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="Simian2Visual.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="SimScan2Visual.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SimScan2Visual.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="CloneDr2Visual.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CloneDr2Visual.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="${sourceModel1}" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}" derivedOrNotExists="true"/>
+  <nodes name="${sourceModel2}" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}" derivedOrNotExists="true"/>
+  <nodes name="GenericCodeClone" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="SVG_Form1" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="XML_Form1" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="SVG_Form2" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="XML_Form2" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="SVG2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Simian2CodeClone_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CloneDr2CodeClone_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SVG2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG2_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG2_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CloneDr2CodeClone_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Simian2CodeClone_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SimScan2CodeClone_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SimScan2CodeClone_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.52" target="//@nodes.9" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="CONFORM2" source="//@nodes.53" target="//@nodes.1" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="SOURCE" source="//@nodes.29" target="//@nodes.9" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="SOURCE" source="//@nodes.29" target="//@nodes.1" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="TARGET" source="//@nodes.29" target="//@nodes.14" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.0" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.14" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="TARGET" source="//@nodes.30" target="//@nodes.13" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="SOURCE" source="//@nodes.30" target="//@nodes.14" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="CONFORM2" source="//@nodes.55" target="//@nodes.0" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="CONFORM2" source="//@nodes.55" target="//@nodes.13" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="SOURCE" source="//@nodes.31" target="//@nodes.13" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.31" target="//@nodes.12" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.56" target="//@nodes.12" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.14" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="TARGET" source="//@nodes.27" target="//@nodes.13" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="SOURCE" source="//@nodes.27" target="//@nodes.14" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="CONFORM2" source="//@nodes.57" target="//@nodes.0" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="CONFORM2" source="//@nodes.57" target="//@nodes.13" exact="true" discoverBy="//@nodes.48"/>
+  <edges name="SOURCE" source="//@nodes.31" target="//@nodes.13" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.31" target="//@nodes.12" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.58" target="//@nodes.12" exact="true" discoverBy="//@nodes.48"/>
+  <edges source="//@nodes.29" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.29" target="//@nodes.52" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.29" target="//@nodes.53" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.29" target="//@nodes.54" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges source="//@nodes.30" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.30" target="//@nodes.54" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.30" target="//@nodes.55" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges source="//@nodes.31" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.55" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.31" target="//@nodes.56" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges source="//@nodes.27" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.27" target="//@nodes.54" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.27" target="//@nodes.57" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges source="//@nodes.31" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.57" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.31" target="//@nodes.58" exact="true" discoverBy="//@nodes.48" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.52" target="//@nodes.16" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="CONFORM2" source="//@nodes.53" target="//@nodes.1" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="SOURCE" source="//@nodes.32" target="//@nodes.16" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="SOURCE" source="//@nodes.32" target="//@nodes.1" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="TARGET" source="//@nodes.32" target="//@nodes.14" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.0" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.14" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="TARGET" source="//@nodes.30" target="//@nodes.13" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="SOURCE" source="//@nodes.30" target="//@nodes.14" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="CONFORM2" source="//@nodes.55" target="//@nodes.0" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="CONFORM2" source="//@nodes.55" target="//@nodes.13" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="SOURCE" source="//@nodes.31" target="//@nodes.13" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.31" target="//@nodes.12" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.56" target="//@nodes.12" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.14" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="TARGET" source="//@nodes.27" target="//@nodes.13" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="SOURCE" source="//@nodes.27" target="//@nodes.14" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="CONFORM2" source="//@nodes.57" target="//@nodes.0" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="CONFORM2" source="//@nodes.57" target="//@nodes.13" exact="true" discoverBy="//@nodes.49"/>
+  <edges name="SOURCE" source="//@nodes.31" target="//@nodes.13" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.31" target="//@nodes.12" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.58" target="//@nodes.12" exact="true" discoverBy="//@nodes.49"/>
+  <edges source="//@nodes.32" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.32" target="//@nodes.52" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.32" target="//@nodes.53" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.32" target="//@nodes.54" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges source="//@nodes.30" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.30" target="//@nodes.54" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.30" target="//@nodes.55" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges source="//@nodes.31" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.55" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.31" target="//@nodes.56" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges source="//@nodes.27" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.27" target="//@nodes.54" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.27" target="//@nodes.57" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges source="//@nodes.31" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.57" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.31" target="//@nodes.58" exact="true" discoverBy="//@nodes.49" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.52" target="//@nodes.5" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="CONFORM2" source="//@nodes.53" target="//@nodes.1" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="SOURCE" source="//@nodes.28" target="//@nodes.5" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="SOURCE" source="//@nodes.28" target="//@nodes.1" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="TARGET" source="//@nodes.28" target="//@nodes.14" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.0" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.14" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="TARGET" source="//@nodes.30" target="//@nodes.13" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="SOURCE" source="//@nodes.30" target="//@nodes.14" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="CONFORM2" source="//@nodes.55" target="//@nodes.0" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="CONFORM2" source="//@nodes.55" target="//@nodes.13" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="SOURCE" source="//@nodes.31" target="//@nodes.13" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.31" target="//@nodes.12" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.56" target="//@nodes.12" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="CONFORM2" source="//@nodes.54" target="//@nodes.14" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="TARGET" source="//@nodes.27" target="//@nodes.13" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="SOURCE" source="//@nodes.27" target="//@nodes.14" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="CONFORM2" source="//@nodes.57" target="//@nodes.0" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="CONFORM2" source="//@nodes.57" target="//@nodes.13" exact="true" discoverBy="//@nodes.50"/>
+  <edges name="SOURCE" source="//@nodes.31" target="//@nodes.13" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.31" target="//@nodes.12" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.58" target="//@nodes.12" exact="true" discoverBy="//@nodes.50"/>
+  <edges source="//@nodes.28" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.28" target="//@nodes.52" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.28" target="//@nodes.53" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.28" target="//@nodes.54" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges source="//@nodes.30" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.30" target="//@nodes.54" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.30" target="//@nodes.55" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges source="//@nodes.31" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.55" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.31" target="//@nodes.56" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges source="//@nodes.27" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.27" target="//@nodes.54" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.27" target="//@nodes.57" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges source="//@nodes.31" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.57" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.31" target="//@nodes.58" exact="true" discoverBy="//@nodes.50" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="DRM_IN" source="//@nodes.31" target="//@nodes.59" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.29" target="//@nodes.60" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.30" target="//@nodes.61" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.28" target="//@nodes.62" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.31" target="//@nodes.63" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.27" target="//@nodes.64" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.27" target="//@nodes.65" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.30" target="//@nodes.66" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.28" target="//@nodes.67" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.29" target="//@nodes.68" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.32" target="//@nodes.69" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.32" target="//@nodes.70" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.33" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.34" target="//@nodes.5"/>
+  <edges name="ECORE_KM3" source="//@nodes.35" target="//@nodes.9"/>
+  <edges name="ECORE_KM3" source="//@nodes.36" target="//@nodes.12"/>
+  <edges name="ECORE_KM3" source="//@nodes.37" target="//@nodes.13"/>
+  <edges name="ECORE_KM3" source="//@nodes.38" target="//@nodes.14"/>
+  <edges name="ECORE_KM3" source="//@nodes.39" target="//@nodes.16"/>
+</graph:Graph>

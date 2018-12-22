@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF">
+  <nodes name="sample-IEEE1471.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/example/sample-IEEE1471.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-MoDAF.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/example/sample-MoDAF.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="IEEE1471ConceptualModel.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MoDAF-AV.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.atl" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MoDAF-AV.km3" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="IEEE1471ConceptualModel.km3" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

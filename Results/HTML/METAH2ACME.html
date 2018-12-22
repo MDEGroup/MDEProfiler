@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/METAH2ACME<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-ACME.ecore", label: 'example-ACME.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-METAH.ecore", label: 'example-METAH.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", label: 'METAH2ACME.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME build.xml.launch", label: 'METAH2ACME build.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/TCS2Jar.xml", label: 'TCS2Jar.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/PARAMETERS/TCS2Jar.xml", label: 'TCS2Jar.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/build.xml/${sourceModel}", label: '${sourceModel}', },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/targetModel", label: 'targetModel', },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME_sourceDRM.mm_uncertainty", label: 'METAH2ACME_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME_targetDRM.mm_uncertainty", label: 'METAH2ACME_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/build.xml/${sourceModel}", to: "invalid"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", to: "invalid"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", to: "invalid"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/targetModel", to: "/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-ACME.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", to: "/home/juri/Dropbox/ATLZoo/METAH2ACME/build.xml/${sourceModel}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", to: "/home/juri/Dropbox/ATLZoo/METAH2ACME/targetModel"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", to: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl", to: "/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME_targetDRM.mm_uncertainty"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

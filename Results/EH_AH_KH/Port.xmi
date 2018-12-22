@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Port">
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Metamodel/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Metamodel/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v1.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v4.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v4.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

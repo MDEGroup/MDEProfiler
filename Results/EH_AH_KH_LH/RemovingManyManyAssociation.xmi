@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Removing.atl" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/Removing.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Removing.atl" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/Removing.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/OutputModels/example-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/OutputModels/example-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (8).launch" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/without_context/CatalogueOfModelTransformations build_example.xml (8).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (7).launch" uri="/home/juri/Dropbox/ATLZoo/RemovingManyManyAssociation/with_context/CatalogueOfModelTransformations build_example.xml (7).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

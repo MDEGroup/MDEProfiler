@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Families2Persons">
+  <nodes name="Families.ecore" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Persons.ecore" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Persons.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Families2Persons.atl" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="Families2Persons.launch" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/Families2Persons/sample-Families.xmi" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons/sample-Families.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/Families2Persons/sample-Persons.xmi" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons/sample-Persons.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Families2Persons_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Families2Persons_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/Families2Persons/Families.ecore"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/Families2Persons/Persons.ecore"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/Families2Persons/Families.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.4" target="//@nodes.0" discoverBy="//@nodes.3"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.2" discoverBy="//@nodes.3"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/Families2Persons/Persons.ecore"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.2" discoverBy="//@nodes.3"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.1" discoverBy="//@nodes.3"/>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.6" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.2" target="//@nodes.7" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" discoverBy="//@nodes.6"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" discoverBy="//@nodes.7"/>
+</graph:Graph>

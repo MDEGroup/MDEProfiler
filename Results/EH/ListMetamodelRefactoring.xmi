@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ListMetamodelRefactoring">
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/ListMetamodelRefactoring/ListMetamodelRefactoring/Metamodel/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/ListMetamodelRefactoring/ListMetamodelRefactoring/Metamodel/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

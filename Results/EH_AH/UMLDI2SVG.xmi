@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLDI2SVG">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UMLDI2SVG.atl" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/UMLDI2SVG.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

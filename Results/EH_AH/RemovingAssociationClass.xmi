@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass">
+  <nodes name="RemovingAnAssociationClass.atl" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/RemovingAnAssociationClass.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

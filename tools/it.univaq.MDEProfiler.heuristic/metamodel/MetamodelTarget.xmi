@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MM_uncertainty:Metamodel
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:MM_uncertainty="MM_uncertainty"
+    xsi:schemaLocation="MM_uncertainty MM_uncertainty.ecore">
+  <classes name="Table">
+    <feats name="rows">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"
+          allowLess="true"/>
+      <max xsi:type="MM_uncertainty:Many"
+          isOrdered="True"
+          isDuplicated="True"/>
+    </feats>
+  </classes>
+  <classes name="Row"
+      isAbstract="True">
+    <feats name="cells">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"
+          allowLess="true"/>
+      <max xsi:type="MM_uncertainty:Many"
+          isOrdered="True"
+          isDuplicated="True"/>
+    </feats>
+  </classes>
+  <classes name="Cell"
+      isAbstract="True">
+    <feats name="content">
+      <min xsi:type="MM_uncertainty:Number"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Attribute"
+          type="//@dataType.0"/>
+    </feats>
+  </classes>
+  <dataType
+      xsi:type="MM_uncertainty:String_"/>
+</MM_uncertainty:Metamodel>

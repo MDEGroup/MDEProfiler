@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="XQueryProgram::expressions">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="2" name="XQueryProgram.expressions" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-expressions">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="FunctionDeclaration::name">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="11" name="FunctionDeclaration.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="12" name="FunctionDeclaration::expression">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="13" name="FunctionDeclaration.expression" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="14" name="AttOrReferenceExclusiveChoice-expression">
+          <attributeChoice uniqueId="15" name="Attribute">
+            <choices uniqueId="16" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="17" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="18" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="19" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="20" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="21" name="FLWOR::for">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="22" name="FLWOR.for" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="23" name="AttOrReferenceExclusiveChoice-for">
+          <attributeChoice uniqueId="24" name="Attribute">
+            <choices uniqueId="25" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="26" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="27" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="28" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="29" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="30" name="FLWOR::let">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="31" name="FLWOR.let" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="32" name="AttOrReferenceExclusiveChoice-let">
+          <attributeChoice uniqueId="33" name="Attribute">
+            <choices uniqueId="34" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="35" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="36" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="37" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="38" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="39" name="FLWOR::where">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.2/@feats.2"/>
+      <kind uniqueId="40" name="FLWOR.where" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="41" name="AttOrReferenceExclusiveChoice-where">
+          <attributeChoice uniqueId="42" name="Attribute">
+            <choices uniqueId="43" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="44" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="45" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="46" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="47" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="48" name="FLWOR::orderBy">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.2/@feats.3"/>
+      <kind uniqueId="49" name="FLWOR.orderBy" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="50" name="AttOrReferenceExclusiveChoice-orderBy">
+          <attributeChoice uniqueId="51" name="Attribute">
+            <choices uniqueId="52" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="53" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="54" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="55" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="56" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="57" name="FLWOR::return">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.2/@feats.4"/>
+      <kind uniqueId="58" name="FLWOR.return" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="59" name="AttOrReferenceExclusiveChoice-return">
+          <attributeChoice uniqueId="60" name="Attribute">
+            <choices uniqueId="61" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="62" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="63" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="64" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="65" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="66" name="For::var">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="67" name="For.var" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="68" name="For::expression">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="69" name="For.expression" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="70" name="AttOrReferenceExclusiveChoice-expression">
+          <attributeChoice uniqueId="71" name="Attribute">
+            <choices uniqueId="72" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="73" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="74" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="75" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="76" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="77" name="Let::var">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="78" name="Let.var" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="79" name="Let::expression">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.4/@feats.1"/>
+      <kind uniqueId="80" name="Let.expression" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="81" name="AttOrReferenceExclusiveChoice-expression">
+          <attributeChoice uniqueId="82" name="Attribute">
+            <choices uniqueId="83" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="84" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="85" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="86" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="87" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="88" name="Where::expression">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="89" name="Where.expression" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="90" name="AttOrReferenceExclusiveChoice-expression">
+          <attributeChoice uniqueId="91" name="Attribute">
+            <choices uniqueId="92" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="93" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="94" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="95" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="96" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="97" name="Return::expressions">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="98" name="Return.expressions" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="99" name="AttOrReferenceExclusiveChoice-expressions">
+          <attributeChoice uniqueId="100" name="Attribute">
+            <choices uniqueId="101" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="102" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="103" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="104" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="105" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="106" name="XPath::value">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.7/@feats.0"/>
+      <kind uniqueId="107" name="XPath.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="108" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="109" name="Attribute">
+            <choices uniqueId="110" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="111" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="112" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="113" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="114" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="115" name="ReturnXPath::value">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.8/@feats.0"/>
+      <kind uniqueId="116" name="ReturnXPath.value" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="117" name="BooleanExp::value">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.9/@feats.0"/>
+      <kind uniqueId="118" name="BooleanExp.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="119" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="120" name="Attribute">
+            <choices uniqueId="121" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="122" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="123" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="124" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="125" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="126" name="FunctionCall::name">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.10/@feats.0"/>
+      <kind uniqueId="127" name="FunctionCall.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="128" name="FunctionCall::parameters">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.10/@feats.1"/>
+      <kind uniqueId="129" name="FunctionCall.parameters" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="130" name="AttOrReferenceExclusiveChoice-parameters">
+          <attributeChoice uniqueId="131" name="Attribute">
+            <choices uniqueId="132" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="133" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="134" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="135" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="136" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="137" name="ElementNode::name">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.11/@feats.0"/>
+      <kind uniqueId="138" name="ElementNode.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="139" name="ElementNode::nodes">
+      <feature href="XQuery2Code.atl_sourceDRM.ecore#//@classes.11/@feats.1"/>
+      <kind uniqueId="140" name="ElementNode.nodes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="141" name="AttOrReferenceExclusiveChoice-nodes">
+          <attributeChoice uniqueId="142" name="Attribute">
+            <choices uniqueId="143" name="String">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="144" name="Integer">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="145" name="Real">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="146" name="Boolean">
+              <datatype_ href="XQuery2Code.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="147" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="148" name="Target"/>
+</VariabilityFM:VariabilityModel>

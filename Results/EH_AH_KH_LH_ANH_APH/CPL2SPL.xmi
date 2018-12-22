@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/CPL2SPL">
+  <nodes name="SPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/SPL/SPL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/AMMACore/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/AMMACore/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/CPL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CPL2SPL.atl" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SPL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2CPL.atl" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/XMLSyntax/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SPL.km3" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/SPL/SPL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CPL.km3" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/CPL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CPL2SP.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SP.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CPL2SPL.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/CPL2SPL.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="XML2CPL.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/XML2CPL.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SPL2Text.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/SPL2Text.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CPL2SPL.xml" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SPL.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="AComplexExample.cpl.xml" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/AComplexExample.cpl.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="SPL2Text.xml" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/SPL2Text.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories">
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="HTML.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/HTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/TmpModels/merge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/merge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="emptyMerge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/emptyMerge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM32EMF.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32EMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2Table.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Measure2Table.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2TabularHTML.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2TabularHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGPieChart.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2SVGPieChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32Measure.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2SVGBarChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RefineAndMergeMeasure.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/RefineAndMergeMeasure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="HTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/HTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="HTML.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/HTML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Ant.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Ant.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Outline.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Outline.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SDM.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/SDM.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Problem.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Problem.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Editor.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Editor.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MeasuringModelRepositories build_merge.xml.launch" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/MeasuringModelRepositories build_merge.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="MeasuringModelRepositories build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/MeasuringModelRepositories build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TextualPathExp.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PathExp.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="pathexp-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/pathexp-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="xml-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/xml-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="textualpathexp-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/textualpathexp-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="petrinet-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/petrinet-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

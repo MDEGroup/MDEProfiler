@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML22Measure">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="QMOOD4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/lib/QMOOD4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="FLAME4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/lib/FLAME4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="EMOOSE4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/lib/EMOOSE4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MOOD4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/lib/MOOD4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UML22Measure.atl" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/transformations/UML22Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="UML22Measure build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/conf/UML22Measure build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/UML22Measure/UML22Measure/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

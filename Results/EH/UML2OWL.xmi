@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2OWL">
+  <nodes name="OWL.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/OWL/OWL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/AMMACore/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Museum-OWL.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/Samples/OWLModels/Museum-OWL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

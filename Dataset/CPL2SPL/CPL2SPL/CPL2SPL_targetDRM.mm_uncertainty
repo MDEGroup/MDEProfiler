@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="Program">
+    <feats name="service">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Service">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.1"/>
+    </feats>
+    <feats name="declarations">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="sessions">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Dialog">
+    <feats name="methods">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="LocalFunctionDeclaration">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="returnType">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="statements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="SimpleType">
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0"/>
+    </feats>
+  </classes>
+  <classes name="Method">
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="direction">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0"/>
+    </feats>
+    <feats name="methodName">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="statements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="SIPMethodName">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0"/>
+    </feats>
+  </classes>
+  <classes name="ReturnStat">
+    <feats name="returnedValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ForwardExp">
+    <feats name="isParallel">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.4"/>
+    </feats>
+    <feats name="exp">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ConstantExp">
+    <feats name="value">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.27"/>
+    </feats>
+  </classes>
+  <classes name="CompoundStat">
+    <feats name="statements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="DeclarationStat">
+    <feats name="declaration">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="VariableDeclaration">
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.1"/>
+    </feats>
+    <feats name="initExp">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="SelectStat">
+    <feats name="matchedExp">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="selectCases">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+    <feats name="selectDefault">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Variable">
+    <feats name="source">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="SelectCase">
+    <feats name="commentsBefore">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.1"/>
+    </feats>
+    <feats name="values">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+    <feats name="statements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="ResponseConstant">
+    <feats name="response">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ClientErrorResponse">
+    <feats name="errorKind">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0"/>
+    </feats>
+  </classes>
+  <classes name="RedirectionErrorResponse">
+    <feats name="errorKind">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="SelectDefault">
+    <feats name="commentsBefore">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.1"/>
+    </feats>
+    <feats name="statements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="FunctionCallExp">
+    <feats name="functionCall">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="FunctionCall">
+    <feats name="function">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="WithExp">
+    <feats name="exp">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="msgFields">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="ReasonMessageField">
+    <feats name="exp">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="StringConstant">
+    <feats name="value">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.1"/>
+    </feats>
+  </classes>
+  <classes name="HeadedMessageField">
+    <feats name="headerId">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.1"/>
+    </feats>
+    <feats name="exp">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="SIPHeaderPlace">
+    <feats name="header">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="URIConstant">
+    <feats name="uri">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:Enum" name="?"/>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

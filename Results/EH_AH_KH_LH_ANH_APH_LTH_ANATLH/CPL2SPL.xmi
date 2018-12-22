@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/CPL2SPL">
+  <nodes name="SPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/SPL/SPL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/AMMACore/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/AMMACore/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/CPL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CPL2SPL.atl" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SPL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2CPL.atl" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/XMLSyntax/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SPL.km3" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/SPL/SPL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CPL.km3" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/CPL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CPL2SP.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SP.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CPL2SPL.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/CPL2SPL.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="XML2CPL.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/XML2CPL.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="SPL2Text.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/SPL2Text.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CPL2SPL.xml" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SPL.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="AComplexExample.cpl.xml" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/AComplexExample.cpl.xml"/>
+  <nodes name="SPL2Text.xml" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/SPL2Text.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="/CPL2SPL/StepByStep/AComplexExample.cpl-CPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/CPL2SPL/StepByStep/AComplexExample.cpl-CPL.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CPL2SPL/StepByStep/AComplexExample.cpl-SPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/CPL2SPL/StepByStep/AComplexExample.cpl-SPL.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CPL2SPL/StepByStep/AComplexExample.cpl-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/StepByStep/CPL2SPL/StepByStep/AComplexExample.cpl-XML.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL2SPL.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="cplModel" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/cplModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="splModel" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/splModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.3" exact="true" discoverBy="//@nodes.10" pathDiscoveredByHeuristic="/CPL2SPL/CPL/CPL.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.16" target="//@nodes.3" discoverBy="//@nodes.10"/>
+  <edges name="MODEL_INPUT" source="//@nodes.16" target="//@nodes.4" discoverBy="//@nodes.10"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.10" pathDiscoveredByHeuristic="/CPL2SPL/SPL/SPL.ecore"/>
+  <edges name="TARGET" source="//@nodes.17" target="//@nodes.4" discoverBy="//@nodes.10"/>
+  <edges name="TARGET" source="//@nodes.17" target="//@nodes.0" discoverBy="//@nodes.10"/>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.2" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="/CPL2SPL/AMMACore/XML.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.18" target="//@nodes.2" discoverBy="//@nodes.11"/>
+  <edges name="MODEL_INPUT" source="//@nodes.18" target="//@nodes.5" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.3" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="/CPL2SPL/CPL/CPL.ecore"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.5" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.3" discoverBy="//@nodes.11"/>
+  <edges name="CONFORM2" source="//@nodes.19" target="//@nodes.2" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.2" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.3" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.20" target="//@nodes.0" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="CONFORM2" source="//@nodes.20" target="//@nodes.3" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.3" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL2SPL.atl"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL2SPL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.21" target="//@nodes.0" exact="true" discoverBy="//@nodes.13"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.19" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.5" target="//@nodes.20" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl"/>
+  <edges name="LIBRARY" source="//@nodes.5" target="//@nodes.6" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL/XMLSyntax/XML2CPL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.20" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL2SPL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.21" exact="true" discoverBy="//@nodes.13" pathDiscoveredByHeuristic="/CPL2SPL/CPL2SPL.atl"/>
+</graph:Graph>

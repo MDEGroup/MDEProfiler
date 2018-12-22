@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG">
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CodeClone.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

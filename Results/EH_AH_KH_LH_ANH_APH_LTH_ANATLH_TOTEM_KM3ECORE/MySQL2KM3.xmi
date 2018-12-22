@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MySQL2KM3">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MySQL.ecore" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MySQL2KM3.atl" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="XML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="XML2MySQL.atl" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="MySQL.km3" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KM3.km3" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML2XML.launch" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/XML2XML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="XML2MySQL.launch" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/XML2MySQL.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="MySQL2KM3.launch" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="euro2004.xml" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Models/euro2004.xml"/>
+  <nodes name="/MySQL2KM3/Models/euro2004-XML.xmi" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/MySQL2KM3/Models/euro2004-XML-2.xmi" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML-2.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/MySQL2KM3/Models/euro2004-MySQL.xmi" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-MySQL.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/MySQL2KM3/Models/euro2004-KM3.xmi" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-KM3.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="XML2MySQL_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="MySQL2KM3_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2MySQL_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="MySQL2KM3_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.2" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/MySQL.ecore"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/KM3.ecore"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/XML.ecore"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/XML.ecore"/>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.0" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/XML.ecore"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/MySQL.ecore"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/XML.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.13" target="//@nodes.0" discoverBy="//@nodes.9"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/XML.ecore"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.0" discoverBy="//@nodes.9"/>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.0" exact="true" discoverBy="//@nodes.10" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/XML.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.14" target="//@nodes.0" discoverBy="//@nodes.10"/>
+  <edges name="MODEL_INPUT" source="//@nodes.14" target="//@nodes.5" discoverBy="//@nodes.10"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.2" exact="true" discoverBy="//@nodes.10" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/MySQL.ecore"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.5" discoverBy="//@nodes.10"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.2" discoverBy="//@nodes.10"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.2" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/MySQL.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.15" target="//@nodes.2" discoverBy="//@nodes.11"/>
+  <edges name="MODEL_INPUT" source="//@nodes.15" target="//@nodes.3" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="/MySQL2KM3/Metamodels/KM3.ecore"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.3" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.1" discoverBy="//@nodes.11"/>
+  <edges name="DRM_OUT" source="//@nodes.5" target="//@nodes.17" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.18" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.3" target="//@nodes.19" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.5" target="//@nodes.20" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.21" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.22" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.6" target="//@nodes.2"/>
+  <edges name="ECORE_KM3" source="//@nodes.7" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.8" target="//@nodes.0"/>
+</graph:Graph>

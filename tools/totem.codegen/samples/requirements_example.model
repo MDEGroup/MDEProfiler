@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty" xmi:id="_s3McYE5OEeawysWP_ALgPw">
+  <classes xmi:id="_tsUGgE5OEeawysWP_ALgPw" name="XX" ancs="_9LSV8E5OEeawysWP_ALgPw">
+    <feats xmi:id="_bRSY0E5SEeawysWP_ALgPw" name="r">
+      <hasType xsi:type="MM_uncertainty:Reference" xmi:id="_Zoqs0E5gEeawysWP_ALgPw"/>
+    </feats>
+    <feats xmi:id="_FC6nQE5UEeawysWP_ALgPw" name="s">
+      <min xsi:type="MM_uncertainty:Number" xmi:id="_VxmRcE5cEeawysWP_ALgPw"/>
+      <max xsi:type="MM_uncertainty:Many" xmi:id="_XJq3oE5cEeawysWP_ALgPw"/>
+      <hasType xsi:type="MM_uncertainty:Reference" xmi:id="_GYAx8E5UEeawysWP_ALgPw" target="_9LSV8E5OEeawysWP_ALgPw"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" xmi:id="_uJd8kE5OEeawysWP_ALgPw" antiancs="_9LSV8E5OEeawysWP_ALgPw">
+    <feats xmi:id="_hbwVAE5oEeawysWP_ALgPw" name="ubub">
+      <hasType xsi:type="MM_uncertainty:Reference" xmi:id="_Fpb8QE52Eea7Y8aqrLiu-A" target="_uJd8kE5OEeawysWP_ALgPw"/>
+    </feats>
+  </classes>
+  <classes xmi:id="_9LSV8E5OEeawysWP_ALgPw" name="YY">
+    <feats xmi:id="_6xUjME51Eea7Y8aqrLiu-A" name="iaiai"/>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:Integer_" xmi:id="_8QFz0E5gEeawysWP_ALgPw"/>
+</MM_uncertainty:Metamodel>

@@ -1,0 +1,109 @@
+@"http://www.eclipse.org/OCL/Import"(MM_uncertainty="MM_uncertainty.ecore#/")
+@Ecore(invocationDelegates="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot", settingDelegates="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot", validationDelegates="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot")
+@namespace(uri="VariabilityFM", prefix="VariabilityFM")
+package VariabilityFM;
+
+import "platform:/resource/totem.trm/metamodel/MM_uncertainty.ecore";
+
+class VariabilityModel {
+	val MetamodelVariability[1] source;
+	val MetamodelVariability[1] target;
+	
+	val TransformationOptions[1] options;
+}
+
+class MetamodelVariability extends Node, Compulsory{
+	val VariableFeature[*] features;
+}
+
+abstract class Compulsory { }
+abstract class Optional { }
+abstract class ExclusiveChoice { }
+abstract class SingleChoice { }
+
+abstract class Node {
+    attr String[1] uniqueId;
+
+    attr String[1] name; 
+	val Node[*] children;
+	attr NodeKind[1] nodeKind;
+	
+	val Constraint[*] constraints;	
+}
+
+enum NodeKind {
+	ROOT;
+	COMPULSORY;
+	EXCLUSIVE_CHOICE;
+	OPTIONAL;
+}
+
+class VariableFeature extends Compulsory, Node {
+	ref MM_uncertainty.Feature[1] feature;
+
+	// nodes
+	val FeatureKindGroup[0..1] kind;
+	val FeatureCardinalityGroup[0..1] cardinality; 
+}
+
+class TransformationOptions extends Compulsory, Node {
+		
+} 
+
+/* This is specific to ATL */
+class AllowUnresolvedBindings extends Optional, Node {
+		
+}
+
+class FeatureKindGroup extends Node, Compulsory {
+	val AttOrReferenceExclusiveChoice[1] attOrRef;
+}
+
+class AttOrReferenceExclusiveChoice extends Node, ExclusiveChoice {
+	// nodes
+	val AttributeTypeGroup[0..1] attributeChoice; 
+	val ReferenceTypeGroup[0..1] referenceChoice;
+}
+
+class AttributeTypeGroup extends ExclusiveChoice, Node {
+	val AttributeTypeChoice[*] choices;
+}
+
+class ReferenceTypeGroup extends ExclusiveChoice, Node {
+	val ReferenceTypeChoice[*] choices;
+}
+
+class FeatureCardinalityGroup extends ExclusiveChoice, Node {
+	val FeatureMinCardinalityChoice[*] min;
+	val FeatureMaxCardinalityChoice[*] max;
+}
+
+class ReferenceTypeChoice extends SingleChoice, Node {
+	/* ref MM_uncertainty.Class[1] klass;  */
+	ref EObject[1] klass;  
+}
+
+class AttributeTypeChoice extends SingleChoice, Node {
+	/* ref MM_uncertainty.DataType[1] datatype_; */
+	ref EObject[1] datatype_;
+}
+
+abstract class FeatureCardinalityChoice extends SingleChoice, Node {
+	attr int[1] value;
+}
+
+class FeatureMinCardinalityChoice extends FeatureCardinalityChoice { }
+class FeatureMaxCardinalityChoice extends FeatureCardinalityChoice { }
+
+abstract class Constraint {
+	
+}
+
+abstract class Require extends Constraint {
+	ref Node[*] nodes;	
+}
+
+class OrRequires extends Require {
+	
+}
+

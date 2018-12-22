@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ATL2Problem">
+  <nodes name="ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Problem.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="test-ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Models/test-ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

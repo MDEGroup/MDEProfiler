@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/GeometricalTransformations<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/outFolderXMIcopy.ecore", label: 'outFolderXMIcopy.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/JavaFile/LoadDXF.java", label: 'LoadDXF.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometricalTransformations.atl", label: 'GeometricalTransformations.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code.atl", label: 'DXF2Code.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans.atl", label: 'XML2GeoTrans.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF.atl", label: 'XML2DXF.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometryLib.atl", label: 'GeometryLib.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/DXF/DXF.km3", label: 'DXF.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/GeoTrans/GeoTrans.km3", label: 'GeoTrans.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/TransfoCommands.xml", label: 'TransfoCommands.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/cube.xml", label: 'cube.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans_sourceDRM.mm_uncertainty", label: 'XML2GeoTrans_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code_targetDRM.mm_uncertainty", label: 'DXF2Code_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF_sourceDRM.mm_uncertainty", label: 'XML2DXF_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometryLib_sourceDRM.mm_uncertainty", label: 'GeometryLib_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometricalTransformations_sourceDRM.mm_uncertainty", label: 'GeometricalTransformations_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans_targetDRM.mm_uncertainty", label: 'XML2GeoTrans_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF_targetDRM.mm_uncertainty", label: 'XML2DXF_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code_sourceDRM.mm_uncertainty", label: 'DXF2Code_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometryLib.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometryLib_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometricalTransformations.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometricalTransformations_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code.atl", to: "/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code_sourceDRM.mm_uncertainty"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

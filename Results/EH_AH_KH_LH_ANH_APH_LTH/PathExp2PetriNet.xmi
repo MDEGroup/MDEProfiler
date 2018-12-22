@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TextualPathExp.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PathExp.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="pathexp-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/pathexp-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="xml-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/xml-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="textualpathexp-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/textualpathexp-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="petrinet-example.ecore" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/petrinet-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PathExp2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PathExp2TextualPathExp.atl" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2TextualPathExp.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PetriNet2PathExp.atl" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PetriNet2XML.atl" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TextualPathExp2PathExp.atl" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PathExp.km3" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TextualPathExp.km3" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="PetriNet.km3" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/example.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,28 @@
+(
+mm!EClass.allInstances().exists(c | c.matches_Unknown1(Set{})) and 
+mm!EClass.allInstances().exists(c | c.matches_Unknown2(Set{})) and 
+mm!EClass.allInstances().exists(c | c.matches_X(Set{})) 
+).println();
+
+operation EClass matches_X(visited: Set(EClass)) : Boolean {
+	return 
+		self.name = 'X' and
+		self.eAllReferences.exists(f | f.name='r' and f.eReferenceType.matches_Unknown1(visited.including(self)))
+	;
+}
+
+operation EClass matches_Unknown1(visited: Set(EClass)) : Boolean {
+	if (visited.includes(self))
+		return true;
+	else
+		return self.eAllReferences.exists(f | f.name="s" and f.eReferenceType.matches_Unknown2(visited.including(self)));
+}
+
+operation EClass matches_Unknown2(visited: Set(EClass)) : Boolean {
+	if (visited.includes(self))
+		return true;
+	else
+		return self.eAllStructuralFeatures.exists(f | f.name="t");
+}
+
+

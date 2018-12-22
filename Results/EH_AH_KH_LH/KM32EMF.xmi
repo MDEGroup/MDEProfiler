@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32EMF">
+  <nodes name="Sample-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32EMF/KM32EMF/Sample-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Sample.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32EMF/KM32EMF/Sample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM32EMF.atl" uri="/home/juri/Dropbox/ATLZoo/KM32EMF/KM32EMF/KM32EMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32EMF.launch" uri="/home/juri/Dropbox/ATLZoo/KM32EMF/KM32EMF/KM32EMF.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

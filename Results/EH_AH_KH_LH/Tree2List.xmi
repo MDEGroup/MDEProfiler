@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Tree2List">
+  <nodes name="MMTree.ecore" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/metamodels/MMTree.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MMElementList.ecore" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/metamodels/MMElementList.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Tree2List_usingATLResolveAlgorithm.atl" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List_usingATLResolveAlgorithm.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Tree2List.atl" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Lib4MMTree.atl" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Lib4MMTree.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Tree2List_usingATLResolveAlgorithm.launch" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List_usingATLResolveAlgorithm.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="Tree2List.launch" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

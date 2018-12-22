@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="CodeClone" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="groups">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+    <feats name="sourceToolName">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes name="CloneGroup" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="parent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.6"/>
+    </feats>
+    <feats name="units">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes name="CloneUnit" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="parent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.7"/>
+    </feats>
+    <feats name="file">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.8"/>
+    </feats>
+    <feats name="startLine">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+    <feats name="endLine">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes name="e" mandatoryAllowed="true" subsAllowed="true">
+    <feats name="file">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.4"/>
+    </feats>
+    <feats name="file">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.5"/>
+    </feats>
+    <feats name="totalUnits">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+    <feats name="totalUnits">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u920" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="totalFileLines">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u921" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="totalFileLines">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u922" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="groups">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u923" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="units">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u924" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="fileName">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+    <feats name="totalFileLines">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

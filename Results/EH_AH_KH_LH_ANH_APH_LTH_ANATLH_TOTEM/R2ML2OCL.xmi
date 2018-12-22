@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Scrivania/temp_projects/R2ML2OCL">
+  <nodes name="TCS.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/tcs/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="OCL.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/ocl/OCL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2R2ML.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/transformations/XML2R2ML/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2OCL.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TCS.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/tcs/TCS.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="OCL.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/ocl/OCL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="R2ML2OCL.xml.launch" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/R2ML2OCL.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="R2ML2OCL.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/R2ML2OCL.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="R2MLRule.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/models/r2ml-xml/R2MLRule.xml"/>
+  <nodes name="${sourceModel}" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/R2ML2OCL.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="r2mlModel" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="m1" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/m1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.14" discoverBy="//@nodes.12"/>
+  <edges name="SOURCE" source="//@nodes.4" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.4" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.15" target="//@nodes.0" exact="true" discoverBy="//@nodes.12"/>
+  <edges name="CONFORM2" source="//@nodes.15" discoverBy="//@nodes.12"/>
+  <edges name="SOURCE" source="//@nodes.6" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="TARGET" source="//@nodes.6" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.16" target="//@nodes.0" exact="true" discoverBy="//@nodes.12"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.14" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.15" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.4" target="//@nodes.5" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.4" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.15" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.6" target="//@nodes.16" exact="true" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="LIBRARY" source="//@nodes.6" discoverBy="//@nodes.12" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+</graph:Graph>

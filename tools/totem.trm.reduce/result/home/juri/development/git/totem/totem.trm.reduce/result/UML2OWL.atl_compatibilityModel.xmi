@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source"/>
+  <target uniqueId="1" name="Target"/>
+</VariabilityFM:VariabilityModel>

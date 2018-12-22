@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile">
+  <nodes name="UMLCD2UMLProfile.atl" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UMLCD2UMLProfile.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UML2Copy.atl" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UML2Copy.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UMLCD2UMLProfile.launch" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UMLCD2UMLProfile.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/build.xml"/>
+  <nodes name="/UMLClassDiagram_to_UMLProfile/ParamModels/UML.uml" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UMLClassDiagram_to_UMLProfile/ParamModels/UML.uml" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/UMLClassDiagram_to_UMLProfile/OutputModel/Book.profile.uml" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UMLClassDiagram_to_UMLProfile/OutputModel/Book.profile.uml" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="../InputModel/Book.uml" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/build.xml/../InputModel/Book.uml" derivedOrNotExists="true"/>
+  <edges name="CONFORM2" source="//@nodes.5" discoverBy="//@nodes.2"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.1" discoverBy="//@nodes.2"/>
+  <edges name="CONFORM2" source="//@nodes.5" discoverBy="//@nodes.2"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.1" discoverBy="//@nodes.2"/>
+  <edges name="CONFORM2" source="//@nodes.5" discoverBy="//@nodes.2"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.1" discoverBy="//@nodes.2"/>
+  <edges name="TARGET" source="//@nodes.6" target="//@nodes.1" discoverBy="//@nodes.2"/>
+  <edges name="TARGET" source="//@nodes.6" discoverBy="//@nodes.2"/>
+</graph:Graph>

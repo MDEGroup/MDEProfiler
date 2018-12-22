@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/XSLT2XQuery">
+  <nodes name="XSLT.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT/XSLT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XQuery.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery/XQuery.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2XSLT.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XML2XSLT.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="XSLT2XQuery.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XSLT2XQuery.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="XQuery2Code.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XQuery2Code.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XSLT.km3" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT/XSLT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XQuery.km3" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery/XQuery.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XQuery2Code.launch" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery2Code.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="XSLT2XQuery.launch" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT2XQuery.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="XML2XSLT.launch" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XML2XSLT.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/XSLT2XQuery/XQuery/test-XQuery.xmi" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT2XQuery/XQuery/test-XQuery.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/XSLT2XQuery/XSLT/test-XSLT.xmi" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT2XQuery/XSLT/test-XSLT.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/XSLT2XQuery/XML/tr.xsl-XML.xmi" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT2XQuery/XML/tr.xsl-XML.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/XSLT2XQuery/XML/XML.ecore"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/XSLT2XQuery/XSLT/XSLT.ecore"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/XSLT2XQuery/XSLT/XSLT.ecore"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.2" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/XSLT2XQuery/XQuery/XQuery.ecore"/>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.2" exact="true" discoverBy="//@nodes.8" pathDiscoveredByHeuristic="/XSLT2XQuery/XQuery/XQuery.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.11" target="//@nodes.2" discoverBy="//@nodes.8"/>
+  <edges name="MODEL_INPUT" source="//@nodes.11" target="//@nodes.5" discoverBy="//@nodes.8"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/XSLT2XQuery/XSLT/XSLT.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.12" target="//@nodes.0" discoverBy="//@nodes.9"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.2" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/XSLT2XQuery/XQuery/XQuery.ecore"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.2" discoverBy="//@nodes.9"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.10" pathDiscoveredByHeuristic="/XSLT2XQuery/XML/XML.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.13" target="//@nodes.1" discoverBy="//@nodes.10"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.3" discoverBy="//@nodes.10"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.10" pathDiscoveredByHeuristic="/XSLT2XQuery/XSLT/XSLT.ecore"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.3" discoverBy="//@nodes.10"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.0" discoverBy="//@nodes.10"/>
+</graph:Graph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/OCL2SWRL">
+  <nodes name="OCL.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="rdm.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

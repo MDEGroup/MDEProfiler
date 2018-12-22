@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MM_uncertainty:Metamodel
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:MM_uncertainty="MM_uncertainty"
+    xsi:schemaLocation="MM_uncertainty MM_uncertainty.ecore">
+  <classes name="JavaSource"
+      antiancs="//@classes.1"
+      mandatoryAllowed="true"
+      isAbstract="DontKnow"/>
+  <classes name="MethodDefinition"
+      antiancs="//@classes.0"
+      mandatoryAllowed="true"
+      isAbstract="DontKnow">
+    <feats name="class">
+      <hasType
+          xsi:type="MM_uncertainty:Reference"
+          target="//@classes.2"/>
+    </feats>
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"
+          allowLess="true"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Attribute"
+          type="//@dataType.0"/>
+    </feats>
+    <feats name="invocations">
+      <min xsi:type="MM_uncertainty:Number"/>
+      <max xsi:type="MM_uncertainty:Many"/>
+      <hasType
+          xsi:type="MM_uncertainty:Reference"
+          target="//@classes.3"/>
+    </feats>
+    <feats name="method">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Reference"
+          target="//@classes.3"/>
+    </feats>
+  </classes>
+  <classes name="UKNOWN_1">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Attribute"
+          type="//@dataType.0"/>
+    </feats>
+  </classes>
+  <classes name="UKNOWN_2">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Attribute"
+          type="//@dataType.0"/>
+    </feats>
+    <feats name="class">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Reference"
+          target="//@classes.4"/>
+    </feats>
+  </classes>
+  <classes name="UKNOWN_3">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <max xsi:type="MM_uncertainty:Number"
+          value="1"/>
+      <hasType
+          xsi:type="MM_uncertainty:Attribute"
+          type="//@dataType.0"/>
+    </feats>
+  </classes>
+  <dataType
+      xsi:type="MM_uncertainty:String_"/>
+</MM_uncertainty:Metamodel>

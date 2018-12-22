@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MDL2GMF">
+  <nodes name="Property.ecore" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/Metamodel/Property.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MDL2GMF.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2GMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDLHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDL2UML21.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2UML21.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDL2Diagram.launch" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2Diagram.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/build/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="/org.eclipse.atl.mdl2uml/Model/Sample.mdl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/org.eclipse.atl.mdl2uml/Model/Sample.mdl" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/org.eclipse.atl.mdl2uml/output/test.ecore" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/org.eclipse.atl.mdl2uml/output/test.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.6" discoverBy="//@nodes.4"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" discoverBy="//@nodes.4"/>
+</graph:Graph>

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u94::name">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.26/@feats.0"/>
+      <kind uniqueId="2" name="u94.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="u87::lexicalForm">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.19/@feats.1"/>
+      <kind uniqueId="11" name="u87.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="12" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="13" name="Attribute">
+            <choices uniqueId="14" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="15" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="16" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="17" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="18" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="19" name="u89::lexicalForm">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.21/@feats.1"/>
+      <kind uniqueId="20" name="u89.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="21" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="22" name="Attribute">
+            <choices uniqueId="23" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="24" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="25" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="26" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="27" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="28" name="u91::lexicalForm">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.23/@feats.1"/>
+      <kind uniqueId="29" name="u91.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="30" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="31" name="Attribute">
+            <choices uniqueId="32" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="33" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="34" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="35" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="36" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="37" name="OWLStatement::RDFsubject">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.14/@feats.1"/>
+      <kind uniqueId="38" name="OWLStatement.RDFsubject" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="39" name="AttOrReferenceExclusiveChoice-RDFsubject">
+          <attributeChoice uniqueId="40" name="Attribute">
+            <choices uniqueId="41" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="42" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="43" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="44" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="45" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="46" name="RDFSResource::uriRef">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.16/@feats.0"/>
+      <kind uniqueId="47" name="RDFSResource.uriRef" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="48" name="AttOrReferenceExclusiveChoice-uriRef">
+          <attributeChoice uniqueId="49" name="Attribute">
+            <choices uniqueId="50" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="51" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="52" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="53" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="54" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="55" name="RDFSResource::label">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.16/@feats.1"/>
+      <kind uniqueId="56" name="RDFSResource.label" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="57" name="AttOrReferenceExclusiveChoice-label">
+          <attributeChoice uniqueId="58" name="Attribute">
+            <choices uniqueId="59" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="60" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="61" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="62" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="63" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="64" name="u87::datatypeURI">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.19/@feats.0"/>
+      <kind uniqueId="65" name="u87.datatypeURI" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="66" name="AttOrReferenceExclusiveChoice-datatypeURI">
+          <attributeChoice uniqueId="67" name="Attribute">
+            <choices uniqueId="68" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="69" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="70" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="71" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="72" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="73" name="u88::name">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.20/@feats.0"/>
+      <kind uniqueId="74" name="u88.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="75" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="76" name="Attribute">
+            <choices uniqueId="77" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="78" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="79" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="80" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="81" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="82" name="u89::datatypeURI">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.21/@feats.0"/>
+      <kind uniqueId="83" name="u89.datatypeURI" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="84" name="AttOrReferenceExclusiveChoice-datatypeURI">
+          <attributeChoice uniqueId="85" name="Attribute">
+            <choices uniqueId="86" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="87" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="88" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="89" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="90" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="91" name="u90::name">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.22/@feats.0"/>
+      <kind uniqueId="92" name="u90.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="93" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="94" name="Attribute">
+            <choices uniqueId="95" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="96" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="97" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="98" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="99" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="100" name="u91::datatypeURI">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.23/@feats.0"/>
+      <kind uniqueId="101" name="u91.datatypeURI" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="102" name="AttOrReferenceExclusiveChoice-datatypeURI">
+          <attributeChoice uniqueId="103" name="Attribute">
+            <choices uniqueId="104" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="105" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="106" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="107" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="108" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="109" name="u92::name">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.24/@feats.0"/>
+      <kind uniqueId="110" name="u92.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="111" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="112" name="Attribute">
+            <choices uniqueId="113" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="114" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="115" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="116" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="117" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="118" name="OWLGraph::ontology">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="119" name="OWLGraph.ontology" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="120" name="AttOrReferenceExclusiveChoice-ontology">
+          <attributeChoice uniqueId="121" name="Attribute">
+            <choices uniqueId="122" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="123" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="124" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="125" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="126" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="127" name="UnionClass::OWLUnionOf">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="128" name="UnionClass.OWLUnionOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="129" name="AttOrReferenceExclusiveChoice-OWLUnionOf">
+          <attributeChoice uniqueId="130" name="Attribute">
+            <choices uniqueId="131" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="132" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="133" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="134" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="135" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="136" name="CardinalityRestriction::OWLOnProperty">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.4/@feats.1"/>
+      <kind uniqueId="137" name="CardinalityRestriction.OWLOnProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="138" name="AttOrReferenceExclusiveChoice-OWLOnProperty">
+          <attributeChoice uniqueId="139" name="Attribute">
+            <choices uniqueId="140" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="141" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="142" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="143" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="144" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="145" name="MaxCardinalityRestriction::OWLOnProperty">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.5/@feats.1"/>
+      <kind uniqueId="146" name="MaxCardinalityRestriction.OWLOnProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="147" name="AttOrReferenceExclusiveChoice-OWLOnProperty">
+          <attributeChoice uniqueId="148" name="Attribute">
+            <choices uniqueId="149" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="150" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="151" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="152" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="153" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="154" name="MinCardinalityRestriction::OWLOnProperty">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.6/@feats.1"/>
+      <kind uniqueId="155" name="MinCardinalityRestriction.OWLOnProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="156" name="AttOrReferenceExclusiveChoice-OWLOnProperty">
+          <attributeChoice uniqueId="157" name="Attribute">
+            <choices uniqueId="158" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="159" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="160" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="161" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="162" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="163" name="OWLDatatypeProperty::domain">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.7/@feats.0"/>
+      <kind uniqueId="164" name="OWLDatatypeProperty.domain" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="165" name="AttOrReferenceExclusiveChoice-domain">
+          <attributeChoice uniqueId="166" name="Attribute">
+            <choices uniqueId="167" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="168" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="169" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="170" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="171" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="172" name="OWLDatatypeProperty::range">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.7/@feats.1"/>
+      <kind uniqueId="173" name="OWLDatatypeProperty.range" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="174" name="AttOrReferenceExclusiveChoice-range">
+          <attributeChoice uniqueId="175" name="Attribute">
+            <choices uniqueId="176" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="177" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="178" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="179" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="180" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="181" name="OWLObjectProperty::domain">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.8/@feats.0"/>
+      <kind uniqueId="182" name="OWLObjectProperty.domain" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="183" name="AttOrReferenceExclusiveChoice-domain">
+          <attributeChoice uniqueId="184" name="Attribute">
+            <choices uniqueId="185" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="186" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="187" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="188" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="189" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="190" name="OWLObjectProperty::range">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.8/@feats.1"/>
+      <kind uniqueId="191" name="OWLObjectProperty.range" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="192" name="AttOrReferenceExclusiveChoice-range">
+          <attributeChoice uniqueId="193" name="Attribute">
+            <choices uniqueId="194" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="195" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="196" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="197" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="198" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="199" name="OWLObjectProperty::OWLInverseOf">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.8/@feats.2"/>
+      <kind uniqueId="200" name="OWLObjectProperty.OWLInverseOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="201" name="AttOrReferenceExclusiveChoice-OWLInverseOf">
+          <attributeChoice uniqueId="202" name="Attribute">
+            <choices uniqueId="203" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="204" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="205" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="206" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="207" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="208" name="SymmetricProperty::domain">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.9/@feats.0"/>
+      <kind uniqueId="209" name="SymmetricProperty.domain" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="210" name="AttOrReferenceExclusiveChoice-domain">
+          <attributeChoice uniqueId="211" name="Attribute">
+            <choices uniqueId="212" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="213" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="214" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="215" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="216" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="217" name="SymmetricProperty::range">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.9/@feats.1"/>
+      <kind uniqueId="218" name="SymmetricProperty.range" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="219" name="AttOrReferenceExclusiveChoice-range">
+          <attributeChoice uniqueId="220" name="Attribute">
+            <choices uniqueId="221" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="222" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="223" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="224" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="225" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="226" name="InverseFunctionalProperty::domain">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.10/@feats.0"/>
+      <kind uniqueId="227" name="InverseFunctionalProperty.domain" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="228" name="AttOrReferenceExclusiveChoice-domain">
+          <attributeChoice uniqueId="229" name="Attribute">
+            <choices uniqueId="230" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="231" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="232" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="233" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="234" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="235" name="InverseFunctionalProperty::range">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.10/@feats.1"/>
+      <kind uniqueId="236" name="InverseFunctionalProperty.range" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="237" name="AttOrReferenceExclusiveChoice-range">
+          <attributeChoice uniqueId="238" name="Attribute">
+            <choices uniqueId="239" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="240" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="241" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="242" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="243" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="244" name="FunctionalProperty::isDefinedBy">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.11/@feats.0"/>
+      <kind uniqueId="245" name="FunctionalProperty.isDefinedBy" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="246" name="AttOrReferenceExclusiveChoice-isDefinedBy">
+          <attributeChoice uniqueId="247" name="Attribute">
+            <choices uniqueId="248" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="249" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="250" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="251" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="252" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="253" name="EnumeratedClass::OWLOneOf">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.12/@feats.0"/>
+      <kind uniqueId="254" name="EnumeratedClass.OWLOneOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="255" name="AttOrReferenceExclusiveChoice-OWLOneOf">
+          <attributeChoice uniqueId="256" name="Attribute">
+            <choices uniqueId="257" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="258" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="259" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="260" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="261" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="262" name="Individual::type">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.13/@feats.0"/>
+      <kind uniqueId="263" name="Individual.type" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="264" name="AttOrReferenceExclusiveChoice-type">
+          <attributeChoice uniqueId="265" name="Attribute">
+            <choices uniqueId="266" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="267" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="268" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="269" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="270" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="271" name="u95::range">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.29/@feats.0"/>
+      <kind uniqueId="272" name="u95.range" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="273" name="AttOrReferenceExclusiveChoice-range">
+          <attributeChoice uniqueId="274" name="Attribute">
+            <choices uniqueId="275" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="276" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="277" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="278" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="279" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="280" name="OWLStatement::RDFobject">
+      <feature href="OWL2XML.atl_sourceDRM.ecore#//@classes.14/@feats.2"/>
+      <kind uniqueId="281" name="OWLStatement.RDFobject" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="282" name="AttOrReferenceExclusiveChoice-RDFobject">
+          <attributeChoice uniqueId="283" name="Attribute">
+            <choices uniqueId="284" name="String">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="285" name="Integer">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="286" name="Real">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="287" name="Boolean">
+              <datatype_ href="OWL2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="288" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="289" name="Target"/>
+</VariabilityFM:VariabilityModel>

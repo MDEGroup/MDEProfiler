@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/ModelMeasurement<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/models/example-Measure.ecore", label: 'example-Measure.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Table.ecore", label: 'Table.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/HTML.ecore", label: 'HTML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.ecore", label: 'XHTML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/SVG.ecore", label: 'SVG.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Measure.ecore", label: 'Measure.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers.atl", label: 'MeasureHelpers.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers.atl", label: 'TableHelpers.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3.atl", label: 'FLAME4KM3.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2.atl", label: 'QMOOD4UML2.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2.atl", label: 'FLAME4UML2.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3.atl", label: 'MOOD4KM3.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2.atl", label: 'EMOOSE4UML2.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3.atl", label: 'EMOOSE4KM3.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2.atl", label: 'MOOD4UML2.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3.atl", label: 'QMOOD4KM3.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2XHTML.atl", label: 'Measure2XHTML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table.atl", label: 'Measure2Table.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML.atl", label: 'Table2TabularHTML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2SVGPieChart.atl", label: 'Table2SVGPieChart.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure.atl", label: 'KM32Measure.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2SVGBarChart.atl", label: 'Table2SVGBarChart.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/XHTML2XML.atl", label: 'XHTML2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML.atl", label: 'SVG2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure.atl", label: 'UML22Measure.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML.atl", label: 'HTML2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/models/example.km3", label: 'example.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/SVG.km3", label: 'SVG.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/HTML.km3", label: 'HTML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Table.km3", label: 'Table.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.km3", label: 'XHTML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Measure.km3", label: 'Measure.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XML.km3", label: 'XML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/conf/ModelsMeasurement build.xml.launch", label: 'ModelsMeasurement build.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/build.xml", label: 'build.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2_sourceDRM.mm_uncertainty", label: 'QMOOD4UML2_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2_targetDRM.mm_uncertainty", label: 'EMOOSE4UML2_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2_sourceDRM.mm_uncertainty", label: 'MOOD4UML2_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2_sourceDRM.mm_uncertainty", label: 'EMOOSE4UML2_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2_sourceDRM.mm_uncertainty", label: 'FLAME4UML2_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3_targetDRM.mm_uncertainty", label: 'EMOOSE4KM3_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3_targetDRM.mm_uncertainty", label: 'QMOOD4KM3_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3_targetDRM.mm_uncertainty", label: 'FLAME4KM3_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2_targetDRM.mm_uncertainty", label: 'FLAME4UML2_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3_targetDRM.mm_uncertainty", label: 'MOOD4KM3_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers_sourceDRM.mm_uncertainty", label: 'TableHelpers_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3_sourceDRM.mm_uncertainty", label: 'FLAME4KM3_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2_targetDRM.mm_uncertainty", label: 'QMOOD4UML2_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers_sourceDRM.mm_uncertainty", label: 'MeasureHelpers_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3_sourceDRM.mm_uncertainty", label: 'QMOOD4KM3_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2_targetDRM.mm_uncertainty", label: 'MOOD4UML2_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3_sourceDRM.mm_uncertainty", label: 'EMOOSE4KM3_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers_targetDRM.mm_uncertainty", label: 'MeasureHelpers_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3_sourceDRM.mm_uncertainty", label: 'MOOD4KM3_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers_targetDRM.mm_uncertainty", label: 'TableHelpers_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure_targetDRM.mm_uncertainty", label: 'KM32Measure_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML_sourceDRM.mm_uncertainty", label: 'SVG2XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table_sourceDRM.mm_uncertainty", label: 'Measure2Table_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure_sourceDRM.mm_uncertainty", label: 'UML22Measure_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure_sourceDRM.mm_uncertainty", label: 'KM32Measure_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table_targetDRM.mm_uncertainty", label: 'Measure2Table_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML_targetDRM.mm_uncertainty", label: 'SVG2XML_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML_targetDRM.mm_uncertainty", label: 'HTML2XML_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML_sourceDRM.mm_uncertainty", label: 'HTML2XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML_sourceDRM.mm_uncertainty", label: 'Table2TabularHTML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure_targetDRM.mm_uncertainty", label: 'UML22Measure_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML_targetDRM.mm_uncertainty", label: 'Table2TabularHTML_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/XHTML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML.atl", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/SVG.km3", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/HTML.km3", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/HTML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Table.km3", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Table.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.km3", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Measure.km3", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Measure.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XML.km3", to: "/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XML.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

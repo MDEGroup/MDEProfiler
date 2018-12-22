@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u371::value">
+      <feature href="XMLHelpers.atl_sourceDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="2" name="u371.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="XMLHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="XMLHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="XMLHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="XMLHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="10" name="Target"/>
+</VariabilityFM:VariabilityModel>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Scrivania/temp_projects/WSDL2R2ML">
+  <nodes name="wsdl.ecore" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/metamodels/wsdl/wsdl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="R2ML2XML.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/R2ML2XML/R2ML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2R2ML.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2R2ML/XML2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2R2ML/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="WSDL2XML.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/WSDL2XML/WSDL2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2WSDL.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2WSDL/XML2WSDL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2WSDL/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="WSDL2R2ML.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/WSDL2R2ML/WSDL2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2WSDL.atl" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/R2ML2WSDL/R2ML2WSDL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="wsdl.km3" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/metamodels/wsdl/wsdl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="R2ML2XML.launch" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/R2ML2XML/R2ML2XML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="XML2R2ML.launch" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2R2ML/XML2R2ML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="WSDL2XML.launch" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/WSDL2XML/WSDL2XML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="XML2WSDL.launch" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2WSDL/XML2WSDL.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="WSDL2R2ML.launch" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/WSDL2R2ML/WSDL2R2ML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="R2ML2WSDL.launch" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/R2ML2WSDL/R2ML2WSDL.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="WSDL2R2ML.xml" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/WSDL2R2ML.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="r2ml_out.xml" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/outModels/R2ML2XML/r2ml_out.xml"/>
+  <nodes name="wsdl_out.xml" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/outModels/WSDL2XML/wsdl_out.xml"/>
+  <nodes name="hotelReservation.wsdl.xml" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/models/wsdl-xml/hotelReservation.wsdl.xml"/>
+  <nodes name="R2ML_RR.xml" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/models/r2ml-xml/R2ML_RR.xml"/>
+  <nodes name="/WSDL2R2ML/outModels/WSDL2R2ML/wsdl2r2ml_model.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/R2ML2XML/WSDL2R2ML/outModels/WSDL2R2ML/wsdl2r2ml_model.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/outModels/R2ML2XML/r2ml2xml_model.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/R2ML2XML/WSDL2R2ML/outModels/R2ML2XML/r2ml2xml_model.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/models/r2ml-xml/R2ML_RR-XML.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2R2ML/WSDL2R2ML/models/r2ml-xml/R2ML_RR-XML.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2R2ML/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/outModels/R2ML2WSDL/r2ml2wsdl_model.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/WSDL2XML/WSDL2R2ML/outModels/R2ML2WSDL/r2ml2wsdl_model.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/outModels/WSDL2XML/wsdl2xml_model.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/WSDL2XML/WSDL2R2ML/outModels/WSDL2XML/wsdl2xml_model.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/models/wsdl-xml/hotelReservation.wsdl-XML.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2WSDL/WSDL2R2ML/models/wsdl-xml/hotelReservation.wsdl-XML.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/transformations/XML2WSDL/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${source.model}" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/WSDL2R2ML.xml/${source.model}" derivedOrNotExists="true"/>
+  <nodes name="wsdlModel" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/wsdlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="r2mlModel" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlModel" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/xmlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlModel2" uri="/home/juri/Scrivania/temp_projects/WSDL2R2ML/WSDL2R2ML/xmlModel2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.25" discoverBy="//@nodes.14"/>
+  <edges name="MODEL_INPUT" source="//@nodes.25" target="//@nodes.3" discoverBy="//@nodes.14"/>
+  <edges name="TARGET" source="//@nodes.26" target="//@nodes.3" discoverBy="//@nodes.14"/>
+  <edges name="TARGET" source="//@nodes.26" discoverBy="//@nodes.14"/>
+  <edges name="CONFORM2" source="//@nodes.27" discoverBy="//@nodes.15"/>
+  <edges name="MODEL_INPUT" source="//@nodes.27" target="//@nodes.4" discoverBy="//@nodes.15"/>
+  <edges name="TARGET" source="//@nodes.28" target="//@nodes.4" discoverBy="//@nodes.15"/>
+  <edges name="TARGET" source="//@nodes.28" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.29" discoverBy="//@nodes.16"/>
+  <edges name="MODEL_INPUT" source="//@nodes.29" target="//@nodes.6" discoverBy="//@nodes.16"/>
+  <edges name="TARGET" source="//@nodes.30" target="//@nodes.6" discoverBy="//@nodes.16"/>
+  <edges name="TARGET" source="//@nodes.30" discoverBy="//@nodes.16"/>
+  <edges name="CONFORM2" source="//@nodes.31" discoverBy="//@nodes.17"/>
+  <edges name="MODEL_INPUT" source="//@nodes.31" target="//@nodes.7" discoverBy="//@nodes.17"/>
+  <edges name="TARGET" source="//@nodes.32" target="//@nodes.7" discoverBy="//@nodes.17"/>
+  <edges name="TARGET" source="//@nodes.32" discoverBy="//@nodes.17"/>
+  <edges name="CONFORM2" source="//@nodes.32" discoverBy="//@nodes.18"/>
+  <edges name="MODEL_INPUT" source="//@nodes.32" target="//@nodes.9" discoverBy="//@nodes.18"/>
+  <edges name="TARGET" source="//@nodes.25" target="//@nodes.9" discoverBy="//@nodes.18"/>
+  <edges name="TARGET" source="//@nodes.25" discoverBy="//@nodes.18"/>
+  <edges name="CONFORM2" source="//@nodes.28" discoverBy="//@nodes.19"/>
+  <edges name="MODEL_INPUT" source="//@nodes.28" target="//@nodes.10" discoverBy="//@nodes.19"/>
+  <edges name="TARGET" source="//@nodes.29" target="//@nodes.10" discoverBy="//@nodes.19"/>
+  <edges name="TARGET" source="//@nodes.29" discoverBy="//@nodes.19"/>
+  <edges name="CONFORM2" source="//@nodes.33" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.7" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2WSDL/XML2WSDL.atl"/>
+  <edges name="TARGET" source="//@nodes.7" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2WSDL/XML2WSDL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.34" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.34" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.9" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2R2ML/WSDL2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.9" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2R2ML/WSDL2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.35" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.35" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.3" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.3" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.2" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.33" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.4" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.4" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.35" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.35" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.10" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2WSDL/R2ML2WSDL.atl"/>
+  <edges name="TARGET" source="//@nodes.10" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2WSDL/R2ML2WSDL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.34" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.34" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.6" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2XML/WSDL2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.6" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2XML/WSDL2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.2" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="MODEL_INPUT" source="//@nodes.7" target="//@nodes.33" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2WSDL/XML2WSDL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.7" target="//@nodes.34" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2WSDL/XML2WSDL.atl"/>
+  <edges name="LIBRARY" source="//@nodes.7" target="//@nodes.5" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2WSDL/XML2WSDL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.9" target="//@nodes.34" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2R2ML/WSDL2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.9" target="//@nodes.35" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2R2ML/WSDL2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.3" target="//@nodes.35" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.3" target="//@nodes.36" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.33" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.35" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.4" target="//@nodes.5" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.10" target="//@nodes.35" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2WSDL/R2ML2WSDL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.10" target="//@nodes.34" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/R2ML2WSDL/R2ML2WSDL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.34" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2XML/WSDL2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.6" target="//@nodes.37" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="./transformations/WSDL2XML/WSDL2XML.atl"/>
+</graph:Graph>

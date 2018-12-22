@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u221::name">
+      <feature href="JavaSource2Table.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="2" name="u221.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="3" name="MethodDefinition::name">
+      <feature href="JavaSource2Table.atl_sourceDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="4" name="MethodDefinition.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="5" name="u223::name">
+      <feature href="JavaSource2Table.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="6" name="u223.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="7" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="8" name="Attribute">
+            <choices uniqueId="9" name="String">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="10" name="Integer">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="11" name="Real">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="12" name="Boolean">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="13" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="14" name="u224::name">
+      <feature href="JavaSource2Table.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="15" name="u224.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="16" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="17" name="Attribute">
+            <choices uniqueId="18" name="String">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="19" name="Integer">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="20" name="Real">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="21" name="Boolean">
+              <datatype_ href="JavaSource2Table.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="22" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="23" name="Target"/>
+</VariabilityFM:VariabilityModel>

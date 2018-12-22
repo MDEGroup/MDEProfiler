@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla">
+  <nodes name="BugzillaExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BugzillaXMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

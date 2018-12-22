@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart">
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/models/example-Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TableHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/lib/TableHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/transformations/Table2SVGBarChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/conf/Table2SVGBarChart build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Families2Persons">
+  <nodes name="Families.ecore" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Persons.ecore" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Persons.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Families2Persons.atl" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="Families2Persons.launch" uri="/home/juri/Dropbox/ATLZoo/Families2Persons/Families2Persons/Families2Persons.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/Families2Persons/Families.ecore"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/Families2Persons/Persons.ecore"/>
+</graph:Graph>

@@ -1,0 +1,33 @@
+-- @path JavaSource=/JavaSource2Table/JavaSource.ecore
+-- @path Table=/JavaSource2Table/Table.ecore
+module JavaSource2Table;
+create OUT : Table from IN : JavaSource;
+
+helper context JavaSource!MethodDefinition
+	def : computeContent(col : JavaSource!MethodDefinition) : String =
+	self.invocations->select(i | 
+		i.method.name = col.name
+			and i.method.class.name = col.class.name)
+				->size().toString();
+rule Table{
+	from s : JavaSource!ClassDeclaration
+	to t : Table!Table (
+		rows <- s.methods
+		)
+}
+rule MethodDefinition {
+	from m : JavaSource!MethodDefinition
+	to   row : Table!Row (
+			cells <- Sequence{JavaSource!MethodDefinition.allInstances() ->
+				collect(md | thisModule.DataCells(md, m))}
+		)
+}
+
+lazy rule DataCells {
+	from
+		md: JavaSource!MethodDefinition,
+		m: JavaSource!MethodDefinition
+	to  cell: Table!Cell (
+			content <- m.computeContent(md)
+		)
+}

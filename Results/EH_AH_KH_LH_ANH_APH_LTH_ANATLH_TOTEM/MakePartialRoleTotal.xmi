@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/InputModels/exampleB-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/OutputModels/exampleB-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/OutputModels/exampleB-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/OutputModels/example-KM3target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/OutputModels/example-KM3target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="partial2totalRole.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="partial2totalRole.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="exampleB.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/InputModels/exampleB.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="exampleB-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/OutputModels/exampleB-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="exampleB.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="exampleB-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/OutputModels/exampleB-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (17).launch" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/CatalogueOfModelTransformations build_example.xml (17).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (16).launch" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/CatalogueOfModelTransformations build_example.xml (16).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (15).launch" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/CatalogueOfModelTransformations build_example.xml (15).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (14).launch" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/CatalogueOfModelTransformations build_example.xml (14).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="${sourceMetaModel}" uri="http://www.eclipse.org/gmt/2005/KM3" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/build_example.xml//CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/build_example.xml//CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/build_example.xml//CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/build_example.xml//CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="partial2totalRole_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="partial2totalRole_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="partial2totalRole_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="partial2totalRole_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.32" exact="true" discoverBy="//@nodes.28" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB.atl"/>
+  <edges name="CONFORM2" source="//@nodes.33" target="//@nodes.32" exact="true" discoverBy="//@nodes.28"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.32" exact="true" discoverBy="//@nodes.28" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB.atl"/>
+  <edges name="CONFORM2" source="//@nodes.34" target="//@nodes.2" exact="true" discoverBy="//@nodes.28"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.33" exact="true" discoverBy="//@nodes.28" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.34" exact="true" discoverBy="//@nodes.28" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB.atl"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.32" exact="true" discoverBy="//@nodes.29" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl"/>
+  <edges name="CONFORM2" source="//@nodes.35" target="//@nodes.32" exact="true" discoverBy="//@nodes.29"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.32" exact="true" discoverBy="//@nodes.29" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.2" exact="true" discoverBy="//@nodes.29"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.35" exact="true" discoverBy="//@nodes.29" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.36" exact="true" discoverBy="//@nodes.29" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl"/>
+  <edges name="SOURCE" source="//@nodes.14" target="//@nodes.32" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.32" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.32" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole.atl"/>
+  <edges name="CONFORM2" source="//@nodes.38" target="//@nodes.8" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="MODEL_INPUT" source="//@nodes.14" target="//@nodes.37" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.14" target="//@nodes.38" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole.atl"/>
+  <edges name="SOURCE" source="//@nodes.14" target="//@nodes.32" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.32" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.32" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole.atl"/>
+  <edges name="CONFORM2" source="//@nodes.40" target="//@nodes.8" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="MODEL_INPUT" source="//@nodes.14" target="//@nodes.39" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.14" target="//@nodes.40" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole.atl"/>
+  <edges name="DRM_IN" source="//@nodes.12" target="//@nodes.41" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.12" target="//@nodes.42" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.13" target="//@nodes.43" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.13" target="//@nodes.44" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.14" target="//@nodes.45" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.14" target="//@nodes.46" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.15" target="//@nodes.47" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.15" target="//@nodes.48" exact="true"/>
+</graph:Graph>

@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/MySQL2KM3<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore", label: 'KM3.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore", label: 'MySQL.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", label: 'MySQL2KM3.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", label: 'XML2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", label: 'XML2MySQL.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.km3", label: 'MySQL.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.km3", label: 'KM3.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.km3", label: 'XML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/XML2XML.launch", label: 'XML2XML.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/XML2MySQL.launch", label: 'XML2MySQL.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3.launch", label: 'MySQL2KM3.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Models/euro2004.xml", label: 'euro2004.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML.xmi", label: '/MySQL2KM3/Models/euro2004-XML.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML-2.xmi", label: '/MySQL2KM3/Models/euro2004-XML-2.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-MySQL.xmi", label: '/MySQL2KM3/Models/euro2004-MySQL.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-KM3.xmi", label: '/MySQL2KM3/Models/euro2004-KM3.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL_targetDRM.mm_uncertainty", label: 'XML2MySQL_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML_sourceDRM.mm_uncertainty", label: 'XML2XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3_targetDRM.mm_uncertainty", label: 'MySQL2KM3_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL_sourceDRM.mm_uncertainty", label: 'XML2MySQL_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML_targetDRM.mm_uncertainty", label: 'XML2XML_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3_sourceDRM.mm_uncertainty", label: 'MySQL2KM3_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML-2.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML-2.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML-2.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-XML-2.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-MySQL.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-MySQL.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-MySQL.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-MySQL.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-KM3.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3/Models/euro2004-KM3.xmi", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.km3", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.km3", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.km3", to: "/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

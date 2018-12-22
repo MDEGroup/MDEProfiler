@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Measure2XHTML">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XHTML.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/XHTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MeasureHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/lib/MeasureHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2XHTML.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/transformations/Measure2XHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XHTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/transformations/XHTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XHTML.km3" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/XHTML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure2XHTML build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/conf/Measure2XHTML build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="example-XHTML.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/example-XHTML.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="example-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/example-XML.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="MeasureHelpers_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/lib/MeasureHelpers_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="MeasureHelpers_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Measure2XHTML/Measure2XHTML/lib/MeasureHelpers_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.3" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/Measure2XHTML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.0" target="//@nodes.3" exact="true" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.1" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/Measure2XHTML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.12" target="//@nodes.0" exact="true" discoverBy="//@nodes.11"/>
+  <edges name="SOURCE" source="//@nodes.6" target="//@nodes.1" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/XHTML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.1" target="//@nodes.1" exact="true" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.6" target="//@nodes.2" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/XHTML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.13" target="//@nodes.2" exact="true" discoverBy="//@nodes.11"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.0" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/Measure2XHTML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.5" target="//@nodes.4" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/Measure2XHTML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.5" target="//@nodes.12" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/Measure2XHTML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.1" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/XHTML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.6" target="//@nodes.13" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="transformations/XHTML2XML.atl"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.14" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.15" exact="true"/>
+</graph:Graph>

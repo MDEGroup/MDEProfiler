@@ -1,0 +1,234 @@
+	
+[% for (vf in VM!VariableFeature.allInstances().select(vf | vf.eContainer.name = 'Source') ) { %]
+  [% if ( not vf.sourceIgnored() ) { %]
+  var match_[%=vf.feature.name%]_[%=vf.feature.eContainer.name%]_[%=vf.eContainer.name%] = findSource('[%=vf.feature.eContainer.name%]', '[%=vf.feature.name%]');
+  [% } %]
+[% }%]
+
+[% for (vf in VM!VariableFeature.allInstances().select(vf | vf.eContainer.name = 'Target') ) { %]
+  var match_[%=vf.feature.name%]_[%=vf.feature.eContainer.name%]_[%=vf.eContainer.name%] = findTarget('[%=vf.feature.eContainer.name%]', '[%=vf.feature.name%]');
+[% } %]
+
+[% var allWithConstraints := 
+	VM!AttributeTypeChoice.allInstances().select(a | a.constraints.size() > 0).
+	includingAll( VM!ReferenceTypeChoice.allInstances().select(a | a.constraints.size() > 0) ).
+	includingAll( VM!FeatureCardinalityChoice.allInstances().select(a | a.constraints.size() > 0) ).
+	select(choice | not choice.getVariableFeature().sourceIgnored())	
+	; 
+%]
+
+[% for (choice in allWithConstraints ) { %]
+  [% var vf := choice.getVariableFeature(); %]
+  var [%=choice.genVariableName(allWithConstraints.indexOf(choice)) %] :=  [%= choice.genCondition() %] implies   
+  	[% for (constraint in choice.constraints) { %]
+  		[%= constraint.gen() %]
+     	[% if (hasMore) { %]
+       	and
+     	[% } %]
+  	[% } %]
+  ;
+   
+[% } %]
+
+
+                             
+var result := true
+[% for (choice in allWithConstraints) { %]
+  and [%= choice.genVariableName(allWithConstraints.indexOf(choice)) %] 
+[% } %];
+
+if ( result = false ) {
+[% for (choice in allWithConstraints) { %]
+if ( [%= choice.genVariableName(allWithConstraints.indexOf(choice)) %] = false ) {
+	"[%= choice.genVariableName(allWithConstraints.indexOf(choice)) %]".println("Could not satisfy: ");
+}  
+[% } %]
+}
+
+/*
+operation Integer isAttType(expectedType: String) : Boolean {
+	return expectedType = 'Integer';
+}
+
+operation String isAttType(expectedType: String) : Boolean {
+	return expectedType = 'String';
+}
+
+operation Boolean isAttType(expectedType: String) : Boolean {
+	return expectedType = 'Boolean';
+}
+
+operation Real isAttType(expectedType: String) : Boolean {
+	return expectedType = 'Real';
+}
+*/
+
+operation EDataType isAttType(expectedType: String) : Boolean {
+	if ( Set{"EInt","ELong", "Int", "Integer"}.includes(self.name) ) {
+		return expectedType = 'Integer';		
+	}
+	if ( Set{"EFloat","EDouble", "Float", "Double"}.includes(self.name) ) {
+		return expectedType = 'Real';		
+	}
+	if ( Set{"EBoolean", "Boolean"}.includes(self.name) ) {
+		return expectedType = 'Boolean';		
+	}
+	if ( Set{"String","EString"}.includes(self.name) ) {
+		return expectedType = 'String';		
+	}	
+}
+
+operation findSourceClass(className: String) : SourceMM!EClass {
+	return SourceMM!EClass.allInstances().selectOne(c | c.name = className);
+}
+
+operation findTargetClass(className: String) : SourceMM!EClass {
+	return TargetMM!EClass.allInstances().selectOne(c | c.name = className);
+}
+
+operation findSource(className: String, featureName: String) : SourceMM!EStructuralFeature {
+     var ec = SourceMM!EClass.allInstances().selectOne(c | c.name = className);
+     if ( ec <> null ) {
+        var feat := ec.getEStructuralFeature(featureName);
+        if ( feat = null ) {
+          // find in all subclasses
+	      var subclasses := SourceMM!EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(ec));
+	      if ( ec.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.getEStructuralFeature(featureName) <> null ) ) {
+	      	 // pick one, assuming that the conforming phase checked type compatibility between the properties in all subclasses
+	      	 feat := subclasses->first().getEStructuralFeature(featureName);
+	      }	   	  
+        }
+        return feat;
+     }
+     return null;
+}
+
+
+operation findTarget(className: String, featureName: String) : TargetMM!EStructuralFeature {
+     var ec = TargetMM!EClass.allInstances().selectOne(c | c.name = className);
+     if ( ec <> null ) {
+        var feat := ec.getEStructuralFeature(featureName);
+        if ( feat = null ) {
+          featureName.println("noFEature! ");
+          // find in all subclasses
+	      var subclasses := TargetMM!EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(ec));
+	      if ( ec.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.getEStructuralFeature(featureName) <> null ) ) {
+	      	 // pick one, assuming that the conforming phase checked type compatibility between the properties in all subclasses
+	      	 feat := subclasses->first().getEStructuralFeature(featureName);
+	      }	   	  
+        }
+        return feat;
+     }
+     
+     return null;
+}
+
+
+[% 
+@template
+operation OrRequires gen() { %]
+  	[% for (node in self.nodes) { %]
+  		[%= node.genCondition() %]
+     	[% if (hasMore) { %]
+       	or
+     	[% } %]
+  	[% } %]   
+[% } %]
+
+[% operation VariableFeature genVariableName(prefix : String) : String {
+     return prefix + '_'+ self.feature.name + '_' + self.feature.eContainer.name + '_' + self.eContainer.name;
+   }
+   
+   operation VariableFeature sourceIgnored()  : Boolean {
+     //return false;
+     return (self.feature.eContainer.eClass.name = 'UnknowClass');
+   }
+   
+
+  operation VM!AttributeTypeChoice getVariableFeature() : VariableFeature {
+  	return self.eContainer.eContainer.eContainer.eContainer;
+  }
+
+  operation VM!ReferenceTypeChoice getVariableFeature() : VariableFeature {
+  	return self.eContainer.eContainer.eContainer.eContainer;
+  }
+
+  operation VM!FeatureCardinalityChoice getVariableFeature() : VariableFeature {
+  	return self.eContainer.eContainer;
+  }
+
+  operation VM!AttributeTypeChoice genCondition() : String {
+     // vf is the VariableFeature 
+     var vf := self.getVariableFeature(); 
+     if ( vf.sourceIgnored() ) {
+     	return "true";
+     }
+     
+     var mm = "SourceMM!";
+     if ( vf.eContainingFeature.name = 'target' )
+     	mm := "TargetMM!";
+      
+	 var res := vf.genVariableName('match') + '.isKindOf(' + mm + 'EAttribute) and ' + vf.genVariableName('match') + '.eType.isAttType(\'' + self.name + '\')';   
+	 return '(' + res + ')';	
+  }
+   
+  operation VM!ReferenceTypeChoice genCondition() : String {
+     // vf is the VariableFeature 
+     var vf := self.getVariableFeature(); 
+     
+     var mm := "SourceMM!";
+     var classSearch := "findSourceClass"; 
+     var res := '';
+     
+     if ( vf.eContainer.name.toUpperCase() = 'TARGET' ) {
+     	mm := "TargetMM!";
+     	classSearch := "findTargetClass";
+		res := vf.genVariableName('match') + '.isKindOf(' + mm + 'EReference) and ' + vf.genVariableName('match') + '.eType.isSuperTypeOf( ' + classSearch + '(\'' + self.klass.name + '\'))' ;
+     } else {
+     	// is source
+	 	res := vf.genVariableName('match') + '.isKindOf(' + mm + 'EReference) and ' + vf.genVariableName('match') + '.eType.name = (\'' + self.klass.name + '\')';   
+     }
+      
+	 return '(' + res + ')';	
+  }
+   
+  operation VM!FeatureMinCardinalityChoice genCondition() : String {
+     // vf is the VariableFeature 
+     var vf := self.getVariableFeature(); 
+	 var res := vf.genVariableName('match') + '.lowerBound = ' + self.value;   
+	 return '(' + res + ')';	
+  }
+
+  operation VM!FeatureMaxCardinalityChoice genCondition() : String {
+     // vf is the VariableFeature 
+     var vf := self.getVariableFeature(); 
+     if ( vf.sourceIgnored() ) {
+     	return "true";
+     }
+
+     // checking <> null in case the structural match in the conforming algorithm of the meta-model is
+     // by subclasses, and thus, the feature cannot be matched by name here... could this be fixed more elegantly?
+	 var res := vf.genVariableName('match') + '<> null and ' 
+	 	+ vf.genVariableName('match') + '.upperBound = ' + self.value;   
+	 return '(' + res + ')';	
+  }
+   
+  operation VM!FeatureMinCardinalityChoice genVariableName(uniqueIdx : Integer) : String {
+     return self.getVariableFeature().genVariableName('minCardinality_constraint' + uniqueIdx);     
+  } 
+
+  operation VM!FeatureMaxCardinalityChoice genVariableName(uniqueIdx : Integer) : String {
+     return self.getVariableFeature().genVariableName('maxCardinality_constraint' + uniqueIdx);     
+  } 
+  
+  operation VM!AttributeTypeChoice genVariableName(uniqueIdx : Integer) : String {
+     return self.getVariableFeature().genVariableName('attType_constraint' + uniqueIdx);     
+  }
+  
+  operation VM!ReferenceTypeChoice genVariableName(uniqueIdx : Integer) : String {
+     return self.getVariableFeature().genVariableName('refType_constraint' + uniqueIdx);     
+  }    
+%]
+
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="HTML" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="head">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="body">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="HTMLElement" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="children">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="HEAD" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="headElements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="HEADElement" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <classes name="TITLE" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="value">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="BODY" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="bodyElements">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="BODYElement" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <classes name="TABLEElement" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <classes name="TABLE" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="border">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="trs">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="TR" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="tds">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="TD" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="value">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="TH" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

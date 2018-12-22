@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/GeometricalTransformations">
+  <nodes name="outFolderXMIcopy.ecore" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/outFolderXMIcopy.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="LoadDXF.java" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/JavaFile/LoadDXF.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="GeometricalTransformations.atl" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometricalTransformations.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DXF2Code.atl" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/DXF2Code.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2GeoTrans.atl" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2GeoTrans.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2DXF.atl" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/XML2DXF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="GeometryLib.atl" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/ATLFile/GeometryLib.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DXF.km3" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/DXF/DXF.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="GeoTrans.km3" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/GeoTrans/GeoTrans.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TransfoCommands.xml" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/TransfoCommands.xml"/>
+  <nodes name="cube.xml" uri="/home/juri/Dropbox/ATLZoo/GeometricalTransformations/Geometry/cube.xml"/>
+</graph:Graph>

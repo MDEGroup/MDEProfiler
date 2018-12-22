@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2KM3">
+  <nodes name="out-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/SampleKM3/out-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UML2KM3.atl" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/UML2KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="out-KM3.km3" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/SampleKM3/out-KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="UML2KM3.launch" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/UML2KM3.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="UML2Ecore.xml" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/UML2Ecore.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/UML2ClassDiagram_to_KM3/SampleUMLClassDiagram/Book.uml" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/UML2ClassDiagram_to_KM3/SampleUMLClassDiagram/Book.uml" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="UML" uri="http://www.eclipse.org/uml2/2.0.0/UML" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="KM3" uri="http://www.eclipse.org/gmt/2005/KM3" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="sample-KM3" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/sample-KM3" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Ecore" uri="Ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-Ecore" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/sample-Ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.5" discoverBy="//@nodes.3"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.1" discoverBy="//@nodes.3"/>
+  <edges name="TARGET" source="//@nodes.0" target="//@nodes.1" discoverBy="//@nodes.3"/>
+  <edges name="TARGET" source="//@nodes.0" discoverBy="//@nodes.3"/>
+  <edges name="SOURCE" source="//@nodes.1" target="//@nodes.6" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="UML2KM3.atl"/>
+  <edges name="CONFORM2" source="//@nodes.6" target="//@nodes.6" exact="true" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.1" target="//@nodes.7" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="UML2KM3.atl"/>
+  <edges name="CONFORM2" source="//@nodes.8" target="//@nodes.0" exact="true" discoverBy="//@nodes.4"/>
+  <edges name="CONFORM2" source="//@nodes.6" target="//@nodes.7" exact="true" discoverBy="//@nodes.4"/>
+  <edges name="CONFORM2" source="//@nodes.10" target="//@nodes.9" exact="true" discoverBy="//@nodes.4"/>
+  <edges name="MODEL_INPUT" source="//@nodes.1" target="//@nodes.6" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="UML2KM3.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.1" target="//@nodes.8" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="UML2KM3.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.7" target="//@nodes.6" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="KM32EMF.atl"/>
+  <edges source="//@nodes.7" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="KM32EMF.atl"/>
+  <edges source="//@nodes.7" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="KM32EMF.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.7" target="//@nodes.10" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="KM32EMF.atl"/>
+</graph:Graph>

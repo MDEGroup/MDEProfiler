@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart">
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/models/example-Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TableHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/lib/TableHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGPieChart.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/transformations/Table2SVGPieChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table2SVGPieChart build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/Table2SVGPieChart/Table2SVGPieChart/conf/Table2SVGPieChart build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

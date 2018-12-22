@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/CPL2SPL">
+  <nodes name="SPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/SPL/SPL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/AMMACore/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/AMMACore/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CPL.ecore" uri="/home/juri/Dropbox/ATLZoo/CPL2SPL/CPL2SPL/CPL/CPL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

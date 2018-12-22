@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore">
+  <nodes name="Program.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Program.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ReadersAndWriters-Semaphore.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/ReadersAndWriters/ReadersAndWriters-Semaphore.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ReadersAndWriters.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/ReadersAndWriters/ReadersAndWriters.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SingleResource.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/SingleResource/SingleResource.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SingleResource-Semaphore.ecore" uri="/home/juri/Dropbox/ATLZoo/Monitor2Semaphore/Models/SingleResource/SingleResource-Semaphore.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

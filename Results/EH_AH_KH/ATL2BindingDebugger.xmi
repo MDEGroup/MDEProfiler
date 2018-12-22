@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger">
+  <nodes name="sample-ATL-0.2(Debug).ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug).ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug).atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug).atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

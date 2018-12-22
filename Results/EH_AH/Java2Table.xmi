@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Java2Table">
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="JavaSource.ecore" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="JavaSource2Table.atl" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource2Table.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

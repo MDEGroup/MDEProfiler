@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KMLInjector">
+  <nodes name="KML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/KML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/InputModels/example-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/OutputModels/example-KML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2KML.atl" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Transformations/XML2KML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KML.km3" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/KML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KMLInjector build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/KMLInjector build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="XML2KML.launch" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/XML2KML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/InputModels/example.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.1" exact="true" discoverBy="//@nodes.8" pathDiscoveredByHeuristic="/KMLInjector/Metamodels/XML.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.2" target="//@nodes.1" discoverBy="//@nodes.8"/>
+  <edges name="MODEL_INPUT" source="//@nodes.2" target="//@nodes.4" discoverBy="//@nodes.8"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.8" pathDiscoveredByHeuristic="/KMLInjector/Metamodels/KML.ecore"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.4" discoverBy="//@nodes.8"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.0" discoverBy="//@nodes.8"/>
+</graph:Graph>

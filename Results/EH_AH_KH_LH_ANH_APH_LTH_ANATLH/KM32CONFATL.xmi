@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32CONFATL">
+  <nodes name="MADL.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/target_example/MADL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="conf4MADL.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/target_example/conf4MADL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="architectureModel.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/models/architectureModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="implementationModel.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/models/implementationModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/DOT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATL-0.2-TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/ATL-0.2-TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="conf4MADL.atl" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/target_example/conf4MADL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32EMF.atl" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/transformations/KM32EMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DOT2Text.atl" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/transformations/DOT2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MADL2DOT.atl" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/transformations/MADL2DOT.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32CONFATL.atl" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/transformations/KM32CONFATL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MADL.km3" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/MADL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="architectureModel2dot" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/architectureModel2dot" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="implementationModel2dot" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/implementationModel2dot" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="km32confatl" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/km32confatl" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="MOF" uri="http://www.eclipse.org/emf/2002/Ecore" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="MADLTMP" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/MADLTMP" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="conf4MADL" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/conf4MADL" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="conf4MADL2dot" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/conf4MADL2dot" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.2" target="//@nodes.0" discoverBy="//@nodes.15"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.0" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.7" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="CONFORM2" source="//@nodes.16" target="//@nodes.7" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.3" target="//@nodes.0" discoverBy="//@nodes.15"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.0" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.7" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="CONFORM2" source="//@nodes.17" target="//@nodes.7" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.14" target="//@nodes.6" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="SOURCE" source="//@nodes.13" target="//@nodes.6" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32CONFATL.atl"/>
+  <edges name="TARGET" source="//@nodes.13" target="//@nodes.4" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32CONFATL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.18" target="//@nodes.0" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.14" target="//@nodes.6" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="SOURCE" source="//@nodes.10" target="//@nodes.6" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32EMF.atl"/>
+  <edges name="TARGET" source="//@nodes.10" target="//@nodes.19" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32EMF.atl"/>
+  <edges name="CONFORM2" source="//@nodes.20" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.3" target="//@nodes.0" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.2" target="//@nodes.0" discoverBy="//@nodes.15"/>
+  <edges name="TARGET" source="//@nodes.9" target="//@nodes.0" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="target/conf4MADL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.21" target="//@nodes.0" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="CONFORM2" source="//@nodes.21" target="//@nodes.0" discoverBy="//@nodes.15"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.0" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.7" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="CONFORM2" source="//@nodes.22" target="//@nodes.7" exact="true" discoverBy="//@nodes.15"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.2" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.16" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.3" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.17" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.14" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32CONFATL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.13" target="//@nodes.18" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32CONFATL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.10" target="//@nodes.14" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32EMF.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.10" target="//@nodes.20" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/KM32EMF.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.9" target="//@nodes.3" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="target/conf4MADL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.9" target="//@nodes.2" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="target/conf4MADL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.9" target="//@nodes.21" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="target/conf4MADL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.21" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.22" exact="true" discoverBy="//@nodes.15" pathDiscoveredByHeuristic="transformations/MADL2DOT.atl"/>
+</graph:Graph>

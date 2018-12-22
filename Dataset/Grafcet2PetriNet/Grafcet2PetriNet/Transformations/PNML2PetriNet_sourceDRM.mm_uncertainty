@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="PNMLDocument" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="location">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="nets">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Place" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="location">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.5"/>
+    </feats>
+    <feats name="net">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.6"/>
+    </feats>
+  </classes>
+  <classes name="Transition" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="location">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.7"/>
+    </feats>
+    <feats name="net">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.8"/>
+    </feats>
+  </classes>
+  <classes name="Arc" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="source">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="target">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="location">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.9"/>
+    </feats>
+    <feats name="net">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.10"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u422" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="labels">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u423" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="labels">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u424" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="document">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u425" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="labels">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u426" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="document">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u427" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="labels">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u428" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="document">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

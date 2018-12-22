@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32Measure">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FLAME4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/FLAME4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MOOD4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/MOOD4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="EMOOSE4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/EMOOSE4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="QMOOD4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/QMOOD4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32Measure.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/transformations/KM32Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/models/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

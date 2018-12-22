@@ -1,0 +1,208 @@
+[% ('all instances = '+UM!Class.all).println(); %]
+var result := 
+[% for (c in UM!Class.allInstances()) { %]
+  mm!EClass.allInstances().exists(c|c.matches_[%=c.getIdentifier()%](Set{}, false, [%=c.subsAllowed%]))
+[% if (hasMore) { %]
+  and
+[%   }
+} // end for 
+%];
+
+
+[% for (c in UM!Class.allInstances()) { %]
+if ( not mm!EClass.allInstances().exists(c|c.matches_[%=c.getIdentifier()%](Set{}, false, [%=c.subsAllowed%])) ) {
+"[%=c.getIdentifier()%]".println("Cannot find match: ");
+}
+[% } %]
+
+
+
+[% for (c in UM!Class.allInstances()) { %]
+operation EClass matches_[%=c.getIdentifier()%](visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+[% if (c.isTypeOf(UM!Class)) { %]
+   var conforms := (self.name = '[%=c.name%]' or ignoreName) 
+   [% if (c.feats.size()>0) {%]
+      and
+   [%}%]
+[% } else { %]
+   if (visited.includes(self)) return true; 
+   else return true
+   [% if (c.feats.size()>0) {%]
+      and
+   [%}%]
+[%   
+  } // end if
+%]
+[% for (fi in c.feats) {%]
+   self.eAllStructuralFeatures.exists( f | f.name = '[%=fi.name%]' 
+            [%if (fi.min.isDefined()) { %]
+            [%=fi.min.getMinFuncCall()%][%}%]          
+            [%if (fi.max.isDefined()) { %]
+            [%=fi.max.getMaxFuncCall()%][%}%]
+   )[% if (hasMore) {%] and 
+   [%}%]
+[% } %]
+   and true
+[% for (fi in c.feats) {%]
+	 [%if (fi.hasType.size() > 0) {%]
+     and ( 
+     [%for (ft in fi.hasType) {%]
+       [%if ( ft.isKindOf(UM!Reference)) {%]
+       self.eAllReferences.exists( f | f.name = '[%=fi.name%]'     
+       [%  for (target in ft.target) {%]
+            and f.eReferenceType.matches_[%=target.getIdentifier()%]( visited.including(self), false, true )
+		
+         /* jesusc: removed cardinality checks here. Placed in the exists above to make sure that it is checked
+            even if not feature type is given.
+            [%if (fi.min.isDefined()) { %]
+            [%=fi.min.getMinFuncCall()%][%}%]          
+            [%if (fi.max.isDefined()) { %]
+            [%=fi.max.getMaxFuncCall()%][%}%]
+         */                                      
+          [% } /* end if*/ %]
+          )
+        [% } /* end-if*/ 
+       else if (ft.isKindOf(UM!Attribute)) {%]
+       self.eAllAttributes.exists( f | f.name = '[%=fi.name%]'
+   		  [%if (ft.type.size() > 0) {%]
+   		  	and
+   		    [% for (aType in ft.type) {%]   		  
+   		      ([%=aType.getTypeCheck()%])
+   		      [% if (hasMore) { %]
+                or
+              [% } %]   		      
+   		    [%}%]
+   		  [%}%]
+   		  
+   		  /* removed and factorized in exists above
+   		  [%if (fi.min.isDefined()) { %]
+          [%=fi.min.getMinFuncCall()%][%}%]          
+          [%if (fi.max.isDefined()) { %]
+          [%=fi.max.getMaxFuncCall()%]          
+          [%}%]
+          */
+        )
+		[%}%]
+		[%if (hasMore){%]
+		or
+		[%}%]		
+		[%}%]
+		)
+	    [%}%]
+	[%}%]
+
+[% if (not c.mandatoryAllowed) {%]
+   and Sequence{[%for (el in c.feats.collect(c|c.name)) {%]
+'[%=el%]'[%if (hasMore){%],[%}%]
+   [%}%]}
+       .includesAll(self.eAllStructuralFeatures->
+			select( f | f.isRequired and not f.isProcessedOpposite() and (not f.isDerived()) and f.defaultValue.isUndefined() )->collect(f | f.name) )   
+[% }%]
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{[%for (anc in c.ancs) {%]'[%=anc.name%]'[%if (hasMore){%],[%}%][%}%]} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{[%for (anc in c.antiancs) {%]'[%=anc.name%]'[%if (hasMore){%],[%}%][%}%]} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+[% if (c.mandatoryAllowed) { %] 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_[%=c.getIdentifier()%](visited, true, false));
+   }
+[% } %]
+   
+   return conforms;
+}
+[%}%]
+
+operation EStructuralFeature satMinCardinality(val: Integer, less: Boolean, more: Boolean) : Boolean {
+     if (less) return self.lowerBound <= val;
+     if (more) return self.lowerBound >= val;
+     return self.lowerBound = val;
+}
+
+operation EStructuralFeature satMaxCardinality(val: Integer, less: Boolean, more: Boolean) : Boolean {
+     if (less) return self.upperBound <= val;
+     if (more) return self.upperBound >= val;
+     return self.upperBound = val;
+}
+
+operation EStructuralFeature satMaxCardinalityMany(ordered: Integer, duplicated: Integer) : Boolean {
+     var satisfiedOrdered : Boolean := true;
+     if (ordered=0) satisfiedOrdered := not self.ordered;
+     if (ordered=1) satisfiedOrdered := self.ordered;
+     
+     var satisfiedUnique : Boolean = true;
+     if (duplicated=0) satisfiedUnique := self.unique;
+     if (duplicated=1) satisfiedUnique := not self.unique;
+      
+     return satisfiedOrdered and satisfiedUnique;
+}
+
+operation EAttribute isProcessedOpposite() : Boolean {
+	return false;
+}
+
+operation EReference isProcessedOpposite() : Boolean {
+   if (not self.eOpposite.isDefined()) {
+   	  return false;
+   }
+   else {
+       return Set{[% for (f in UM!Feature.all->select(f|f.canBeReference()).collect(n|n.name)) {%] '[%= f%]' [%if (hasMore) {%], [%}%][% }%]}.contains(self.eOpposite.name);
+       // This is not accurate, as we should test that the reference is actually matched by opposite, not just check the name       
+   }
+}
+
+[% operation Class getIdentifier() : String {
+     return self.name;
+   }
+   operation UnknowClass getIdentifier() : String {
+     return 'Unkown'+UnknowClass.allInstances().indexOf(self);
+   }
+   // In the current implementation of the algorithm, a feature can be a reference if "we don't know" (hasType.isEmpty()) or 
+   // if it is explicitly marked as reference.
+   operation Feature canBeReference() : Boolean {
+   	 return self.hasType.isEmpty() or self.hasType.exists(t|t.isKindOf(UM!Reference));
+   }
+   
+   operation Number getMinFuncCall() : String {
+     return 'and f.satMinCardinality('+self.value+', '+self.allowLess+', '+self.allowMore+')';
+   }
+   operation Number getMaxFuncCall() : String {
+     return 'and f.satMaxCardinality('+self.value+', '+self.allowLess+', '+self.allowMore+')';
+   }
+   operation Cardinality  getMinFuncCall() : String { return ''; }
+   operation Cardinality  getMaxFuncCall() : String { return ''; }
+   operation Many getMaxFuncCall() : String {
+     var ordered : Integer = 0;
+     var duplicated  : Integer = 0;
+     if (self.isOrdered=UBoolean#True) ordered = 1;
+     if (self.isOrdered=UBoolean#DontKnow) ordered = 2;
+     
+     if (self.isDuplicated=UBoolean#True) duplicated = 1;
+     if (self.isDuplicated=UBoolean#DontKnow) duplicated = 2;
+     return 'and f.satMaxCardinalityMany('+ordered+', '+duplicated+')' + ' and f.isMany()';
+   }
+   
+   operation DataType getTypeCheck() : String { return ''; } 
+   operation Enum getTypeCheck() : String {
+   	 if ( self.name = "?" ) 
+   	 	return "true";
+     return 'f.eAttributeType.name = \'' + self.name + '\'';
+   }
+   operation String_ getTypeCheck() : String {
+     return 'f.eAttributeType.name.endsWith("String")';
+   }
+   operation Numeric getTypeCheck() : String {
+     return 'Set{"EInt","ELong","EFloat","EDouble", "Int", "Integer", "Float", "Double", "Real"}.includes(f.eAttributeType.name)';
+   }
+   operation Integer_ getTypeCheck() : String {
+     return 'Set{"EInt","ELong", "Int", "Integer"}.includes(f.eAttributeType.name)';
+   }
+   operation Real_ getTypeCheck() : String {
+     return 'Set{"EFloat","EDouble", "Float", "Double"}.includes(f.eAttributeType.name)';
+   }
+   operation Boolean_ getTypeCheck() : String {
+     return 'f.eAttributeType.name.endsWith("EBoolean")';
+   }
+%]

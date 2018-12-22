@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/BugTrackingSpreadsheetMLExample.ecore", label: 'BugTrackingSpreadsheetMLExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/SoftwareQualityControlExample.ecore", label: 'SoftwareQualityControlExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore", label: 'MSOfficeExcel_SpreadsheetMLSimplified.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.ecore", label: 'SoftwareQualityControl.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl.atl", label: 'SpreadsheetMLSimplified2SoftwareQualityControl.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3", label: 'MSOfficeExcel_SpreadsheetMLSimplified.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.km3", label: 'SoftwareQualityControl.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/BugTrackingXMLExample.xml", label: 'BugTrackingXMLExample.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl_targetDRM.mm_uncertainty", label: 'SpreadsheetMLSimplified2SoftwareQualityControl_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl_sourceDRM.mm_uncertainty", label: 'SpreadsheetMLSimplified2SoftwareQualityControl_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl.atl", to: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl.atl", to: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3", to: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.km3", to: "/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

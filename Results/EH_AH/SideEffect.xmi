@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SideEffect">
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v1.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

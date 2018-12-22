@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/DSL2EMF">
+  <nodes name="ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetaModels/ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DSLModel.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetaModels/DSLModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM2.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetaModels/KM2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DSL.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetaModels/DSL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetaModels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetaModels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleM-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Models/SimpleExample/SimpleExampleM-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleM-EMF.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Models/SimpleExample/SimpleExampleM-EMF.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleM-KM2.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Models/SimpleExample/SimpleExampleM-KM2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleM-DSLModel.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Models/SimpleExample/SimpleExampleM-DSLModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATL-KM22SimpleExample.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Models/SimpleExample/ATL-KM22SimpleExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-EMF.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/EMF2DSL/SimpleExampleMM-EMF.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-KM3-2.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/EMF2DSL/SimpleExampleMM-KM3-2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-XML-2.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/EMF2DSL/SimpleExampleMM-XML-2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-DSL-2.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/EMF2DSL/SimpleExampleMM-DSL-2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-DSL.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleExampleMM-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2DSLModel.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Transfo/XML2DSLModel.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM2Tools.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Transfo/KM2Tools.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32ATL_KM22MM.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Transfo/KM32ATL_KM22MM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM22DSLModel.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Transfo/KM22DSLModel.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DSLModel2KM2.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Transfo/DSLModel2KM2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATL-KM22SimpleExample.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/ModelBridge/Models/SimpleExample/ATL-KM22SimpleExample.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32DSL.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Transfo/KM32DSL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DSL2KM3.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Transfo/DSL2KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DSL2XML.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Transfo/DSL2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2DSL.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Transfo/XML2DSL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/DSL2EMF/DSLBridge/MetamodelBridge/Transfo/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

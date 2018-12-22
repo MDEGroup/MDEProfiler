@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLDI2SVG">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UMLDI2SVG.atl" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/UMLDI2SVG.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="UMLDI.km3" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Metamodels/UMLDI.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/XML2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLDI2SVG/uml2svg/Transformations/XML2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.3" target="//@nodes.8" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.9" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.0" discoverBy="//@nodes.9"/>
+</graph:Graph>

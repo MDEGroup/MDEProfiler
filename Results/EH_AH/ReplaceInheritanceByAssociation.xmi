@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Replace.atl" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/without_context/Replace.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Replace.atl" uri="/home/juri/Dropbox/ATLZoo/ReplaceInheritanceByAssociation/with_context/Replace.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

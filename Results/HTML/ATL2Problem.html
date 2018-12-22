@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/ATL2Problem<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.ecore", label: 'ATL-0.2.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.ecore", label: 'Problem.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Models/test-ATL-0.2.ecore", label: 'test-ATL-0.2.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR.atl", label: 'ATL-WFR.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Models/test.atl", label: 'test.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.km3", label: 'Problem.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.km3", label: 'ATL-0.2.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR_sourceDRM.mm_uncertainty", label: 'ATL-WFR_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR_targetDRM.mm_uncertainty", label: 'ATL-WFR_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR.atl", to: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR.atl", to: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.km3", to: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.km3", to: "/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

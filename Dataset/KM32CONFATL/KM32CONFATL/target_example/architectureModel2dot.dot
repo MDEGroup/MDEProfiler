@@ -1,0 +1,18 @@
+digraph "MADL model in DOT" {
+graph[rankdir=TB,compound=true];
+ SpeedSensor[shape=box,style=solid]
+ TransMotor[shape=box,style=solid]
+ DataSensor[shape=box,style=solid]
+ ArmControl[shape=box,style=solid]
+ ArmControl->SpeedSensor[constraint=true,style=solid,]
+ ArmControl->TrackSensor[constraint=true,style=solid,]
+ ArmControl->TransMotor[constraint=true,style=solid,]
+ DiskReader[shape=box,style=solid]
+ DiskReader->DataSensor[constraint=true,style=solid,]
+ DiskReader->SpeedSensor[constraint=true,style=solid,]
+ PlayerControl[shape=box,style=solid]
+ PlayerControl->DiskReader[constraint=true,style=solid,]
+ PlayerControl->ArmControl[constraint=true,style=solid,]
+ TrackSensor[shape=box,style=solid]
+
+}

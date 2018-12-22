@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/KM32XML<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Metamodels/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL.atl", label: 'LibFQL.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML.atl", label: 'KM32XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Input/JavaAbstractSyntax.km3", label: 'JavaAbstractSyntax.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Output/JavaAbstractSyntax.xml", label: 'JavaAbstractSyntax.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL_sourceDRM.mm_uncertainty", label: 'LibFQL_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML_sourceDRM.mm_uncertainty", label: 'KM32XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL_targetDRM.mm_uncertainty", label: 'LibFQL_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML_targetDRM.mm_uncertainty", label: 'KM32XML_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL.atl", to: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML.atl", to: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL.atl", to: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML.atl", to: "/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML_targetDRM.mm_uncertainty"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

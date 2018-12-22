@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Antecedent::containsAtom">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="2" name="Antecedent.containsAtom" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-containsAtom">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="u299::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.29/@feats.0"/>
+      <kind uniqueId="11" name="u299.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="12" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="13" name="Attribute">
+            <choices uniqueId="14" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="15" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="16" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="17" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="18" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="19" name="u299::buildInID">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.29/@feats.2"/>
+      <kind uniqueId="20" name="u299.buildInID" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="21" name="AttOrReferenceExclusiveChoice-buildInID">
+          <attributeChoice uniqueId="22" name="Attribute">
+            <choices uniqueId="23" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="24" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="25" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="26" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="27" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="28" name="DataVariable::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="29" name="DataVariable.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="30" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="31" name="Attribute">
+            <choices uniqueId="32" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="33" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="34" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="35" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="36" name="Reference">
+            <choices uniqueId="37" name="Ontology">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="38" name="Rule">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0 //@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="39" name="Consequent">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="40" name="Antecedent">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="41" name="Atom">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="42" name="DataVariable">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="43" name="Individual">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="44" name="DataRange">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="45" name="DataValue">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="46" name="TypedLiteral">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="47" name="IntersectionClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="48" name="UnionClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="49" name="ComplementClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.12"/>
+            </choices>
+            <choices uniqueId="50" name="SomeValuesFromRestriction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.13"/>
+            </choices>
+            <choices uniqueId="51" name="AllValuesFromRestriction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.14"/>
+            </choices>
+            <choices uniqueId="52" name="HasValueRestriction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.15"/>
+            </choices>
+            <choices uniqueId="53" name="CardinalityRestriction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.16"/>
+            </choices>
+            <choices uniqueId="54" name="MinCardinalityRestriction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.17"/>
+            </choices>
+            <choices uniqueId="55" name="MaxCardinalityRestriction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.18"/>
+            </choices>
+            <choices uniqueId="56" name="ObjectProperty">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.19"/>
+            </choices>
+            <choices uniqueId="57" name="DatatypeProperty">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.20"/>
+            </choices>
+            <choices uniqueId="58" name="Class">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.21"/>
+            </choices>
+            <choices uniqueId="59" name="IndividualVariable">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.22"/>
+            </choices>
+            <choices uniqueId="60" name="EnumeratedClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.23"/>
+            </choices>
+            <choices uniqueId="61" name="Restriction">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.24"/>
+            </choices>
+            <choices uniqueId="62" name="u296">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.25"/>
+            </choices>
+            <choices uniqueId="63" name="Property">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.26"/>
+            </choices>
+            <choices uniqueId="64" name="u297">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.27"/>
+            </choices>
+            <choices uniqueId="65" name="u298">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.28"/>
+            </choices>
+            <choices uniqueId="66" name="u299">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.29"/>
+            </choices>
+            <choices uniqueId="67" name="u300">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.30"/>
+            </choices>
+            <choices uniqueId="68" name="u301">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.31"/>
+            </choices>
+            <choices uniqueId="69" name="u302">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.32"/>
+            </choices>
+            <choices uniqueId="70" name="u303">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.33"/>
+            </choices>
+            <choices uniqueId="71" name="u304">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.34"/>
+            </choices>
+            <choices uniqueId="72" name="u305">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.35"/>
+            </choices>
+            <choices uniqueId="73" name="u306">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.36"/>
+            </choices>
+            <choices uniqueId="74" name="u307">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.37"/>
+            </choices>
+            <choices uniqueId="75" name="u308">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.38"/>
+            </choices>
+            <choices uniqueId="76" name="u309">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.39"/>
+            </choices>
+            <choices uniqueId="77" name="u310">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.40"/>
+            </choices>
+            <choices uniqueId="78" name="u311">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.41"/>
+            </choices>
+            <choices uniqueId="79" name="u312">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.42"/>
+            </choices>
+            <choices uniqueId="80" name="Literal">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.43"/>
+            </choices>
+            <choices uniqueId="81" name="u313">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.44"/>
+            </choices>
+            <choices uniqueId="82" name="u314">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.45"/>
+            </choices>
+            <choices uniqueId="83" name="u315">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.46"/>
+            </choices>
+            <choices uniqueId="84" name="u316">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.47"/>
+            </choices>
+            <choices uniqueId="85" name="u317">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.48"/>
+            </choices>
+            <choices uniqueId="86" name="u318">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.49"/>
+            </choices>
+            <choices uniqueId="87" name="u319">
+              <klass href="RDM2XML.atl_sourceDRM.ecore#//@classes.50"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="88" name="Individual::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="89" name="Individual.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="90" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="91" name="Attribute">
+            <choices uniqueId="92" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="93" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="94" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="95" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="96" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="97" name="u300::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.30/@feats.0"/>
+      <kind uniqueId="98" name="u300.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="99" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="100" name="Attribute">
+            <choices uniqueId="101" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="102" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="103" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="104" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="105" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="106" name="u301::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.31/@feats.0"/>
+      <kind uniqueId="107" name="u301.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="108" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="109" name="Attribute">
+            <choices uniqueId="110" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="111" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="112" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="113" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="114" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="115" name="DataValue::value">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.8/@feats.1"/>
+      <kind uniqueId="116" name="DataValue.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="117" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="118" name="Attribute">
+            <choices uniqueId="119" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="120" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="121" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="122" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="123" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="124" name="TypedLiteral::theType">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.9/@feats.0"/>
+      <kind uniqueId="125" name="TypedLiteral.theType" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="126" name="AttOrReferenceExclusiveChoice-theType">
+          <attributeChoice uniqueId="127" name="Attribute">
+            <choices uniqueId="128" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="129" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="130" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="131" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="132" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="133" name="TypedLiteral::lexicalForm">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.9/@feats.1"/>
+      <kind uniqueId="134" name="TypedLiteral.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="135" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="136" name="Attribute">
+            <choices uniqueId="137" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="138" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="139" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="140" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="141" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="142" name="u306::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.36/@feats.0"/>
+      <kind uniqueId="143" name="u306.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="144" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="145" name="Attribute">
+            <choices uniqueId="146" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="147" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="148" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="149" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="150" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="151" name="u308::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.38/@feats.0"/>
+      <kind uniqueId="152" name="u308.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="153" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="154" name="Attribute">
+            <choices uniqueId="155" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="156" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="157" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="158" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="159" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="160" name="u309::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.39/@feats.0"/>
+      <kind uniqueId="161" name="u309.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="162" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="163" name="Attribute">
+            <choices uniqueId="164" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="165" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="166" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="167" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="168" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="169" name="u311::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.41/@feats.0"/>
+      <kind uniqueId="170" name="u311.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="171" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="172" name="Attribute">
+            <choices uniqueId="173" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="174" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="175" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="176" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="177" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="178" name="u312::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.42/@feats.0"/>
+      <kind uniqueId="179" name="u312.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="180" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="181" name="Attribute">
+            <choices uniqueId="182" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="183" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="184" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="185" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="186" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="187" name="u313::lexicalForm">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.44/@feats.0"/>
+      <kind uniqueId="188" name="u313.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="189" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="190" name="Attribute">
+            <choices uniqueId="191" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="192" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="193" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="194" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="195" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="196" name="u314::lexicalForm">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.45/@feats.0"/>
+      <kind uniqueId="197" name="u314.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="198" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="199" name="Attribute">
+            <choices uniqueId="200" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="201" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="202" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="203" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="204" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="205" name="u315::lexicalForm">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.46/@feats.0"/>
+      <kind uniqueId="206" name="u315.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="207" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="208" name="Attribute">
+            <choices uniqueId="209" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="210" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="211" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="212" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="213" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="214" name="u316::lexicalForm">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.47/@feats.0"/>
+      <kind uniqueId="215" name="u316.lexicalForm" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="216" name="AttOrReferenceExclusiveChoice-lexicalForm">
+          <attributeChoice uniqueId="217" name="Attribute">
+            <choices uniqueId="218" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="219" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="220" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="221" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="222" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="223" name="ObjectProperty::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.19/@feats.0"/>
+      <kind uniqueId="224" name="ObjectProperty.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="225" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="226" name="Attribute">
+            <choices uniqueId="227" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="228" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="229" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="230" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="231" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="232" name="DatatypeProperty::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.20/@feats.0"/>
+      <kind uniqueId="233" name="DatatypeProperty.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="234" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="235" name="Attribute">
+            <choices uniqueId="236" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="237" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="238" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="239" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="240" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="241" name="Class::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.21/@feats.1"/>
+      <kind uniqueId="242" name="Class.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="243" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="244" name="Attribute">
+            <choices uniqueId="245" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="246" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="247" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="248" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="249" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="250" name="IndividualVariable::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.22/@feats.0"/>
+      <kind uniqueId="251" name="IndividualVariable.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="252" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="253" name="Attribute">
+            <choices uniqueId="254" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="255" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="256" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="257" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="258" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="259" name="EnumeratedClass::oneOf">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.23/@feats.0"/>
+      <kind uniqueId="260" name="EnumeratedClass.oneOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="261" name="AttOrReferenceExclusiveChoice-oneOf">
+          <attributeChoice uniqueId="262" name="Attribute">
+            <choices uniqueId="263" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="264" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="265" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="266" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="267" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="268" name="DataRange::oneOf">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.7/@feats.1"/>
+      <kind uniqueId="269" name="DataRange.oneOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="270" name="AttOrReferenceExclusiveChoice-oneOf">
+          <attributeChoice uniqueId="271" name="Attribute">
+            <choices uniqueId="272" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="273" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="274" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="275" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="276" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="277" name="u296::onProperty">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.25/@feats.0"/>
+      <kind uniqueId="278" name="u296.onProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="279" name="AttOrReferenceExclusiveChoice-onProperty">
+          <attributeChoice uniqueId="280" name="Attribute">
+            <choices uniqueId="281" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="282" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="283" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="284" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="285" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="286" name="Ontology::elements">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="287" name="Ontology.elements" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="288" name="AttOrReferenceExclusiveChoice-elements">
+          <attributeChoice uniqueId="289" name="Attribute">
+            <choices uniqueId="290" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="291" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="292" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="293" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="294" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="295" name="Rule::hasAntecedent">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="296" name="Rule.hasAntecedent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="297" name="AttOrReferenceExclusiveChoice-hasAntecedent">
+          <attributeChoice uniqueId="298" name="Attribute">
+            <choices uniqueId="299" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="300" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="301" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="302" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="303" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="304" name="Rule::hasConsequent">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="305" name="Rule.hasConsequent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="306" name="AttOrReferenceExclusiveChoice-hasConsequent">
+          <attributeChoice uniqueId="307" name="Attribute">
+            <choices uniqueId="308" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="309" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="310" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="311" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="312" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="313" name="Consequent::containsAtom">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="314" name="Consequent.containsAtom" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="315" name="AttOrReferenceExclusiveChoice-containsAtom">
+          <attributeChoice uniqueId="316" name="Attribute">
+            <choices uniqueId="317" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="318" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="319" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="320" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="321" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="322" name="u298::containsAtom">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.28/@feats.0"/>
+      <kind uniqueId="323" name="u298.containsAtom" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="324" name="AttOrReferenceExclusiveChoice-containsAtom">
+          <attributeChoice uniqueId="325" name="Attribute">
+            <choices uniqueId="326" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="327" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="328" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="329" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="330" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="331" name="Atom::terms">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.4/@feats.1"/>
+      <kind uniqueId="332" name="Atom.terms" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="333" name="AttOrReferenceExclusiveChoice-terms">
+          <attributeChoice uniqueId="334" name="Attribute">
+            <choices uniqueId="335" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="336" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="337" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="338" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="339" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="340" name="Atom::name">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="341" name="Atom.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="342" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="343" name="Attribute">
+            <choices uniqueId="344" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="345" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="346" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="347" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="348" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="349" name="u299::onProperty">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.29/@feats.1"/>
+      <kind uniqueId="350" name="u299.onProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="351" name="AttOrReferenceExclusiveChoice-onProperty">
+          <attributeChoice uniqueId="352" name="Attribute">
+            <choices uniqueId="353" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="354" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="355" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="356" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="357" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="358" name="u302::oneOf">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.32/@feats.0"/>
+      <kind uniqueId="359" name="u302.oneOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="360" name="AttOrReferenceExclusiveChoice-oneOf">
+          <attributeChoice uniqueId="361" name="Attribute">
+            <choices uniqueId="362" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="363" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="364" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="365" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="366" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="367" name="u303::onProperty">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.33/@feats.0"/>
+      <kind uniqueId="368" name="u303.onProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="369" name="AttOrReferenceExclusiveChoice-onProperty">
+          <attributeChoice uniqueId="370" name="Attribute">
+            <choices uniqueId="371" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="372" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="373" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="374" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="375" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="376" name="u304::onProperty">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.34/@feats.0"/>
+      <kind uniqueId="377" name="u304.onProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="378" name="AttOrReferenceExclusiveChoice-onProperty">
+          <attributeChoice uniqueId="379" name="Attribute">
+            <choices uniqueId="380" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="381" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="382" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="383" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="384" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="385" name="u305::onProperty">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.35/@feats.0"/>
+      <kind uniqueId="386" name="u305.onProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="387" name="AttOrReferenceExclusiveChoice-onProperty">
+          <attributeChoice uniqueId="388" name="Attribute">
+            <choices uniqueId="389" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="390" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="391" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="392" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="393" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="394" name="u306::unionOf">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.36/@feats.1"/>
+      <kind uniqueId="395" name="u306.unionOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="396" name="AttOrReferenceExclusiveChoice-unionOf">
+          <attributeChoice uniqueId="397" name="Attribute">
+            <choices uniqueId="398" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="399" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="400" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="401" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="402" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="403" name="AllValuesFromRestriction::someValuesFromClass">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.14/@feats.2"/>
+      <kind uniqueId="404" name="AllValuesFromRestriction.someValuesFromClass" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="405" name="AttOrReferenceExclusiveChoice-someValuesFromClass">
+          <attributeChoice uniqueId="406" name="Attribute">
+            <choices uniqueId="407" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="408" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="409" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="410" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="411" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="412" name="u309::unionOf">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.39/@feats.1"/>
+      <kind uniqueId="413" name="u309.unionOf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="414" name="AttOrReferenceExclusiveChoice-unionOf">
+          <attributeChoice uniqueId="415" name="Attribute">
+            <choices uniqueId="416" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="417" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="418" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="419" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="420" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="421" name="u317::hasPredicateSymbol">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.48/@feats.0"/>
+      <kind uniqueId="422" name="u317.hasPredicateSymbol" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="423" name="AttOrReferenceExclusiveChoice-hasPredicateSymbol">
+          <attributeChoice uniqueId="424" name="Attribute">
+            <choices uniqueId="425" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="426" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="427" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="428" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="429" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="430" name="u318::hasPredicateSymbol">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.49/@feats.0"/>
+      <kind uniqueId="431" name="u318.hasPredicateSymbol" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="432" name="AttOrReferenceExclusiveChoice-hasPredicateSymbol">
+          <attributeChoice uniqueId="433" name="Attribute">
+            <choices uniqueId="434" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="435" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="436" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="437" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="438" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="439" name="u319::onProperty">
+      <feature href="RDM2XML.atl_sourceDRM.ecore#//@classes.50/@feats.0"/>
+      <kind uniqueId="440" name="u319.onProperty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="441" name="AttOrReferenceExclusiveChoice-onProperty">
+          <attributeChoice uniqueId="442" name="Attribute">
+            <choices uniqueId="443" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="444" name="Integer">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="445" name="Real">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="446" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="447" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="448" name="Target">
+    <features uniqueId="449" name="Text::value">
+      <feature href="RDM2XML.atl_targetDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="450" name="Text.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="451" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="452" name="Attribute">
+            <choices uniqueId="453" name="String">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="454" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="455" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="456" name="Boolean">
+              <datatype_ href="RDM2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="457" name="Reference">
+            <choices uniqueId="458" name="Root">
+              <klass href="RDM2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="459" name="Attribute">
+              <klass href="RDM2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="460" name="Element">
+              <klass href="RDM2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="461" name="Text">
+              <klass href="RDM2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

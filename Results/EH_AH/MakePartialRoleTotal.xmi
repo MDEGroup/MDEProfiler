@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/InputModels/exampleB-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/OutputModels/exampleB-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="exampleB-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/OutputModels/exampleB-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/OutputModels/example-KM3target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3target.ecore" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/OutputModels/example-KM3target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/without_context/PartialRolesTotalB.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PartialRolesTotalB.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="partial2totalRole.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/without_context/partial2totalRole.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="partial2totalRole.atl" uri="/home/juri/Dropbox/ATLZoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/partial2totalRole.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

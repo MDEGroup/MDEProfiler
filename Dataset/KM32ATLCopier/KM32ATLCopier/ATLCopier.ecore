@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:atl="http://www.eclipse.org/gmt/2005/ATL" xmlns:ocl="http://www.eclipse.org/gmt/2005/OCL">
+  <ocl:OclModel elements="/1/@elements.0/@inPattern/@elements.0/@type /1/@elements.0/@inPattern/@filter/@arguments.0 /1/@elements.0/@outPattern/@elements.0/@type" model="/1/@inModels.0 /1/@outModels.0" name="MM"/>
+  <atl:Module name="Copy" isRefining="false">
+    <inModels metamodel="/0" name="IN"/>
+    <outModels metamodel="/0" name="OUT"/>
+    <elements xsi:type="atl:MatchedRule" name="CopyTest" isAbstract="false" isRefining="false">
+      <outPattern>
+        <elements xsi:type="atl:SimpleOutPatternElement" varName="t">
+          <type xsi:type="ocl:OclModelElement" name="Test" model="/0"/>
+          <bindings propertyName="name">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" name="name">
+              <source xsi:type="ocl:VariableExp" referredVariable="/1/@elements.0/@inPattern/@elements.0" name="s"/>
+            </value>
+          </bindings>
+          <bindings propertyName="description">
+            <value xsi:type="ocl:NavigationOrAttributeCallExp" name="description">
+              <source xsi:type="ocl:VariableExp" referredVariable="/1/@elements.0/@inPattern/@elements.0" name="s"/>
+            </value>
+          </bindings>
+        </elements>
+      </outPattern>
+      <inPattern>
+        <elements xsi:type="atl:SimpleInPatternElement" variableExp="/1/@elements.0/@inPattern/@filter/@source /1/@elements.0/@outPattern/@elements.0/@bindings.0/@value/@source /1/@elements.0/@outPattern/@elements.0/@bindings.1/@value/@source" varName="s">
+          <type xsi:type="ocl:OclModelElement" name="Test" model="/0"/>
+        </elements>
+        <filter xsi:type="ocl:OperationCallExp" operationName="oclIsTypeOf">
+          <source xsi:type="ocl:VariableExp" referredVariable="/1/@elements.0/@inPattern/@elements.0" name="s"/>
+          <arguments xsi:type="ocl:OclModelElement" name="Test" model="/0"/>
+        </filter>
+      </inPattern>
+    </elements>
+  </atl:Module>
+</xmi:XMI>

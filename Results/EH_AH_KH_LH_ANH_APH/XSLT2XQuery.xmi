@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/XSLT2XQuery">
+  <nodes name="XSLT.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT/XSLT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XQuery.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery/XQuery.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2XSLT.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XML2XSLT.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="XSLT2XQuery.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XSLT2XQuery.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="XQuery2Code.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XQuery2Code.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XSLT.km3" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT/XSLT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XQuery.km3" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery/XQuery.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XQuery2Code.launch" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery2Code.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="XSLT2XQuery.launch" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT2XQuery.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="XML2XSLT.launch" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XML2XSLT.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/XSLT2XQuery/XML/XML.ecore"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/XSLT2XQuery/XSLT/XSLT.ecore"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/XSLT2XQuery/XSLT/XSLT.ecore"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.2" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/XSLT2XQuery/XQuery/XQuery.ecore"/>
+</graph:Graph>

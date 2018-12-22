@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/totem.trm/src" modelPluginID="totem.trm"
+    modelName="MM_uncertainty" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>MM_uncertainty.ecore</foreignModel>
+  <genPackages prefix="MM_uncertainty" disposableProviderFactory="true" ecorePackage="MM_uncertainty.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="MM_uncertainty.ecore#//UBoolean">
+      <genEnumLiterals ecoreEnumLiteral="MM_uncertainty.ecore#//UBoolean/False"/>
+      <genEnumLiterals ecoreEnumLiteral="MM_uncertainty.ecore#//UBoolean/True"/>
+      <genEnumLiterals ecoreEnumLiteral="MM_uncertainty.ecore#//UBoolean/DontKnow"/>
+    </genEnums>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Metamodel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Metamodel/classes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Metamodel/dataType"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="MM_uncertainty.ecore#//ConstrainedElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//ConstrainedElement/constraints"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Class">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Class/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Class/ancs"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Class/antiancs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Class/feats"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Class/mandatoryAllowed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Class/isAbstract"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Class/subsAllowed"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Feature">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Feature/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Feature/min"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Feature/max"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Feature/hasType"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="MM_uncertainty.ecore#//FeatureType"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Reference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Reference/target"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Attribute">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Attribute/type"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="MM_uncertainty.ecore#//Cardinality"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//UnknownCardinality"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Many">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Many/isOrdered"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Many/isDuplicated"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Number">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Number/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Number/allowLess"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Number/allowMore"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="MM_uncertainty.ecore#//DataType"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//UnknownType"/>
+    <genClasses image="false" ecoreClass="MM_uncertainty.ecore#//Numeric"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Real_"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Integer_"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//String_"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Enum">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Enum/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MM_uncertainty.ecore#//Enum/literals"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Literal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Literal/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Constraint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MM_uncertainty.ecore#//Constraint/constraint"/>
+    </genClasses>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//UnknowClass"/>
+    <genClasses ecoreClass="MM_uncertainty.ecore#//Boolean_"/>
+  </genPackages>
+</genmodel:GenModel>

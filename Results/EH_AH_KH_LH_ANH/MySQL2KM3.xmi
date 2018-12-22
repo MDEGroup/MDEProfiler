@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MySQL2KM3">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MySQL.ecore" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MySQL2KM3.atl" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/MySQL2KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2MySQL.atl" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Transfos/XML2MySQL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MySQL.km3" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/MySQL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KM3.km3" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML2XML.launch" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/XML2XML.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="XML2MySQL.launch" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/XML2MySQL.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="MySQL2KM3.launch" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/MySQL2KM3.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="euro2004.xml" uri="/home/juri/Dropbox/ATLZoo/MySQL2KM3/MySQL2KM3/Models/euro2004.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

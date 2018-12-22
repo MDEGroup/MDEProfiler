@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32XML">
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="LibFQL.atl" uri="/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/LibFQL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32XML.atl" uri="/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Transformations/KM32XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="JavaAbstractSyntax.km3" uri="/home/juri/Dropbox/ATLZoo/KM32XML/KM32XML/Input/JavaAbstractSyntax.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

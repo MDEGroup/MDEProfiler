@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="ActivityPartition::node">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.1/@feats.1"/>
+      <kind uniqueId="2" name="ActivityPartition.node" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-node">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="Activity">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="ActivityPartition">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="OpaqueAction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.2"/>
+            </choices>
+            <choices uniqueId="13" name="InitialNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.3"/>
+            </choices>
+            <choices uniqueId="14" name="ControlFlow">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.4"/>
+            </choices>
+            <choices uniqueId="15" name="ExecutableNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.5"/>
+            </choices>
+            <choices uniqueId="16" name="ObjectNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.6"/>
+            </choices>
+            <choices uniqueId="17" name="NamedElement">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.7"/>
+            </choices>
+            <choices uniqueId="18" name="ActivityNode">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.8"/>
+            </choices>
+            <choices uniqueId="19" name="AcceptEventAction">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.9"/>
+            </choices>
+            <choices uniqueId="20" name="u1">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.10"/>
+            </choices>
+            <choices uniqueId="21" name="u2">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.11"/>
+            </choices>
+            <choices uniqueId="22" name="TimeEvent">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.12"/>
+            </choices>
+            <choices uniqueId="23" name="u3">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.13"/>
+            </choices>
+            <choices uniqueId="24" name="u4">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.14"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="25" name="ControlFlow::source">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.4/@feats.0"/>
+      <kind uniqueId="26" name="ControlFlow.source" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="27" name="AttOrReferenceExclusiveChoice-source">
+          <attributeChoice uniqueId="28" name="Attribute">
+            <choices uniqueId="29" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="30" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="31" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="32" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="33" name="Reference">
+            <choices uniqueId="34" name="Activity">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.0"/>
+            </choices>
+            <choices uniqueId="35" name="ActivityPartition">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.1"/>
+            </choices>
+            <choices uniqueId="36" name="OpaqueAction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.2"/>
+            </choices>
+            <choices uniqueId="37" name="InitialNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.3"/>
+            </choices>
+            <choices uniqueId="38" name="ControlFlow">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.4"/>
+            </choices>
+            <choices uniqueId="39" name="ExecutableNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.5"/>
+            </choices>
+            <choices uniqueId="40" name="ObjectNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.6"/>
+            </choices>
+            <choices uniqueId="41" name="NamedElement">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.7"/>
+            </choices>
+            <choices uniqueId="42" name="ActivityNode">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.8"/>
+            </choices>
+            <choices uniqueId="43" name="AcceptEventAction">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.9"/>
+            </choices>
+            <choices uniqueId="44" name="u1">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.10"/>
+            </choices>
+            <choices uniqueId="45" name="u2">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.11"/>
+            </choices>
+            <choices uniqueId="46" name="TimeEvent">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.12"/>
+            </choices>
+            <choices uniqueId="47" name="u3">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.13"/>
+            </choices>
+            <choices uniqueId="48" name="u4">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.14"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="49" name="ControlFlow::target">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.4/@feats.1"/>
+      <kind uniqueId="50" name="ControlFlow.target" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="51" name="AttOrReferenceExclusiveChoice-target">
+          <attributeChoice uniqueId="52" name="Attribute">
+            <choices uniqueId="53" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="54" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="55" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="56" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="57" name="Reference">
+            <choices uniqueId="58" name="Activity">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.0"/>
+            </choices>
+            <choices uniqueId="59" name="ActivityPartition">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.1"/>
+            </choices>
+            <choices uniqueId="60" name="OpaqueAction">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.2"/>
+            </choices>
+            <choices uniqueId="61" name="InitialNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.3"/>
+            </choices>
+            <choices uniqueId="62" name="ControlFlow">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.4"/>
+            </choices>
+            <choices uniqueId="63" name="ExecutableNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.5"/>
+            </choices>
+            <choices uniqueId="64" name="ObjectNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.6"/>
+            </choices>
+            <choices uniqueId="65" name="NamedElement">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.7"/>
+            </choices>
+            <choices uniqueId="66" name="ActivityNode">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.8"/>
+            </choices>
+            <choices uniqueId="67" name="AcceptEventAction">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.9"/>
+            </choices>
+            <choices uniqueId="68" name="u1">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.10"/>
+            </choices>
+            <choices uniqueId="69" name="u2">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.11"/>
+            </choices>
+            <choices uniqueId="70" name="TimeEvent">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.12"/>
+            </choices>
+            <choices uniqueId="71" name="u3">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.13"/>
+            </choices>
+            <choices uniqueId="72" name="u4">
+              <klass href="_sourceDRM.mm_uncertainty#//@classes.14"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="73" name="NamedElement::name">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.7/@feats.0"/>
+      <kind uniqueId="74" name="NamedElement.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="75" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="76" name="Attribute">
+            <choices uniqueId="77" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="78" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="79" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="80" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="81" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="82" name="Activity::partition">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.0/@feats.0"/>
+      <kind uniqueId="83" name="Activity.partition" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="84" name="AttOrReferenceExclusiveChoice-partition">
+          <attributeChoice uniqueId="85" name="Attribute">
+            <choices uniqueId="86" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="87" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="88" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="89" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="90" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="91" name="ActivityPartition::subpartition">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.1/@feats.0"/>
+      <kind uniqueId="92" name="ActivityPartition.subpartition" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="93" name="AttOrReferenceExclusiveChoice-subpartition">
+          <attributeChoice uniqueId="94" name="Attribute">
+            <choices uniqueId="95" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="96" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="97" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="98" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="99" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="100" name="u1::source">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.10/@feats.0"/>
+      <kind uniqueId="101" name="u1.source" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="102" name="AttOrReferenceExclusiveChoice-source">
+          <attributeChoice uniqueId="103" name="Attribute">
+            <choices uniqueId="104" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="105" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="106" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="107" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="108" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="109" name="u2::source">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.11/@feats.0"/>
+      <kind uniqueId="110" name="u2.source" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="111" name="AttOrReferenceExclusiveChoice-source">
+          <attributeChoice uniqueId="112" name="Attribute">
+            <choices uniqueId="113" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="114" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="115" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="116" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="117" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="118" name="u3::event">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.13/@feats.0"/>
+      <kind uniqueId="119" name="u3.event" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="120" name="AttOrReferenceExclusiveChoice-event">
+          <attributeChoice uniqueId="121" name="Attribute">
+            <choices uniqueId="122" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="123" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="124" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="125" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="126" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="127" name="u4::event">
+      <feature href="_sourceDRM.mm_uncertainty#//@classes.14/@feats.0"/>
+      <kind uniqueId="128" name="u4.event" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="129" name="AttOrReferenceExclusiveChoice-event">
+          <attributeChoice uniqueId="130" name="Attribute">
+            <choices uniqueId="131" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="132" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="133" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="134" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="135" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="136" name="Target">
+    <features uniqueId="137" name="BpmnDiagram::name">
+      <feature href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.0/@feats.0"/>
+      <kind uniqueId="138" name="BpmnDiagram.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="139" name="BpmnDiagram::pools">
+      <feature href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.0/@feats.1"/>
+      <kind uniqueId="140" name="BpmnDiagram.pools" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="141" name="AttOrReferenceExclusiveChoice-pools">
+          <attributeChoice uniqueId="142" name="Attribute">
+            <choices uniqueId="143" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="144" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="145" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="146" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="147" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="148" name="BpmnDiagram::artifacts">
+      <feature href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.0/@feats.2"/>
+      <kind uniqueId="149" name="BpmnDiagram.artifacts" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="150" name="AttOrReferenceExclusiveChoice-artifacts">
+          <attributeChoice uniqueId="151" name="Attribute">
+            <choices uniqueId="152" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="153" name="Integer">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="154" name="Real">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="155" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="156" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="157" name="Lane::activities">
+      <feature href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.2/@feats.0"/>
+      <kind uniqueId="158" name="Lane.activities" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="159" name="AttOrReferenceExclusiveChoice-activities">
+          <attributeChoice uniqueId="160" name="Attribute">
+            <choices uniqueId="161" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="162" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="163" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="164" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="165" name="Reference">
+            <choices uniqueId="166" name="BpmnDiagram">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.0"/>
+            </choices>
+            <choices uniqueId="167" name="Pool">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.1"/>
+            </choices>
+            <choices uniqueId="168" name="Lane">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.2"/>
+            </choices>
+            <choices uniqueId="169" name="Activity">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.3"/>
+            </choices>
+            <choices uniqueId="170" name="SequenceEdge">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.4"/>
+            </choices>
+            <choices uniqueId="171" name="Artifact">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="172" name="SequenceEdge::source">
+      <feature href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.4/@feats.0"/>
+      <kind uniqueId="173" name="SequenceEdge.source" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="174" name="AttOrReferenceExclusiveChoice-source">
+          <attributeChoice uniqueId="175" name="Attribute">
+            <choices uniqueId="176" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="177" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="178" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="179" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="180" name="Reference">
+            <choices uniqueId="181" name="BpmnDiagram">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.0"/>
+            </choices>
+            <choices uniqueId="182" name="Pool">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.1"/>
+            </choices>
+            <choices uniqueId="183" name="Lane">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.2"/>
+            </choices>
+            <choices uniqueId="184" name="Activity">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.3"/>
+            </choices>
+            <choices uniqueId="185" name="SequenceEdge">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.4"/>
+            </choices>
+            <choices uniqueId="186" name="Artifact">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="187" name="SequenceEdge::target">
+      <feature href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.4/@feats.1"/>
+      <kind uniqueId="188" name="SequenceEdge.target" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="189" name="AttOrReferenceExclusiveChoice-target">
+          <attributeChoice uniqueId="190" name="Attribute">
+            <choices uniqueId="191" name="String">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="192" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="193" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="194" name="Boolean">
+              <datatype_ href="_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="195" name="Reference">
+            <choices uniqueId="196" name="BpmnDiagram">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.0"/>
+            </choices>
+            <choices uniqueId="197" name="Pool">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.1"/>
+            </choices>
+            <choices uniqueId="198" name="Lane">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.2"/>
+            </choices>
+            <choices uniqueId="199" name="Activity">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.3"/>
+            </choices>
+            <choices uniqueId="200" name="SequenceEdge">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.4"/>
+            </choices>
+            <choices uniqueId="201" name="Artifact">
+              <klass href="UML2Intalio_correct_targetDRM.mm_uncertainty#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

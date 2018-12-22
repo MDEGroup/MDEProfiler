@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Ant2Maven">
+  <nodes name="Ant2Maven.atl" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/Ant2Maven.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Ant.atl" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/XML2Ant.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Maven2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/Maven2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant.km3" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/MM/Ant.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MavenMaven.km3" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/MM/MavenMaven.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MavenProject.km3" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/MM/MavenProject.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="project.xml" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/example/project.xml"/>
+  <nodes name="maven.xml" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/example/maven.xml"/>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/example/build.xml"/>
+  <nodes name="Maven2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/Maven2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/XML2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/XML2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Ant_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Ant2Maven/Ant2Maven/transfo/XML2Ant_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.10" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.3" target="//@nodes.11" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.12" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.1" target="//@nodes.13" exact="true"/>
+</graph:Graph>

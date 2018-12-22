@@ -1,0 +1,2903 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Model::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="2" name="Model.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="13" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="14" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="15" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="16" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="17" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="18" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="19" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="20" name="Model::visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="21" name="Model.visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="22" name="AttOrReferenceExclusiveChoice-visibility">
+          <attributeChoice uniqueId="23" name="Attribute">
+            <choices uniqueId="24" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="25" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="26" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="27" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="28" name="Reference">
+            <choices uniqueId="29" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="30" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="31" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="32" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="33" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="34" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="35" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="36" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="37" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="38" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="39" name="Model::packageableElement_visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="40" name="Model.packageableElement_visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="41" name="AttOrReferenceExclusiveChoice-packageableElement_visibility">
+          <attributeChoice uniqueId="42" name="Attribute">
+            <choices uniqueId="43" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="44" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="45" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="46" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="47" name="Reference">
+            <choices uniqueId="48" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="49" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="50" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="51" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="52" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="53" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="54" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="55" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="56" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="57" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="58" name="Model::ownedMember">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="59" name="Model.ownedMember" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="60" name="AttOrReferenceExclusiveChoice-ownedMember">
+          <attributeChoice uniqueId="61" name="Attribute">
+            <choices uniqueId="62" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="63" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="64" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="65" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="66" name="Reference">
+            <choices uniqueId="67" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="68" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="69" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="70" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="71" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="72" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="73" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="74" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="75" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="76" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="77" name="Class::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="78" name="Class.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="79" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="80" name="Attribute">
+            <choices uniqueId="81" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="82" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="83" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="84" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="85" name="Reference">
+            <choices uniqueId="86" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="87" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="88" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="89" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="90" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="91" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="92" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="93" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="94" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="95" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="96" name="Class::visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="97" name="Class.visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="98" name="AttOrReferenceExclusiveChoice-visibility">
+          <attributeChoice uniqueId="99" name="Attribute">
+            <choices uniqueId="100" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="101" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="102" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="103" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="104" name="Reference">
+            <choices uniqueId="105" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="106" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="107" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="108" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="109" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="110" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="111" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="112" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="113" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="114" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="115" name="Class::packageableElement_visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.2"/>
+      <kind uniqueId="116" name="Class.packageableElement_visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="117" name="AttOrReferenceExclusiveChoice-packageableElement_visibility">
+          <attributeChoice uniqueId="118" name="Attribute">
+            <choices uniqueId="119" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="120" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="121" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="122" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="123" name="Reference">
+            <choices uniqueId="124" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="125" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="126" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="127" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="128" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="129" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="130" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="131" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="132" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="133" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="134" name="Class::isAbstract">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.3"/>
+      <kind uniqueId="135" name="Class.isAbstract" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="136" name="AttOrReferenceExclusiveChoice-isAbstract">
+          <attributeChoice uniqueId="137" name="Attribute">
+            <choices uniqueId="138" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="139" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="140" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="141" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="142" name="Reference">
+            <choices uniqueId="143" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="144" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="145" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="146" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="147" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="148" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="149" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="150" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="151" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="152" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="153" name="Class::isLeaf">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.4"/>
+      <kind uniqueId="154" name="Class.isLeaf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="155" name="AttOrReferenceExclusiveChoice-isLeaf">
+          <attributeChoice uniqueId="156" name="Attribute">
+            <choices uniqueId="157" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="158" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="159" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="160" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="161" name="Reference">
+            <choices uniqueId="162" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="163" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="164" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="165" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="166" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="167" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="168" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="169" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="170" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="171" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="172" name="Class::isActive">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.5"/>
+      <kind uniqueId="173" name="Class.isActive" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="174" name="AttOrReferenceExclusiveChoice-isActive">
+          <attributeChoice uniqueId="175" name="Attribute">
+            <choices uniqueId="176" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="177" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="178" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="179" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="180" name="Reference">
+            <choices uniqueId="181" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="182" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="183" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="184" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="185" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="186" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="187" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="188" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="189" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="190" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="191" name="Property::isDerived">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="192" name="Property.isDerived" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="193" name="AttOrReferenceExclusiveChoice-isDerived">
+          <attributeChoice uniqueId="194" name="Attribute">
+            <choices uniqueId="195" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="196" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="197" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="198" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="199" name="Reference">
+            <choices uniqueId="200" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="201" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="202" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="203" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="204" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="205" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="206" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="207" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="208" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="209" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="210" name="Property::isDerivedUnion">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="211" name="Property.isDerivedUnion" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="212" name="AttOrReferenceExclusiveChoice-isDerivedUnion">
+          <attributeChoice uniqueId="213" name="Attribute">
+            <choices uniqueId="214" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="215" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="216" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="217" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="218" name="Reference">
+            <choices uniqueId="219" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="220" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="221" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="222" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="223" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="224" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="225" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="226" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="227" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="228" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="229" name="Property::isLeaf">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.2"/>
+      <kind uniqueId="230" name="Property.isLeaf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="231" name="AttOrReferenceExclusiveChoice-isLeaf">
+          <attributeChoice uniqueId="232" name="Attribute">
+            <choices uniqueId="233" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="234" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="235" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="236" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="237" name="Reference">
+            <choices uniqueId="238" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="239" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="240" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="241" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="242" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="243" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="244" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="245" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="246" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="247" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="248" name="Property::isOrdered">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.3"/>
+      <kind uniqueId="249" name="Property.isOrdered" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="250" name="AttOrReferenceExclusiveChoice-isOrdered">
+          <attributeChoice uniqueId="251" name="Attribute">
+            <choices uniqueId="252" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="253" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="254" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="255" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="256" name="Reference">
+            <choices uniqueId="257" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="258" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="259" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="260" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="261" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="262" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="263" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="264" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="265" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="266" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="267" name="Property::isReadOnly">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.4"/>
+      <kind uniqueId="268" name="Property.isReadOnly" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="269" name="AttOrReferenceExclusiveChoice-isReadOnly">
+          <attributeChoice uniqueId="270" name="Attribute">
+            <choices uniqueId="271" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="272" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="273" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="274" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="275" name="Reference">
+            <choices uniqueId="276" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="277" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="278" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="279" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="280" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="281" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="282" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="283" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="284" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="285" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="286" name="Property::isStatic">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.5"/>
+      <kind uniqueId="287" name="Property.isStatic" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="288" name="AttOrReferenceExclusiveChoice-isStatic">
+          <attributeChoice uniqueId="289" name="Attribute">
+            <choices uniqueId="290" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="291" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="292" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="293" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="294" name="Reference">
+            <choices uniqueId="295" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="296" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="297" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="298" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="299" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="300" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.16/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="301" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="302" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="303" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="304" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="305" name="Property::isUnique">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.6"/>
+      <kind uniqueId="306" name="Property.isUnique" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="307" name="AttOrReferenceExclusiveChoice-isUnique">
+          <attributeChoice uniqueId="308" name="Attribute">
+            <choices uniqueId="309" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="310" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="311" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="312" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="313" name="Reference">
+            <choices uniqueId="314" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="315" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="316" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="317" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="318" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="319" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.17/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="320" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="321" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="322" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="323" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="324" name="Property::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.7"/>
+      <kind uniqueId="325" name="Property.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="326" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="327" name="Attribute">
+            <choices uniqueId="328" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="329" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.18/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="330" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="331" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="332" name="Reference">
+            <choices uniqueId="333" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="334" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="335" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="336" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="337" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="338" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.18/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="339" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="340" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="341" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="342" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="343" name="Property::visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.8"/>
+      <kind uniqueId="344" name="Property.visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="345" name="AttOrReferenceExclusiveChoice-visibility">
+          <attributeChoice uniqueId="346" name="Attribute">
+            <choices uniqueId="347" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="348" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.19/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="349" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="350" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="351" name="Reference">
+            <choices uniqueId="352" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="353" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="354" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="355" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="356" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="357" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.19/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="358" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="359" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="360" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="361" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="362" name="Property::lowerValue">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.9"/>
+      <kind uniqueId="363" name="Property.lowerValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="364" name="AttOrReferenceExclusiveChoice-lowerValue">
+          <attributeChoice uniqueId="365" name="Attribute">
+            <choices uniqueId="366" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="367" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.20/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="368" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="369" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="370" name="Reference">
+            <choices uniqueId="371" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="372" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="373" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="374" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="375" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="376" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.20/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="377" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="378" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="379" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="380" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="381" name="Property::upperValue">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2/@feats.10"/>
+      <kind uniqueId="382" name="Property.upperValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="383" name="AttOrReferenceExclusiveChoice-upperValue">
+          <attributeChoice uniqueId="384" name="Attribute">
+            <choices uniqueId="385" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="386" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.21/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="387" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="388" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="389" name="Reference">
+            <choices uniqueId="390" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="391" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="392" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="393" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="394" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="395" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.21/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="396" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="397" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="398" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="399" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="400" name="LiteralNull::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="401" name="LiteralNull.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="402" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="403" name="Attribute">
+            <choices uniqueId="404" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="405" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.22/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="406" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="407" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="408" name="Reference">
+            <choices uniqueId="409" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="410" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="411" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="412" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="413" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="414" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.22/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="415" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="416" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="417" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="418" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="419" name="LiteralNull::value">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="420" name="LiteralNull.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="421" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="422" name="Attribute">
+            <choices uniqueId="423" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="424" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.23/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="425" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="426" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="427" name="Reference">
+            <choices uniqueId="428" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="429" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="430" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="431" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="432" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="433" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.23/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="434" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="435" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="436" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="437" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="438" name="LiteralInteger::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="439" name="LiteralInteger.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="440" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="441" name="Attribute">
+            <choices uniqueId="442" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="443" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.24/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="444" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="445" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="446" name="Reference">
+            <choices uniqueId="447" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="448" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="449" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="450" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="451" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="452" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.24/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="453" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="454" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="455" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="456" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="457" name="LiteralInteger::value">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4/@feats.1"/>
+      <kind uniqueId="458" name="LiteralInteger.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="459" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="460" name="Attribute">
+            <choices uniqueId="461" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="462" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.25/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="463" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="464" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="465" name="Reference">
+            <choices uniqueId="466" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="467" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="468" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="469" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="470" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="471" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.25/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="472" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="473" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="474" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="475" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="476" name="LiteralUnlimitedNatural::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="477" name="LiteralUnlimitedNatural.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="478" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="479" name="Attribute">
+            <choices uniqueId="480" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="481" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.26/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="482" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="483" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="484" name="Reference">
+            <choices uniqueId="485" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="486" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="487" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="488" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="489" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="490" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.26/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="491" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="492" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="493" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="494" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="495" name="LiteralUnlimitedNatural::value">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5/@feats.1"/>
+      <kind uniqueId="496" name="LiteralUnlimitedNatural.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="497" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="498" name="Attribute">
+            <choices uniqueId="499" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="500" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.27/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="501" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="502" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="503" name="Reference">
+            <choices uniqueId="504" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="505" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="506" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="507" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="508" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="509" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.27/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="510" name="Association">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="511" name="a">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="512" name="u177">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="513" name="Properties">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="514" name="Association::endType">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="515" name="Association.endType" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="516" name="AttOrReferenceExclusiveChoice-endType">
+          <attributeChoice uniqueId="517" name="Attribute">
+            <choices uniqueId="518" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="519" name="Integer">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="520" name="Real">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="521" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="522" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="523" name="u177::type">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.8/@feats.0"/>
+      <kind uniqueId="524" name="u177.type" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="525" name="AttOrReferenceExclusiveChoice-type">
+          <attributeChoice uniqueId="526" name="Attribute">
+            <choices uniqueId="527" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="528" name="Integer">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="529" name="Real">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="530" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="531" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="532" name="Class::ownedAttribute">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@classes.1/@feats.6"/>
+      <kind uniqueId="533" name="Class.ownedAttribute" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="534" name="AttOrReferenceExclusiveChoice-ownedAttribute">
+          <attributeChoice uniqueId="535" name="Attribute">
+            <choices uniqueId="536" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="537" name="Integer">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="538" name="Real">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="539" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="540" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="541" name="Target">
+    <features uniqueId="542" name="Model::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="543" name="Model.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="544" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="545" name="Attribute">
+            <choices uniqueId="546" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="547" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="548" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="549" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="550" name="Reference">
+            <choices uniqueId="551" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="552" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="553" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="554" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="555" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="556" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="557" name="Model::visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="558" name="Model.visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="559" name="AttOrReferenceExclusiveChoice-visibility">
+          <attributeChoice uniqueId="560" name="Attribute">
+            <choices uniqueId="561" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="562" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="563" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="564" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="565" name="Reference">
+            <choices uniqueId="566" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="567" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="568" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="569" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="570" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="571" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="572" name="Model::packageableElement_visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="573" name="Model.packageableElement_visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="574" name="AttOrReferenceExclusiveChoice-packageableElement_visibility">
+          <attributeChoice uniqueId="575" name="Attribute">
+            <choices uniqueId="576" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="577" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="578" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="579" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="580" name="Reference">
+            <choices uniqueId="581" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="582" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="583" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="584" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="585" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="586" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="587" name="Model::ownedMember">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="588" name="Model.ownedMember" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="589" name="AttOrReferenceExclusiveChoice-ownedMember">
+          <attributeChoice uniqueId="590" name="Attribute">
+            <choices uniqueId="591" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="592" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="593" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="594" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="595" name="Reference">
+            <choices uniqueId="596" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="597" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="598" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="599" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="600" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="601" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="602" name="Class::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="603" name="Class.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="604" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="605" name="Attribute">
+            <choices uniqueId="606" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="607" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="608" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="609" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="610" name="Reference">
+            <choices uniqueId="611" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="612" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="613" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="614" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="615" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="616" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="617" name="Class::visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="618" name="Class.visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="619" name="AttOrReferenceExclusiveChoice-visibility">
+          <attributeChoice uniqueId="620" name="Attribute">
+            <choices uniqueId="621" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="622" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="623" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="624" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="625" name="Reference">
+            <choices uniqueId="626" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="627" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="628" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="629" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="630" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="631" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="632" name="Class::packageableElement_visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.2"/>
+      <kind uniqueId="633" name="Class.packageableElement_visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="634" name="AttOrReferenceExclusiveChoice-packageableElement_visibility">
+          <attributeChoice uniqueId="635" name="Attribute">
+            <choices uniqueId="636" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="637" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="638" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="639" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="640" name="Reference">
+            <choices uniqueId="641" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="642" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="643" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="644" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="645" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="646" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="647" name="Class::isAbstract">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.3"/>
+      <kind uniqueId="648" name="Class.isAbstract" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="649" name="AttOrReferenceExclusiveChoice-isAbstract">
+          <attributeChoice uniqueId="650" name="Attribute">
+            <choices uniqueId="651" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="652" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="653" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="654" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="655" name="Reference">
+            <choices uniqueId="656" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="657" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="658" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="659" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="660" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="661" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="662" name="Class::isLeaf">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.4"/>
+      <kind uniqueId="663" name="Class.isLeaf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="664" name="AttOrReferenceExclusiveChoice-isLeaf">
+          <attributeChoice uniqueId="665" name="Attribute">
+            <choices uniqueId="666" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="667" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="668" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="669" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="670" name="Reference">
+            <choices uniqueId="671" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="672" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="673" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="674" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="675" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="676" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="677" name="Class::isActive">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.5"/>
+      <kind uniqueId="678" name="Class.isActive" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="679" name="AttOrReferenceExclusiveChoice-isActive">
+          <attributeChoice uniqueId="680" name="Attribute">
+            <choices uniqueId="681" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="682" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="683" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="684" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="685" name="Reference">
+            <choices uniqueId="686" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="687" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="688" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="689" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="690" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="691" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="692" name="Class::ownedAttribute">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1/@feats.6"/>
+      <kind uniqueId="693" name="Class.ownedAttribute" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="694" name="AttOrReferenceExclusiveChoice-ownedAttribute">
+          <attributeChoice uniqueId="695" name="Attribute">
+            <choices uniqueId="696" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="697" name="Integer">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="698" name="Real">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="699" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="700" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="701" name="Property::isDerived">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="702" name="Property.isDerived" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="703" name="AttOrReferenceExclusiveChoice-isDerived">
+          <attributeChoice uniqueId="704" name="Attribute">
+            <choices uniqueId="705" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="706" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="707" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="708" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="709" name="Reference">
+            <choices uniqueId="710" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="711" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="712" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="713" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="714" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="715" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="716" name="Property::isDerivedUnion">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="717" name="Property.isDerivedUnion" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="718" name="AttOrReferenceExclusiveChoice-isDerivedUnion">
+          <attributeChoice uniqueId="719" name="Attribute">
+            <choices uniqueId="720" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="721" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="722" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="723" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="724" name="Reference">
+            <choices uniqueId="725" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="726" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="727" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="728" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="729" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="730" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="731" name="Property::isLeaf">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.2"/>
+      <kind uniqueId="732" name="Property.isLeaf" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="733" name="AttOrReferenceExclusiveChoice-isLeaf">
+          <attributeChoice uniqueId="734" name="Attribute">
+            <choices uniqueId="735" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="736" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="737" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="738" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="739" name="Reference">
+            <choices uniqueId="740" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="741" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="742" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="743" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="744" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="745" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="746" name="Property::isOrdered">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.3"/>
+      <kind uniqueId="747" name="Property.isOrdered" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="748" name="AttOrReferenceExclusiveChoice-isOrdered">
+          <attributeChoice uniqueId="749" name="Attribute">
+            <choices uniqueId="750" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="751" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="752" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="753" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="754" name="Reference">
+            <choices uniqueId="755" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="756" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="757" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="758" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="759" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="760" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="761" name="Property::isReadOnly">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.4"/>
+      <kind uniqueId="762" name="Property.isReadOnly" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="763" name="AttOrReferenceExclusiveChoice-isReadOnly">
+          <attributeChoice uniqueId="764" name="Attribute">
+            <choices uniqueId="765" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="766" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="767" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="768" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="769" name="Reference">
+            <choices uniqueId="770" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="771" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="772" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="773" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="774" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="775" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="776" name="Property::isStatic">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.5"/>
+      <kind uniqueId="777" name="Property.isStatic" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="778" name="AttOrReferenceExclusiveChoice-isStatic">
+          <attributeChoice uniqueId="779" name="Attribute">
+            <choices uniqueId="780" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="781" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="782" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="783" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="784" name="Reference">
+            <choices uniqueId="785" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="786" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="787" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="788" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="789" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="790" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="791" name="Property::isUnique">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.6"/>
+      <kind uniqueId="792" name="Property.isUnique" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="793" name="AttOrReferenceExclusiveChoice-isUnique">
+          <attributeChoice uniqueId="794" name="Attribute">
+            <choices uniqueId="795" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="796" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="797" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="798" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="799" name="Reference">
+            <choices uniqueId="800" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="801" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="802" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="803" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="804" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="805" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="806" name="Property::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.7"/>
+      <kind uniqueId="807" name="Property.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="808" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="809" name="Attribute">
+            <choices uniqueId="810" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="811" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="812" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="813" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="814" name="Reference">
+            <choices uniqueId="815" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="816" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="817" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="818" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="819" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="820" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="821" name="Property::visibility">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.8"/>
+      <kind uniqueId="822" name="Property.visibility" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="823" name="AttOrReferenceExclusiveChoice-visibility">
+          <attributeChoice uniqueId="824" name="Attribute">
+            <choices uniqueId="825" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="826" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.18/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="827" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.18/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.18/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="828" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="829" name="Reference">
+            <choices uniqueId="830" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="831" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="832" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="833" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="834" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="835" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="836" name="Property::lowerValue">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.9"/>
+      <kind uniqueId="837" name="Property.lowerValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="838" name="AttOrReferenceExclusiveChoice-lowerValue">
+          <attributeChoice uniqueId="839" name="Attribute">
+            <choices uniqueId="840" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="841" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.19/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="842" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.19/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.19/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="843" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="844" name="Reference">
+            <choices uniqueId="845" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="846" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="847" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="848" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="849" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="850" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="851" name="Property::upperValue">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2/@feats.10"/>
+      <kind uniqueId="852" name="Property.upperValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="853" name="AttOrReferenceExclusiveChoice-upperValue">
+          <attributeChoice uniqueId="854" name="Attribute">
+            <choices uniqueId="855" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="856" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.20/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="857" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.20/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.20/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="858" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="859" name="Reference">
+            <choices uniqueId="860" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="861" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="862" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="863" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="864" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="865" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="866" name="LiteralNull::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="867" name="LiteralNull.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="868" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="869" name="Attribute">
+            <choices uniqueId="870" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="871" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.21/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="872" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.21/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.21/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="873" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="874" name="Reference">
+            <choices uniqueId="875" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="876" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="877" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="878" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="879" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="880" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="881" name="LiteralNull::value">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="882" name="LiteralNull.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="883" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="884" name="Attribute">
+            <choices uniqueId="885" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="886" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.22/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="887" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.22/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.22/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="888" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="889" name="Reference">
+            <choices uniqueId="890" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="891" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="892" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="893" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="894" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="895" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="896" name="LiteralInteger::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="897" name="LiteralInteger.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="898" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="899" name="Attribute">
+            <choices uniqueId="900" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="901" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.23/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="902" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.23/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.23/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="903" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="904" name="Reference">
+            <choices uniqueId="905" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="906" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="907" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="908" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="909" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="910" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="911" name="LiteralInteger::value">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4/@feats.1"/>
+      <kind uniqueId="912" name="LiteralInteger.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="913" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="914" name="Attribute">
+            <choices uniqueId="915" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="916" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.24/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="917" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.24/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.24/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="918" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="919" name="Reference">
+            <choices uniqueId="920" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="921" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="922" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="923" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="924" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="925" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="926" name="LiteralUnlimitedNatural::name">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="927" name="LiteralUnlimitedNatural.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="928" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="929" name="Attribute">
+            <choices uniqueId="930" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="931" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.25/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="932" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.25/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.25/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="933" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="934" name="Reference">
+            <choices uniqueId="935" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="936" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="937" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="938" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="939" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="940" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="941" name="LiteralUnlimitedNatural::value">
+      <feature href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5/@feats.1"/>
+      <kind uniqueId="942" name="LiteralUnlimitedNatural.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="943" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="944" name="Attribute">
+            <choices uniqueId="945" name="String">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="946" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.26/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="947" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.26/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.26/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="948" name="Boolean">
+              <datatype_ href="equivalenceOfAttributeAndAssociations.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="949" name="Reference">
+            <choices uniqueId="950" name="Model">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="951" name="Class">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="952" name="Property">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="953" name="LiteralNull">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="954" name="LiteralInteger">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="955" name="LiteralUnlimitedNatural">
+              <klass href="equivalenceOfAttributeAndAssociations.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

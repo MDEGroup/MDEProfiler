@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2Amble">
+  <nodes name="sem-amble.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/sem-amble.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Amble.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/Amble.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UML2Amble.atl" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/UML2Amble.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Amble.km3" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/Amble.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="UML2Amble_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/UML2Amble_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="UML2Amble_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/UML2Amble_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.4" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.2" target="//@nodes.5" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.3" target="//@nodes.1"/>
+</graph:Graph>

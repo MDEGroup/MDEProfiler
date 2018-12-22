@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Cell::content">
+      <feature href="TableHelpers.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="2" name="Cell.content" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="3" name="u41::content">
+      <feature href="TableHelpers.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="4" name="u41.content" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="5" name="AttOrReferenceExclusiveChoice-content">
+          <attributeChoice uniqueId="6" name="Attribute">
+            <choices uniqueId="7" name="String">
+              <datatype_ href="TableHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="8" name="Integer">
+              <datatype_ href="TableHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="9" name="Real">
+              <datatype_ href="TableHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="10" name="Boolean">
+              <datatype_ href="TableHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="11" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="12" name="Target"/>
+</VariabilityFM:VariabilityModel>

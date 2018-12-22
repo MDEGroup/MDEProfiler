@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/METAH2ACME">
+  <nodes name="example-ACME.ecore" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-ACME.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-METAH.ecore" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-METAH.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

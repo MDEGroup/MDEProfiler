@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2Amble">
+  <nodes name="sem-amble.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/sem-amble.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Amble.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2Amble/Uml2Amble/Amble.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

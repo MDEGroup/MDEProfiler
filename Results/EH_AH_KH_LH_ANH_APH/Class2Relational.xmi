@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Class2Relational">
+  <nodes name="outClassXMI.ecore" uri="/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Class/outClassXMI.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Class2Relational.atl" uri="/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ECore2Class.atl" uri="/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Sample.km3" uri="/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Sample.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Relational.km3" uri="/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Relational/Relational.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Class.km3" uri="/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Class/Class.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

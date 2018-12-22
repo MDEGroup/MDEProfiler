@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u50::isContainer">
+      <feature href="FLAME4KM3.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="2" name="u50.isContainer" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-isContainer">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="Class::supertypes">
+      <feature href="FLAME4KM3.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="11" name="Class.supertypes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="12" name="AttOrReferenceExclusiveChoice-supertypes">
+          <attributeChoice uniqueId="13" name="Attribute">
+            <choices uniqueId="14" name="String">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="15" name="Integer">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="16" name="Real">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="17" name="Boolean">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="18" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="19" name="Package::contents">
+      <feature href="FLAME4KM3.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="20" name="Package.contents" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="21" name="AttOrReferenceExclusiveChoice-contents">
+          <attributeChoice uniqueId="22" name="Attribute">
+            <choices uniqueId="23" name="String">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="24" name="Integer">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="25" name="Real">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="26" name="Boolean">
+              <datatype_ href="FLAME4KM3.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="27" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="28" name="Target"/>
+</VariabilityFM:VariabilityModel>

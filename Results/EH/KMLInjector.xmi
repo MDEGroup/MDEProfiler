@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KMLInjector">
+  <nodes name="KML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/KML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/InputModels/example-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/OutputModels/example-KML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

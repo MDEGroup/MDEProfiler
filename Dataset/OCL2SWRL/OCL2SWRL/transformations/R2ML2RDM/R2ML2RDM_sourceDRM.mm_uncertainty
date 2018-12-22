@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="Implication" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="antecedent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.32"/>
+    </feats>
+    <feats name="consequent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.33"/>
+    </feats>
+  </classes>
+  <classes name="LogicalFormula" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+    <feats name="subject">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="object">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ReferencePropertyAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="subject">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="object">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ReferenceProperty" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ObjectVariable" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="classRef">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="DataVariable" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Conjuction" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="Disjunction" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.54"/>
+    </feats>
+  </classes>
+  <classes name="StrongNegation" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.52"/>
+    </feats>
+  </classes>
+  <classes name="ObjectName" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ObjectClassificationAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="term">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="isNegated">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Class" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="ExistentiallyQuantifiedFormula" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.59"/>
+    </feats>
+  </classes>
+  <classes name="UniversallyQuantifiedFormula" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.62"/>
+    </feats>
+  </classes>
+  <classes name="AtLeastQuantifiedFormula" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.64"/>
+    </feats>
+    <feats name="minCardinality">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="AtMostQuantifiedFormula" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.65"/>
+    </feats>
+    <feats name="maxCardinality">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="AtLeastAndAtMostQuantifiedFormula" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.66"/>
+    </feats>
+    <feats name="maxCardinality">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="minCardinality">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="DataClassificationAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="term">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Datatype" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="PlainLiteral" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="languageTag">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="lexicalValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="TypedLiteral" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.69"/>
+    </feats>
+    <feats name="lexicalValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="DatatypePredicateAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="dataArguments">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+    <feats name="predicate">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Attribute" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="AttributionAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="dataValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="subject">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="EqualityAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="terms">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="InequalityAtom" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="terms">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="DatatypePredicate" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="AttributeFunctionTerm" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="contextArgument">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.84"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.85"/>
+    </feats>
+  </classes>
+  <classes name="ReferencePropertyFunctionTerm" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="contextArgument">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.45"/>
+    </feats>
+    <feats name="referencePropertyRef">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.46"/>
+    </feats>
+    <feats name="contextVariable">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.81"/>
+    </feats>
+  </classes>
+  <classes name="DataOperationTerm" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="contextArgument">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.82"/>
+    </feats>
+    <feats name="dataOperationRef">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.83"/>
+    </feats>
+  </classes>
+  <classes name="DataOperation" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="Variable" mandatoryAllowed="true" subsAllowed="true"/>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1254" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1255" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1256" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="AlethicIntegrityRule" mandatoryAllowed="true" subsAllowed="true"/>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1257" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="constraint">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1258" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1259" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="antecedent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1260" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1261" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1262" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1263" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1264" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formula">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="DataLiteral" mandatoryAllowed="true" subsAllowed="true"/>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1265" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1266" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="DatatypePrediacateAtom" mandatoryAllowed="true" subsAllowed="true"/>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1267" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1268" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1269" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1270" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1271" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1272" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1273" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="terms">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1274" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1275" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="terms">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1276" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1277" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1278" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+    <feats name="antecedent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1279" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1280" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1281" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="antecedent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.63"/>
+    </feats>
+    <feats name="consequent">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1282" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1283" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="subject">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="dataValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1284" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="subject">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="dataValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1285" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="referenceProperty">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="subject">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+    <feats name="dataValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1286" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="dataArguments">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1287" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="dataArguments">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1288" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1289" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1290" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="languageTag">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1291" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="lexicalValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1292" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1293" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="type">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Reference" target="//@classes.75"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1294" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1295" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="lexicalValue">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1296" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1297" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="attribute">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1298" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1299" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="formulas">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1300" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1301" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1302" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1303" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <hasType xsi:type="MM_uncertainty:Attribute" type="//@dataType.0 //@dataType.2 //@dataType.1"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u1304" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

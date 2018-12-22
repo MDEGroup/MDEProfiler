@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Module::name">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="2" name="Module.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="13" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="14" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="15" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="16" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="17" name="Module::libraries">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="18" name="Module.libraries" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="19" name="AttOrReferenceExclusiveChoice-libraries">
+          <attributeChoice uniqueId="20" name="Attribute">
+            <choices uniqueId="21" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="22" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="23" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="24" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="25" name="Reference">
+            <choices uniqueId="26" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="27" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="28" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="29" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="30" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="31" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="32" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="33" name="Module::isRefining">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="34" name="Module.isRefining" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="35" name="AttOrReferenceExclusiveChoice-isRefining">
+          <attributeChoice uniqueId="36" name="Attribute">
+            <choices uniqueId="37" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="38" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="39" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="40" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="41" name="Reference">
+            <choices uniqueId="42" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="43" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="44" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="45" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="46" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="47" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="48" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="49" name="Module::inModels">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="50" name="Module.inModels" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="51" name="AttOrReferenceExclusiveChoice-inModels">
+          <attributeChoice uniqueId="52" name="Attribute">
+            <choices uniqueId="53" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="54" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="55" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="56" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="57" name="Reference">
+            <choices uniqueId="58" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="59" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="60" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="61" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="62" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="63" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="64" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="65" name="Module::outModels">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0/@feats.4"/>
+      <kind uniqueId="66" name="Module.outModels" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="67" name="AttOrReferenceExclusiveChoice-outModels">
+          <attributeChoice uniqueId="68" name="Attribute">
+            <choices uniqueId="69" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="70" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="71" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="72" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="73" name="Reference">
+            <choices uniqueId="74" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="75" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="76" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="77" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="78" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="79" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="80" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="81" name="Module::elements">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0/@feats.5"/>
+      <kind uniqueId="82" name="Module.elements" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="83" name="AttOrReferenceExclusiveChoice-elements">
+          <attributeChoice uniqueId="84" name="Attribute">
+            <choices uniqueId="85" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="86" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="87" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="88" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="89" name="Reference">
+            <choices uniqueId="90" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="91" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="92" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="93" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="94" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="95" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="96" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="97" name="Binding::propertyName">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="98" name="Binding.propertyName" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="99" name="Binding::value">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="100" name="Binding.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="101" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="102" name="Attribute">
+            <choices uniqueId="103" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="104" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="105" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="106" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="107" name="Reference">
+            <choices uniqueId="108" name="Module">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="109" name="Binding">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="110" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="111" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="112" name="u43">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="113" name="u44">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="114" name="u45">
+              <klass href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="115" name="u45::name">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="116" name="u45.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="117" name="u43::varName">
+      <feature href="sample-ATL-0.2.atl_sourceDRM.ecore#//@classes.4/@feats.1"/>
+      <kind uniqueId="118" name="u43.varName" nodeKind="COMPULSORY"/>
+    </features>
+  </source>
+  <target uniqueId="119" name="Target">
+    <features uniqueId="120" name="Module::name">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="121" name="Module.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="122" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="123" name="Attribute">
+            <choices uniqueId="124" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="125" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="126" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="127" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="128" name="Reference">
+            <choices uniqueId="129" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="130" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="131" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="132" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="133" name="Module::libraries">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="134" name="Module.libraries" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="135" name="AttOrReferenceExclusiveChoice-libraries">
+          <attributeChoice uniqueId="136" name="Attribute">
+            <choices uniqueId="137" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="138" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="139" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="140" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="141" name="Reference">
+            <choices uniqueId="142" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="143" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="144" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="145" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="146" name="Module::isRefining">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="147" name="Module.isRefining" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="148" name="AttOrReferenceExclusiveChoice-isRefining">
+          <attributeChoice uniqueId="149" name="Attribute">
+            <choices uniqueId="150" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="151" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="152" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="153" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="154" name="Reference">
+            <choices uniqueId="155" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="156" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="157" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="158" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="159" name="Module::inModels">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="160" name="Module.inModels" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="161" name="AttOrReferenceExclusiveChoice-inModels">
+          <attributeChoice uniqueId="162" name="Attribute">
+            <choices uniqueId="163" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="164" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="165" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="166" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="167" name="Reference">
+            <choices uniqueId="168" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="169" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="170" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="171" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="172" name="Module::outModels">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0/@feats.4"/>
+      <kind uniqueId="173" name="Module.outModels" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="174" name="AttOrReferenceExclusiveChoice-outModels">
+          <attributeChoice uniqueId="175" name="Attribute">
+            <choices uniqueId="176" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="177" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="178" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="179" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="180" name="Reference">
+            <choices uniqueId="181" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="182" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="183" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="184" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="185" name="Module::elements">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0/@feats.5"/>
+      <kind uniqueId="186" name="Module.elements" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="187" name="AttOrReferenceExclusiveChoice-elements">
+          <attributeChoice uniqueId="188" name="Attribute">
+            <choices uniqueId="189" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="190" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="191" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="192" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="193" name="Reference">
+            <choices uniqueId="194" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="195" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="196" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="197" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="198" name="Binding::propertyName">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="199" name="Binding.propertyName" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="200" name="AttOrReferenceExclusiveChoice-propertyName">
+          <attributeChoice uniqueId="201" name="Attribute">
+            <choices uniqueId="202" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="203" name="Integer">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="204" name="Real">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="205" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="206" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="207" name="OperationCallExp::source">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="208" name="OperationCallExp.source" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="209" name="AttOrReferenceExclusiveChoice-source">
+          <attributeChoice uniqueId="210" name="Attribute">
+            <choices uniqueId="211" name="String">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="212" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="213" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="214" name="Boolean">
+              <datatype_ href="sample-ATL-0.2.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="215" name="Reference">
+            <choices uniqueId="216" name="Module">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="217" name="Binding">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="218" name="OperationCallExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="219" name="StringExp">
+              <klass href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="220" name="StringExp::stringSymbol">
+      <feature href="sample-ATL-0.2.atl_targetDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="221" name="StringExp.stringSymbol" nodeKind="COMPULSORY"/>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

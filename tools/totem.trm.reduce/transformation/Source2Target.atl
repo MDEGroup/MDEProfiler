@@ -1,0 +1,19 @@
+-- @path TARGET=/doubleAttribute/metamodels/Target.ecore
+-- @path SOURCE=/doubleAttribute/metamodels/Source.ecore
+
+module Source2Target;
+create OUT : TARGET from IN : SOURCE;
+
+helper context Integer def : string1 : Integer = 'name' + self;
+helper context SOURCE!ClassA def : string1 : Integer = self.name;
+
+
+rule Source2Target {
+	from
+		s : SOURCE!Container
+	to
+		t : TARGET!Target (
+			stringName <- s.value.string1,
+			stringName2 <- s.reference.string1
+		)
+}

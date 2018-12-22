@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet">
+  <nodes name="PNML_simplified.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PNML_simplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Grafcet.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/Grafcet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PetriNet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PetriNet2Grafcet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PetriNet2PNML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2PNML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/XML2PNML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PNML2XML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PNML2XML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PNML2PetriNet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PNML2PetriNet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PetriNet2PNML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2PNML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32Problem">
+  <nodes name="Problem.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Problem/KM32Problem/Metamodels/Problem.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Problem/KM32Problem/Metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="test-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Problem/KM32Problem/Models/test-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

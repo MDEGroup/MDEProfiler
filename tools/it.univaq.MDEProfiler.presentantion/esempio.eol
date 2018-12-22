@@ -1,0 +1,328 @@
+var result := 
+  mm!EClass.allInstances().exists(c|c.matches_Metamodel(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_Package(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_Class(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_Attribute(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_DataType(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_Reference(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_Enumeration(Set{}, false, true))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_EnumLiteral(Set{}, false, true))
+;
+
+
+if ( not mm!EClass.allInstances().exists(c|c.matches_Metamodel(Set{}, false, true)) ) {
+"Metamodel".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_Package(Set{}, false, true)) ) {
+"Package".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_Class(Set{}, false, true)) ) {
+"Class".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_Attribute(Set{}, false, true)) ) {
+"Attribute".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_DataType(Set{}, false, true)) ) {
+"DataType".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_Reference(Set{}, false, true)) ) {
+"Reference".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_Enumeration(Set{}, false, true)) ) {
+"Enumeration".println("Cannot find match: ");
+}
+if ( not mm!EClass.allInstances().exists(c|c.matches_EnumLiteral(Set{}, false, true)) ) {
+"EnumLiteral".println("Cannot find match: ");
+}
+
+
+
+operation EClass matches_Metamodel(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'Metamodel' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'location' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'contents' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_Metamodel(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_Package(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'Package' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'contents' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_Package(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_Class(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'Class' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'isAbstract' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'structuralFeatures' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'supertypes' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_Class(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_Attribute(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'Attribute' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'isOrdered' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'isUnique' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'location' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'lower' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'upper' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'type' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'owner' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_Attribute(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_DataType(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'DataType' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'location' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_DataType(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_Reference(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'Reference' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'isOrdered' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'isUnique' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'location' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'lower' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'upper' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'type' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'owner' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'opposite' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_Reference(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_Enumeration(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'Enumeration' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'location' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'package' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_Enumeration(visited, true, false));
+   }
+   
+   return conforms;
+}
+operation EClass matches_EnumLiteral(visited : Set(EClass), ignoreName : Boolean, checkSubclasses : Boolean) : Boolean {
+   var conforms := (self.name = 'EnumLiteral' or ignoreName) 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'location' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'name' 
+                      
+               ) and 
+   self.eAllStructuralFeatures.exists( f | f.name = 'enum' 
+                      
+               )   and true
+
+   and self.eAllSuperTypes->collect(f | f.name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(f | f.name)->excludesAll ( Set{} )
+   ;   
+   
+   // this is a hint for subsAllowed... when it is the source
+ 
+   if ( checkSubclasses and not conforms ) {
+   	  // check subtypes
+   	  var subclasses := EClass.allInstances()->select(c | not c.isAbstract)->select(c | c.eAllSuperTypes->includes(self));
+   	  conforms := self.isAbstract and subclasses.size() > 0 and subclasses->forAll(c | c.matches_EnumLiteral(visited, true, false));
+   }
+   
+   return conforms;
+}
+
+operation EStructuralFeature satMinCardinality(val: Integer, less: Boolean, more: Boolean) : Boolean {
+     if (less) return self.lowerBound <= val;
+     if (more) return self.lowerBound >= val;
+     return self.lowerBound = val;
+}
+
+operation EStructuralFeature satMaxCardinality(val: Integer, less: Boolean, more: Boolean) : Boolean {
+     if (less) return self.upperBound <= val;
+     if (more) return self.upperBound >= val;
+     return self.upperBound = val;
+}
+
+operation EStructuralFeature satMaxCardinalityMany(ordered: Integer, duplicated: Integer) : Boolean {
+     var satisfiedOrdered : Boolean := true;
+     if (ordered=0) satisfiedOrdered := not self.ordered;
+     if (ordered=1) satisfiedOrdered := self.ordered;
+     
+     var satisfiedUnique : Boolean = true;
+     if (duplicated=0) satisfiedUnique := self.unique;
+     if (duplicated=1) satisfiedUnique := not self.unique;
+      
+     return satisfiedOrdered and satisfiedUnique;
+}
+
+operation EAttribute isProcessedOpposite() : Boolean {
+	return false;
+}
+
+operation EReference isProcessedOpposite() : Boolean {
+   if (not self.eOpposite.isDefined()) {
+   	  return false;
+   }
+   else {
+       return Set{ 'location' ,  'contents' ,  'name' ,  'contents' ,  'name' ,  'isAbstract' ,  'structuralFeatures' ,  'supertypes' ,  'name' ,  'isOrdered' ,  'isUnique' ,  'location' ,  'lower' ,  'upper' ,  'type' ,  'owner' ,  'name' ,  'location' ,  'name' ,  'isOrdered' ,  'isUnique' ,  'location' ,  'lower' ,  'upper' ,  'type' ,  'owner' ,  'opposite' ,  'location' ,  'name' ,  'package' ,  'location' ,  'name' ,  'enum' }.contains(self.eOpposite.name);
+       // This is not accurate, as we should test that the reference is actually matched by opposite, not just check the name       
+   }
+}
+

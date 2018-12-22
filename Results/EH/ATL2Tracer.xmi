@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ATL2Tracer">
+  <nodes name="sample-ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Tracer/ATL2Tracer/ATL2Tracer/sample-ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Trace.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Tracer/ATL2Tracer/TracerTest/Trace.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2-Tracer.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Tracer/ATL2Tracer/TracerTest/Input/sample-ATL-0.2-Tracer.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-Trace-OUT.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Tracer/ATL2Tracer/TracerTest/Output/sample-Trace-OUT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2-OUT.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Tracer/ATL2Tracer/TracerTest/Output/sample-ATL-0.2-OUT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

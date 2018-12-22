@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore", label: 'SimpleSBVR.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore", label: 'Syntax.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore", label: 'SimpleUML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl", label: 'SimpleSBVR2SimpleUML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl", label: 'Syntax2SimpleSBVR.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.km3", label: 'SimpleSBVR.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.km3", label: 'Syntax.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.km3", label: 'SimpleUML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML-1.launch", label: 'SimpleSBVR2SimpleUML-1.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR-1.launch", label: 'Syntax2SimpleSBVR-1.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi", label: '/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleUML-1-EachCompanySellsAtLeastOneProduct.xmi", label: '/Syntax-SBVR-UML-usecase/Samples/SimpleUML-1-EachCompanySellsAtLeastOneProduct.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/Syntax-1-EachCompanySellsAtLeastOneProduct.xmi", label: '/Syntax-SBVR-UML-usecase/Samples/Syntax-1-EachCompanySellsAtLeastOneProduct.xmi', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR_targetDRM.mm_uncertainty", label: 'Syntax2SimpleSBVR_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR_sourceDRM.mm_uncertainty", label: 'Syntax2SimpleSBVR_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML_sourceDRM.mm_uncertainty", label: 'SimpleSBVR2SimpleUML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML_targetDRM.mm_uncertainty", label: 'SimpleSBVR2SimpleUML_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleUML-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleUML-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/Syntax-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/Syntax-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax-SBVR-UML-usecase/Samples/SimpleSBVR-1-EachCompanySellsAtLeastOneProduct.xmi", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax2SimpleSBVR_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML.atl", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR2SimpleUML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.km3", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleSBVR/SimpleSBVR.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.km3", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/Syntax/Syntax.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.km3", to: "/home/juri/Dropbox/ATLZoo/Syntax2SBVR2UML/Syntax-SBVR-UML-usecase/SimpleUML/SimpleUML.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

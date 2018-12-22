@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SideEffect">
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v1.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v2.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeB.km3" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TypeA.km3" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SideEffect_2 build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_2 build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect_v1.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_v1.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="SideEffect build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect_v2.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_v2.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="/SideEffect/SampleModels/RootA.xmi" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect/SampleModels/RootA.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/SideEffect/SampleModels/RootB.xmi" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect/SampleModels/RootB.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.1" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.1" exact="true" discoverBy="//@nodes.4" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.0" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.1" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.13" target="//@nodes.0" discoverBy="//@nodes.9"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.2" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.2" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.1" discoverBy="//@nodes.9"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.13" target="//@nodes.0" discoverBy="//@nodes.11"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.3" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.11" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.3" discoverBy="//@nodes.11"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.1" discoverBy="//@nodes.11"/>
+  <edges name="DRM_OUT" source="//@nodes.5" target="//@nodes.15" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.16" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.5" target="//@nodes.17" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.18" exact="true"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.1" discoverBy="//@nodes.15"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.1" discoverBy="//@nodes.18"/>
+</graph:Graph>

@@ -1,0 +1,100 @@
+-- @atlcompiler emftvm
+-- @path HSM=/hsm2fsm/metamodels/HSM.ecore
+-- @path FSM=/hsm2fsm/metamodels/FSM.ecore
+
+
+module HSM2FSM;
+create OUT: FSM from IN: HSM;
+
+rule SM2SM {
+	from
+		sm1: HSM!HSM_StateMachine
+	to
+		sm2: FSM!FSM_StateMachine
+}
+
+rule RS2RS {
+	from
+		rs1: HSM!HSM_RegularState
+	to
+		rs2: FSM!FSM_RegularState (
+			name <- rs1.name,
+			stateMachine <- rs1.stateMachine
+		)
+}
+
+-- Initial states of composite states become regular states in the flattened SM
+rule IS2IS {
+	from
+		is1: HSM!HSM_InitialState (
+			is1.compositeState.oclIsUndefined()
+		)
+	to
+		is2: FSM!FSM_InitialState (
+			stateMachine <- is1.stateMachine,
+			name <- is1.name
+		)
+}
+
+-- Initial states of composite states become regular states in the flattened SM
+rule IS2RS {
+	from
+		is1: HSM!HSM_InitialState (
+			not is1.compositeState.oclIsUndefined()
+		)
+	to
+		is2: FSM!FSM_RegularState (
+			stateMachine <- is1.stateMachine,
+			name <- is1.name
+		)
+}
+
+-- Transitions between two non-composite states are mapped one-to-one
+rule T2TA {
+	from
+		t1: HSM!HSM_Transition (
+			not t1.source.oclIsTypeOf(HSM!HSM_CompositeState) and not t1.target.
+					oclIsTypeOf(HSM!HSM_CompositeState)
+		)
+	to
+		t2: FSM!FSM_Transition (
+			label <- t1.label,
+			stateMachine <- t1.stateMachine,
+			source <- t1.source,
+			target <- t1.target
+		)
+}
+
+-- This rule resolves a transition originating from a composite state
+-- The guard [not (c = src)] is the missing piece to verify
+		-- fsm_transition_src_multi_lower.
+rule T2TB {
+	from t1: HSM!HSM_Transition,
+         src: HSM!HSM_CompositeState, 
+         trg: HSM!HSM_AbstractState,
+         c: HSM!HSM_AbstractState ( t1.source = src and t1.target = trg and c.compositeState
+		= src and not trg.oclIsTypeOf(HSM!HSM_CompositeState))
+	to
+		t2: FSM!FSM_Transition (
+			label <- t1.label,
+			stateMachine <- t1.stateMachine,
+			source <- c,
+			target <- trg
+		)
+}
+
+-- This rule resolves a transition ending in a composite state
+rule T2TC {
+	from t1: HSM!HSM_Transition,
+         src: HSM!HSM_AbstractState, 
+         trg: HSM!HSM_CompositeState,
+         c: HSM!HSM_InitialState ( t1.source = src and t1.target = trg and c.compositeState =
+		trg and not src.oclIsTypeOf(HSM!HSM_CompositeState) )
+	to
+		t2: FSM!FSM_Transition (
+			label <- t1.label,
+			stateMachine <- t1.stateMachine,
+			source <- src,
+			target <- c
+		)
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ModelMeasurement">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="HTML.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/HTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XHTML.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MeasureHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MeasureHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TableHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/TableHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="FLAME4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="QMOOD4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="FLAME4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/FLAME4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MOOD4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="EMOOSE4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="EMOOSE4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/EMOOSE4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MOOD4UML2.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/MOOD4UML2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="QMOOD4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/lib/QMOOD4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2XHTML.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2XHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2Table.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Measure2Table.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2TabularHTML.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2TabularHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGPieChart.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2SVGPieChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32Measure.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/KM32Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/Table2SVGBarChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XHTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/XHTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UML22Measure.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/UML22Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="HTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/transformations/HTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/models/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="HTML.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/HTML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XHTML.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XHTML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/ModelMeasurement/ModelsMeasurement/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/RSS2ATOM">
+  <nodes name="Exemple1-ATOM.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/Exemple1-ATOM.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-ATOM.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/Exemple-ATOM.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATOM.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/ATOM.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple1-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple1-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-ATOMinv.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-ATOMinv.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-RSSinv.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-RSSinv.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple1-RSS.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/Exemple1-RSS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="RSS.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/RSS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-RSS.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/Exemple-RSS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

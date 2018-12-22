@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore", label: 'megamodel-AM3.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore", label: 'FileInfo.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Outline.ecore", label: 'FileInfo-Outline.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Editor.ecore", label: 'FileInfo-Editor.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/megamodel-AM3.ecore", label: 'megamodel-AM3.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore", label: 'CloneDr.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Editor.ecore", label: 'CloneDr-Editor.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Outline.ecore", label: 'CloneDr-Outline.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/megamodel-AM3.ecore", label: 'megamodel-AM3.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore", label: 'Simian.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Editor.ecore", label: 'Simian-Editor.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Outline.ecore", label: 'Simian-Outline.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore", label: 'SVG.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore", label: 'CodeClone.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/megamodel-AM3.ecore", label: 'megamodel-AM3.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore", label: 'SimScan.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Outline.ecore", label: 'SimScan-Outline.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Editor.ecore", label: 'SimScan-Editor.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Syntax/org/atl/engine/injectors/ebnf/FileInfo_ANTLR3Parser.java", label: 'FileInfo_ANTLR3Parser.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Syntax/org/atl/engine/injectors/ebnf/FileInfo_ANTLR3Lexer.java", label: 'FileInfo_ANTLR3Lexer.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Syntax/org/atl/engine/injectors/ebnf/CloneDr_ANTLR3Lexer.java", label: 'CloneDr_ANTLR3Lexer.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Syntax/org/atl/engine/injectors/ebnf/CloneDr_ANTLR3Parser.java", label: 'CloneDr_ANTLR3Parser.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Syntax/org/atl/engine/injectors/ebnf/Simian_ANTLR3Lexer.java", label: 'Simian_ANTLR3Lexer.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Syntax/org/atl/engine/injectors/ebnf/Simian_ANTLR3Parser.java", label: 'Simian_ANTLR3Parser.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Syntax/org/atl/engine/injectors/ebnf/SimScan_ANTLR3Parser.java", label: 'SimScan_ANTLR3Parser.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Syntax/org/atl/engine/injectors/ebnf/SimScan_ANTLR3Lexer.java", label: 'SimScan_ANTLR3Lexer.java', color: 'red' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", label: 'CodeClone2SVG2.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", label: 'CloneDr2CodeClone.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", label: 'Simian2CodeClone.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", label: 'CodeClone2SVG.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", label: 'SVG2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", label: 'SimScan2CodeClone.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.km3", label: 'FileInfo.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.km3", label: 'CloneDr.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.km3", label: 'Simian.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.km3", label: 'XML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.km3", label: 'SVG.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.km3", label: 'CodeClone.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.km3", label: 'SimScan.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/FileInfo build.xml.launch", label: 'FileInfo build.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Simian build.xml.launch", label: 'Simian build.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone Simian2Visual.xml.launch", label: 'CodeClone Simian2Visual.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone CloneDr2Visual.xml.launch", label: 'CodeClone CloneDr2Visual.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone SimScan2Visual.xml.launch", label: 'CodeClone SimScan2Visual.xml.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml", label: 'Simian2Visual.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SimScan2Visual.xml", label: 'SimScan2Visual.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CloneDr2Visual.xml", label: 'CloneDr2Visual.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}", label: '${sourceModel1}', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}", label: '${sourceModel2}', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", label: 'GenericCodeClone', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", label: 'SVG_Form1', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1", label: 'XML_Form1', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", label: 'SVG_Form2', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2", label: 'XML_Form2', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_sourceDRM.mm_uncertainty", label: 'SVG2XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_sourceDRM.mm_uncertainty", label: 'Simian2CodeClone_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_sourceDRM.mm_uncertainty", label: 'CodeClone2SVG_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_targetDRM.mm_uncertainty", label: 'CloneDr2CodeClone_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_targetDRM.mm_uncertainty", label: 'SVG2XML_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_sourceDRM.mm_uncertainty", label: 'CodeClone2SVG2_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_targetDRM.mm_uncertainty", label: 'CodeClone2SVG2_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_targetDRM.mm_uncertainty", label: 'CodeClone2SVG_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_sourceDRM.mm_uncertainty", label: 'CloneDr2CodeClone_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_targetDRM.mm_uncertainty", label: 'Simian2CodeClone_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_sourceDRM.mm_uncertainty", label: 'SimScan2CodeClone_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_targetDRM.mm_uncertainty", label: 'SimScan2CodeClone_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.km3", to: "/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Implementation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="MADL">
+  <modules name="TrackSensor"/>
+  <modules name="OutputControl" conformance="divergent">
+    <uses conformance="divergent" uses="//@modules.6"/>
+    <uses conformance="divergent" uses="//@modules.1"/>
+  </modules>
+  <modules name="TransMotor">
+    <uses conformance="divergent" uses="//@modules.2"/>
+  </modules>
+  <modules name="DataSensor"/>
+  <modules name="PlayerControl">
+    <uses conformance="divergent" uses="//@modules.4"/>
+    <uses conformance="divergent" uses="//@modules.2"/>
+    <uses uses="//@modules.7"/>
+    <uses conformance="divergent" uses="//@modules.5"/>
+    <uses conformance="absent" uses="//@modules.10"/>
+  </modules>
+  <modules name="DiscReader" conformance="divergent">
+    <uses conformance="divergent" uses="//@modules.3"/>
+    <uses conformance="divergent" uses="//@modules.5"/>
+  </modules>
+  <modules name="NotePlayer" conformance="divergent">
+    <uses conformance="divergent" uses="//@modules.6"/>
+  </modules>
+  <modules name="ArmControl">
+    <uses uses="//@modules.0"/>
+    <uses uses="//@modules.2"/>
+    <uses conformance="divergent" uses="//@modules.7"/>
+    <uses conformance="absent" uses="//@modules.9"/>
+  </modules>
+  <modules name="Play" conformance="divergent"/>
+  <modules name="SpeedSensor" conformance="absent"/>
+  <modules name="DiskReader" conformance="absent">
+    <uses conformance="absent" uses="//@modules.3"/>
+    <uses conformance="absent" uses="//@modules.9"/>
+  </modules>
+</Implementation>

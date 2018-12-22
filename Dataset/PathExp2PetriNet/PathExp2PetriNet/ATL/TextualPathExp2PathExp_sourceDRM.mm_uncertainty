@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MM_uncertainty:Metamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MM_uncertainty="MM_uncertainty">
+  <classes name="TextualPathExp" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true"/>
+  <classes name="AlternativeTrans" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="altPaths">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="PrimitiveTrans" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="name">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u900" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="transitions">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="Transition" mandatoryAllowed="true" subsAllowed="true"/>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u901" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="transitions">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <classes name="Path" mandatoryAllowed="true" subsAllowed="true"/>
+  <classes xsi:type="MM_uncertainty:UnknowClass" name="u902" mandatoryAllowed="true" isAbstract="DontKnow" subsAllowed="true">
+    <feats name="isMultiple">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:UnknownCardinality"/>
+    </feats>
+  </classes>
+  <classes name="e" mandatoryAllowed="true" subsAllowed="true">
+    <feats name="transitions">
+      <min xsi:type="MM_uncertainty:UnknownCardinality"/>
+      <max xsi:type="MM_uncertainty:Many" isOrdered="DontKnow" isDuplicated="DontKnow"/>
+    </feats>
+  </classes>
+  <dataType xsi:type="MM_uncertainty:String_"/>
+  <dataType xsi:type="MM_uncertainty:Integer_"/>
+  <dataType xsi:type="MM_uncertainty:Real_"/>
+  <dataType xsi:type="MM_uncertainty:Boolean_"/>
+</MM_uncertainty:Metamodel>

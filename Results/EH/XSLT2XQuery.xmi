@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/XSLT2XQuery">
+  <nodes name="XSLT.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT/XSLT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XQuery.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery/XQuery.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

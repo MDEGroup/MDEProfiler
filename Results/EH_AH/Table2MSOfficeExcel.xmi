@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel">
+  <nodes name="XMLModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/modelsExamples/XMLModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TableModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ExcelModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/modelsExamples/ExcelModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table2SpreadsheetMLSimplified.atl" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/transformations/Table2SpreadsheetMLSimplified.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2ExcelText.atl" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/transformations/XML2ExcelText.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SpreadsheetMLSimplified2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Table2MSOfficeExcel/Table2MicrosoftOfficeExcel/transformations/SpreadsheetMLSimplified2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

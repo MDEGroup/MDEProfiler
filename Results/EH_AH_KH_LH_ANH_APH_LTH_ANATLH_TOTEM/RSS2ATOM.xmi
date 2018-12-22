@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/RSS2ATOM">
+  <nodes name="Exemple1-ATOM.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/Exemple1-ATOM.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-ATOM.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/Exemple-ATOM.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATOM.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/ATOM.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple1-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple1-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-ATOMinv.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-ATOMinv.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-RSSinv.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-RSSinv.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple1-RSS.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/Exemple1-RSS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="RSS.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/RSS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Exemple-RSS.ecore" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/Exemple-RSS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="RSS2ATOM.atl" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/RSS2ATOM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2RSS.atl" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/XML2RSS.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATOM2RSS.atl" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/ATOM2RSS.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RSS2XML.atl" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/RSS2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2ATOM.atl" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/XML2ATOM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATOM2XML.atl" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/ATOM2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATOM.km3" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATOM/ATOM.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="RSS.km3" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/RSS/RSS.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="Exemple-ATOMinv.xml" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-ATOMinv.xml"/>
+  <nodes name="Exemple.xml" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple.xml"/>
+  <nodes name="Exemple1.xml" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple1.xml"/>
+  <nodes name="Exemple-RSSinv.xml" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/XML/Exemple-RSSinv.xml"/>
+  <nodes name="${sourceModel6}" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml/${sourceModel6}" derivedOrNotExists="true"/>
+  <nodes name="targetModel6" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/targetModel6" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${sourceModel5}" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml/${sourceModel5}" derivedOrNotExists="true"/>
+  <nodes name="targetModel5" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/targetModel5" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${sourceModel4}" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml/${sourceModel4}" derivedOrNotExists="true"/>
+  <nodes name="targetModel4" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/targetModel4" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${sourceModel3}" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml/${sourceModel3}" derivedOrNotExists="true"/>
+  <nodes name="targetModel3" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/targetModel3" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${sourceModel2}" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml/${sourceModel2}" derivedOrNotExists="true"/>
+  <nodes name="targetModel2" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/targetModel2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${sourceModel1}" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/build.xml/${sourceModel1}" derivedOrNotExists="true"/>
+  <nodes name="targetModel1" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/targetModel1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="RSS2ATOM_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/RSS2ATOM_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RSS2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/RSS2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2ATOM_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/XML2ATOM_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2RSS_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/XML2RSS_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2ATOM_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/XML2ATOM_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2RSS_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/XML2RSS_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATOM2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/ATOM2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RSS2ATOM_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/RSS2ATOM_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RSS2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/RSS2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATOM2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/ATOM2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATOM2RSS_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/ATOM2RSS_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATOM2RSS_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RSS2ATOM/RSS2ATOM/ATLTransformations/ATOM2RSS_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.25" target="//@nodes.2" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.16" target="//@nodes.2" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.4" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.26" target="//@nodes.3" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.27" target="//@nodes.9" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.2" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2ATOM.atl"/>
+  <edges name="SOURCE" source="//@nodes.11" target="//@nodes.9" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2ATOM.atl"/>
+  <edges name="CONFORM2" source="//@nodes.28" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.29" target="//@nodes.4" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.4" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2RSS.atl"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.9" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2RSS.atl"/>
+  <edges name="CONFORM2" source="//@nodes.30" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.31" target="//@nodes.9" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.14" target="//@nodes.9" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.4" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.32" target="//@nodes.3" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.33" target="//@nodes.2" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.13" target="//@nodes.2" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2RSS.atl"/>
+  <edges name="TARGET" source="//@nodes.13" target="//@nodes.9" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2RSS.atl"/>
+  <edges name="CONFORM2" source="//@nodes.34" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="CONFORM2" source="//@nodes.35" target="//@nodes.4" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="SOURCE" source="//@nodes.15" target="//@nodes.4" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2ATOM.atl"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.2" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2ATOM.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.0" exact="true" discoverBy="//@nodes.20"/>
+  <edges name="MODEL_INPUT" source="//@nodes.16" target="//@nodes.25" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.16" target="//@nodes.26" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.11" target="//@nodes.27" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2ATOM.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.11" target="//@nodes.28" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2ATOM.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.29" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2RSS.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.30" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2RSS.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.14" target="//@nodes.31" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.14" target="//@nodes.32" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/RSS2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.33" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2RSS.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.13" target="//@nodes.34" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/ATOM2RSS.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.15" target="//@nodes.35" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2ATOM.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.15" target="//@nodes.36" exact="true" discoverBy="//@nodes.20" pathDiscoveredByHeuristic="/RSS2ATOM/ATLTransformations/XML2ATOM.atl"/>
+  <edges name="DRM_IN" source="//@nodes.11" target="//@nodes.37" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.14" target="//@nodes.38" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.15" target="//@nodes.39" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.12" target="//@nodes.40" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.15" target="//@nodes.41" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.12" target="//@nodes.42" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.16" target="//@nodes.43" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.11" target="//@nodes.44" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.14" target="//@nodes.45" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.16" target="//@nodes.46" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.13" target="//@nodes.47" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.13" target="//@nodes.48" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.15" target="//@nodes.4" discoverBy="//@nodes.39"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.4" discoverBy="//@nodes.42"/>
+  <edges name="SOURCE" source="//@nodes.13" target="//@nodes.2" discoverBy="//@nodes.47"/>
+</graph:Graph>

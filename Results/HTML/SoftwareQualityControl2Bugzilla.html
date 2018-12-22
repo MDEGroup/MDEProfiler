@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaExample.ecore", label: 'BugzillaExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/SoftwareQualityControlExample.ecore", label: 'SoftwareQualityControlExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLExample.ecore", label: 'BugzillaXMLExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.ecore", label: 'Bugzilla.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.ecore", label: 'SoftwareQualityControl.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/Bugzilla2XML.atl", label: 'Bugzilla2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla.atl", label: 'SoftwareQualityControl2Bugzilla.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText.atl", label: 'XML2BugzillaText.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.km3", label: 'XML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.km3", label: 'Bugzilla.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.km3", label: 'SoftwareQualityControl.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLfileExample.xml", label: 'BugzillaXMLfileExample.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_targetDRM.mm_uncertainty", label: 'XML2BugzillaText_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty", label: 'SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty", label: 'SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_sourceDRM.mm_uncertainty", label: 'XML2BugzillaText_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText.atl", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla.atl", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla.atl", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText.atl", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.km3", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.km3", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.km3", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

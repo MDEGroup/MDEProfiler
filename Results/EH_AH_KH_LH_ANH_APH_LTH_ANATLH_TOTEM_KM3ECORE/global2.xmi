@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph">
+  <nodes name="SSL2SDLTransformation.atl" uri="/home/juri/Dropbox/ATLZoo/SSL2SDL/SSL2SDL/transformation/SSL2SDLTransformation.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ODM-MOF.km3" uri="/home/juri/Dropbox/ATLZoo/SSL2SDL/SSL2SDL/metamodels/ODM-MOF.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SDL.km3" uri="/home/juri/Dropbox/ATLZoo/SSL2SDL/SSL2SDL/metamodels/SDL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SSL.km3" uri="/home/juri/Dropbox/ATLZoo/SSL2SDL/SSL2SDL/metamodels/SSL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="PNML_simplified.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PNML_simplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Grafcet.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/Grafcet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PetriNet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PetriNet2Grafcet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PetriNet2PNML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2PNML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/XML2PNML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PNML2XML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PNML2XML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PNML2PetriNet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PNML2PetriNet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PetriNet2PNML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2PNML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML_simplified.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PNML_simplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Grafcet.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/Grafcet.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="PetriNet.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PetriNet.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML2Text_example.xml" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/XML2Text_example.xml"/>
+  <nodes name="PNML2PetriNet_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PNML2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2PNML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2PNML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PNML2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PNML2PetriNet_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/TGE/FileInfo-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CloneDr-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/TGE/CloneDr-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Simian-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/TGE/Simian-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="CodeClone.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="megamodel-AM3.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/megamodel-AM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan-Outline.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Outline.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimScan-Editor.ecore" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/TGE/SimScan-Editor.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FileInfo_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Syntax/org/atl/engine/injectors/ebnf/FileInfo_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="FileInfo_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Syntax/org/atl/engine/injectors/ebnf/FileInfo_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="CloneDr_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Syntax/org/atl/engine/injectors/ebnf/CloneDr_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="CloneDr_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Syntax/org/atl/engine/injectors/ebnf/CloneDr_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="Simian_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Syntax/org/atl/engine/injectors/ebnf/Simian_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="Simian_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Syntax/org/atl/engine/injectors/ebnf/Simian_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="SimScan_ANTLR3Parser.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Syntax/org/atl/engine/injectors/ebnf/SimScan_ANTLR3Parser.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="SimScan_ANTLR3Lexer.java" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Syntax/org/atl/engine/injectors/ebnf/SimScan_ANTLR3Lexer.java">
+    <type>NodeType.java</type>
+  </nodes>
+  <nodes name="CodeClone2SVG2.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CloneDr2CodeClone.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Simian2CodeClone.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CodeClone2SVG.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SimScan2CodeClone.atl" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="FileInfo.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/Metamodel/FileInfo.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CloneDr.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/Metamodel/CloneDr.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Simian.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Metamodel/Simian.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/XML/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/SVG/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CodeClone.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Metamodels/CodeClone/CodeClone.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SimScan.km3" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/Metamodel/SimScan.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="FileInfo build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/FileInfo build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="Simian build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/Simian build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CodeClone Simian2Visual.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone Simian2Visual.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CodeClone CloneDr2Visual.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone CloneDr2Visual.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CodeClone SimScan2Visual.xml.launch" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CodeClone SimScan2Visual.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/FileInfo/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CloneDr/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/Simian/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="Simian2Visual.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="SimScan2Visual.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SimScan2Visual.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="CloneDr2Visual.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/CloneDr2Visual.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/SimScan/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="${sourceModel1}" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel1}" derivedOrNotExists="true"/>
+  <nodes name="${sourceModel2}" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Simian2Visual.xml/${sourceModel2}" derivedOrNotExists="true"/>
+  <nodes name="GenericCodeClone" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/GenericCodeClone" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="SVG_Form1" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="XML_Form1" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="SVG_Form2" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/SVG_Form2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="XML_Form2" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/XML_Form2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="SVG2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Simian2CodeClone_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CloneDr2CodeClone_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SVG2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SVG2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG2_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG2_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG2_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CodeClone2SVG_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CodeClone2SVG_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="CloneDr2CodeClone_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/CloneDr2CodeClone_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Simian2CodeClone_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/Simian2CodeClone_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SimScan2CodeClone_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SimScan2CodeClone_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/CodeCloneTools2SVG/CodeClone/Transformations/SimScan2CodeClone_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RemovingAnAssociationClass.atl" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/RemovingAnAssociationClass.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (6).launch" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/CatalogueOfModelTransformations build_example.xml (6).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/RemovingAssociationClass/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/build_example.xml//CatalogueOfModelTransformations/RemovingAssociationClass/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="RemovingAnAssociationClass_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/RemovingAnAssociationClass_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RemovingAnAssociationClass_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/RemovingAssociationClass/without_context/RemovingAnAssociationClass_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="example-project.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/example-project.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSProject.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/MSProject.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UmlActivityDiagram2MSProject.atl" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/UmlActivityDiagram2MSProject.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MSProject.km3" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/MSProject.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/example.xml"/>
+  <nodes name="UmlActivityDiagram2MSProject_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/UmlActivityDiagram2MSProject_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug).ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug).ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug).atl" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug).atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug)_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug)_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATL2BindingDebugger_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/ATL2BindingDebugger_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-ATL-0.2(Debug)_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2BindingDebugger/ATL2BindingDebugger/sample-ATL-0.2(Debug)_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XMLModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/modelsExamples/XMLModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ExcelModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/modelsExamples/ExcelModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2ExcelText.atl" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/transformations/XML2ExcelText.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SpreadsheetMLSimplified2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/transformations/SpreadsheetMLSimplified2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="exampleExcelJavaSource.xml" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/modelsExamples/exampleExcelJavaSource.xml"/>
+  <nodes name="XML2ExcelText_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/transformations/XML2ExcelText_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2ExcelText_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelExtractor/MicrosoftOfficeExcelExtractor/transformations/XML2ExcelText_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="MOF2UML.atl" uri="/home/juri/Dropbox/ATLZoo/MOF2UML/UML2MOF/Transfos/MOF2UML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UML2MOF.atl" uri="/home/juri/Dropbox/ATLZoo/MOF2UML/UML2MOF/Transfos/UML2MOF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UMLDI-20030818.km3" uri="/home/juri/Dropbox/ATLZoo/MOF2UML/UML2MOF/Metamodels/UMLDI-20030818.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MOF-1.4.km3" uri="/home/juri/Dropbox/ATLZoo/MOF2UML/UML2MOF/Metamodels/MOF-1.4.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BugzillaExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BugzillaXMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla2XML.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/Bugzilla2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2BugzillaText.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Bugzilla.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BugzillaXMLfileExample.xml" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLfileExample.xml"/>
+  <nodes name="XML2BugzillaText_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2BugzillaText_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ExcelXMLFileExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ExcelModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2SpreadsheetMLSimplified.atl" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/transformations/XML2SpreadsheetMLSimplified.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="ExcelXMLFileExample.xml" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"/>
+  <nodes name="XML2SpreadsheetMLSimplified_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/transformations/XML2SpreadsheetMLSimplified_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2SpreadsheetMLSimplified_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/transformations/XML2SpreadsheetMLSimplified_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="sample-IEEE1471.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/example/sample-IEEE1471.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-MoDAF.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/example/sample-MoDAF.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="IEEE1471ConceptualModel.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MoDAF-AV.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.atl" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MoDAF-AV.km3" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="IEEE1471ConceptualModel.km3" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF loadModel.xml.launch" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF loadModel.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF IEEE1471_2_MoDAF.xml.launch" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF IEEE1471_2_MoDAF.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.launch" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.xml" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="loadModel.xml" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/loadModel.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="target" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/target" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TT.ecore" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BDD.ecore" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TT2BDD.atl" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TT.km3" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BDD.km3" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TT2BDD.launch" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/TT2BDD/TT/examples/Test.ttmodel" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT/examples/Test.ttmodel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/TT2BDD/BDD/examples/OUT.bddmodel" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/BDD/examples/OUT.bddmodel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TT2BDD_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="BugTrackingSpreadsheetMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/BugTrackingSpreadsheetMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SpreadsheetMLSimplified2SoftwareQualityControl.atl" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BugTrackingXMLExample.xml" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/BugTrackingXMLExample.xml"/>
+  <nodes name="SpreadsheetMLSimplified2SoftwareQualityControl_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SpreadsheetMLSimplified2SoftwareQualityControl_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="rdm.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/metamodels/rdm/rdm.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2R2ML.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/transformations/XML2R2ML/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RDM2XML.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/transformations/RDM2XML/RDM2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2RDM.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="rdm.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/metamodels/rdm/rdm.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="R2ML2SWRL.xml.launch" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/R2ML2SWRL.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="R2ML2SWRL.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/R2ML2SWRL.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="R2MLRule.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/models/r2ml-xml/R2MLRule.xml"/>
+  <nodes name="SWRLRule.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/models/swrl-xml/SWRLRule.xml"/>
+  <nodes name="${sourceModel}" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/R2ML2SWRL.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="r2mlModel" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="rdmModel" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/rdmModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlModel" uri="/home/juri/Scrivania/temp_projects/R2ML2SWRL/R2ML2SWRL/xmlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Disaggregation.atl" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/Disaggregation.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Disaggregation.atl" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/Disaggregation.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/OutputModels/example-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3Target.km3" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/OutputModels/example-KM3Target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (24).launch" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/CatalogueOfModelTransformations build_example.xml (24).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (23).launch" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/CatalogueOfModelTransformations build_example.xml (23).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/Disaggregation/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/build_example.xml//CatalogueOfModelTransformations/Disaggregation/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/Disaggregation/with_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/build_example.xml//CatalogueOfModelTransformations/Disaggregation/with_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Disaggregation_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/Disaggregation_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Disaggregation_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/without_context/Disaggregation_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Disaggregation_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/Disaggregation_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Disaggregation_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Disaggregation/with_context/Disaggregation_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v1.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v2.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeB.km3" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TypeA.km3" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SideEffect_2 build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_2 build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect_v1.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_v1.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="SideEffect build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect_v2.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_v2.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="/SideEffect/SampleModels/RootA.xmi" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect/SampleModels/RootA.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/SideEffect/SampleModels/RootB.xmi" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect/SampleModels/RootB.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="rdm.ecore" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/metamodels/rdm/rdm.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="R2ML2XML.atl" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/transformations/R2ML2XML/R2ML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2RDM.atl" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/transformations/XML2RDM/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RDM2R2ML.atl" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/transformations/RDM2R2ML/RDM2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="rdm.km3" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/metamodels/rdm/rdm.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SWRL2R2ML.xml.launch" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/SWRL2R2ML.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SWRL2R2ML.xml" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/SWRL2R2ML.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="R2MLRule.xml" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/models/r2ml-xml/R2MLRule.xml"/>
+  <nodes name="SWRLRule1.xml" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/models/swrl-xml/SWRLRule1.xml"/>
+  <nodes name="${sourceModel}" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/SWRL2R2ML.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="rdmModel" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/rdmModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="r2mlModel" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlModel" uri="/home/juri/Scrivania/temp_projects/SWRL2R2ML/SWRL2R2ML/xmlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ForeignKey.atl" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/ForeignKey.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ForeignKey.atl" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/ForeignKey.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (3).launch" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/CatalogueOfModelTransformations build_example.xml (3).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (5).launch" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/CatalogueOfModelTransformations build_example.xml (5).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/build_example.xml//CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/with_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/build_example.xml//CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/with_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="ForeignKey_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/ForeignKey_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ForeignKey_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/without_context/ForeignKey_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ForeignKey_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/ForeignKey_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ForeignKey_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ReplaceAssociationByForeignKey/with_context/ForeignKey_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="OCL.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="rdm.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="R2ML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RDM2XML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OCL2R2ML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2RDM.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OCL.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="rdm.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="OCL2SWRL.xml.launch" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/OCL2SWRL.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="OCL2SWRL.xml" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/OCL2SWRL.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="R2MLRule.xml" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/models/r2ml-xml/R2MLRule.xml"/>
+  <nodes name="SWRLRule.xml" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/models/swrl-xml/SWRLRule.xml"/>
+  <nodes name="/OCL2SWRL/models/ocl/m1.ocl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/OCL2SWRL.xml//OCL2SWRL/models/ocl/m1.ocl" derivedOrNotExists="true"/>
+  <nodes name="r2mlModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlR2MLModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/xmlR2MLModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="rdmModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/rdmModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlSWRLModel" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/xmlSWRLModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="R2ML2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="R2ML2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RDM2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RDM2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="OCL2R2ML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="OCL2R2ML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="R2ML2RDM_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Maven.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Maven.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Ant2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Maven2Ant.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Maven2Ant.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant.km3" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/MM/Ant.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MavenMaven.km3" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/MM/MavenMaven.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MavenProject.km3" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/MM/MavenProject.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="project.xml" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/example/project.xml"/>
+  <nodes name="maven.xml" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/example/maven.xml"/>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/example/build.xml"/>
+  <nodes name="XML2Maven_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Maven_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Maven2Ant_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Maven2Ant_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Maven2Ant_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Maven2Ant_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Ant2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Ant2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Metamodel/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Metamodel/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v1.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v2.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v3.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v4.atl" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v4.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.launch" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v1.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3.launch" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v3.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v4.launch" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v4.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.launch" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v2.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/Port/SampleModels/sample-TypeA.xmi" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/Port/SampleModels/sample-TypeA.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/Port/SampleModels/sample-TypeB.xmi" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/Port/SampleModels/sample-TypeB.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v3_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v3_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v4_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v4_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v2_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v2_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v4_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Port/Port/Tranformations/TypeA2TypeB_v4_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="FLAME4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/FLAME4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MOOD4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/MOOD4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="EMOOSE4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/EMOOSE4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="QMOOD4KM3.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/QMOOD4KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32Measure.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/transformations/KM32Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/models/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KM32Measure build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/conf/KM32Measure build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="${source.metamodel.name}" uri="${source.metamodel.uri}" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/example-Measure.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="EMOOSE4KM3_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/EMOOSE4KM3_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="QMOOD4KM3_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/QMOOD4KM3_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="FLAME4KM3_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/FLAME4KM3_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="MOOD4KM3_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/MOOD4KM3_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="FLAME4KM3_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/FLAME4KM3_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="QMOOD4KM3_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/QMOOD4KM3_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="EMOOSE4KM3_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/EMOOSE4KM3_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="MOOD4KM3_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/lib/MOOD4KM3_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KM32Measure_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/transformations/KM32Measure_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KM32Measure_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Measure/KM32Measure/transformations/KM32Measure_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/KML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/InputModels/example-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KML.ecore" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/OutputModels/example-KML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2KML.atl" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Transformations/XML2KML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KML.km3" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/Metamodels/KML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KMLInjector build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/KMLInjector build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="XML2KML.launch" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/XML2KML.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/InputModels/example.xml"/>
+  <nodes name="/KMLInjector/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/build.xml//KMLInjector/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/KMLInjector/KMLInjector/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Metrics.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Metamodels/Metrics.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Models/KM3-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM32Metrics.atl" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Transfos/KM32Metrics.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM3.km3" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Metamodels/KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Metrics.km3" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Metamodels/Metrics.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KM32Metrics_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32Metrics/KM32Metrics/Transfos/KM32Metrics_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/models/example-Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TableHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/lib/TableHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/transformations/Table2SVGBarChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/conf/Table2SVGBarChart build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="example-SVGBarChart.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/example-SVGBarChart.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="example-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/example-XML.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TableHelpers_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/lib/TableHelpers_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TableHelpers_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/lib/TableHelpers_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SVG2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/transformations/SVG2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SVG2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Table2SVGBarChart/Table2SVGBarChart/transformations/SVG2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/DOT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Models/KM3-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Models/DOT-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT2Text.atl" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/DOT2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32DOT.atl" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/KM32DOT.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DOT.km3" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/DOT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KM3.km3" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="DOT2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/DOT2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="DOT2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/DOT2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/MetaModels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-XML.ecore" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/InputModels/example-XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="introducingAnInterface.atl" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/introducingAnInterface.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (1).launch" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/CatalogueOfModelTransformations build_example.xml (1).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/InputModels/example.xml"/>
+  <nodes name="/CatalogueOfModelTransformations/IntroducingAnInterface/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/build_example.xml//CatalogueOfModelTransformations/IntroducingAnInterface/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="/CatalogueOfModelTransformations/IntroducingAnInterface/InputModels/${XMLModel}" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/build_example.xml//CatalogueOfModelTransformations/IntroducingAnInterface/InputModels/${XMLModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="introducingAnInterface_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/introducingAnInterface_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="introducingAnInterface_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/IntroducingInterface/introducingAnInterface_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Sample-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/Sample-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATLCopier.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/ATLCopier.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM32ATLCopier.atl" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/KM32ATLCopier.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATLCopier.atl" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/ATLCopier.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Sample.km3" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/Sample.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="ATLCopier_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/ATLCopier_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATLCopier_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/ATLCopier_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3target.ecore" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/OutputModels/example-KM3target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3target.ecore" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/OutputModels/example-KM3target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="RedundantInheritance.atl" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/RedundantInheritance.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RedundantInheritance.atl" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/RedundantInheritance.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example-KM3target.km3" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/OutputModels/example-KM3target.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (21).launch" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/CatalogueOfModelTransformations build_example.xml (21).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml (20).launch" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/CatalogueOfModelTransformations build_example.xml (20).launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/build_example.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/EliminateRedundantInheritance/without_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/build_example.xml//CatalogueOfModelTransformations/EliminateRedundantInheritance/without_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/CatalogueOfModelTransformations/EliminateRedundantInheritance/with_context/InputModels/${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/build_example.xml//CatalogueOfModelTransformations/EliminateRedundantInheritance/with_context/InputModels/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="${targetModel}" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/${targetModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="RedundantInheritance_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/RedundantInheritance_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RedundantInheritance_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/without_context/RedundantInheritance_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RedundantInheritance_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/RedundantInheritance_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RedundantInheritance_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/EliminateRedundantInheritance/with_context/RedundantInheritance_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/tcs/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="OCL.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/ocl/OCL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2R2ML.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XMLHelpers.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/transformations/XML2R2ML/XMLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2OCL.atl" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TCS.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/tcs/TCS.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="OCL.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/ocl/OCL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="R2ML2OCL.xml.launch" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/R2ML2OCL.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="R2ML2OCL.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/R2ML2OCL.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="R2MLRule.xml" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/models/r2ml-xml/R2MLRule.xml"/>
+  <nodes name="${sourceModel}" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/R2ML2OCL.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="r2mlModel" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/r2mlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="m1" uri="/home/juri/Scrivania/temp_projects/R2ML2OCL/R2ML2OCL/m1" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Public2Private.atl" uri="/home/juri/Dropbox/ATLZoo/Public2Private/Public2Private/Public2Private.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Public2Private_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Public2Private/Public2Private/Public2Private_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Public2Private_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Public2Private/Public2Private/Public2Private_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="${MetaModel}" uri="http://www.eclipse.org/uml2/1.0.0/UML">
+    <type>NodeType.MetaMetaModel</type>
+    <type>GENERIC_NODE</type>
+  </nodes>
+  <nodes name="${MetaModel}" uri="http://www.eclipse.org/gmt/2005/KM3">
+    <type>NodeType.MetaMetaModel</type>
+    <type>GENERIC_NODE</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.21" target="//@nodes.27" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.19" target="//@nodes.28" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.17" target="//@nodes.29" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.20" target="//@nodes.30" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.18" target="//@nodes.31" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.20" target="//@nodes.32" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.19" target="//@nodes.33" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.15" target="//@nodes.34" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.16" target="//@nodes.35" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.16" target="//@nodes.36" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.18" target="//@nodes.37" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.15" target="//@nodes.38" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.17" target="//@nodes.39" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.21" target="//@nodes.40" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.22" target="//@nodes.4"/>
+  <edges name="ECORE_KM3" source="//@nodes.23" target="//@nodes.5"/>
+  <edges name="ECORE_KM3" source="//@nodes.24" target="//@nodes.7"/>
+  <edges name="ECORE_KM3" source="//@nodes.25" target="//@nodes.6"/>
+  <edges name="CONFORM2" source="//@nodes.93" target="//@nodes.50" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="CONFORM2" source="//@nodes.94" target="//@nodes.42" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="SOURCE" source="//@nodes.70" target="//@nodes.50" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="SOURCE" source="//@nodes.70" target="//@nodes.42" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="TARGET" source="//@nodes.70" target="//@nodes.55" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="CONFORM2" source="//@nodes.95" target="//@nodes.41" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="CONFORM2" source="//@nodes.95" target="//@nodes.55" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="TARGET" source="//@nodes.71" target="//@nodes.54" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="SOURCE" source="//@nodes.71" target="//@nodes.55" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="CONFORM2" source="//@nodes.96" target="//@nodes.41" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="CONFORM2" source="//@nodes.96" target="//@nodes.54" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="SOURCE" source="//@nodes.72" target="//@nodes.54" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.72" target="//@nodes.53" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.97" target="//@nodes.53" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="TARGET" source="//@nodes.68" target="//@nodes.54" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="SOURCE" source="//@nodes.68" target="//@nodes.55" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="CONFORM2" source="//@nodes.98" target="//@nodes.41" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="CONFORM2" source="//@nodes.98" target="//@nodes.54" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="CONFORM2" source="//@nodes.99" target="//@nodes.53" exact="true" discoverBy="//@nodes.89"/>
+  <edges name="TEMP_NAME" source="//@nodes.70" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.70" target="//@nodes.93" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.70" target="//@nodes.94" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.70" target="//@nodes.95" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/Simian2CodeClone.atl"/>
+  <edges name="TEMP_NAME" source="//@nodes.71" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.71" target="//@nodes.95" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.71" target="//@nodes.96" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG.atl"/>
+  <edges name="TEMP_NAME" source="//@nodes.72" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.72" target="//@nodes.96" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.72" target="//@nodes.97" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="TEMP_NAME" source="//@nodes.68" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.68" target="//@nodes.95" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.68" target="//@nodes.98" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/CodeClone2SVG2.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.72" target="//@nodes.98" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.72" target="//@nodes.99" exact="true" discoverBy="//@nodes.89" pathDiscoveredByHeuristic="/CodeClone/Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.93" target="//@nodes.57" exact="true" discoverBy="//@nodes.90"/>
+  <edges name="SOURCE" source="//@nodes.73" target="//@nodes.57" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="SOURCE" source="//@nodes.73" target="//@nodes.42" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="TARGET" source="//@nodes.73" target="//@nodes.55" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="TEMP_NAME" source="//@nodes.73" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.73" target="//@nodes.93" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.73" target="//@nodes.94" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.73" target="//@nodes.95" exact="true" discoverBy="//@nodes.90" pathDiscoveredByHeuristic="/CodeClone/Transformations/SimScan2CodeClone.atl"/>
+  <edges name="CONFORM2" source="//@nodes.93" target="//@nodes.46" exact="true" discoverBy="//@nodes.91"/>
+  <edges name="SOURCE" source="//@nodes.69" target="//@nodes.46" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="SOURCE" source="//@nodes.69" target="//@nodes.42" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="TARGET" source="//@nodes.69" target="//@nodes.55" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="TEMP_NAME" source="//@nodes.69" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.69" target="//@nodes.93" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.69" target="//@nodes.94" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.69" target="//@nodes.95" exact="true" discoverBy="//@nodes.91" pathDiscoveredByHeuristic="/CodeClone/Transformations/CloneDr2CodeClone.atl"/>
+  <edges name="DRM_IN" source="//@nodes.72" target="//@nodes.100" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.70" target="//@nodes.101" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.71" target="//@nodes.102" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.69" target="//@nodes.103" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.72" target="//@nodes.104" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.68" target="//@nodes.105" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.68" target="//@nodes.106" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.71" target="//@nodes.107" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.69" target="//@nodes.108" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.70" target="//@nodes.109" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.73" target="//@nodes.110" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.73" target="//@nodes.111" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.74" target="//@nodes.42"/>
+  <edges name="ECORE_KM3" source="//@nodes.75" target="//@nodes.46"/>
+  <edges name="ECORE_KM3" source="//@nodes.76" target="//@nodes.50"/>
+  <edges name="ECORE_KM3" source="//@nodes.77" target="//@nodes.53"/>
+  <edges name="ECORE_KM3" source="//@nodes.78" target="//@nodes.54"/>
+  <edges name="ECORE_KM3" source="//@nodes.79" target="//@nodes.55"/>
+  <edges name="ECORE_KM3" source="//@nodes.80" target="//@nodes.57"/>
+  <edges name="TARGET" source="//@nodes.112" target="//@nodes.509" exact="true" discoverBy="//@nodes.114" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RemovingAssociationClass/without_context/RemovingAnAssociationClass.atl"/>
+  <edges name="CONFORM2" source="//@nodes.115" target="//@nodes.509" exact="true" discoverBy="//@nodes.114"/>
+  <edges name="CONFORM2" source="//@nodes.116" exact="true" discoverBy="//@nodes.114"/>
+  <edges name="MODEL_INPUT" source="//@nodes.112" target="//@nodes.115" exact="true" discoverBy="//@nodes.114" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RemovingAssociationClass/without_context/RemovingAnAssociationClass.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.112" target="//@nodes.116" exact="true" discoverBy="//@nodes.114" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/RemovingAssociationClass/without_context/RemovingAnAssociationClass.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.112" target="//@nodes.117" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.112" target="//@nodes.118" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.121" target="//@nodes.124" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.122" target="//@nodes.120"/>
+  <edges name="DRM_IN" source="//@nodes.128" target="//@nodes.130" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.129" target="//@nodes.131" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.128" target="//@nodes.132" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.127" target="//@nodes.133" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.127" target="//@nodes.134" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.129" target="//@nodes.135" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.140" target="//@nodes.145" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.140" target="//@nodes.146" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.142" target="//@nodes.139"/>
+  <edges name="ECORE_KM3" source="//@nodes.143" target="//@nodes.138"/>
+  <edges name="DRM_OUT" source="//@nodes.159" target="//@nodes.164" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.158" target="//@nodes.165" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.158" target="//@nodes.166" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.159" target="//@nodes.167" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.160" target="//@nodes.155"/>
+  <edges name="ECORE_KM3" source="//@nodes.161" target="//@nodes.154"/>
+  <edges name="ECORE_KM3" source="//@nodes.162" target="//@nodes.156"/>
+  <edges name="DRM_OUT" source="//@nodes.172" target="//@nodes.176" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.172" target="//@nodes.177" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.173" target="//@nodes.171"/>
+  <edges name="ECORE_KM3" source="//@nodes.174" target="//@nodes.170"/>
+  <edges name="SOURCE" source="//@nodes.182" target="//@nodes.180" exact="true" discoverBy="//@nodes.187" pathDiscoveredByHeuristic="/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.178" target="//@nodes.180" discoverBy="//@nodes.187"/>
+  <edges name="MODEL_INPUT" source="//@nodes.178" target="//@nodes.182" discoverBy="//@nodes.187"/>
+  <edges name="TARGET" source="//@nodes.182" target="//@nodes.181" exact="true" discoverBy="//@nodes.187" pathDiscoveredByHeuristic="/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.ecore"/>
+  <edges name="TARGET" source="//@nodes.179" target="//@nodes.182" discoverBy="//@nodes.187"/>
+  <edges name="TARGET" source="//@nodes.179" target="//@nodes.181" discoverBy="//@nodes.187"/>
+  <edges name="CONFORM2" source="//@nodes.190" target="//@nodes.180" exact="true" discoverBy="//@nodes.188"/>
+  <edges name="CONFORM2" source="//@nodes.191" target="//@nodes.178" exact="true" discoverBy="//@nodes.188"/>
+  <edges name="MODEL_INPUT" source="//@nodes.182" target="//@nodes.190" exact="true" discoverBy="//@nodes.188" pathDiscoveredByHeuristic="/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.182" target="//@nodes.191" exact="true" discoverBy="//@nodes.188" pathDiscoveredByHeuristic="/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.182" target="//@nodes.192" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.182" target="//@nodes.193" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.183" target="//@nodes.181"/>
+  <edges name="ECORE_KM3" source="//@nodes.184" target="//@nodes.180"/>
+  <edges name="SOURCE" source="//@nodes.196" target="//@nodes.194" exact="true" discoverBy="//@nodes.199" pathDiscoveredByHeuristic="/TT2BDD/TT/TT.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.200" target="//@nodes.194" discoverBy="//@nodes.199"/>
+  <edges name="MODEL_INPUT" source="//@nodes.200" target="//@nodes.196" discoverBy="//@nodes.199"/>
+  <edges name="TARGET" source="//@nodes.196" target="//@nodes.195" exact="true" discoverBy="//@nodes.199" pathDiscoveredByHeuristic="/TT2BDD/BDD/BDD.ecore"/>
+  <edges name="TARGET" source="//@nodes.201" target="//@nodes.196" discoverBy="//@nodes.199"/>
+  <edges name="TARGET" source="//@nodes.201" target="//@nodes.195" discoverBy="//@nodes.199"/>
+  <edges name="DRM_IN" source="//@nodes.196" target="//@nodes.202" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.197" target="//@nodes.194"/>
+  <edges name="ECORE_KM3" source="//@nodes.198" target="//@nodes.195"/>
+  <edges name="DRM_OUT" source="//@nodes.207" target="//@nodes.211" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.207" target="//@nodes.212" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.208" target="//@nodes.205"/>
+  <edges name="ECORE_KM3" source="//@nodes.209" target="//@nodes.206"/>
+  <edges name="CONFORM2" source="//@nodes.227" discoverBy="//@nodes.224"/>
+  <edges name="SOURCE" source="//@nodes.216" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.216" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.228" target="//@nodes.213" exact="true" discoverBy="//@nodes.224"/>
+  <edges name="CONFORM2" source="//@nodes.228" discoverBy="//@nodes.224"/>
+  <edges name="SOURCE" source="//@nodes.219" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="TARGET" source="//@nodes.219" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="CONFORM2" source="//@nodes.229" target="//@nodes.218" exact="true" discoverBy="//@nodes.224"/>
+  <edges name="CONFORM2" source="//@nodes.229" discoverBy="//@nodes.224"/>
+  <edges name="SOURCE" source="//@nodes.218" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.218" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.230" target="//@nodes.215" exact="true" discoverBy="//@nodes.224"/>
+  <edges name="MODEL_INPUT" source="//@nodes.216" target="//@nodes.227" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.216" target="//@nodes.228" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.216" target="//@nodes.217" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.216" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.219" target="//@nodes.228" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.219" target="//@nodes.229" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="LIBRARY" source="//@nodes.219" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.218" target="//@nodes.229" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.218" target="//@nodes.230" exact="true" discoverBy="//@nodes.224" pathDiscoveredByHeuristic="/R2ML2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.237" target="//@nodes.510" exact="true" discoverBy="//@nodes.245" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/Disaggregation/without_context/Disaggregation.atl"/>
+  <edges name="CONFORM2" source="//@nodes.247" target="//@nodes.510" exact="true" discoverBy="//@nodes.245"/>
+  <edges name="CONFORM2" source="//@nodes.248" target="//@nodes.232" exact="true" discoverBy="//@nodes.245"/>
+  <edges name="MODEL_INPUT" source="//@nodes.237" target="//@nodes.247" exact="true" discoverBy="//@nodes.245" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/Disaggregation/without_context/Disaggregation.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.237" target="//@nodes.248" exact="true" discoverBy="//@nodes.245" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/Disaggregation/without_context/Disaggregation.atl"/>
+  <edges name="CONFORM2" source="//@nodes.249" target="//@nodes.510" exact="true" discoverBy="//@nodes.246"/>
+  <edges name="CONFORM2" source="//@nodes.250" target="//@nodes.232" exact="true" discoverBy="//@nodes.246"/>
+  <edges name="MODEL_INPUT" source="//@nodes.237" target="//@nodes.249" exact="true" discoverBy="//@nodes.246" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/Disaggregation/with_context/Disaggregation.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.237" target="//@nodes.250" exact="true" discoverBy="//@nodes.246" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/Disaggregation/with_context/Disaggregation.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.237" target="//@nodes.251" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.237" target="//@nodes.252" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.238" target="//@nodes.253" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.238" target="//@nodes.254" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.240" target="//@nodes.233"/>
+  <edges name="ECORE_KM3" source="//@nodes.240" target="//@nodes.236"/>
+  <edges name="ECORE_KM3" source="//@nodes.242" target="//@nodes.233"/>
+  <edges name="ECORE_KM3" source="//@nodes.242" target="//@nodes.236"/>
+  <edges name="SOURCE" source="//@nodes.257" target="//@nodes.255" exact="true" discoverBy="//@nodes.257" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.257" target="//@nodes.256" exact="true" discoverBy="//@nodes.257" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.258" target="//@nodes.255" exact="true" discoverBy="//@nodes.258" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.258" target="//@nodes.256" exact="true" discoverBy="//@nodes.258" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.259" target="//@nodes.255" exact="true" discoverBy="//@nodes.259" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="SOURCE" source="//@nodes.259" target="//@nodes.256" exact="true" discoverBy="//@nodes.259" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="TARGET" source="//@nodes.259" target="//@nodes.256" exact="true" discoverBy="//@nodes.259" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.260" target="//@nodes.255" exact="true" discoverBy="//@nodes.260" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.260" target="//@nodes.256" exact="true" discoverBy="//@nodes.260" pathDiscoveredByHeuristic="/SideEffect/Metamodels/TypeB.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.268" target="//@nodes.255" discoverBy="//@nodes.264"/>
+  <edges name="MODEL_INPUT" source="//@nodes.268" target="//@nodes.257" discoverBy="//@nodes.264"/>
+  <edges name="TARGET" source="//@nodes.269" target="//@nodes.257" discoverBy="//@nodes.264"/>
+  <edges name="TARGET" source="//@nodes.269" target="//@nodes.256" discoverBy="//@nodes.264"/>
+  <edges name="MODEL_INPUT" source="//@nodes.268" target="//@nodes.258" discoverBy="//@nodes.266"/>
+  <edges name="TARGET" source="//@nodes.269" target="//@nodes.258" discoverBy="//@nodes.266"/>
+  <edges name="DRM_OUT" source="//@nodes.260" target="//@nodes.270" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.259" target="//@nodes.271" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.260" target="//@nodes.272" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.259" target="//@nodes.273" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.261" target="//@nodes.256"/>
+  <edges name="ECORE_KM3" source="//@nodes.262" target="//@nodes.255"/>
+  <edges name="CONFORM2" source="//@nodes.288" discoverBy="//@nodes.285"/>
+  <edges name="SOURCE" source="//@nodes.278" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl"/>
+  <edges name="TARGET" source="//@nodes.278" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl"/>
+  <edges name="CONFORM2" source="//@nodes.289" target="//@nodes.278" exact="true" discoverBy="//@nodes.285"/>
+  <edges name="CONFORM2" source="//@nodes.289" discoverBy="//@nodes.285"/>
+  <edges name="SOURCE" source="//@nodes.280" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/RDM2R2ML/RDM2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.280" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/RDM2R2ML/RDM2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.290" target="//@nodes.274" exact="true" discoverBy="//@nodes.285"/>
+  <edges name="CONFORM2" source="//@nodes.290" discoverBy="//@nodes.285"/>
+  <edges name="SOURCE" source="//@nodes.277" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.277" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.291" target="//@nodes.276" exact="true" discoverBy="//@nodes.285"/>
+  <edges name="MODEL_INPUT" source="//@nodes.278" target="//@nodes.288" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.278" target="//@nodes.289" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl"/>
+  <edges name="LIBRARY" source="//@nodes.278" target="//@nodes.279" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl"/>
+  <edges name="LIBRARY" source="//@nodes.278" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/XML2RDM/XML2RDM.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.280" target="//@nodes.289" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/RDM2R2ML/RDM2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.280" target="//@nodes.290" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/RDM2R2ML/RDM2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.280" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/RDM2R2ML/RDM2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.277" target="//@nodes.290" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.277" target="//@nodes.291" exact="true" discoverBy="//@nodes.285" pathDiscoveredByHeuristic="/SWRL2R2ML/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="SOURCE" source="//@nodes.296" target="//@nodes.510" exact="true" discoverBy="//@nodes.304" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/without_context/ForeignKey.atl"/>
+  <edges name="CONFORM2" source="//@nodes.306" target="//@nodes.510" exact="true" discoverBy="//@nodes.304"/>
+  <edges name="TARGET" source="//@nodes.296" target="//@nodes.510" exact="true" discoverBy="//@nodes.304" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/without_context/ForeignKey.atl"/>
+  <edges name="CONFORM2" source="//@nodes.307" target="//@nodes.299" exact="true" discoverBy="//@nodes.304"/>
+  <edges name="MODEL_INPUT" source="//@nodes.296" target="//@nodes.306" exact="true" discoverBy="//@nodes.304" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/without_context/ForeignKey.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.296" target="//@nodes.307" exact="true" discoverBy="//@nodes.304" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/without_context/ForeignKey.atl"/>
+  <edges name="CONFORM2" source="//@nodes.308" target="//@nodes.510" exact="true" discoverBy="//@nodes.305"/>
+  <edges name="CONFORM2" source="//@nodes.309" target="//@nodes.299" exact="true" discoverBy="//@nodes.305"/>
+  <edges name="MODEL_INPUT" source="//@nodes.296" target="//@nodes.308" exact="true" discoverBy="//@nodes.305" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/with_context/ForeignKey.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.296" target="//@nodes.309" exact="true" discoverBy="//@nodes.305" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/ReplacingAssociationByForeignKey/with_context/ForeignKey.atl"/>
+  <edges name="DRM_IN" source="//@nodes.296" target="//@nodes.310" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.296" target="//@nodes.311" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.297" target="//@nodes.312" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.297" target="//@nodes.313" exact="true"/>
+  <edges name="CONFORM2" source="//@nodes.330" discoverBy="//@nodes.327"/>
+  <edges name="SOURCE" source="//@nodes.320" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.320" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.331" target="//@nodes.318" exact="true" discoverBy="//@nodes.327"/>
+  <edges name="CONFORM2" source="//@nodes.331" discoverBy="//@nodes.327"/>
+  <edges name="SOURCE" source="//@nodes.318" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.318" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.332" target="//@nodes.317" exact="true" discoverBy="//@nodes.327"/>
+  <edges name="SOURCE" source="//@nodes.321" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="TARGET" source="//@nodes.321" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="CONFORM2" source="//@nodes.333" target="//@nodes.319" exact="true" discoverBy="//@nodes.327"/>
+  <edges name="CONFORM2" source="//@nodes.333" discoverBy="//@nodes.327"/>
+  <edges name="SOURCE" source="//@nodes.319" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.319" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.334" target="//@nodes.317" exact="true" discoverBy="//@nodes.327"/>
+  <edges name="MODEL_INPUT" source="//@nodes.320" target="//@nodes.330" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.320" target="//@nodes.331" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.320" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.318" target="//@nodes.331" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.318" target="//@nodes.332" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.321" target="//@nodes.331" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.321" target="//@nodes.333" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="LIBRARY" source="//@nodes.321" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.319" target="//@nodes.333" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.319" target="//@nodes.334" exact="true" discoverBy="//@nodes.327" pathDiscoveredByHeuristic="/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl"/>
+  <edges name="DRM_IN" source="//@nodes.318" target="//@nodes.335" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.318" target="//@nodes.336" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.319" target="//@nodes.337" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.319" target="//@nodes.338" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.320" target="//@nodes.339" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.320" target="//@nodes.340" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.321" target="//@nodes.341" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.322" target="//@nodes.314"/>
+  <edges name="ECORE_KM3" source="//@nodes.323" target="//@nodes.315"/>
+  <edges name="ECORE_KM3" source="//@nodes.324" target="//@nodes.316"/>
+  <edges name="ECORE_KM3" source="//@nodes.325" target="//@nodes.317"/>
+  <edges name="DRM_IN" source="//@nodes.342" target="//@nodes.352" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.344" target="//@nodes.353" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.344" target="//@nodes.354" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.345" target="//@nodes.355" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.343" target="//@nodes.356" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.345" target="//@nodes.357" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.360" target="//@nodes.358" exact="true" discoverBy="//@nodes.360" pathDiscoveredByHeuristic="/Port/Metamodel/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.360" target="//@nodes.359" exact="true" discoverBy="//@nodes.360" pathDiscoveredByHeuristic="/Port/Metamodel/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.361" target="//@nodes.358" exact="true" discoverBy="//@nodes.361" pathDiscoveredByHeuristic="/Port/Metamodel/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.361" target="//@nodes.359" exact="true" discoverBy="//@nodes.361" pathDiscoveredByHeuristic="/Port/Metamodel/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.362" target="//@nodes.358" exact="true" discoverBy="//@nodes.362" pathDiscoveredByHeuristic="/Port/Metamodel/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.362" target="//@nodes.359" exact="true" discoverBy="//@nodes.362" pathDiscoveredByHeuristic="/Port/Metamodel/TypeB.ecore"/>
+  <edges name="SOURCE" source="//@nodes.363" target="//@nodes.358" exact="true" discoverBy="//@nodes.363" pathDiscoveredByHeuristic="/Port/Metamodel/TypeA.ecore"/>
+  <edges name="TARGET" source="//@nodes.363" target="//@nodes.359" exact="true" discoverBy="//@nodes.363" pathDiscoveredByHeuristic="/Port/Metamodel/TypeB.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.368" target="//@nodes.358" discoverBy="//@nodes.364"/>
+  <edges name="MODEL_INPUT" source="//@nodes.368" target="//@nodes.360" discoverBy="//@nodes.364"/>
+  <edges name="TARGET" source="//@nodes.369" target="//@nodes.360" discoverBy="//@nodes.364"/>
+  <edges name="TARGET" source="//@nodes.369" target="//@nodes.359" discoverBy="//@nodes.364"/>
+  <edges name="MODEL_INPUT" source="//@nodes.368" target="//@nodes.362" discoverBy="//@nodes.365"/>
+  <edges name="TARGET" source="//@nodes.369" target="//@nodes.362" discoverBy="//@nodes.365"/>
+  <edges name="MODEL_INPUT" source="//@nodes.368" target="//@nodes.363" discoverBy="//@nodes.366"/>
+  <edges name="TARGET" source="//@nodes.369" target="//@nodes.363" discoverBy="//@nodes.366"/>
+  <edges name="MODEL_INPUT" source="//@nodes.368" target="//@nodes.361" discoverBy="//@nodes.367"/>
+  <edges name="TARGET" source="//@nodes.369" target="//@nodes.361" discoverBy="//@nodes.367"/>
+  <edges name="DRM_OUT" source="//@nodes.362" target="//@nodes.370" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.362" target="//@nodes.371" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.363" target="//@nodes.372" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.361" target="//@nodes.373" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.361" target="//@nodes.374" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.363" target="//@nodes.375" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.382" target="//@nodes.387" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.383" target="//@nodes.387" exact="true" discoverBy="//@nodes.386"/>
+  <edges name="TARGET" source="//@nodes.382" target="//@nodes.377" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.388" target="//@nodes.376" exact="true" discoverBy="//@nodes.386"/>
+  <edges name="MODEL_INPUT" source="//@nodes.382" target="//@nodes.383" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="LIBRARY" source="//@nodes.382" target="//@nodes.378" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="LIBRARY" source="//@nodes.382" target="//@nodes.379" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="LIBRARY" source="//@nodes.382" target="//@nodes.380" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="LIBRARY" source="//@nodes.382" target="//@nodes.381" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.382" target="//@nodes.388" exact="true" discoverBy="//@nodes.386" pathDiscoveredByHeuristic="transformations/KM32Measure.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.380" target="//@nodes.389" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.381" target="//@nodes.390" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.378" target="//@nodes.391" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.379" target="//@nodes.392" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.378" target="//@nodes.393" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.381" target="//@nodes.394" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.380" target="//@nodes.395" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.379" target="//@nodes.396" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.382" target="//@nodes.397" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.382" target="//@nodes.398" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.384" target="//@nodes.377"/>
+  <edges name="SOURCE" source="//@nodes.403" target="//@nodes.400" exact="true" discoverBy="//@nodes.407" pathDiscoveredByHeuristic="/KMLInjector/Metamodels/XML.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.401" target="//@nodes.400" discoverBy="//@nodes.407"/>
+  <edges name="MODEL_INPUT" source="//@nodes.401" target="//@nodes.403" discoverBy="//@nodes.407"/>
+  <edges name="TARGET" source="//@nodes.403" target="//@nodes.399" exact="true" discoverBy="//@nodes.407" pathDiscoveredByHeuristic="/KMLInjector/Metamodels/KML.ecore"/>
+  <edges name="TARGET" source="//@nodes.402" target="//@nodes.403" discoverBy="//@nodes.407"/>
+  <edges name="TARGET" source="//@nodes.402" target="//@nodes.399" discoverBy="//@nodes.407"/>
+  <edges name="CONFORM2" source="//@nodes.410" target="//@nodes.400" exact="true" discoverBy="//@nodes.408"/>
+  <edges name="CONFORM2" source="//@nodes.411" target="//@nodes.399" exact="true" discoverBy="//@nodes.408"/>
+  <edges name="MODEL_INPUT" source="//@nodes.403" target="//@nodes.410" exact="true" discoverBy="//@nodes.408" pathDiscoveredByHeuristic="/KMLInjector/Transformations/XML2KML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.403" target="//@nodes.411" exact="true" discoverBy="//@nodes.408" pathDiscoveredByHeuristic="/KMLInjector/Transformations/XML2KML.atl"/>
+  <edges name="ECORE_KM3" source="//@nodes.404" target="//@nodes.400"/>
+  <edges name="ECORE_KM3" source="//@nodes.405" target="//@nodes.399"/>
+  <edges name="DRM_IN" source="//@nodes.415" target="//@nodes.418" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.416" target="//@nodes.413"/>
+  <edges name="ECORE_KM3" source="//@nodes.417" target="//@nodes.412"/>
+  <edges name="SOURCE" source="//@nodes.424" target="//@nodes.420" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/Table2SVGBarChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.419" target="//@nodes.420" exact="true" discoverBy="//@nodes.430"/>
+  <edges name="TARGET" source="//@nodes.424" target="//@nodes.422" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/Table2SVGBarChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.431" target="//@nodes.419" exact="true" discoverBy="//@nodes.430"/>
+  <edges name="SOURCE" source="//@nodes.425" target="//@nodes.422" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.431" target="//@nodes.422" exact="true" discoverBy="//@nodes.430"/>
+  <edges name="TARGET" source="//@nodes.425" target="//@nodes.421" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.432" target="//@nodes.421" exact="true" discoverBy="//@nodes.430"/>
+  <edges name="MODEL_INPUT" source="//@nodes.424" target="//@nodes.419" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/Table2SVGBarChart.atl"/>
+  <edges name="LIBRARY" source="//@nodes.424" target="//@nodes.423" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/Table2SVGBarChart.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.424" target="//@nodes.431" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/Table2SVGBarChart.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.425" target="//@nodes.431" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.425" target="//@nodes.432" exact="true" discoverBy="//@nodes.430" pathDiscoveredByHeuristic="transformations/SVG2XML.atl"/>
+  <edges name="DRM_IN" source="//@nodes.423" target="//@nodes.433" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.423" target="//@nodes.434" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.425" target="//@nodes.435" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.425" target="//@nodes.436" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.426" target="//@nodes.422"/>
+  <edges name="ECORE_KM3" source="//@nodes.427" target="//@nodes.420"/>
+  <edges name="ECORE_KM3" source="//@nodes.428" target="//@nodes.421"/>
+  <edges name="DRM_OUT" source="//@nodes.441" target="//@nodes.445" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.441" target="//@nodes.446" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.443" target="//@nodes.438"/>
+  <edges name="ECORE_KM3" source="//@nodes.444" target="//@nodes.437"/>
+  <edges name="SOURCE" source="//@nodes.449" target="//@nodes.509" exact="true" discoverBy="//@nodes.451" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/IntroducingAnInterface/introducingAnInterface.atl"/>
+  <edges name="CONFORM2" source="//@nodes.453" target="//@nodes.509" exact="true" discoverBy="//@nodes.451"/>
+  <edges name="SOURCE" source="//@nodes.449" target="//@nodes.447" exact="true" discoverBy="//@nodes.451" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/IntroducingAnInterface/introducingAnInterface.atl"/>
+  <edges name="CONFORM2" source="//@nodes.454" target="//@nodes.447" discoverBy="//@nodes.451"/>
+  <edges name="TARGET" source="//@nodes.449" target="//@nodes.509" exact="true" discoverBy="//@nodes.451" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/IntroducingAnInterface/introducingAnInterface.atl"/>
+  <edges name="CONFORM2" source="//@nodes.455" exact="true" discoverBy="//@nodes.451"/>
+  <edges name="MODEL_INPUT" source="//@nodes.449" target="//@nodes.453" exact="true" discoverBy="//@nodes.451" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/IntroducingAnInterface/introducingAnInterface.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.449" target="//@nodes.454" exact="true" discoverBy="//@nodes.451" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/IntroducingAnInterface/introducingAnInterface.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.449" target="//@nodes.455" exact="true" discoverBy="//@nodes.451" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/IntroducingAnInterface/introducingAnInterface.atl"/>
+  <edges name="DRM_IN" source="//@nodes.449" target="//@nodes.456" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.449" target="//@nodes.457" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.461" target="//@nodes.463" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.461" target="//@nodes.464" exact="true"/>
+  <edges name="SOURCE" source="//@nodes.471" target="//@nodes.510" exact="true" discoverBy="//@nodes.479" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/EliminateRedundantInheritance/without_context/RedundantInheritance.atl"/>
+  <edges name="CONFORM2" source="//@nodes.481" target="//@nodes.510" exact="true" discoverBy="//@nodes.479"/>
+  <edges name="TARGET" source="//@nodes.471" target="//@nodes.510" exact="true" discoverBy="//@nodes.479" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/EliminateRedundantInheritance/without_context/RedundantInheritance.atl"/>
+  <edges name="CONFORM2" source="//@nodes.482" target="//@nodes.467" exact="true" discoverBy="//@nodes.479"/>
+  <edges name="MODEL_INPUT" source="//@nodes.471" target="//@nodes.481" exact="true" discoverBy="//@nodes.479" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/EliminateRedundantInheritance/without_context/RedundantInheritance.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.471" target="//@nodes.482" exact="true" discoverBy="//@nodes.479" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/EliminateRedundantInheritance/without_context/RedundantInheritance.atl"/>
+  <edges name="CONFORM2" source="//@nodes.483" target="//@nodes.510" exact="true" discoverBy="//@nodes.480"/>
+  <edges name="CONFORM2" source="//@nodes.484" target="//@nodes.467" exact="true" discoverBy="//@nodes.480"/>
+  <edges name="MODEL_INPUT" source="//@nodes.471" target="//@nodes.483" exact="true" discoverBy="//@nodes.480" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/EliminateRedundantInheritance/with_context/RedundantInheritance.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.471" target="//@nodes.484" exact="true" discoverBy="//@nodes.480" pathDiscoveredByHeuristic="/CatalogueOfModelTransformations/EliminateRedundantInheritance/with_context/RedundantInheritance.atl"/>
+  <edges name="DRM_IN" source="//@nodes.471" target="//@nodes.485" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.471" target="//@nodes.486" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.472" target="//@nodes.487" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.472" target="//@nodes.488" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.474" target="//@nodes.467"/>
+  <edges name="ECORE_KM3" source="//@nodes.474" target="//@nodes.470"/>
+  <edges name="ECORE_KM3" source="//@nodes.476" target="//@nodes.467"/>
+  <edges name="ECORE_KM3" source="//@nodes.476" target="//@nodes.470"/>
+  <edges name="CONFORM2" source="//@nodes.503" discoverBy="//@nodes.501"/>
+  <edges name="SOURCE" source="//@nodes.493" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="TARGET" source="//@nodes.493" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.504" target="//@nodes.489" exact="true" discoverBy="//@nodes.501"/>
+  <edges name="CONFORM2" source="//@nodes.504" discoverBy="//@nodes.501"/>
+  <edges name="SOURCE" source="//@nodes.495" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="TARGET" source="//@nodes.495" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.505" target="//@nodes.489" exact="true" discoverBy="//@nodes.501"/>
+  <edges name="MODEL_INPUT" source="//@nodes.493" target="//@nodes.503" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.493" target="//@nodes.504" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.493" target="//@nodes.494" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="LIBRARY" source="//@nodes.493" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/XML2R2ML/XML2R2ML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.495" target="//@nodes.504" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.495" target="//@nodes.505" exact="true" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="LIBRARY" source="//@nodes.495" discoverBy="//@nodes.501" pathDiscoveredByHeuristic="/R2ML2OCL/transformations/R2ML2OCL/R2ML2OCL.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.506" target="//@nodes.507" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.506" target="//@nodes.508" exact="true"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.53"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.139"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.155"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.171"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.215"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.276"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.6" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.19" target="//@nodes.345"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.77"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.142"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.160"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.173"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.222"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.283"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.25" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.28" target="//@nodes.355"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.33" target="//@nodes.357"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.139"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.155"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.171"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.215"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.276"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.53" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.54" target="//@nodes.422"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.72" target="//@nodes.425"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.142"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.160"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.173"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.222"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.283"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.77" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.78" target="//@nodes.426"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.86" target="//@nodes.267"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.86" target="//@nodes.351"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.86" target="//@nodes.386"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.86" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.86" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.87" target="//@nodes.267"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.87" target="//@nodes.351"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.87" target="//@nodes.386"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.87" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.87" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.88" target="//@nodes.267"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.88" target="//@nodes.351"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.88" target="//@nodes.386"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.88" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.88" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.92" target="//@nodes.267"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.92" target="//@nodes.351"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.92" target="//@nodes.386"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.92" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.92" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.100" target="//@nodes.435"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.104" target="//@nodes.436"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.245"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.246"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.304"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.305"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.451"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.479"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.114" target="//@nodes.480"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.190"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.227"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.247"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.249"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.288"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.306"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.308"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.115" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.248"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.250"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.307"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.309"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.411"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.455"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.116" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.123" target="//@nodes.409"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.123" target="//@nodes.452"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.137" target="//@nodes.169"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.138" target="//@nodes.170"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.138" target="//@nodes.205"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.155"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.171"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.215"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.276"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.139" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.160"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.173"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.222"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.283"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.142" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.143" target="//@nodes.174"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.143" target="//@nodes.208"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.152" target="//@nodes.204"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.171"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.215"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.276"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.155" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.156" target="//@nodes.206"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.173"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.222"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.283"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.160" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.162" target="//@nodes.209"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.170" target="//@nodes.205"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.215"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.276"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.171" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.173" target="//@nodes.222"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.173" target="//@nodes.283"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.173" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.173" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.173" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.173" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.174" target="//@nodes.208"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.227"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.247"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.249"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.288"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.306"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.308"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.190" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.213" target="//@nodes.274"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.213" target="//@nodes.315"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.213" target="//@nodes.491"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.214" target="//@nodes.275"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.214" target="//@nodes.316"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.215" target="//@nodes.276"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.215" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.215" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.215" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.215" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.215" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.216" target="//@nodes.493"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.217" target="//@nodes.279"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.217" target="//@nodes.494"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.218" target="//@nodes.319"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.219" target="//@nodes.321"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.220" target="//@nodes.281"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.220" target="//@nodes.323"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.220" target="//@nodes.498"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.221" target="//@nodes.282"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.221" target="//@nodes.324"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.222" target="//@nodes.283"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.222" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.222" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.222" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.222" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.225" target="//@nodes.286"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.225" target="//@nodes.328"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.225" target="//@nodes.502"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.226" target="//@nodes.329"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.247"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.249"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.288"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.306"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.308"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.227" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.228" target="//@nodes.290"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.228" target="//@nodes.331"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.228" target="//@nodes.504"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.229" target="//@nodes.289"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.229" target="//@nodes.333"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.230" target="//@nodes.291"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.231" target="//@nodes.292"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.231" target="//@nodes.294"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.231" target="//@nodes.465"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.231" target="//@nodes.468"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.231" target="//@nodes.489"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.232" target="//@nodes.293"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.232" target="//@nodes.295"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.232" target="//@nodes.466"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.232" target="//@nodes.469"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.234" target="//@nodes.292"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.234" target="//@nodes.294"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.234" target="//@nodes.465"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.234" target="//@nodes.468"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.234" target="//@nodes.489"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.235" target="//@nodes.293"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.235" target="//@nodes.295"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.235" target="//@nodes.466"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.235" target="//@nodes.469"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.239" target="//@nodes.298"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.239" target="//@nodes.300"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.239" target="//@nodes.383"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.239" target="//@nodes.473"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.239" target="//@nodes.475"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.241" target="//@nodes.298"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.241" target="//@nodes.300"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.241" target="//@nodes.383"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.241" target="//@nodes.473"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.241" target="//@nodes.475"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.245" target="//@nodes.304"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.245" target="//@nodes.305"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.245" target="//@nodes.451"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.245" target="//@nodes.479"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.245" target="//@nodes.480"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.246" target="//@nodes.304"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.246" target="//@nodes.305"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.246" target="//@nodes.451"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.246" target="//@nodes.479"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.246" target="//@nodes.480"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.288"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.306"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.308"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.247" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.248" target="//@nodes.307"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.248" target="//@nodes.309"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.248" target="//@nodes.411"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.248" target="//@nodes.455"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.248" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.248" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.288"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.306"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.308"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.249" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.250" target="//@nodes.307"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.250" target="//@nodes.309"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.250" target="//@nodes.411"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.250" target="//@nodes.455"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.250" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.250" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.255" target="//@nodes.358"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.256" target="//@nodes.359"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.257" target="//@nodes.360"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.258" target="//@nodes.361"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.267" target="//@nodes.351"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.267" target="//@nodes.386"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.267" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.267" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.274" target="//@nodes.315"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.274" target="//@nodes.491"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.275" target="//@nodes.316"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.276" target="//@nodes.317"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.276" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.276" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.276" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.276" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.277" target="//@nodes.318"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.279" target="//@nodes.494"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.281" target="//@nodes.323"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.281" target="//@nodes.498"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.282" target="//@nodes.324"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.283" target="//@nodes.325"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.283" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.283" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.283" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.286" target="//@nodes.328"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.286" target="//@nodes.502"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.306"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.308"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.288" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.289" target="//@nodes.333"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.290" target="//@nodes.331"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.290" target="//@nodes.504"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.292" target="//@nodes.465"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.292" target="//@nodes.468"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.292" target="//@nodes.489"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.293" target="//@nodes.466"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.293" target="//@nodes.469"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.294" target="//@nodes.465"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.294" target="//@nodes.468"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.294" target="//@nodes.489"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.295" target="//@nodes.466"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.295" target="//@nodes.469"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.298" target="//@nodes.383"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.298" target="//@nodes.473"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.298" target="//@nodes.475"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.299" target="//@nodes.474"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.299" target="//@nodes.476"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.300" target="//@nodes.383"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.300" target="//@nodes.473"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.300" target="//@nodes.475"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.301" target="//@nodes.474"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.301" target="//@nodes.476"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.304" target="//@nodes.451"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.304" target="//@nodes.479"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.304" target="//@nodes.480"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.305" target="//@nodes.451"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.305" target="//@nodes.479"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.305" target="//@nodes.480"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.306" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.306" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.306" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.306" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.306" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.307" target="//@nodes.411"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.307" target="//@nodes.455"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.307" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.307" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.308" target="//@nodes.410"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.308" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.308" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.308" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.308" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.309" target="//@nodes.411"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.309" target="//@nodes.455"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.309" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.309" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.314" target="//@nodes.490"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.315" target="//@nodes.491"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.317" target="//@nodes.400"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.317" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.317" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.317" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.322" target="//@nodes.497"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.323" target="//@nodes.498"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.325" target="//@nodes.404"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.325" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.325" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.328" target="//@nodes.502"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.331" target="//@nodes.504"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.351" target="//@nodes.386"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.351" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.351" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.383" target="//@nodes.473"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.383" target="//@nodes.475"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.386" target="//@nodes.408"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.386" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.400" target="//@nodes.421"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.400" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.400" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.401" target="//@nodes.432"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.401" target="//@nodes.448"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.404" target="//@nodes.428"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.404" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.408" target="//@nodes.430"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.409" target="//@nodes.452"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.410" target="//@nodes.453"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.410" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.410" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.410" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.411" target="//@nodes.455"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.411" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.411" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.413" target="//@nodes.437"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.414" target="//@nodes.439"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.416" target="//@nodes.444"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.421" target="//@nodes.447"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.421" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.428" target="//@nodes.499"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.432" target="//@nodes.448"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.447" target="//@nodes.492"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.451" target="//@nodes.479"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.451" target="//@nodes.480"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.453" target="//@nodes.481"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.453" target="//@nodes.483"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.453" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.455" target="//@nodes.482"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.455" target="//@nodes.484"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.465" target="//@nodes.489"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.468" target="//@nodes.489"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.481" target="//@nodes.503"/>
+  <edges name="BETWEEN_GRAPH" source="//@nodes.483" target="//@nodes.503"/>
+</graph:Graph>

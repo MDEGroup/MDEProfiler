@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Class::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.2/@feats.0"/>
+      <kind uniqueId="2" name="Class.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="StateMachine::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.1/@feats.0"/>
+      <kind uniqueId="11" name="StateMachine.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="12" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="13" name="Attribute">
+            <choices uniqueId="14" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="15" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="16" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="17" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="18" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="19" name="Model::packagedElement">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.0/@feats.0"/>
+      <kind uniqueId="20" name="Model.packagedElement" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="21" name="AttOrReferenceExclusiveChoice-packagedElement">
+          <attributeChoice uniqueId="22" name="Attribute">
+            <choices uniqueId="23" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="24" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="25" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="26" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="27" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="28" name="u1::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.4/@feats.0"/>
+      <kind uniqueId="29" name="u1.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="30" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="31" name="Attribute">
+            <choices uniqueId="32" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="33" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="34" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="35" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="36" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="37" name="u2::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.5/@feats.0"/>
+      <kind uniqueId="38" name="u2.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="39" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="40" name="Attribute">
+            <choices uniqueId="41" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="42" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="43" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="44" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="45" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="46" name="u3::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.6/@feats.0"/>
+      <kind uniqueId="47" name="u3.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="48" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="49" name="Attribute">
+            <choices uniqueId="50" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="51" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="52" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="53" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="54" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="55" name="u4::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.7/@feats.0"/>
+      <kind uniqueId="56" name="u4.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="57" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="58" name="Attribute">
+            <choices uniqueId="59" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="60" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="61" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="62" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="63" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="64" name="StateMachine::region">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.1/@feats.1"/>
+      <kind uniqueId="65" name="StateMachine.region" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="66" name="AttOrReferenceExclusiveChoice-region">
+          <attributeChoice uniqueId="67" name="Attribute">
+            <choices uniqueId="68" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="69" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="70" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="71" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="72" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="73" name="u5::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.8/@feats.0"/>
+      <kind uniqueId="74" name="u5.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="75" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="76" name="Attribute">
+            <choices uniqueId="77" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="78" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="79" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="80" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="81" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="82" name="u6::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.9/@feats.0"/>
+      <kind uniqueId="83" name="u6.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="84" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="85" name="Attribute">
+            <choices uniqueId="86" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="87" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="88" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="89" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="90" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="91" name="u7::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.10/@feats.0"/>
+      <kind uniqueId="92" name="u7.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="93" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="94" name="Attribute">
+            <choices uniqueId="95" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="96" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="97" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="98" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="99" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="100" name="Transition::target">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.3/@feats.0"/>
+      <kind uniqueId="101" name="Transition.target" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="102" name="AttOrReferenceExclusiveChoice-target">
+          <attributeChoice uniqueId="103" name="Attribute">
+            <choices uniqueId="104" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="105" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="106" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="107" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="108" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="109" name="u8::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.11/@feats.0"/>
+      <kind uniqueId="110" name="u8.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="111" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="112" name="Attribute">
+            <choices uniqueId="113" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="114" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="115" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="116" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="117" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="118" name="Transition::trigger">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.3/@feats.2"/>
+      <kind uniqueId="119" name="Transition.trigger" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="120" name="AttOrReferenceExclusiveChoice-trigger">
+          <attributeChoice uniqueId="121" name="Attribute">
+            <choices uniqueId="122" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="123" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="124" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="125" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="126" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="127" name="u9::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.12/@feats.0"/>
+      <kind uniqueId="128" name="u9.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="129" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="130" name="Attribute">
+            <choices uniqueId="131" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="132" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="133" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="134" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="135" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="136" name="u11::body">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.14/@feats.0"/>
+      <kind uniqueId="137" name="u11.body" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="138" name="AttOrReferenceExclusiveChoice-body">
+          <attributeChoice uniqueId="139" name="Attribute">
+            <choices uniqueId="140" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="141" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="142" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="143" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="144" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="145" name="u12::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.15/@feats.0"/>
+      <kind uniqueId="146" name="u12.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="147" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="148" name="Attribute">
+            <choices uniqueId="149" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="150" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="151" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="152" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="153" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="154" name="Vertex::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.16/@feats.0"/>
+      <kind uniqueId="155" name="Vertex.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="156" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="157" name="Attribute">
+            <choices uniqueId="158" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="159" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="160" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="161" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="162" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="163" name="u14::body">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.19/@feats.0"/>
+      <kind uniqueId="164" name="u14.body" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="165" name="AttOrReferenceExclusiveChoice-body">
+          <attributeChoice uniqueId="166" name="Attribute">
+            <choices uniqueId="167" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="168" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="169" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="170" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="171" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="172" name="u16::body">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.22/@feats.0"/>
+      <kind uniqueId="173" name="u16.body" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="174" name="AttOrReferenceExclusiveChoice-body">
+          <attributeChoice uniqueId="175" name="Attribute">
+            <choices uniqueId="176" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="177" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="178" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="179" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="180" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="181" name="PackageableElement::name">
+      <feature href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@classes.23/@feats.0"/>
+      <kind uniqueId="182" name="PackageableElement.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="183" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="184" name="Attribute">
+            <choices uniqueId="185" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="186" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="187" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="188" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="189" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="190" name="Target">
+    <features uniqueId="191" name="NuSmvModel::modules">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.0/@feats.0"/>
+      <kind uniqueId="192" name="NuSmvModel.modules" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="193" name="AttOrReferenceExclusiveChoice-modules">
+          <attributeChoice uniqueId="194" name="Attribute">
+            <choices uniqueId="195" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="196" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="197" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="198" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="199" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="200" name="Module::moduleElement">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.1/@feats.1"/>
+      <kind uniqueId="201" name="Module.moduleElement" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="202" name="AttOrReferenceExclusiveChoice-moduleElement">
+          <attributeChoice uniqueId="203" name="Attribute">
+            <choices uniqueId="204" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="205" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="206" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="207" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="208" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="209" name="VarBody::name">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.4/@feats.0"/>
+      <kind uniqueId="210" name="VarBody.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="211" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="212" name="Attribute">
+            <choices uniqueId="213" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="214" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="215" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="216" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="217" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="218" name="VarBody::semicolon">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.4/@feats.1"/>
+      <kind uniqueId="219" name="VarBody.semicolon" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="220" name="AttOrReferenceExclusiveChoice-semicolon">
+          <attributeChoice uniqueId="221" name="Attribute">
+            <choices uniqueId="222" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="223" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="224" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="225" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="226" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="227" name="VarBody::type">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.4/@feats.2"/>
+      <kind uniqueId="228" name="VarBody.type" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="229" name="AttOrReferenceExclusiveChoice-type">
+          <attributeChoice uniqueId="230" name="Attribute">
+            <choices uniqueId="231" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="232" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="233" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="234" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="235" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="236" name="EnumType::val">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.5/@feats.0"/>
+      <kind uniqueId="237" name="EnumType.val" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="238" name="AttOrReferenceExclusiveChoice-val">
+          <attributeChoice uniqueId="239" name="Attribute">
+            <choices uniqueId="240" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="241" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="242" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="243" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="244" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="245" name="ModuleType::module">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.6/@feats.0"/>
+      <kind uniqueId="246" name="ModuleType.module" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="247" name="AttOrReferenceExclusiveChoice-module">
+          <attributeChoice uniqueId="248" name="Attribute">
+            <choices uniqueId="249" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="250" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="251" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="252" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="253" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="254" name="ModuleType::params">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.6/@feats.1"/>
+      <kind uniqueId="255" name="ModuleType.params" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="256" name="AttOrReferenceExclusiveChoice-params">
+          <attributeChoice uniqueId="257" name="Attribute">
+            <choices uniqueId="258" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="259" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="260" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="261" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="262" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="263" name="InitBody::var">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.7/@feats.0"/>
+      <kind uniqueId="264" name="InitBody.var" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="265" name="AttOrReferenceExclusiveChoice-var">
+          <attributeChoice uniqueId="266" name="Attribute">
+            <choices uniqueId="267" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="268" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="269" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="270" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="271" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="272" name="InitBody::initial">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.7/@feats.1"/>
+      <kind uniqueId="273" name="InitBody.initial" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="274" name="AttOrReferenceExclusiveChoice-initial">
+          <attributeChoice uniqueId="275" name="Attribute">
+            <choices uniqueId="276" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="277" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="278" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="279" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="280" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="281" name="Module::params">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.1/@feats.2"/>
+      <kind uniqueId="282" name="Module.params" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="283" name="AttOrReferenceExclusiveChoice-params">
+          <attributeChoice uniqueId="284" name="Attribute">
+            <choices uniqueId="285" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="286" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="287" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="288" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="289" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="290" name="NextBody::var">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.8/@feats.0"/>
+      <kind uniqueId="291" name="NextBody.var" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="292" name="AttOrReferenceExclusiveChoice-var">
+          <attributeChoice uniqueId="293" name="Attribute">
+            <choices uniqueId="294" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="295" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="296" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="297" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="298" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="299" name="NextBody::dotted">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.8/@feats.1"/>
+      <kind uniqueId="300" name="NextBody.dotted" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="301" name="AttOrReferenceExclusiveChoice-dotted">
+          <attributeChoice uniqueId="302" name="Attribute">
+            <choices uniqueId="303" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="304" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="305" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="306" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="307" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="308" name="CaseSimpleExpression::branches">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.9/@feats.0"/>
+      <kind uniqueId="309" name="CaseSimpleExpression.branches" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="310" name="AttOrReferenceExclusiveChoice-branches">
+          <attributeChoice uniqueId="311" name="Attribute">
+            <choices uniqueId="312" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="313" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="314" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="315" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="316" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="317" name="CaseSimpleAssignementExpression::case">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.10/@feats.0"/>
+      <kind uniqueId="318" name="CaseSimpleAssignementExpression.case" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="319" name="AttOrReferenceExclusiveChoice-case">
+          <attributeChoice uniqueId="320" name="Attribute">
+            <choices uniqueId="321" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="322" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="323" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="324" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="325" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="326" name="CaseSimpleAssignementExpression::assignment">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.10/@feats.1"/>
+      <kind uniqueId="327" name="CaseSimpleAssignementExpression.assignment" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="328" name="AttOrReferenceExclusiveChoice-assignment">
+          <attributeChoice uniqueId="329" name="Attribute">
+            <choices uniqueId="330" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="331" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="332" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="333" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="334" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="335" name="BinaryExpression::left">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.11/@feats.0"/>
+      <kind uniqueId="336" name="BinaryExpression.left" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="337" name="AttOrReferenceExclusiveChoice-left">
+          <attributeChoice uniqueId="338" name="Attribute">
+            <choices uniqueId="339" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="340" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="341" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="342" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="343" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="344" name="BinaryExpression::right">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.11/@feats.2"/>
+      <kind uniqueId="345" name="BinaryExpression.right" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="346" name="AttOrReferenceExclusiveChoice-right">
+          <attributeChoice uniqueId="347" name="Attribute">
+            <choices uniqueId="348" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="349" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="350" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="351" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="352" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="353" name="Var::value">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.12/@feats.0"/>
+      <kind uniqueId="354" name="Var.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="355" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="356" name="Attribute">
+            <choices uniqueId="357" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="358" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="359" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="360" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="361" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="362" name="Val::name">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.13/@feats.0"/>
+      <kind uniqueId="363" name="Val.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="364" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="365" name="Attribute">
+            <choices uniqueId="366" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="367" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="368" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="369" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="370" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="371" name="ValueExpression::value">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.14/@feats.0"/>
+      <kind uniqueId="372" name="ValueExpression.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="373" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="374" name="Attribute">
+            <choices uniqueId="375" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="376" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="377" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="378" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="379" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="380" name="FormalParameter::name">
+      <feature href="UMLStateMachine2NuSMV_targetDRM.mm_uncertainty#//@classes.15/@feats.0"/>
+      <kind uniqueId="381" name="FormalParameter.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="382" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="383" name="Attribute">
+            <choices uniqueId="384" name="String">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="385" name="Integer">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="386" name="Real">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="387" name="Boolean">
+              <datatype_ href="UMLStateMachine2NuSMV_sourceDRM.mm_uncertainty#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="388" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

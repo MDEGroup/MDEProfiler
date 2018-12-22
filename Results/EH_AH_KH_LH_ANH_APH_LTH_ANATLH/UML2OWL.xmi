@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2OWL">
+  <nodes name="OWL.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/OWL/OWL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/AMMACore/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Museum-OWL.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/Samples/OWLModels/Museum-OWL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UML2OWL.atl" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/UML2OWL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OWL2XML.atl" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/OWL/XmlSyntax/OWL2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OWL.km3" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/OWL/OWL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="UML2OWL build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/UML2OWL build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/UML2OWL/Samples/UMLModels/Museum.uml" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/build.xml//UML2OWL/Samples/UMLModels/Museum.uml" derivedOrNotExists="true"/>
+  <nodes name="owlModel" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/owlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="xmlModel" uri="/home/juri/Dropbox/ATLZoo/UML2OWL/UML2OWL/xmlModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.8" exact="true" discoverBy="//@nodes.7"/>
+  <edges name="SOURCE" source="//@nodes.3" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/UML2OWL.atl"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/UML2OWL.atl"/>
+  <edges name="CONFORM2" source="//@nodes.9" target="//@nodes.0" exact="true" discoverBy="//@nodes.7"/>
+  <edges name="CONFORM2" source="//@nodes.9" target="//@nodes.0" exact="true" discoverBy="//@nodes.7"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/OWL/XmlSyntax/OWL2XML.atl"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.1" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/OWL/XmlSyntax/OWL2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.10" target="//@nodes.1" exact="true" discoverBy="//@nodes.7"/>
+  <edges name="MODEL_INPUT" source="//@nodes.3" target="//@nodes.8" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/UML2OWL.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.3" target="//@nodes.9" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/UML2OWL.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.4" target="//@nodes.9" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/OWL/XmlSyntax/OWL2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.4" target="//@nodes.10" exact="true" discoverBy="//@nodes.7" pathDiscoveredByHeuristic="/UML2OWL/OWL/XmlSyntax/OWL2XML.atl"/>
+</graph:Graph>

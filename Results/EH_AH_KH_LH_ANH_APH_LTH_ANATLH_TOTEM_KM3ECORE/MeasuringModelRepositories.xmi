@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories">
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="HTML.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/HTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SVG.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/SVG.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/TmpModels/merge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/merge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="emptyMerge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/emptyMerge-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM32EMF.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32EMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2Table.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Measure2Table.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2TabularHTML.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2TabularHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGPieChart.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2SVGPieChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32Measure.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32Measure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2SVGBarChart.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2SVGBarChart.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RefineAndMergeMeasure.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/RefineAndMergeMeasure.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/SVG2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="HTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/HTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SVG.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/SVG.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="HTML.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/HTML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Ant.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Ant.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Outline.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Outline.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SDM.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/SDM.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Problem.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Problem.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/example.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Editor.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/InputModels/Editor.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MeasuringModelRepositories build_merge.xml.launch" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/MeasuringModelRepositories build_merge.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="MeasuringModelRepositories build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/MeasuringModelRepositories build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="build_merge.xml" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/build_merge.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="KM3" uri="http://www.eclipse.org/gmt/2005/KM3" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="Ecore" uri="Ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Measure" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="InputModels/${name}.km3" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/build.xml/InputModels/${name}.km3" derivedOrNotExists="true"/>
+  <nodes name="${measureModel}" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/${measureModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${tableModel}" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/${tableModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${tabularHtmlModel}" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/${tabularHtmlModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${xmlModel}" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/${xmlModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${svgBarChartModel}" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/${svgBarChartModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="${svgPieChartModel}" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/${svgPieChartModel}" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="merge-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/merge-Measure.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="KM32Measure_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32Measure_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SVG2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/SVG2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RefineAndMergeMeasure_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/RefineAndMergeMeasure_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KM32EMF_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32EMF_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KM32Measure_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32Measure_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="KM32EMF_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/KM32EMF_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SVG2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/SVG2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="HTML2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/HTML2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="HTML2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/HTML2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="RefineAndMergeMeasure_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/RefineAndMergeMeasure_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Table2TabularHTML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2TabularHTML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Table2TabularHTML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MeasuringModelRepositories/MeasuringModelRepositories/Transformations/Table2TabularHTML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.8" target="//@nodes.32" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges name="CONFORM2" source="//@nodes.20" target="//@nodes.32" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="CONFORM2" source="//@nodes.34" target="//@nodes.33" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.32" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.35" target="//@nodes.32" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.34" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.4" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.9" target="//@nodes.34" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.34" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.9" target="//@nodes.0" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.10" target="//@nodes.0" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.10" target="//@nodes.1" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.38" target="//@nodes.1" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.16" target="//@nodes.1" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.38" target="//@nodes.1" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.2" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.2" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.13" target="//@nodes.0" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.13" target="//@nodes.3" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.40" target="//@nodes.3" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.15" target="//@nodes.3" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.40" target="//@nodes.3" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.2" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.2" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.11" target="//@nodes.0" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.3" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.41" target="//@nodes.3" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="SOURCE" source="//@nodes.15" target="//@nodes.3" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.41" target="//@nodes.3" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.2" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.2" exact="true" discoverBy="//@nodes.30"/>
+  <edges name="MODEL_INPUT" source="//@nodes.8" target="//@nodes.20" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges source="//@nodes.8" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.8" target="//@nodes.34" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.35" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.36" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.9" target="//@nodes.36" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.9" target="//@nodes.37" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.10" target="//@nodes.37" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.10" target="//@nodes.38" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.16" target="//@nodes.38" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.16" target="//@nodes.39" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.37" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.13" target="//@nodes.40" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.15" target="//@nodes.40" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.15" target="//@nodes.39" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.11" target="//@nodes.37" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.11" target="//@nodes.41" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.15" target="//@nodes.41" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.15" target="//@nodes.39" exact="true" discoverBy="//@nodes.30" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="SOURCE" source="//@nodes.8" target="//@nodes.32" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges name="CONFORM2" source="//@nodes.20" target="//@nodes.32" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="CONFORM2" source="//@nodes.34" target="//@nodes.33" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.9" target="//@nodes.34" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="CONFORM2" source="//@nodes.6" target="//@nodes.34" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.9" target="//@nodes.0" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.10" target="//@nodes.0" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.10" target="//@nodes.1" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.38" target="//@nodes.1" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.16" target="//@nodes.1" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.38" target="//@nodes.1" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.16" target="//@nodes.2" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.2" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.13" target="//@nodes.0" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.13" target="//@nodes.3" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.40" target="//@nodes.3" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.15" target="//@nodes.3" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.40" target="//@nodes.3" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.2" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.2" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.11" target="//@nodes.0" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.37" target="//@nodes.0" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.11" target="//@nodes.3" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="CONFORM2" source="//@nodes.41" target="//@nodes.3" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.15" target="//@nodes.3" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.41" target="//@nodes.3" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.15" target="//@nodes.2" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="CONFORM2" source="//@nodes.39" target="//@nodes.2" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="SOURCE" source="//@nodes.12" target="//@nodes.32" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.35" target="//@nodes.32" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.12" target="//@nodes.34" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.4" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="TARGET" source="//@nodes.14" target="//@nodes.34" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/RefineAndMergeMeasure.atl"/>
+  <edges name="CONFORM2" source="//@nodes.36" target="//@nodes.34" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="CONFORM2" source="//@nodes.6" target="//@nodes.34" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="CONFORM2" source="//@nodes.42" target="//@nodes.4" exact="true" discoverBy="//@nodes.31"/>
+  <edges name="MODEL_INPUT" source="//@nodes.8" target="//@nodes.20" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges source="//@nodes.8" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.8" target="//@nodes.34" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32EMF.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.9" target="//@nodes.6" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.9" target="//@nodes.37" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Measure2Table.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.10" target="//@nodes.37" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.10" target="//@nodes.38" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2TabularHTML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.16" target="//@nodes.38" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.16" target="//@nodes.39" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/HTML2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.13" target="//@nodes.37" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.13" target="//@nodes.40" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGBarChart.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.15" target="//@nodes.40" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.15" target="//@nodes.39" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.11" target="//@nodes.37" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.11" target="//@nodes.41" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/Table2SVGPieChart.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.15" target="//@nodes.41" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.15" target="//@nodes.39" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/SVG2XML.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.12" target="//@nodes.35" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.12" target="//@nodes.36" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/KM32Measure.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.14" target="//@nodes.36" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/RefineAndMergeMeasure.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.14" target="//@nodes.6" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/RefineAndMergeMeasure.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.14" target="//@nodes.42" exact="true" discoverBy="//@nodes.31" pathDiscoveredByHeuristic="Transformations/RefineAndMergeMeasure.atl"/>
+  <edges name="DRM_OUT" source="//@nodes.12" target="//@nodes.43" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.15" target="//@nodes.44" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.14" target="//@nodes.45" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.8" target="//@nodes.46" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.12" target="//@nodes.47" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.8" target="//@nodes.48" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.15" target="//@nodes.49" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.16" target="//@nodes.50" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.16" target="//@nodes.51" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.14" target="//@nodes.52" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.10" target="//@nodes.53" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.10" target="//@nodes.54" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.17" target="//@nodes.3"/>
+  <edges name="ECORE_KM3" source="//@nodes.18" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.19" target="//@nodes.0"/>
+  <edges name="ECORE_KM3" source="//@nodes.20" target="//@nodes.4"/>
+  <edges name="ECORE_KM3" source="//@nodes.21" target="//@nodes.2"/>
+</graph:Graph>

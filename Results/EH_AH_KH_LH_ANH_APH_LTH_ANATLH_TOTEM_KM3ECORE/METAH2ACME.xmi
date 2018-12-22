@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/METAH2ACME">
+  <nodes name="example-ACME.ecore" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-ACME.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-METAH.ecore" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/MODELS/example-METAH.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="METAH2ACME.atl" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="METAH2ACME build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="TCS2Jar.xml" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/TCS2Jar.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="TCS2Jar.xml" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/PARAMETERS/TCS2Jar.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="${sourceModel}" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/build.xml/${sourceModel}" derivedOrNotExists="true"/>
+  <nodes name="targetModel" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/targetModel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="METAH2ACME_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="METAH2ACME_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/METAH2ACME/METAH2ACME_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.7" discoverBy="//@nodes.5"/>
+  <edges name="SOURCE" source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/METAH2ACME/METAH2ACME.atl"/>
+  <edges name="TARGET" source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/METAH2ACME/METAH2ACME.atl"/>
+  <edges name="CONFORM2" source="//@nodes.8" target="//@nodes.0" exact="true" discoverBy="//@nodes.5"/>
+  <edges name="MODEL_INPUT" source="//@nodes.2" target="//@nodes.7" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/METAH2ACME/METAH2ACME.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.2" target="//@nodes.8" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/METAH2ACME/METAH2ACME.atl"/>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.9" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.2" target="//@nodes.10" exact="true"/>
+</graph:Graph>

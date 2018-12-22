@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/Class2Relational<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Class/outClassXMI.ecore", label: 'outClassXMI.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational.atl", label: 'Class2Relational.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class.atl", label: 'ECore2Class.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Sample.km3", label: 'Sample.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Relational/Relational.km3", label: 'Relational.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/Class/Class.km3", label: 'Class.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class_targetDRM.mm_uncertainty", label: 'ECore2Class_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational_sourceDRM.mm_uncertainty", label: 'Class2Relational_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class_sourceDRM.mm_uncertainty", label: 'ECore2Class_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational_targetDRM.mm_uncertainty", label: 'Class2Relational_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class.atl", to: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational.atl", to: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class.atl", to: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/ECore2Class_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational.atl", to: "/home/juri/Dropbox/ATLZoo/Class2Relational/Class2Relational/ATLFile/Class2Relational_targetDRM.mm_uncertainty"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

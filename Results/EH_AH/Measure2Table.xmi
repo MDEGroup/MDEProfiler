@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Measure2Table">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/models/example-Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MeasureHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/lib/MeasureHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2Table.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/transformations/Measure2Table.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

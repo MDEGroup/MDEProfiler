@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/QVT2ATLVM">
+  <nodes name="QVT.ecore" uri="/home/juri/Dropbox/ATLZoo/QVT2ATLVM/QVT2ATLVM/Metamodel/QVT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BOOKS.ecore" uri="/home/juri/Dropbox/ATLZoo/QVT2ATLVM/QVT2ATLVM/Samples/Book2Publication/BOOKS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PUB.ecore" uri="/home/juri/Dropbox/ATLZoo/QVT2ATLVM/QVT2ATLVM/Samples/Book2Publication/PUB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Book2Publication.ecore" uri="/home/juri/Dropbox/ATLZoo/QVT2ATLVM/QVT2ATLVM/Samples/Book2Publication/Book2Publication.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="QVT.km3" uri="/home/juri/Dropbox/ATLZoo/QVT2ATLVM/QVT2ATLVM/Metamodel/QVT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/UML2MOF<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/UML2MOF/UML2MOF/Transfos/MOF2UML.atl", label: 'MOF2UML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/UML2MOF/UML2MOF/Transfos/UML2MOF.atl", label: 'UML2MOF.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/UML2MOF/UML2MOF/Metamodels/UMLDI-20030818.km3", label: 'UMLDI-20030818.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/UML2MOF/UML2MOF/Metamodels/MOF-1.4.km3", label: 'MOF-1.4.km3', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

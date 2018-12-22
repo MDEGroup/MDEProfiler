@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLSD2STMD">
+  <nodes name="mergeflatSTMD.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/mergeflatSTMD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="applyDomainTheory.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/applyDomainTheory.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="addHierarchy.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/addHierarchy.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SD2flatSTMD.atl" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/SD2flatSTMD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="addHierarchy_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/addHierarchy_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="applyDomainTheory_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/applyDomainTheory_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="applyDomainTheory_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/applyDomainTheory_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="mergeflatSTMD_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/mergeflatSTMD_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="SD2flatSTMD_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/UMLSD2STMD/UMLSD2STMD/transformations/SD2flatSTMD_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.4" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.1" target="//@nodes.5" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.1" target="//@nodes.6" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.0" target="//@nodes.7" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.8" exact="true"/>
+</graph:Graph>

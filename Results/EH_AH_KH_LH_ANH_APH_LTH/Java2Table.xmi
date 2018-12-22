@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Java2Table">
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="JavaSource.ecore" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="JavaSource2Table.atl" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource2Table.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="JavaSource.km3" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="JavaSource2Table.launch" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource2Table.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/example.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="/JavaSource2Table/javasource-example.xmi" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource2Table/javasource-example.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/JavaSource2Table/table-example.xmi" uri="/home/juri/Dropbox/ATLZoo/Java2Table/JavaSource2Table/JavaSource2Table/table-example.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/JavaSource2Table/JavaSource.ecore"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/JavaSource2Table/Table.ecore"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/JavaSource2Table/JavaSource.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.7" target="//@nodes.1" discoverBy="//@nodes.5"/>
+  <edges name="MODEL_INPUT" source="//@nodes.7" target="//@nodes.2" discoverBy="//@nodes.5"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/JavaSource2Table/Table.ecore"/>
+  <edges name="TARGET" source="//@nodes.8" target="//@nodes.2" discoverBy="//@nodes.5"/>
+  <edges name="TARGET" source="//@nodes.8" target="//@nodes.0" discoverBy="//@nodes.5"/>
+</graph:Graph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32OWL">
+  <nodes name="OWL.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32OWL/KM32OWL/Metamodels/OWL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32OWL/KM32OWL/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="OWL2XML.atl" uri="/home/juri/Dropbox/ATLZoo/KM32OWL/KM32OWL/Transformations/OWL2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32OWL.atl" uri="/home/juri/Dropbox/ATLZoo/KM32OWL/KM32OWL/Transformations/KM32OWL.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OWL.km3" uri="/home/juri/Dropbox/ATLZoo/KM32OWL/KM32OWL/Metamodels/OWL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Museum.km3" uri="/home/juri/Dropbox/ATLZoo/KM32OWL/KM32OWL/Samples/Museum.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

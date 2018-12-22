@@ -1,0 +1,88 @@
+var result := 
+  mm!EClass.allInstances().exists(c|c.matches_XX(Set{}))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_Unkown0(Set{}))
+  and
+  mm!EClass.allInstances().exists(c|c.matches_YY(Set{}))
+;
+
+operation EClass matches_XX(visited : Set(EClass)) : Boolean {
+   return self.name = 'XX' 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'r') and 
+   self.eAllStructuralFeatures.exists( f | f.name = 's')   
+   and self.eAllReferences.exists( f | f.name = 'r'
+   )
+   
+   and self.eAllReferences.exists( f | f.name = 's'
+          and f.eReferenceType.matches_YY( visited.including(self) )
+          and f.satMinCardinality(0, false, false)          
+          and f.satMaxCardinalityMany(0, 0)
+          
+                                      
+   )
+
+
+   and Sequence{'r','s'}
+       .includesAll(self.eAllStructuralFeatures->
+			select( f | f.isMandatory and f.defaultValue.isOclUndefined() )->collect(name) )   
+   and self.eAllSuperTypes->collect(name)->includesAll ( Set{'YY'} )
+   and self.eAllSuperTypes->collect(name)->excludesAll ( Set{} )
+   ;   
+}
+operation EClass matches_Unkown0(visited : Set(EClass)) : Boolean {
+   if (visited.includes(self)) return true; 
+   else return true
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'ubub')   
+   and self.eAllReferences.exists( f | f.name = 'ubub'
+          and f.eReferenceType.matches_Unkown0( visited.including(self) )
+          
+                                      
+   )
+
+
+   and Sequence{'ubub'}
+       .includesAll(self.eAllStructuralFeatures->
+			select( f | f.isMandatory and f.defaultValue.isOclUndefined() )->collect(name) )   
+   and self.eAllSuperTypes->collect(name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(name)->excludesAll ( Set{'YY'} )
+   ;   
+}
+operation EClass matches_YY(visited : Set(EClass)) : Boolean {
+   return self.name = 'YY' 
+      and
+   self.eAllStructuralFeatures.exists( f | f.name = 'iaiai')
+
+   and Sequence{'iaiai'}
+       .includesAll(self.eAllStructuralFeatures->
+			select( f | f.isMandatory and f.defaultValue.isOclUndefined() )->collect(name) )   
+   and self.eAllSuperTypes->collect(name)->includesAll ( Set{} )
+   and self.eAllSuperTypes->collect(name)->excludesAll ( Set{} )
+   ;   
+}
+
+operation EFeature satMinCardinality(val: int, less: Boolean, more: Boolean) : Boolean {
+     if (less) return self.lowerBound <= val;
+     if (more) return self.lowerBound >= val;
+     return self.lowerBound = val;
+}
+
+operation EFeature satMaxCardinality(val: int, less: Boolean, more: Boolean) : Boolean {
+     if (less) return self.upperBound <= val;
+     if (more) return self.upperBound >= val;
+     return self.upperBound = val;
+}
+
+operation EFeature satMaxCardinalityMany(ordered: Integer, duplicated: Integer) : Boolean {
+     var satisfiesOrdered : Boolean = true;
+     if (ordered=0) satisfiedOrdered := not self.ordered;
+     if (ordered=1) satisfiedOrdered := self.ordered;
+     
+     var satisfiesUnique : Boolean = true;
+     if (duplicated=0) satisfiedUnique := self.unique;
+     if (duplicated=1) satisfiedUnique := not self.unique;
+      
+     return satisfiedOrdered and satisfiedUnique;
+}
+

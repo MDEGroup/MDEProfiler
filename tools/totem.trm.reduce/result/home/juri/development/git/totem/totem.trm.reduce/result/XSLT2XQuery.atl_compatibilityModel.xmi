@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u189::nodes">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7/@feats.1"/>
+      <kind uniqueId="2" name="u189.nodes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-nodes">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="XSLTRootNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="Template">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="If">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="13" name="ApplyTemplates">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.9"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="14" name="ValueOf">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.10"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="15" name="ElementNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.11"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="16" name="AttributeNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.12"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="17" name="u189">
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="18" name="Template::nodes">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="19" name="Template.nodes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="20" name="AttOrReferenceExclusiveChoice-nodes">
+          <attributeChoice uniqueId="21" name="Attribute">
+            <choices uniqueId="22" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="23" name="Integer">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="24" name="Real">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="25" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="26" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="27" name="If::nodes">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="28" name="If.nodes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="29" name="AttOrReferenceExclusiveChoice-nodes">
+          <attributeChoice uniqueId="30" name="Attribute">
+            <choices uniqueId="31" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="32" name="Integer">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="33" name="Real">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="34" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="35" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="36" name="ElementNode::name">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="37" name="ElementNode.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="38" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="39" name="Attribute">
+            <choices uniqueId="40" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="41" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="42" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="43" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="44" name="Reference">
+            <choices uniqueId="45" name="XSLTRootNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="46" name="Template">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="47" name="If">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="48" name="ApplyTemplates">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.9"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="49" name="ValueOf">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.10"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="50" name="ElementNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.11"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="51" name="AttributeNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.12"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="52" name="u189">
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="53" name="ElementNode::nodes">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5/@feats.1"/>
+      <kind uniqueId="54" name="ElementNode.nodes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="55" name="AttOrReferenceExclusiveChoice-nodes">
+          <attributeChoice uniqueId="56" name="Attribute">
+            <choices uniqueId="57" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="58" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="59" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="60" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="61" name="Reference">
+            <choices uniqueId="62" name="XSLTRootNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="63" name="Template">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="64" name="If">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="65" name="ApplyTemplates">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.9"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="66" name="ValueOf">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.10"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="67" name="ElementNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.11"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="68" name="AttributeNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.12"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="69" name="u189">
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="70" name="AttributeNode::name">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="71" name="AttributeNode.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="72" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="73" name="Attribute">
+            <choices uniqueId="74" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="75" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="76" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="77" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="78" name="Reference">
+            <choices uniqueId="79" name="XSLTRootNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="80" name="Template">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="81" name="If">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="82" name="ApplyTemplates">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.9"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="83" name="ValueOf">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.10"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="84" name="ElementNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.11"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="85" name="AttributeNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.12"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="86" name="u189">
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="87" name="AttributeNode::value">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6/@feats.1"/>
+      <kind uniqueId="88" name="AttributeNode.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="89" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="90" name="Attribute">
+            <choices uniqueId="91" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="92" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="93" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="94" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="95" name="Reference">
+            <choices uniqueId="96" name="XSLTRootNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="97" name="Template">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="98" name="If">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="99" name="ApplyTemplates">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.9"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="100" name="ValueOf">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.10"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="101" name="ElementNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.11"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="102" name="AttributeNode">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.12"/>
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="103" name="u189">
+              <klass href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="104" name="u189::match">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.7/@feats.0"/>
+      <kind uniqueId="105" name="u189.match" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="106" name="AttOrReferenceExclusiveChoice-match">
+          <attributeChoice uniqueId="107" name="Attribute">
+            <choices uniqueId="108" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="109" name="Integer">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="110" name="Real">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="111" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="112" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="113" name="Template::match">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="114" name="Template.match" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="115" name="If::test">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="116" name="If.test" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="117" name="ApplyTemplates::select">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="118" name="ApplyTemplates.select" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="119" name="ValueOf::select">
+      <feature href="XSLT2XQuery.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="120" name="ValueOf.select" nodeKind="COMPULSORY"/>
+    </features>
+  </source>
+  <target uniqueId="121" name="Target">
+    <features uniqueId="122" name="Return::expressions">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="123" name="Return.expressions" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="124" name="AttOrReferenceExclusiveChoice-expressions">
+          <attributeChoice uniqueId="125" name="Attribute">
+            <choices uniqueId="126" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="127" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="128" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="129" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="130" name="Reference">
+            <choices uniqueId="131" name="XQueryProgram">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="132" name="FLWOR">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="133" name="For">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="134" name="XPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="135" name="Return">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="136" name="FunctionDeclaration">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="137" name="Let">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="138" name="Where">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="139" name="BooleanExp">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="140" name="FunctionCall">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="141" name="ReturnXPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="142" name="ElementNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="143" name="AttributeNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="144" name="FunctionDeclaration::name">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="145" name="FunctionDeclaration.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="146" name="FunctionDeclaration::xQueryProgram">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5/@feats.2"/>
+      <kind uniqueId="147" name="FunctionDeclaration.xQueryProgram" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="148" name="AttOrReferenceExclusiveChoice-xQueryProgram">
+          <attributeChoice uniqueId="149" name="Attribute">
+            <choices uniqueId="150" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="151" name="Integer">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="152" name="Real">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="153" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="154" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="155" name="BooleanExp::value">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.8/@feats.0"/>
+      <kind uniqueId="156" name="BooleanExp.value" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="157" name="FunctionCall::name">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.9/@feats.0"/>
+      <kind uniqueId="158" name="FunctionCall.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="159" name="ReturnXPath::value">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.10/@feats.0"/>
+      <kind uniqueId="160" name="ReturnXPath.value" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="161" name="ElementNode::name">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11/@feats.0"/>
+      <kind uniqueId="162" name="ElementNode.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="163" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="164" name="Attribute">
+            <choices uniqueId="165" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="166" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="167" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="168" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="169" name="Reference">
+            <choices uniqueId="170" name="XQueryProgram">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="171" name="FLWOR">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="172" name="For">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="173" name="XPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="174" name="Return">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="175" name="FunctionDeclaration">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="176" name="Let">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="177" name="Where">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="178" name="BooleanExp">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="179" name="FunctionCall">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="180" name="ReturnXPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="181" name="ElementNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="182" name="AttributeNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="183" name="ElementNode::nodes">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11/@feats.12"/>
+      <kind uniqueId="184" name="ElementNode.nodes" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="185" name="AttOrReferenceExclusiveChoice-nodes">
+          <attributeChoice uniqueId="186" name="Attribute">
+            <choices uniqueId="187" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="188" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="189" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="190" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="191" name="Reference">
+            <choices uniqueId="192" name="XQueryProgram">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="193" name="FLWOR">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="194" name="For">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="195" name="XPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="196" name="Return">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="197" name="FunctionDeclaration">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="198" name="Let">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="199" name="Where">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="200" name="BooleanExp">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="201" name="FunctionCall">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="202" name="ReturnXPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="203" name="ElementNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="204" name="AttributeNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="205" name="AttributeNode::name">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12/@feats.0"/>
+      <kind uniqueId="206" name="AttributeNode.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="207" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="208" name="Attribute">
+            <choices uniqueId="209" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="210" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="211" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="212" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="213" name="Reference">
+            <choices uniqueId="214" name="XQueryProgram">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="215" name="FLWOR">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="216" name="For">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="217" name="XPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="218" name="Return">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="219" name="FunctionDeclaration">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="220" name="Let">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="221" name="Where">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="222" name="BooleanExp">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="223" name="FunctionCall">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="224" name="ReturnXPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="225" name="ElementNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="226" name="AttributeNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="227" name="AttributeNode::value">
+      <feature href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12/@feats.12"/>
+      <kind uniqueId="228" name="AttributeNode.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="229" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="230" name="Attribute">
+            <choices uniqueId="231" name="String">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="232" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="233" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="234" name="Boolean">
+              <datatype_ href="XSLT2XQuery.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="235" name="Reference">
+            <choices uniqueId="236" name="XQueryProgram">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="237" name="FLWOR">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="238" name="For">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="239" name="XPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="240" name="Return">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="241" name="FunctionDeclaration">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="242" name="Let">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="243" name="Where">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="244" name="BooleanExp">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="245" name="FunctionCall">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="246" name="ReturnXPath">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="247" name="ElementNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="248" name="AttributeNode">
+              <klass href="XSLT2XQuery.atl_targetDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

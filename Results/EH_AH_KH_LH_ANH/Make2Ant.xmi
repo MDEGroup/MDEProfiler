@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Make2Ant">
+  <nodes name="Make2Ant.atl" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Ant2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Make.atl" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Make.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant.km3" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/MM/Ant.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Make.km3" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/MM/Make.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="makefile.xml" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/example/makefile.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/example/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook">
+  <nodes name="docbook-example.ecore" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/docbook-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BibTeX.ecore" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/BibTeX.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DocBook.ecore" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/DocBook.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="bibtex-example.ecore" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/bibtex-example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BibTeX2DocBook.atl" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/BibTeX2DocBook.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="BibTeX.km3" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/BibTeX.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="DocBook.km3" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/DocBook.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="xml-example.xml" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/xml-example.xml"/>
+  <nodes name="xml-example-final.xml" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/xml-example-final.xml"/>
+  <nodes name="BibTeX2DocBook_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/BibTeX2DocBook_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="BibTeX2DocBook_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/BibTeXML2DocBook/BibTeXML2DocBook/BibTeX2DocBook_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.9" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.10" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.5" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.6" target="//@nodes.2"/>
+</graph:Graph>

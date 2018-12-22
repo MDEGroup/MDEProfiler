@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector">
+  <nodes name="ExcelXMLFileExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ExcelModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2SpreadsheetMLSimplified.atl" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/transformations/XML2SpreadsheetMLSimplified.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="ExcelXMLFileExample.xml" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"/>
+  <nodes name="XML2SpreadsheetMLSimplified_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/transformations/XML2SpreadsheetMLSimplified_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2SpreadsheetMLSimplified_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/transformations/XML2SpreadsheetMLSimplified_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.8" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.9" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.5" target="//@nodes.3"/>
+  <edges name="ECORE_KM3" source="//@nodes.6" target="//@nodes.2"/>
+</graph:Graph>

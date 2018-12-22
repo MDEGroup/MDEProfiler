@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT">
+  <nodes name="MantisExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MantisXMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisXMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Mantis.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/Mantis.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Mantis.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/SoftwareQualityControl2Mantis.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2MantisText.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Mantis2XML.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/Mantis2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/SoftwareQualityControl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Mantis.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/Mantis.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MantisXMLfileExample.xml" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisXMLfileExample.xml"/>
+  <nodes name="XML2MantisText_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2MantisText_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.7" target="//@nodes.13" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.7" target="//@nodes.14" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.9" target="//@nodes.4"/>
+  <edges name="ECORE_KM3" source="//@nodes.10" target="//@nodes.5"/>
+  <edges name="ECORE_KM3" source="//@nodes.11" target="//@nodes.3"/>
+</graph:Graph>

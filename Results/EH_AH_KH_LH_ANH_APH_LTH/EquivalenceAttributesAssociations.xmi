@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/EquivalenceAttributesAssociations">
+  <nodes name="equivalenceOfAttributeAndAssociations.atl" uri="/home/juri/Dropbox/ATLZoo/EquivalenceAttributesAssociations/equivalenceOfAttributeAndAssociations.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="CatalogueOfModelTransformations build_example.xml.launch" uri="/home/juri/Dropbox/ATLZoo/EquivalenceAttributesAssociations/CatalogueOfModelTransformations build_example.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build_example.xml" uri="/home/juri/Dropbox/ATLZoo/EquivalenceAttributesAssociations/build_example.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

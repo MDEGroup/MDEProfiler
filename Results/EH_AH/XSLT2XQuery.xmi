@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/XSLT2XQuery">
+  <nodes name="XSLT.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XSLT/XSLT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XML/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XQuery.ecore" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/XQuery/XQuery.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2XSLT.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XML2XSLT.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XSLT2XQuery.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XSLT2XQuery.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XQuery2Code.atl" uri="/home/juri/Dropbox/ATLZoo/XSLT2XQuery/XSLT2XQuery/ATLFile/XQuery2Code.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

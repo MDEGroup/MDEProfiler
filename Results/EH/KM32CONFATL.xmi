@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32CONFATL">
+  <nodes name="MADL.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/target_example/MADL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="conf4MADL.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/target_example/conf4MADL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="architectureModel.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/models/architectureModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="implementationModel.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/models/implementationModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/DOT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATL-0.2-TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32CONFATL/KM32CONFATL/metamodels/ATL-0.2-TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

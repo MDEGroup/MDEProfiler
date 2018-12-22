@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="HSM" nsURI="http://HSM/1.0" nsPrefix="HSM">
+  <eClassifiers xsi:type="ecore:EClass" name="HSM_StateMachine">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="transitions" upperBound="-1"
+        eType="#//HSM_Transition" containment="true" eOpposite="#//HSM_Transition/stateMachine"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="states" upperBound="-1"
+        eType="#//HSM_AbstractState" containment="true" eOpposite="#//HSM_AbstractState/stateMachine"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HSM_Transition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stateMachine" eType="#//HSM_StateMachine"
+        eOpposite="#//HSM_StateMachine/transitions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+        eType="#//HSM_AbstractState"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        eType="#//HSM_AbstractState"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HSM_AbstractState" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stateMachine" eType="#//HSM_StateMachine"
+        eOpposite="#//HSM_StateMachine/states"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compositeState" eType="#//HSM_CompositeState"
+        eOpposite="#//HSM_CompositeState/states"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HSM_InitialState" eSuperTypes="#//HSM_AbstractState"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HSM_RegularState" eSuperTypes="#//HSM_AbstractState"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HSM_CompositeState" eSuperTypes="#//HSM_AbstractState">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="states" upperBound="-1"
+        eType="#//HSM_AbstractState" eOpposite="#//HSM_AbstractState/compositeState"/>
+  </eClassifiers>
+</ecore:EPackage>

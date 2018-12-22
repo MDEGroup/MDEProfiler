@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile">
+  <nodes name="UMLCD2UMLProfile.atl" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UMLCD2UMLProfile.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UML2Copy.atl" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UML2Copy.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="UMLCD2UMLProfile.launch" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/UMLCD2UMLProfile.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/UMLCD2UMLProfile/UMLClassDiagram_to_UMLProfile/Transformations/build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

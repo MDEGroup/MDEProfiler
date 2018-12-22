@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Model::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="2" name="Model.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="13" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="14" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="15" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="16" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="17" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="18" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="19" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="20" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="21" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="22" name="Model::ownedMember">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="23" name="Model.ownedMember" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="24" name="AttOrReferenceExclusiveChoice-ownedMember">
+          <attributeChoice uniqueId="25" name="Attribute">
+            <choices uniqueId="26" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="27" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="28" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="29" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="30" name="Reference">
+            <choices uniqueId="31" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="32" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="33" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="34" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="35" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="36" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="37" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="38" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="39" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="40" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="41" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="42" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="43" name="DataType::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="44" name="DataType.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="45" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="46" name="Attribute">
+            <choices uniqueId="47" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="48" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="49" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="50" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="51" name="Reference">
+            <choices uniqueId="52" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="53" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="54" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="55" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="56" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="57" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="58" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="59" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="60" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="61" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="62" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="63" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="64" name="LiteralInteger::value">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="65" name="LiteralInteger.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="66" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="67" name="Attribute">
+            <choices uniqueId="68" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="69" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="70" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="71" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="72" name="Reference">
+            <choices uniqueId="73" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="74" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="75" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="76" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="77" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="78" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="79" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="80" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.3/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="81" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="82" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="83" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="84" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="85" name="LiteralUnlimitedNatural::value">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="86" name="LiteralUnlimitedNatural.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="87" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="88" name="Attribute">
+            <choices uniqueId="89" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="90" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="91" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="92" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="93" name="Reference">
+            <choices uniqueId="94" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="95" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="96" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="97" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="98" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="99" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="100" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="101" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.4/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="102" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="103" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="104" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="105" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="106" name="Property::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5/@feats.2"/>
+      <kind uniqueId="107" name="Property.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="108" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="109" name="Attribute">
+            <choices uniqueId="110" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="111" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="112" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="113" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="114" name="Reference">
+            <choices uniqueId="115" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="116" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="117" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="118" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="119" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="120" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="121" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="122" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.5/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="123" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="124" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="125" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="126" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="127" name="Property::type">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5/@feats.3"/>
+      <kind uniqueId="128" name="Property.type" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="129" name="AttOrReferenceExclusiveChoice-type">
+          <attributeChoice uniqueId="130" name="Attribute">
+            <choices uniqueId="131" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="132" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="133" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="134" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="135" name="Reference">
+            <choices uniqueId="136" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="137" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="138" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="139" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="140" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="141" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="142" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="143" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.6/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="144" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="145" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="146" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="147" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="148" name="Class::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="149" name="Class.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="150" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="151" name="Attribute">
+            <choices uniqueId="152" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="153" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="154" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="155" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="156" name="Reference">
+            <choices uniqueId="157" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="158" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="159" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="160" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="161" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="162" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="163" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="164" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.7/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="165" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="166" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="167" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="168" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="169" name="Class::ownedOperation">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6/@feats.1"/>
+      <kind uniqueId="170" name="Class.ownedOperation" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="171" name="AttOrReferenceExclusiveChoice-ownedOperation">
+          <attributeChoice uniqueId="172" name="Attribute">
+            <choices uniqueId="173" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="174" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="175" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="176" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="177" name="Reference">
+            <choices uniqueId="178" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="179" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="180" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="181" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="182" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="183" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="184" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="185" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.8/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="186" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="187" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="188" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="189" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="190" name="Class::nestedClassifier">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6/@feats.2"/>
+      <kind uniqueId="191" name="Class.nestedClassifier" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="192" name="AttOrReferenceExclusiveChoice-nestedClassifier">
+          <attributeChoice uniqueId="193" name="Attribute">
+            <choices uniqueId="194" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="195" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="196" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="197" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="198" name="Reference">
+            <choices uniqueId="199" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="200" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="201" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="202" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="203" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="204" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="205" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="206" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.9/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="207" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="208" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="209" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="210" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="211" name="Class::isActive">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6/@feats.3"/>
+      <kind uniqueId="212" name="Class.isActive" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="213" name="AttOrReferenceExclusiveChoice-isActive">
+          <attributeChoice uniqueId="214" name="Attribute">
+            <choices uniqueId="215" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="216" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="217" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="218" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="219" name="Reference">
+            <choices uniqueId="220" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="221" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="222" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="223" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="224" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="225" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="226" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="227" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.10/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="228" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="229" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="230" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="231" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="232" name="Class::ownedReception">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6/@feats.4"/>
+      <kind uniqueId="233" name="Class.ownedReception" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="234" name="AttOrReferenceExclusiveChoice-ownedReception">
+          <attributeChoice uniqueId="235" name="Attribute">
+            <choices uniqueId="236" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="237" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="238" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="239" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="240" name="Reference">
+            <choices uniqueId="241" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="242" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="243" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="244" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="245" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="246" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="247" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="248" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.11/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="249" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="250" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="251" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="252" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="253" name="Class::ownedAttribute">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6/@feats.5"/>
+      <kind uniqueId="254" name="Class.ownedAttribute" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="255" name="AttOrReferenceExclusiveChoice-ownedAttribute">
+          <attributeChoice uniqueId="256" name="Attribute">
+            <choices uniqueId="257" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="258" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="259" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="260" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="261" name="Reference">
+            <choices uniqueId="262" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="263" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="264" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="265" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="266" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="267" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="268" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="269" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.12/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="270" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="271" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="272" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="273" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="274" name="AssociationClass::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7/@feats.0"/>
+      <kind uniqueId="275" name="AssociationClass.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="276" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="277" name="Attribute">
+            <choices uniqueId="278" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="279" name="Integer">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="280" name="Real">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="281" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="282" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="283" name="u230::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9/@feats.0"/>
+      <kind uniqueId="284" name="u230.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="285" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="286" name="Attribute">
+            <choices uniqueId="287" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="288" name="Integer">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="289" name="Real">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="290" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="291" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="292" name="u230::upperValue">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9/@feats.1"/>
+      <kind uniqueId="293" name="u230.upperValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="294" name="AttOrReferenceExclusiveChoice-upperValue">
+          <attributeChoice uniqueId="295" name="Attribute">
+            <choices uniqueId="296" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="297" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="298" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="299" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="300" name="Reference">
+            <choices uniqueId="301" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="302" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="303" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="304" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="305" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="306" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="307" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="308" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.13/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="309" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="310" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="311" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="312" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="313" name="u230::lowerValue">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9/@feats.2"/>
+      <kind uniqueId="314" name="u230.lowerValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="315" name="AttOrReferenceExclusiveChoice-lowerValue">
+          <attributeChoice uniqueId="316" name="Attribute">
+            <choices uniqueId="317" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="318" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="319" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="320" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="321" name="Reference">
+            <choices uniqueId="322" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="323" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="324" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="325" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="326" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="327" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="328" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="329" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.14/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="330" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="331" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="332" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="333" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="334" name="u230::defaultValue">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9/@feats.3"/>
+      <kind uniqueId="335" name="u230.defaultValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="336" name="AttOrReferenceExclusiveChoice-defaultValue">
+          <attributeChoice uniqueId="337" name="Attribute">
+            <choices uniqueId="338" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="339" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="340" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="341" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="342" name="Reference">
+            <choices uniqueId="343" name="Model">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="344" name="DataType">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.1"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="345" name="LiteralNull">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="346" name="LiteralInteger">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.3"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="347" name="LiteralUnlimitedNatural">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.4"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="348" name="Property">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.5"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="349" name="Class">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="350" name="AssociationClass">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.15/@kind/@attOrRef/@referenceChoice/@choices.6"/>
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="351" name="u229">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="352" name="u230">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="353" name="u231">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="354" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="355" name="u231::name">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.10/@feats.0"/>
+      <kind uniqueId="356" name="u231.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="357" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="358" name="Attribute">
+            <choices uniqueId="359" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="360" name="Integer">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="361" name="Real">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="362" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="363" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="364" name="Property::class_">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="365" name="Property.class_" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="366" name="AttOrReferenceExclusiveChoice-class_">
+          <attributeChoice uniqueId="367" name="Attribute">
+            <choices uniqueId="368" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="369" name="Integer">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="370" name="Real">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="371" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="372" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="373" name="Property::association">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.5/@feats.1"/>
+      <kind uniqueId="374" name="Property.association" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="375" name="AttOrReferenceExclusiveChoice-association">
+          <attributeChoice uniqueId="376" name="Attribute">
+            <choices uniqueId="377" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="378" name="Integer">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="379" name="Real">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="380" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="381" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="382" name="u229::association">
+      <feature href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@classes.8/@feats.0"/>
+      <kind uniqueId="383" name="u229.association" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="384" name="AttOrReferenceExclusiveChoice-association">
+          <attributeChoice uniqueId="385" name="Attribute">
+            <choices uniqueId="386" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="387" name="Integer">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="388" name="Real">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="389" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="390" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="391" name="Target">
+    <features uniqueId="392" name="Model::name">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="393" name="Model.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="394" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="395" name="Attribute">
+            <choices uniqueId="396" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="397" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="398" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="399" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="400" name="Reference">
+            <choices uniqueId="401" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="402" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="403" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="404" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="405" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="406" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="407" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="408" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="409" name="Model::ownedMember">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="410" name="Model.ownedMember" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="411" name="AttOrReferenceExclusiveChoice-ownedMember">
+          <attributeChoice uniqueId="412" name="Attribute">
+            <choices uniqueId="413" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="414" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="415" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="416" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="417" name="Reference">
+            <choices uniqueId="418" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="419" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="420" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="421" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="422" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="423" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="424" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="425" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="426" name="DataType::name">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="427" name="DataType.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="428" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="429" name="Attribute">
+            <choices uniqueId="430" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="431" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="432" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="433" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="434" name="Reference">
+            <choices uniqueId="435" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="436" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="437" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="438" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="439" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="440" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="441" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="442" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="443" name="LiteralInteger::value">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3/@feats.0"/>
+      <kind uniqueId="444" name="LiteralInteger.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="445" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="446" name="Attribute">
+            <choices uniqueId="447" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="448" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="449" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="450" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="451" name="Reference">
+            <choices uniqueId="452" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="453" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="454" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="455" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="456" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="457" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="458" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="459" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="460" name="LiteralUnlimitedNatural::value">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="461" name="LiteralUnlimitedNatural.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="462" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="463" name="Attribute">
+            <choices uniqueId="464" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="465" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="466" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="467" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="468" name="Reference">
+            <choices uniqueId="469" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="470" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="471" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="472" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="473" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="474" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="475" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="476" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="477" name="Property::name">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5/@feats.2"/>
+      <kind uniqueId="478" name="Property.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="479" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="480" name="Attribute">
+            <choices uniqueId="481" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="482" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="483" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.5/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="484" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="485" name="Reference">
+            <choices uniqueId="486" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="487" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="488" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="489" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="490" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="491" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="492" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="493" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="494" name="Property::type">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5/@feats.3"/>
+      <kind uniqueId="495" name="Property.type" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="496" name="AttOrReferenceExclusiveChoice-type">
+          <attributeChoice uniqueId="497" name="Attribute">
+            <choices uniqueId="498" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="499" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="500" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.6/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="501" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="502" name="Reference">
+            <choices uniqueId="503" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="504" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="505" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="506" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="507" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="508" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="509" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="510" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="511" name="Class::name">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="512" name="Class.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="513" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="514" name="Attribute">
+            <choices uniqueId="515" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="516" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="517" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.7/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="518" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="519" name="Reference">
+            <choices uniqueId="520" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="521" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="522" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="523" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="524" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="525" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="526" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="527" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="528" name="Class::ownedOperation">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6/@feats.1"/>
+      <kind uniqueId="529" name="Class.ownedOperation" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="530" name="AttOrReferenceExclusiveChoice-ownedOperation">
+          <attributeChoice uniqueId="531" name="Attribute">
+            <choices uniqueId="532" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="533" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="534" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.8/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="535" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="536" name="Reference">
+            <choices uniqueId="537" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="538" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="539" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="540" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="541" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="542" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="543" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="544" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="545" name="Class::nestedClassifier">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6/@feats.2"/>
+      <kind uniqueId="546" name="Class.nestedClassifier" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="547" name="AttOrReferenceExclusiveChoice-nestedClassifier">
+          <attributeChoice uniqueId="548" name="Attribute">
+            <choices uniqueId="549" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="550" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="551" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.9/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="552" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="553" name="Reference">
+            <choices uniqueId="554" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="555" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="556" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="557" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="558" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="559" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="560" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="561" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="562" name="Class::isActive">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6/@feats.3"/>
+      <kind uniqueId="563" name="Class.isActive" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="564" name="AttOrReferenceExclusiveChoice-isActive">
+          <attributeChoice uniqueId="565" name="Attribute">
+            <choices uniqueId="566" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="567" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="568" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.10/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="569" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="570" name="Reference">
+            <choices uniqueId="571" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="572" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="573" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="574" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="575" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="576" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="577" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="578" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="579" name="Class::ownedReception">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6/@feats.4"/>
+      <kind uniqueId="580" name="Class.ownedReception" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="581" name="AttOrReferenceExclusiveChoice-ownedReception">
+          <attributeChoice uniqueId="582" name="Attribute">
+            <choices uniqueId="583" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="584" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="585" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.11/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="586" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="587" name="Reference">
+            <choices uniqueId="588" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="589" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="590" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="591" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="592" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="593" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="594" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="595" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="596" name="Class::ownedAttribute">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6/@feats.5"/>
+      <kind uniqueId="597" name="Class.ownedAttribute" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="598" name="AttOrReferenceExclusiveChoice-ownedAttribute">
+          <attributeChoice uniqueId="599" name="Attribute">
+            <choices uniqueId="600" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="601" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="602" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.12/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="603" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="604" name="Reference">
+            <choices uniqueId="605" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="606" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="607" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="608" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="609" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="610" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="611" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="612" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="613" name="Property::upperValue">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5/@feats.5"/>
+      <kind uniqueId="614" name="Property.upperValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="615" name="AttOrReferenceExclusiveChoice-upperValue">
+          <attributeChoice uniqueId="616" name="Attribute">
+            <choices uniqueId="617" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="618" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="619" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.15/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="620" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="621" name="Reference">
+            <choices uniqueId="622" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="623" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="624" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="625" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="626" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="627" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="628" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="629" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="630" name="Property::lowerValue">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5/@feats.6"/>
+      <kind uniqueId="631" name="Property.lowerValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="632" name="AttOrReferenceExclusiveChoice-lowerValue">
+          <attributeChoice uniqueId="633" name="Attribute">
+            <choices uniqueId="634" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="635" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="636" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.16/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="637" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="638" name="Reference">
+            <choices uniqueId="639" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="640" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="641" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="642" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="643" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="644" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="645" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="646" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="647" name="Property::defaultValue">
+      <feature href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5/@feats.7"/>
+      <kind uniqueId="648" name="Property.defaultValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="649" name="AttOrReferenceExclusiveChoice-defaultValue">
+          <attributeChoice uniqueId="650" name="Attribute">
+            <choices uniqueId="651" name="String">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="652" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="653" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.17/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="654" name="Boolean">
+              <datatype_ href="RemovingAnAssociationClass.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="655" name="Reference">
+            <choices uniqueId="656" name="Model">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="657" name="DataType">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="658" name="LiteralNull">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="659" name="LiteralInteger">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="660" name="LiteralUnlimitedNatural">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="661" name="Property">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="662" name="Class">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="663" name="Association">
+              <klass href="RemovingAnAssociationClass.atl_targetDRM.ecore#//@classes.7"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

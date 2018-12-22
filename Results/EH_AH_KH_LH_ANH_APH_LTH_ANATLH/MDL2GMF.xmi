@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MDL2GMF">
+  <nodes name="Property.ecore" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/Metamodel/Property.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MDL2GMF.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2GMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDLHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDL2UML21.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2UML21.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDL2Diagram.launch" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2Diagram.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/build/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="/org.eclipse.atl.mdl2uml/Model/Sample.mdl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/org.eclipse.atl.mdl2uml/Model/Sample.mdl" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/org.eclipse.atl.mdl2uml/output/test.ecore" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/org.eclipse.atl.mdl2uml/output/test.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="../Sample/QVT.mdl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/build/build.xml/../Sample/QVT.mdl" derivedOrNotExists="true"/>
+  <nodes name="UML" uri="http://www.eclipse.org/uml2/2.1.0/UML" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="result" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/build/result" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="../temp/${name}.xmi" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/build/build.xml/../temp/${name}.xmi" derivedOrNotExists="true"/>
+  <nodes name="GMF" uri="http://www.eclipse.org/gmf/runtime/1.0.1/notation" derivedOrNotExists="true">
+    <type>NodeType.MetaMetaModel</type>
+  </nodes>
+  <nodes name="result2" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/build/result2" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="CONFORM2" source="//@nodes.6" discoverBy="//@nodes.4"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.4"/>
+  <edges name="TARGET" source="//@nodes.7" discoverBy="//@nodes.4"/>
+  <edges name="CONFORM2" source="//@nodes.8" discoverBy="//@nodes.5"/>
+  <edges name="SOURCE" source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2UML21.atl"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.9" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2UML21.atl"/>
+  <edges name="CONFORM2" source="//@nodes.10" target="//@nodes.3" exact="true" discoverBy="//@nodes.5"/>
+  <edges name="CONFORM2" source="//@nodes.11" target="//@nodes.0" discoverBy="//@nodes.5"/>
+  <edges name="SOURCE" source="//@nodes.1" target="//@nodes.0" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="CONFORM2" source="//@nodes.8" discoverBy="//@nodes.5"/>
+  <edges name="SOURCE" source="//@nodes.1" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="CONFORM2" source="//@nodes.10" target="//@nodes.9" exact="true" discoverBy="//@nodes.5"/>
+  <edges name="SOURCE" source="//@nodes.1" target="//@nodes.9" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="TARGET" source="//@nodes.1" target="//@nodes.12" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="CONFORM2" source="//@nodes.13" target="//@nodes.0" exact="true" discoverBy="//@nodes.5"/>
+  <edges name="MODEL_INPUT" source="//@nodes.3" target="//@nodes.8" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2UML21.atl"/>
+  <edges name="LIBRARY" source="//@nodes.3" target="//@nodes.2" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2UML21.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.3" target="//@nodes.10" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2UML21.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.1" target="//@nodes.11" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.1" target="//@nodes.8" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="MODEL_INPUT" source="//@nodes.1" target="//@nodes.10" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="LIBRARY" source="//@nodes.1" target="//@nodes.2" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.1" target="//@nodes.13" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="../MDL2GMF.atl"/>
+</graph:Graph>

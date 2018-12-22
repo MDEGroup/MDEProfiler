@@ -1,0 +1,118 @@
+module test;
+create OUT : MADL from IMPL : MADL, ARCH : MADL;
+
+helper context MADL!ViewElement def: isDivergent : Boolean =
+ self.isFromImplementation and self.oclType()->allInstancesFrom('ARCH')->forAll(m |
+  not m.isMapping(self)
+ );
+
+helper context MADL!ViewElement def: isAbsent : Boolean =
+ self.isFromArchitecture and not self.oclType()->allInstancesFrom('IMPL')->exists(m |
+  m.isMapping(self)
+ );
+
+helper context MADL!ViewElement def: isConvergent : Boolean =
+ self.isFromImplementation and self.oclType()->allInstancesFrom('ARCH')->exists(m |
+  m.isMapping(self)
+ );
+
+helper context MADL!ViewElement def: match : MADL!ViewElement =
+ if self.isAbsent or self.isDivergent then
+  self
+ else
+  self.oclType().allInstancesFrom('IMPL')->any(p |
+   p.isMapping(self)
+  )
+ endif;
+
+helper context MADL!ViewElement def: isFromImplementation : Boolean =
+ MADL!ViewElement->allInstancesFrom('IMPL')->includes(self);
+
+helper context MADL!ViewElement def: isFromArchitecture : Boolean =
+ not self.isFromImplementation;
+
+helper def: rootImpl : MADL!Implementation =
+ MADL!Implementation->allInstancesFrom('IMPL')->asSequence()->first();
+
+helper def: rootArch : MADL!Implementation =
+ MADL!Implementation->allInstancesFrom('ARCH')->asSequence()->first();
+
+rule Implementation {
+ from
+  root_in : MADL!Implementation
+  (
+   thisModule.rootImpl = root_in
+  )
+ to
+  impl_out : MADL!Implementation (
+   modules <- root_in.modules->union(thisModule.rootArch.modules)
+  )
+}
+
+helper context MADL!Module def: allUses : Set(MADL!Uses) =
+ if self.isConvergent then
+  self.uses->union(self.arch.uses)
+ else
+  self.uses
+ endif;
+
+helper context MADL!Module def: arch : MADL!Module =
+ MADL!Module->allInstancesFrom('ARCH')->any(m |
+  m.isMapping(self)
+ );
+
+rule Module {
+ from
+  Modulein : MADL!Module
+  (
+   Modulein.isConvergent or Modulein.isDivergent or Modulein.isAbsent
+  )
+ to
+  r_out : MADL!Module (
+   uses <- Modulein.allUses->collect(r |
+    r.match
+   ),
+   conformance <- if Modulein.isConvergent then
+    #convergent
+   else
+    if Modulein.isDivergent then
+     #divergent
+    else
+     #absent
+    endif
+   endif,
+   name <- Modulein.name
+  )
+}
+
+helper context MADL!ViewEntity def: isMapping(m : MADL!ViewEntity) : Boolean =
+ self.name = m.name;
+
+helper context MADL!Uses def: isMapping(r : MADL!Uses) : Boolean =
+ self.uses.isMapping(r.uses) and self.sourceUses.isMapping(r.sourceUses);
+
+helper context MADL!Uses def: sourceUses : MADL!Module =
+ MADL!Module->allInstances()->any(m |
+  m.uses->includes(self)
+ );
+
+rule Uses {
+ from
+  r_in : MADL!Uses
+  (
+   r_in.isConvergent or r_in.isDivergent or r_in.isAbsent
+  )
+ to
+  r_out : MADL!Uses (
+   uses <- r_in.uses.match,
+   conformance <- if r_in.isConvergent then
+    #convergent
+   else
+    if r_in.isDivergent then
+     #divergent
+    else
+     #absent
+    endif
+   endif
+  )
+}

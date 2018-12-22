@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/OCL2SWRL">
+  <nodes name="OCL.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="r2ml.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="rdm.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="R2ML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2XML/R2ML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="RDM2XML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/RDM2XML/RDM2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OCL2R2ML.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/OCL2R2ML/OCL2R2ML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="R2ML2RDM.atl" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/transformations/R2ML2RDM/R2ML2RDM.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="OCL.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/ocl/OCL.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="r2ml.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/r2ml/r2ml.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="rdm.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/rdm/rdm.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/OCL2SWRL/OCL2SWRL/metamodels/xml/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SimpleClass2SimpleRDBMS">
+  <nodes name="Sample-SimpleClass.ecore" uri="/home/juri/Dropbox/ATLZoo/SimpleClass2SimpleRDBMS/SimpleClass2SimpleRDBMS/Sample-SimpleClass.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Sample-SimpleRDBMS.ecore" uri="/home/juri/Dropbox/ATLZoo/SimpleClass2SimpleRDBMS/SimpleClass2SimpleRDBMS/Sample-SimpleRDBMS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleRDBMS.ecore" uri="/home/juri/Dropbox/ATLZoo/SimpleClass2SimpleRDBMS/SimpleClass2SimpleRDBMS/SimpleRDBMS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Sample-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/SimpleClass2SimpleRDBMS/SimpleClass2SimpleRDBMS/Sample-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SimpleClass.ecore" uri="/home/juri/Dropbox/ATLZoo/SimpleClass2SimpleRDBMS/SimpleClass2SimpleRDBMS/SimpleClass.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

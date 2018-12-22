@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/TT2BDD">
+  <nodes name="TT.ecore" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BDD.ecore" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TT2BDD.atl" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TT.km3" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BDD.km3" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TT2BDD.launch" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/TT2BDD/TT/examples/Test.ttmodel" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT/examples/Test.ttmodel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/TT2BDD/BDD/examples/OUT.bddmodel" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/BDD/examples/OUT.bddmodel" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="TT2BDD_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/TT2BDD/TT/TT.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.6" target="//@nodes.0" discoverBy="//@nodes.5"/>
+  <edges name="MODEL_INPUT" source="//@nodes.6" target="//@nodes.2" discoverBy="//@nodes.5"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/TT2BDD/BDD/BDD.ecore"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.2" discoverBy="//@nodes.5"/>
+  <edges name="TARGET" source="//@nodes.7" target="//@nodes.1" discoverBy="//@nodes.5"/>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.8" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.3" target="//@nodes.0"/>
+  <edges name="ECORE_KM3" source="//@nodes.4" target="//@nodes.1"/>
+</graph:Graph>

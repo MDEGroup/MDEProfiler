@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Table2TabularHTML">
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/models/example-Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="HTML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/metamodels/HTML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TableHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/lib/TableHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table2TabularHTML.atl" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/transformations/Table2TabularHTML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="HTML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/transformations/HTML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="HTML.km3" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/metamodels/HTML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Table2TabularHTML build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/conf/Table2TabularHTML build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Table2TabularHTML/Table2TabularHTML/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

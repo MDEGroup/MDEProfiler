@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2KM3">
+  <nodes name="out-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/SampleKM3/out-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UML2KM3.atl" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/UML2KM3.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="out-KM3.km3" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/SampleKM3/out-KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="UML2KM3.launch" uri="/home/juri/Dropbox/ATLZoo/UML2KM3/UML2ClassDiagram_to_KM3/Transformations/UML2KM3.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

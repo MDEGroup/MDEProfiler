@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject">
+  <nodes name="example-project.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/example-project.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSProject.ecore" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/MSProject.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UmlActivityDiagram2MSProject.atl" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/UmlActivityDiagram2MSProject.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MSProject.km3" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/MSProject.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="example.xml" uri="/home/juri/Dropbox/ATLZoo/UMLActivityDiagram2MSProject/UmlActivityDiagram2MSProject/example.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

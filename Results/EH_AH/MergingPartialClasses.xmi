@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MergingPartialClasses">
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/without_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/without_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/without_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TCS.ecore" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/with_context/TCS.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/with_context/InputModels/example-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-KM3Target.ecore" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/with_context/OutputModels/example-KM3Target.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MergingPartialClasses.atl" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/without_context/MergingPartialClasses.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MergingPartialClasses.atl" uri="/home/juri/Dropbox/ATLZoo/MergingPartialClasses/with_context/MergingPartialClasses.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

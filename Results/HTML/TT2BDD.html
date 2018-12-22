@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/TT2BDD<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore", label: 'TT.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore", label: 'BDD.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl", label: 'TT2BDD.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.km3", label: 'TT.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.km3", label: 'BDD.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD.launch", label: 'TT2BDD.launch', color: 'rgb(255,168,7)' },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT/examples/Test.ttmodel", label: '/TT2BDD/TT/examples/Test.ttmodel', },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/BDD/examples/OUT.bddmodel", label: '/TT2BDD/BDD/examples/OUT.bddmodel', },
+		{id: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD_sourceDRM.mm_uncertainty", label: 'TT2BDD_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT/examples/Test.ttmodel", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT/examples/Test.ttmodel", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/BDD/examples/OUT.bddmodel", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/BDD/examples/OUT.bddmodel", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.km3", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.km3", to: "/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

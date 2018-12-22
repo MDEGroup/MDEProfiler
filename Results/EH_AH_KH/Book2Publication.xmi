@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Book2Publication">
+  <nodes name="outputModelPublication.ecore" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/Publication/outputModelPublication.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Book.ecore" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/Book/Book.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="modelBook.ecore" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/Book/modelBook.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2Book.atl" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/ATLFile/XML2Book.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Book2Publication.atl" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/ATLFile/Book2Publication.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Publication.km3" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/Publication/Publication.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Book.km3" uri="/home/juri/Dropbox/ATLZoo/Book2Publication/Book2Publication/Book/Book.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32DOT">
+  <nodes name="KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/DOT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM3-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Models/KM3-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Models/DOT-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="DOT2Text.atl" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/DOT2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="KM32DOT.atl" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/KM32DOT.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="DOT.km3" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/DOT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="KM3.km3" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Metamodels/KM3.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="DOT2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/DOT2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="DOT2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/KM32DOT/KM32DOT/Transformations/DOT2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.8" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.9" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.6" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.7" target="//@nodes.0"/>
+</graph:Graph>

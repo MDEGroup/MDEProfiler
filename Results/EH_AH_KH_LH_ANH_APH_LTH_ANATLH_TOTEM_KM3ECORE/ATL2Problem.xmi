@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/ATL2Problem">
+  <nodes name="ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Problem.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="test-ATL-0.2.ecore" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Models/test-ATL-0.2.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATL-WFR.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="test.atl" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Models/test.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Problem.km3" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/Problem.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="ATL-0.2.km3" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Metamodels/ATL-0.2.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="ATL-WFR_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="ATL-WFR_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/ATL2Problem/ATL2Problem/Transfos/ATL-WFR_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_IN" source="//@nodes.3" target="//@nodes.7" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.3" target="//@nodes.8" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.5" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.6" target="//@nodes.0"/>
+</graph:Graph>

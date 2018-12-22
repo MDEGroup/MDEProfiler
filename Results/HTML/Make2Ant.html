@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/Make2Ant<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant.atl", label: 'Make2Ant.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Ant2XML.atl", label: 'Ant2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text.atl", label: 'XML2Text.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Make.atl", label: 'XML2Make.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/MM/Ant.km3", label: 'Ant.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/MM/Make.km3", label: 'Make.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/example/makefile.xml", label: 'makefile.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/example/build.xml", label: 'build.xml', color: 'rgb(200,68,170)' },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text_targetDRM.mm_uncertainty", label: 'XML2Text_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Ant2XML_sourceDRM.mm_uncertainty", label: 'Ant2XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant_targetDRM.mm_uncertainty", label: 'Make2Ant_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text_sourceDRM.mm_uncertainty", label: 'XML2Text_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant_sourceDRM.mm_uncertainty", label: 'Make2Ant_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text.atl", to: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Ant2XML.atl", to: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Ant2XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant.atl", to: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text.atl", to: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/XML2Text_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant.atl", to: "/home/juri/Dropbox/ATLZoo/Make2Ant/Make2Ant/Transfos/Make2Ant_sourceDRM.mm_uncertainty"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

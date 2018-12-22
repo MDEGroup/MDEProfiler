@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="ElementA::name">
+      <feature href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="2" name="ElementA.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference">
+            <choices uniqueId="10" name="RootA">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="11" name="ElementA">
+              <klass href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="12" name="e">
+              <klass href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="13" name="RootA::elms">
+      <feature href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@classes.0/@feats.0"/>
+      <kind uniqueId="14" name="RootA.elms" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="15" name="AttOrReferenceExclusiveChoice-elms">
+          <attributeChoice uniqueId="16" name="Attribute">
+            <choices uniqueId="17" name="String">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="18" name="Integer">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="19" name="Real">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="20" name="Boolean">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="21" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="22" name="e::name">
+      <feature href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@classes.2/@feats.0"/>
+      <kind uniqueId="23" name="e.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="24" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="25" name="Attribute">
+            <choices uniqueId="26" name="String">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="27" name="Integer">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="28" name="Real">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="29" name="Boolean">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="30" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="31" name="Target">
+    <features uniqueId="32" name="DefinitionB::name">
+      <feature href="TypeA2TypeB_v3_firstStep.atl_targetDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="33" name="DefinitionB.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="34" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="35" name="Attribute">
+            <choices uniqueId="36" name="String">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="37" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="38" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="39" name="Boolean">
+              <datatype_ href="TypeA2TypeB_v3_firstStep.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="40" name="Reference">
+            <choices uniqueId="41" name="RootB">
+              <klass href="TypeA2TypeB_v3_firstStep.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="42" name="DefinitionB">
+              <klass href="TypeA2TypeB_v3_firstStep.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

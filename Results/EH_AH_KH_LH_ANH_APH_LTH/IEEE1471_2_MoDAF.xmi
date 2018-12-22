@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF">
+  <nodes name="sample-IEEE1471.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/example/sample-IEEE1471.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="sample-MoDAF.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/example/sample-MoDAF.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="IEEE1471ConceptualModel.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MoDAF-AV.ecore" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.atl" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MoDAF-AV.km3" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="IEEE1471ConceptualModel.km3" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF loadModel.xml.launch" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF loadModel.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF IEEE1471_2_MoDAF.xml.launch" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF IEEE1471_2_MoDAF.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.launch" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/transformation/IEEE1471_2_MoDAF.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="IEEE1471_2_MoDAF.xml" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="loadModel.xml" uri="/home/juri/Dropbox/ATLZoo/IEEE1471_2_MoDAF/IEEE1471_2_MoDAF/loadModel.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.2" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/IEEE1471_2_MoDAF/metamodel/IEEE1471ConceptualModel.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.0" target="//@nodes.2" discoverBy="//@nodes.9"/>
+  <edges name="MODEL_INPUT" source="//@nodes.0" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.4" target="//@nodes.3" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="/IEEE1471_2_MoDAF/metamodel/MoDAF-AV.ecore"/>
+  <edges name="TARGET" source="//@nodes.1" target="//@nodes.4" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.1" target="//@nodes.3" discoverBy="//@nodes.9"/>
+</graph:Graph>

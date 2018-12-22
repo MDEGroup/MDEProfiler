@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet">
+  <nodes name="PNML_simplified.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PNML_simplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Grafcet.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/Grafcet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PetriNet.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PetriNet2Grafcet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PetriNet2PNML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML2PNML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/XML2PNML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PNML2XML_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PNML2XML_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PNML2PetriNet_example.ecore" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/PNML2PetriNet_example.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PetriNet2PNML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2PNML.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML2PetriNet.atl" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="PNML_simplified.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PNML_simplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Grafcet.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/Grafcet.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="PetriNet.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/PetriNet.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="XML2Text_example.xml" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Models/XML2Text_example.xml"/>
+  <nodes name="PNML2PetriNet_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PNML2XML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2PNML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2PNML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2PNML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="XML2Text_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/XML2Text_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Grafcet2PetriNet_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/Grafcet2PetriNet_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2PNML_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2PNML_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PetriNet2Grafcet_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PetriNet2Grafcet_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PNML2XML_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2XML_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="PNML2PetriNet_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Grafcet2PetriNet/Grafcet2PetriNet/Transformations/PNML2PetriNet_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.17" target="//@nodes.23" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.15" target="//@nodes.24" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.13" target="//@nodes.25" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.16" target="//@nodes.26" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.14" target="//@nodes.27" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.16" target="//@nodes.28" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.15" target="//@nodes.29" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.11" target="//@nodes.30" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.12" target="//@nodes.31" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.12" target="//@nodes.32" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.14" target="//@nodes.33" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.11" target="//@nodes.34" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.13" target="//@nodes.35" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.17" target="//@nodes.36" exact="true"/>
+  <edges name="ECORE_KM3" source="//@nodes.18" target="//@nodes.0"/>
+  <edges name="ECORE_KM3" source="//@nodes.19" target="//@nodes.1"/>
+  <edges name="ECORE_KM3" source="//@nodes.20" target="//@nodes.3"/>
+  <edges name="ECORE_KM3" source="//@nodes.21" target="//@nodes.2"/>
+</graph:Graph>

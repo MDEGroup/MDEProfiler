@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Measure2Table">
+  <nodes name="example-Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/models/example-Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/models/example-Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/metamodels/Table.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Measure.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/metamodels/Measure.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MeasureHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/lib/MeasureHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Measure2Table.atl" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/transformations/Measure2Table.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Table.km3" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/metamodels/Table.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure.km3" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/metamodels/Measure.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Measure2Table build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/conf/Measure2Table build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <nodes name="example-Table.ecore" uri="/home/juri/Dropbox/ATLZoo/Measure2Table/Measure2Table/example-Table.ecore" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.5" target="//@nodes.3" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="transformations/Measure2Table.atl"/>
+  <edges name="CONFORM2" source="//@nodes.0" target="//@nodes.3" exact="true" discoverBy="//@nodes.9"/>
+  <edges name="TARGET" source="//@nodes.5" target="//@nodes.2" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="transformations/Measure2Table.atl"/>
+  <edges name="CONFORM2" source="//@nodes.10" target="//@nodes.0" exact="true" discoverBy="//@nodes.9"/>
+  <edges name="MODEL_INPUT" source="//@nodes.5" target="//@nodes.0" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="transformations/Measure2Table.atl"/>
+  <edges name="LIBRARY" source="//@nodes.5" target="//@nodes.4" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="transformations/Measure2Table.atl"/>
+  <edges name="MODEL_OUT" source="//@nodes.5" target="//@nodes.10" exact="true" discoverBy="//@nodes.9" pathDiscoveredByHeuristic="transformations/Measure2Table.atl"/>
+</graph:Graph>

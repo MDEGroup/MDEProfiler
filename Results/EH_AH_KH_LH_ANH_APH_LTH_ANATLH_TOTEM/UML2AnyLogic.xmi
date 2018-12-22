@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/UML2AnyLogic">
+  <nodes name="AnyLogic.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2AnyLogic/UML2AnyLogic/Metamodels/AnyLogic.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/UML2AnyLogic/UML2AnyLogic/Metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="UML2AnyLogic.atl" uri="/home/juri/Dropbox/ATLZoo/UML2AnyLogic/UML2AnyLogic/Transformations/UML2AnyLogic.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="AnyLogic2XML.atl" uri="/home/juri/Dropbox/ATLZoo/UML2AnyLogic/UML2AnyLogic/Transformations/AnyLogic2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="AnyLogic.km3" uri="/home/juri/Dropbox/ATLZoo/UML2AnyLogic/UML2AnyLogic/Metamodels/AnyLogic.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/UML2AnyLogic/UML2AnyLogic/build.xml">
+    <type>NodeType.ANT</type>
+    <type>NodeType.ANT_ATL</type>
+  </nodes>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.3" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/AnyLogic2XML.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+  <edges source="//@nodes.2" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="Transformations/UML2AnyLogic.atl"/>
+</graph:Graph>

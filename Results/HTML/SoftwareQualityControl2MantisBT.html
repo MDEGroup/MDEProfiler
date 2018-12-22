@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.ecore", label: 'MantisExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisXMLExample.ecore", label: 'MantisXMLExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/SoftwareQualityControlExample.ecore", label: 'SoftwareQualityControlExample.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/Mantis.ecore", label: 'Mantis.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/SoftwareQualityControl.ecore", label: 'SoftwareQualityControl.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/SoftwareQualityControl2Mantis.atl", label: 'SoftwareQualityControl2Mantis.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText.atl", label: 'XML2MantisText.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/Mantis2XML.atl", label: 'Mantis2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/XML.km3", label: 'XML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/SoftwareQualityControl.km3", label: 'SoftwareQualityControl.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/Mantis.km3", label: 'Mantis.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisXMLfileExample.xml", label: 'MantisXMLfileExample.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText_targetDRM.mm_uncertainty", label: 'XML2MantisText_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText_sourceDRM.mm_uncertainty", label: 'XML2MantisText_sourceDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText.atl", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText.atl", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/transformations/XML2MantisText_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/XML.km3", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/XML.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/SoftwareQualityControl.km3", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/SoftwareQualityControl.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/Mantis.km3", to: "/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2MantisBT/SoftwareQualityControl2MantisBTFile/metamodels/Mantis.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>

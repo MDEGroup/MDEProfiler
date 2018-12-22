@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/TT2BDD">
+  <nodes name="TT.ecore" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BDD.ecore" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TT2BDD.atl" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD/TT2BDD.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TT.km3" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT/TT.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BDD.km3" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/BDD/BDD.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TT2BDD.launch" uri="/home/juri/Dropbox/ATLZoo/TT2BDD/TT2BDD/TT2BDD.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

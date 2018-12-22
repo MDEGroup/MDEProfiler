@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="Svg::children">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.0/@feats.1"/>
+      <kind uniqueId="2" name="Svg.children" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-children">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="8" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="9" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="10" name="Svg::namespace">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.0/@feats.2"/>
+      <kind uniqueId="11" name="Svg.namespace" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="12" name="AttOrReferenceExclusiveChoice-namespace">
+          <attributeChoice uniqueId="13" name="Attribute">
+            <choices uniqueId="14" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="15" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="16" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="17" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="18" name="Reference">
+            <choices uniqueId="19" name="Svg">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="20" name="G">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="21" name="Rect">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="22" name="Circle">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="23" name="Path">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="24" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.0/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="25">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="26" name="Scale">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="27" name="Translate">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="28" name="Rotate">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="29" name="u291">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="30" name="u292">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="31" name="u293">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="32" name="Svg::version">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.0/@feats.3"/>
+      <kind uniqueId="33" name="Svg.version" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="34" name="AttOrReferenceExclusiveChoice-version">
+          <attributeChoice uniqueId="35" name="Attribute">
+            <choices uniqueId="36" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="37" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="38" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="39" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="40" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="41" name="G::groupContent">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.1/@feats.0"/>
+      <kind uniqueId="42" name="G.groupContent" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="43" name="AttOrReferenceExclusiveChoice-groupContent">
+          <attributeChoice uniqueId="44" name="Attribute">
+            <choices uniqueId="45" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="46" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="47" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="48" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="49" name="Reference">
+            <choices uniqueId="50" name="Svg">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="51" name="G">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="52" name="Rect">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="53" name="Circle">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="54" name="Path">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="55" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.1/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="56">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="57" name="Scale">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="58" name="Translate">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="59" name="Rotate">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="60" name="u291">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="61" name="u292">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="62" name="u293">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="63" name="Text::content">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.5/@feats.0"/>
+      <kind uniqueId="64" name="Text.content" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="65" name="AttOrReferenceExclusiveChoice-content">
+          <attributeChoice uniqueId="66" name="Attribute">
+            <choices uniqueId="67" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="68" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.1 //@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="69" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="70" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="71" name="Reference">
+            <choices uniqueId="72" name="Svg">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.0"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="73" name="G">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="74" name="Rect">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="75" name="Circle">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.3"/>
+            </choices>
+            <choices uniqueId="76" name="Path">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.4"/>
+            </choices>
+            <choices uniqueId="77" name="Text">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@target/@features.2/@kind/@attOrRef/@referenceChoice/@choices.2"/>
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.5"/>
+            </choices>
+            <choices uniqueId="78">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.6"/>
+            </choices>
+            <choices uniqueId="79" name="Scale">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.7"/>
+            </choices>
+            <choices uniqueId="80" name="Translate">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.8"/>
+            </choices>
+            <choices uniqueId="81" name="Rotate">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.9"/>
+            </choices>
+            <choices uniqueId="82" name="u291">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.10"/>
+            </choices>
+            <choices uniqueId="83" name="u292">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.11"/>
+            </choices>
+            <choices uniqueId="84" name="u293">
+              <klass href="SVG2XML.atl_sourceDRM.ecore#//@classes.12"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="85" name="Scale::sx">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.7/@feats.0"/>
+      <kind uniqueId="86" name="Scale.sx" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="87" name="AttOrReferenceExclusiveChoice-sx">
+          <attributeChoice uniqueId="88" name="Attribute">
+            <choices uniqueId="89" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="90" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="91" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="92" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="93" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="94" name="Scale::sy">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.7/@feats.1"/>
+      <kind uniqueId="95" name="Scale.sy" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="96" name="AttOrReferenceExclusiveChoice-sy">
+          <attributeChoice uniqueId="97" name="Attribute">
+            <choices uniqueId="98" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="99" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="100" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="101" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="102" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="103" name="Translate::tx">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.8/@feats.0"/>
+      <kind uniqueId="104" name="Translate.tx" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="105" name="AttOrReferenceExclusiveChoice-tx">
+          <attributeChoice uniqueId="106" name="Attribute">
+            <choices uniqueId="107" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="108" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="109" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="110" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="111" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="112" name="Translate::ty">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.8/@feats.1"/>
+      <kind uniqueId="113" name="Translate.ty" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="114" name="AttOrReferenceExclusiveChoice-ty">
+          <attributeChoice uniqueId="115" name="Attribute">
+            <choices uniqueId="116" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="117" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="118" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="119" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="120" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="121" name="Rotate::angle">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.9/@feats.0"/>
+      <kind uniqueId="122" name="Rotate.angle" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="123" name="AttOrReferenceExclusiveChoice-angle">
+          <attributeChoice uniqueId="124" name="Attribute">
+            <choices uniqueId="125" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="126" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="127" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="128" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="129" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="130" name="u291::width">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.10/@feats.0"/>
+      <kind uniqueId="131" name="u291.width" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="132" name="AttOrReferenceExclusiveChoice-width">
+          <attributeChoice uniqueId="133" name="Attribute">
+            <choices uniqueId="134" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="135" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="136" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="137" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="138" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="139" name="u291::height">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.10/@feats.1"/>
+      <kind uniqueId="140" name="u291.height" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="141" name="AttOrReferenceExclusiveChoice-height">
+          <attributeChoice uniqueId="142" name="Attribute">
+            <choices uniqueId="143" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="144" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="145" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="146" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="147" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="148" name="u292::width">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.11/@feats.0"/>
+      <kind uniqueId="149" name="u292.width" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="150" name="AttOrReferenceExclusiveChoice-width">
+          <attributeChoice uniqueId="151" name="Attribute">
+            <choices uniqueId="152" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="153" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="154" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="155" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="156" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="157" name="u292::height">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.11/@feats.1"/>
+      <kind uniqueId="158" name="u292.height" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="159" name="AttOrReferenceExclusiveChoice-height">
+          <attributeChoice uniqueId="160" name="Attribute">
+            <choices uniqueId="161" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="162" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="163" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="164" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="165" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="166" name="u293::width">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.12/@feats.0"/>
+      <kind uniqueId="167" name="u293.width" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="168" name="AttOrReferenceExclusiveChoice-width">
+          <attributeChoice uniqueId="169" name="Attribute">
+            <choices uniqueId="170" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="171" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="172" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="173" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="174" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="175" name="Path::d">
+      <feature href="SVG2XML.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="176" name="Path.d" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="177" name="AttOrReferenceExclusiveChoice-d">
+          <attributeChoice uniqueId="178" name="Attribute">
+            <choices uniqueId="179" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="180" name="Integer">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="181" name="Real">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="182" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="183" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="184" name="Target">
+    <features uniqueId="185" name="Attribute::value">
+      <feature href="SVG2XML.atl_targetDRM.ecore#//@classes.1/@feats.1"/>
+      <kind uniqueId="186" name="Attribute.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="187" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="188" name="Attribute">
+            <choices uniqueId="189" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="190" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="191" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.1/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="192" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="193" name="Reference">
+            <choices uniqueId="194" name="Root">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="195" name="Attribute">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="196" name="Element">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="197" name="Text">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="198" name="Element::children">
+      <feature href="SVG2XML.atl_targetDRM.ecore#//@classes.2/@feats.1"/>
+      <kind uniqueId="199" name="Element.children" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="200" name="AttOrReferenceExclusiveChoice-children">
+          <attributeChoice uniqueId="201" name="Attribute">
+            <choices uniqueId="202" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="203" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="204" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.3/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="205" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="206" name="Reference">
+            <choices uniqueId="207" name="Root">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="208" name="Attribute">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="209" name="Element">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="210" name="Text">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="211" name="Text::value">
+      <feature href="SVG2XML.atl_targetDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="212" name="Text.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="213" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="214" name="Attribute">
+            <choices uniqueId="215" name="String">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="216" name="Integer">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="217" name="Real">
+              <constraints xsi:type="VariabilityFM:OrRequires" nodes="//@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.1 //@source/@features.4/@kind/@attOrRef/@attributeChoice/@choices.2"/>
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="218" name="Boolean">
+              <datatype_ href="SVG2XML.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="219" name="Reference">
+            <choices uniqueId="220" name="Root">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.0"/>
+            </choices>
+            <choices uniqueId="221" name="Attribute">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.1"/>
+            </choices>
+            <choices uniqueId="222" name="Element">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.2"/>
+            </choices>
+            <choices uniqueId="223" name="Text">
+              <klass href="SVG2XML.atl_targetDRM.ecore#//@classes.3"/>
+            </choices>
+          </referenceChoice>
+        </attOrRef>
+      </kind>
+    </features>
+  </target>
+</VariabilityFM:VariabilityModel>

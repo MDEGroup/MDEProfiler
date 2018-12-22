@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Tree2List">
+  <nodes name="MMTree.ecore" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/metamodels/MMTree.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MMElementList.ecore" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/metamodels/MMElementList.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Tree2List_usingATLResolveAlgorithm.atl" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List_usingATLResolveAlgorithm.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="Tree2List.atl" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List.atl">
+    <type>NodeType.ATL</type>
+    <type>NodeType.ATLWithPath</type>
+  </nodes>
+  <nodes name="Lib4MMTree.atl" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Lib4MMTree.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Tree2List_usingATLResolveAlgorithm.launch" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List_usingATLResolveAlgorithm.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="Tree2List.launch" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List.launch">
+    <type>NodeType.LAUNCHER</type>
+    <type>NodeType.LAUNCHER_ATL</type>
+  </nodes>
+  <nodes name="/Tree2List/models/aTreeNode.xmi" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List/models/aTreeNode.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="/Tree2List/models/elmLst.xmi" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List/models/elmLst.xmi" derivedOrNotExists="true">
+    <type>NodeType.Model</type>
+  </nodes>
+  <nodes name="Lib4MMTree_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Lib4MMTree_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Tree2List_usingATLResolveAlgorithm_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List_usingATLResolveAlgorithm_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Tree2List_usingATLResolveAlgorithm_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Tree2List_usingATLResolveAlgorithm_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Lib4MMTree_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Tree2List/Tree2List/transformation/Lib4MMTree_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMTree.ecore"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.2" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMElementList.ecore"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMTree.ecore"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.3" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMElementList.ecore"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMTree.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.5"/>
+  <edges name="MODEL_INPUT" source="//@nodes.7" target="//@nodes.2" discoverBy="//@nodes.5"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" exact="true" discoverBy="//@nodes.5" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMElementList.ecore"/>
+  <edges name="TARGET" source="//@nodes.8" target="//@nodes.2" discoverBy="//@nodes.5"/>
+  <edges name="TARGET" source="//@nodes.8" target="//@nodes.1" discoverBy="//@nodes.5"/>
+  <edges name="SOURCE" source="//@nodes.3" target="//@nodes.0" exact="true" discoverBy="//@nodes.6" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMTree.ecore"/>
+  <edges name="CONFORM2" source="//@nodes.7" target="//@nodes.0" discoverBy="//@nodes.6"/>
+  <edges name="MODEL_INPUT" source="//@nodes.7" target="//@nodes.3" discoverBy="//@nodes.6"/>
+  <edges name="TARGET" source="//@nodes.3" target="//@nodes.1" exact="true" discoverBy="//@nodes.6" pathDiscoveredByHeuristic="/Tree2List/metamodels/MMElementList.ecore"/>
+  <edges name="TARGET" source="//@nodes.8" target="//@nodes.3" discoverBy="//@nodes.6"/>
+  <edges name="TARGET" source="//@nodes.8" target="//@nodes.1" discoverBy="//@nodes.6"/>
+  <edges name="DRM_OUT" source="//@nodes.4" target="//@nodes.9" exact="true"/>
+  <edges name="DRM_OUT" source="//@nodes.2" target="//@nodes.10" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.2" target="//@nodes.11" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.4" target="//@nodes.12" exact="true"/>
+  <edges name="TARGET" source="//@nodes.2" target="//@nodes.1" discoverBy="//@nodes.10"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.0" discoverBy="//@nodes.11"/>
+  <edges name="SOURCE" source="//@nodes.2" target="//@nodes.1" discoverBy="//@nodes.11"/>
+  <edges name="SOURCE" source="//@nodes.4" target="//@nodes.0" discoverBy="//@nodes.12"/>
+</graph:Graph>

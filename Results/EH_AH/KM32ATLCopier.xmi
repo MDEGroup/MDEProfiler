@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/KM32ATLCopier">
+  <nodes name="Sample-KM3.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/Sample-KM3.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ATLCopier.ecore" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/ATLCopier.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="KM32ATLCopier.atl" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/KM32ATLCopier.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="ATLCopier.atl" uri="/home/juri/Dropbox/ATLZoo/KM32ATLCopier/KM32ATLCopier/ATLCopier.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

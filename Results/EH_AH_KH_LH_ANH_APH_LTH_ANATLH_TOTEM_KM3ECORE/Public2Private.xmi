@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Public2Private">
+  <nodes name="Public2Private.atl" uri="/home/juri/Dropbox/ATLZoo/Public2Private/Public2Private/Public2Private.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Public2Private_targetDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Public2Private/Public2Private/Public2Private_targetDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <nodes name="Public2Private_sourceDRM.mm_uncertainty" uri="/home/juri/Dropbox/ATLZoo/Public2Private/Public2Private/Public2Private_sourceDRM.mm_uncertainty">
+    <type>NodeType.DRM</type>
+  </nodes>
+  <edges name="DRM_OUT" source="//@nodes.0" target="//@nodes.1" exact="true"/>
+  <edges name="DRM_IN" source="//@nodes.0" target="//@nodes.2" exact="true"/>
+</graph:Graph>

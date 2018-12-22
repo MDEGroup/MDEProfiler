@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textlink:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:textlink="http://www.eclipse.org/gmt/epsilon/egl/textlink">
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_tsUGgE5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="45" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_9LSV8E5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="172" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_tsUGgE5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="225" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_tsUGgE5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="287" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_bRSY0E5SEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="357" length="1"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_FC6nQE5UEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="420" length="1"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_FC6nQE5UEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="477" length="1"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="hasType" modelElement="../models/requirements_example.model#_FC6nQE5UEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="520" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="target" modelElement="../models/requirements_example.model#_GYAx8E5UEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="520" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_9LSV8E5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="520" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="min" modelElement="../models/requirements_example.model#_FC6nQE5UEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="561" length="40"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="value" modelElement="../models/requirements_example.model#_VxmRcE5cEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="561" length="40"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="allowLess" modelElement="../models/requirements_example.model#_VxmRcE5cEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="561" length="40"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="allowMore" modelElement="../models/requirements_example.model#_VxmRcE5cEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="561" length="40"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="max" modelElement="../models/requirements_example.model#_FC6nQE5UEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="623" length="33"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="isOrdered" modelElement="../models/requirements_example.model#_XJq3oE5cEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="623" length="33"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="isDuplicated" modelElement="../models/requirements_example.model#_XJq3oE5cEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="623" length="33"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_bRSY0E5SEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="770" length="1"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_9LSV8E5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1011" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_hbwVAE5oEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1297" length="4"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_hbwVAE5oEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1357" length="4"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="hasType" modelElement="../models/requirements_example.model#_hbwVAE5oEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1403" length="7"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="target" modelElement="../models/requirements_example.model#_Fpb8QE52Eea7Y8aqrLiu-A"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1403" length="7"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_9LSV8E5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1793" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_9LSV8E5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1838" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_9LSV8E5OEeawysWP_ALgPw"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1900" length="2"/>
+    </destination>
+  </traceLinks>
+  <traceLinks>
+    <source xsi:type="textlink:EmfModelLocation" propertyName="name" modelElement="../models/requirements_example.model#_6xUjME51Eea7Y8aqrLiu-A"/>
+    <destination resource="C:/research/mm-footprint-workspace/mm-footprint.codegen/samples/test3.eol">
+      <region offset="1970" length="5"/>
+    </destination>
+  </traceLinks>
+</textlink:Trace>

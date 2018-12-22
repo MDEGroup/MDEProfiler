@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl">
+  <nodes name="BugTrackingSpreadsheetMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/BugTrackingSpreadsheetMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SpreadsheetMLSimplified2SoftwareQualityControl.atl" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/transformations/SpreadsheetMLSimplified2SoftwareQualityControl.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.km3" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/metamodels/SoftwareQualityControl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BugTrackingXMLExample.xml" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcel2SoftwareQualityControl/MicrosoftOfficeExcel2SoftwareQualityControl/modelsExamples/BugTrackingXMLExample.xml"/>
+</graph:Graph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MDL2GMF">
+  <nodes name="Property.ecore" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/Metamodel/Property.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MDL2GMF.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2GMF.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDLHelpers.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDLHelpers.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="MDL2UML21.atl" uri="/home/juri/Dropbox/ATLZoo/MDL2GMF/org.eclipse.m2m.atl.mdl2gmf/MDL2UML21.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+</graph:Graph>

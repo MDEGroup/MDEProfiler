@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/Maven2Ant">
+  <nodes name="XML2Maven.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Maven.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant2XML.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Ant2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Maven2Ant.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/Maven2Ant.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2Text.atl" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/transfos/XML2Text.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="Ant.km3" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/MM/Ant.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MavenMaven.km3" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/MM/MavenMaven.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="MavenProject.km3" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/MM/MavenProject.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="project.xml" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/example/project.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="maven.xml" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/example/maven.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+  <nodes name="build.xml" uri="/home/juri/Dropbox/ATLZoo/Maven2Ant/Maven2Ant/example/build.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

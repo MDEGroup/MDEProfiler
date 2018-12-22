@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector">
+  <nodes name="ExcelXMLFileExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="ExcelModelExample.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/modelsExamples/ExcelModelExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="MSOfficeExcel_SpreadsheetMLSimplified.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/MSOfficeExcel_SpreadsheetMLSimplified.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/MSOfficeExcelInjector/MicrosoftOfficeExcelInjector/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+</graph:Graph>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ASCII"?>
+<VariabilityFM:VariabilityModel xmlns:VariabilityFM="VariabilityFM">
+  <source uniqueId="0" name="Source">
+    <features uniqueId="1" name="u32::name">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.4/@feats.0"/>
+      <kind uniqueId="2" name="u32.name" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="3" name="AttOrReferenceExclusiveChoice-name">
+          <attributeChoice uniqueId="4" name="Attribute">
+            <choices uniqueId="5" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="6" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="7" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="8" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="9" name="Metric::name">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.3/@feats.1"/>
+      <kind uniqueId="10" name="Metric.name" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="11" name="MeasureSet::elementName">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.6/@feats.0"/>
+      <kind uniqueId="12" name="MeasureSet.elementName" nodeKind="COMPULSORY"/>
+    </features>
+    <features uniqueId="13" name="u33::elementType">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.7/@feats.0"/>
+      <kind uniqueId="14" name="u33.elementType" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="15" name="AttOrReferenceExclusiveChoice-elementType">
+          <attributeChoice uniqueId="16" name="Attribute">
+            <choices uniqueId="17" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="18" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="19" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="20" name="Boolean">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="21" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="22" name="u36::modelType">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.11/@feats.0"/>
+      <kind uniqueId="23" name="u36.modelType" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="24" name="AttOrReferenceExclusiveChoice-modelType">
+          <attributeChoice uniqueId="25" name="Attribute">
+            <choices uniqueId="26" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="27" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="28" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="29" name="Boolean">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="30" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="31" name="IntegerMeasure::value">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.12/@feats.0"/>
+      <kind uniqueId="32" name="IntegerMeasure.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="33" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="34" name="Attribute">
+            <choices uniqueId="35" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="36" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="37" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="38" name="Boolean">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="39" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="40" name="DoubleMeasure::value">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.13/@feats.0"/>
+      <kind uniqueId="41" name="DoubleMeasure.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="42" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="43" name="Attribute">
+            <choices uniqueId="44" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="45" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="46" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="47" name="Boolean">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="48" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="49" name="PercentageMeasure::value">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.14/@feats.0"/>
+      <kind uniqueId="50" name="PercentageMeasure.value" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="51" name="AttOrReferenceExclusiveChoice-value">
+          <attributeChoice uniqueId="52" name="Attribute">
+            <choices uniqueId="53" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="54" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="55" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="56" name="Boolean">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="57" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+    <features uniqueId="58" name="u37::preferredValue">
+      <feature href="MeasureHelpers.atl_sourceDRM.ecore#//@classes.15/@feats.0"/>
+      <kind uniqueId="59" name="u37.preferredValue" nodeKind="COMPULSORY">
+        <attOrRef uniqueId="60" name="AttOrReferenceExclusiveChoice-preferredValue">
+          <attributeChoice uniqueId="61" name="Attribute">
+            <choices uniqueId="62" name="String">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.0"/>
+            </choices>
+            <choices uniqueId="63" name="Integer">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.1"/>
+            </choices>
+            <choices uniqueId="64" name="Real">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.2"/>
+            </choices>
+            <choices uniqueId="65" name="Boolean">
+              <datatype_ href="MeasureHelpers.atl_sourceDRM.ecore#//@dataType.3"/>
+            </choices>
+          </attributeChoice>
+          <referenceChoice uniqueId="66" name="Reference"/>
+        </attOrRef>
+      </kind>
+    </features>
+  </source>
+  <target uniqueId="67" name="Target"/>
+</VariabilityFM:VariabilityModel>

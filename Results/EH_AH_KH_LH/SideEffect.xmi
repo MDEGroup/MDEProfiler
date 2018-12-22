@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SideEffect">
+  <nodes name="TypeA.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeB.ecore" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v1.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v1.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v2.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v2.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_secondStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_secondStep.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeA2TypeB_v3_firstStep.atl" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/TypeA2TypeB_v3_firstStep.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="TypeB.km3" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeB.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="TypeA.km3" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Metamodels/TypeA.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SideEffect_2 build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_2 build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect_v1.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_v1.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect build.xml.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect build.xml.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+  <nodes name="SideEffect_v2.launch" uri="/home/juri/Dropbox/ATLZoo/SideEffect/SideEffect/Transformations/SideEffect_v2.launch">
+    <type>NodeType.LAUNCHER</type>
+  </nodes>
+</graph:Graph>

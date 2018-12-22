@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<graph:Graph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://it.univaq.MDEProfiler/graph" name="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla">
+  <nodes name="BugzillaExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControlExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/SoftwareQualityControlExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="BugzillaXMLExample.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLExample.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="XML.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.ecore" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.ecore">
+    <type>NodeType.Ecore</type>
+  </nodes>
+  <nodes name="Bugzilla2XML.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/Bugzilla2XML.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl2Bugzilla.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/SoftwareQualityControl2Bugzilla.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML2BugzillaText.atl" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/transformations/XML2BugzillaText.atl">
+    <type>NodeType.ATL</type>
+  </nodes>
+  <nodes name="XML.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/XML.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="Bugzilla.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/Bugzilla.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="SoftwareQualityControl.km3" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/metamodels/SoftwareQualityControl.km3">
+    <type>NodeType.KM3</type>
+  </nodes>
+  <nodes name="BugzillaXMLfileExample.xml" uri="/home/juri/Dropbox/ATLZoo/SoftwareQualityControl2Bugzilla/SoftwareQualityControl2BugzillaFile/modelsExamples/BugzillaXMLfileExample.xml">
+    <type>NodeType.ANT</type>
+  </nodes>
+</graph:Graph>

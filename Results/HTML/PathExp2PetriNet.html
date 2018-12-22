@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 600px;
+      height: 400px;
+      border: 1px solid lightgray;
+    }
+
+    p {
+      max-width:700px;
+    }
+  </style>
+</head>
+<body>
+
+<p>
+  	<h1>Project Name: /home/juri/Dropbox/ATLZoo/PathExp2PetriNet<br/></h1>
+	
+	
+</p>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet(
+     [
+	
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.ecore", label: 'XML.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.ecore", label: 'PetriNet.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.ecore", label: 'TextualPathExp.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.ecore", label: 'PathExp.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/pathexp-example.ecore", label: 'pathexp-example.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/xml-example.ecore", label: 'xml-example.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/textualpathexp-example.ecore", label: 'textualpathexp-example.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/petrinet-example.ecore", label: 'petrinet-example.ecore', color: 'lime' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet.atl", label: 'PathExp2PetriNet.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2TextualPathExp.atl", label: 'PathExp2TextualPathExp.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp.atl", label: 'PetriNet2PathExp.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML.atl", label: 'PetriNet2XML.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet.atl", label: 'XML2PetriNet.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp.atl", label: 'TextualPathExp2PathExp.atl', color: '#7BE141' },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.km3", label: 'PathExp.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.km3", label: 'TextualPathExp.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.km3", label: 'PetriNet.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.km3", label: 'XML.km3', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Models/example.xml", label: 'example.xml', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet_targetDRM.mm_uncertainty", label: 'PathExp2PetriNet_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML_sourceDRM.mm_uncertainty", label: 'PetriNet2XML_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML_targetDRM.mm_uncertainty", label: 'PetriNet2XML_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp_targetDRM.mm_uncertainty", label: 'TextualPathExp2PathExp_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet_sourceDRM.mm_uncertainty", label: 'PathExp2PetriNet_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp_targetDRM.mm_uncertainty", label: 'PetriNet2PathExp_targetDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet_sourceDRM.mm_uncertainty", label: 'XML2PetriNet_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp_sourceDRM.mm_uncertainty", label: 'PetriNet2PathExp_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp_sourceDRM.mm_uncertainty", label: 'TextualPathExp2PathExp_sourceDRM.mm_uncertainty', },
+		{id: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet_targetDRM.mm_uncertainty", label: 'XML2PetriNet_targetDRM.mm_uncertainty', },
+	 ]	
+
+  );
+
+  // create an array with edges
+  var edges = new vis.DataSet(
+	 [
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2XML_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PathExp2PetriNet_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/PetriNet2PathExp_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/TextualPathExp2PathExp_sourceDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet.atl", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/ATL/XML2PetriNet_targetDRM.mm_uncertainty"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.km3", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PathExp.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.km3", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/TextualPathExp.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.km3", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/PetriNet.ecore"},
+
+	{from: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.km3", to: "/home/juri/Dropbox/ATLZoo/PathExp2PetriNet/PathExp2PetriNet/Metamodels/XML.ecore"},
+
+ 	]
+  );
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>
